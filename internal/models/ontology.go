@@ -10,6 +10,7 @@ type OntologyElement struct {
 	Type        string
 	Positions   []int
 	Description string
+	Contexts    []JSONContext
 }
 
 // Relation représente une relation entre deux éléments de l'ontologie

@@ -36,6 +36,7 @@ type SearchResult struct {
 	Context     string
 	Position    int
 	Relevance   float64
+	Contexts    []models.JSONContext
 }
 
 // Search effectue une recherche dans les ontologies
@@ -61,16 +62,21 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 				}
 
 				relevance := calculateRelevance(query, element)
-				if relevance > 0.3 { // Augmenter le seuil de pertinence
+				if relevance > 0.3 {
 					context := extractContext(element, contextSize)
+					position := 0
+					if len(element.Positions) > 0 {
+						position = element.Positions[0]
+					}
 					resultChan <- SearchResult{
 						OntologyID:  onto.ID,
 						ElementName: element.Name,
 						ElementType: element.Type,
 						Description: element.Description,
 						Context:     context,
-						Position:    element.Positions[0],
+						Position:    position,
 						Relevance:   relevance,
+						Contexts:    element.Contexts, // Ajout des contextes ici
 					}
 				}
 			}
@@ -140,8 +146,13 @@ func fuzzyMatch(s1, s2 string) float64 {
 
 // extractContext extrait le contexte d'un élément
 func extractContext(element *models.OntologyElement, contextSize int) string {
-	// Cette fonction doit être implémentée en fonction de la structure de vos données
-	// Pour l'instant, elle retourne une chaîne vide
+	if len(element.Contexts) > 0 {
+		context := element.Contexts[0] // Prendre le premier contexte
+		before := strings.Join(context.Before, " ")
+		after := strings.Join(context.After, " ")
+		return fmt.Sprintf("%s [%s] %s", before, context.Element, after)
+	}
+	// Si pas de contexte disponible, retourner une chaîne vide
 	return ""
 }
 

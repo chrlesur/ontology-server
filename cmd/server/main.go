@@ -9,6 +9,8 @@ import (
 	"github.com/chrlesur/ontology-server/internal/config"
 	"github.com/chrlesur/ontology-server/internal/logger"
 	"github.com/chrlesur/ontology-server/internal/storage"
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -25,20 +27,39 @@ func main() {
 		log.Fatalf("Failed to initialize logger: %v", err)
 	}
 
-	l.Info("Starting Ontology Server")
+	// Set Gin mode based on config
+	if cfg.Server.Mode == "release" {
+		gin.SetMode(gin.ReleaseMode)
+	} else {
+		gin.SetMode(gin.DebugMode)
+	}
+
+	// Initialize Gin router
+	router := gin.New()
+
+	// Use Gin's logger and recovery middleware
+	router.Use(gin.Logger())
+	router.Use(gin.Recovery())
 
 	// Initialize storage
 	memoryStorage := storage.NewMemoryStorage()
 
-	// Initialize router
-	router := api.NewRouter(memoryStorage)
+	// Setup API routes
+	apiGroup := router.Group("/api")
+	api.SetupRoutes(apiGroup, memoryStorage, l)
+
+	// Serve static files
+	router.NoRoute(gin.WrapH(http.FileServer(http.Dir("./web"))))
+
+	// Dans votre fonction main ou de configuration du routeur
+	router.Use(cors.Default())
 
 	// Prepare HTTP server
 	addr := fmt.Sprintf("%s:%d", cfg.Server.Host, cfg.Server.Port)
 	l.Info(fmt.Sprintf("Server listening on %s", addr))
 
 	// Start the server
-	err = http.ListenAndServe(addr, router)
+	err = router.Run(addr)
 	if err != nil {
 		l.Error(fmt.Sprintf("Server failed to start: %v", err))
 	}

@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  host: localhost
+  mode: debug  # Peut être "debug" ou "release"
+logging:
+  level: info
+  directory: ./logs
+storage:
+  temp_directory: ./temp

@@ -10,11 +10,10 @@ import (
 )
 
 func TestParseTSV(t *testing.T) {
-	// Create a temporary TSV file for testing
-	content := `Element1	Type1	Description1	1,2,3
-Element2	Type2	Description2	4,5,6
-Invalid	Row
-Element3	Type3	Description3	7,8,9`
+	// Créer un fichier TSV temporaire pour le test
+	content := `Element1	Type1	Target1	Description1
+Element2	Type2	Target2	Description2
+Element3	Type3	Target3	Description3`
 
 	tmpfile, err := ioutil.TempFile("", "test.tsv")
 	if err != nil {
@@ -29,44 +28,31 @@ Element3	Type3	Description3	7,8,9`
 		t.Fatalf("Failed to close temporary file: %v", err)
 	}
 
-	// Test the ParseTSV function
-	elements, err := ParseTSV(tmpfile.Name())
+	// Tester la fonction ParseTSV
+	elements, relations, err := ParseTSV(tmpfile.Name())
 	if err != nil {
 		t.Fatalf("ParseTSV returned an error: %v", err)
 	}
 
-	expected := []models.OntologyElement{
-		{Name: "Element1", Type: "Type1", Description: "Description1", Positions: []int{1, 2, 3}},
-		{Name: "Element2", Type: "Type2", Description: "Description2", Positions: []int{4, 5, 6}},
-		{Name: "Element3", Type: "Type3", Description: "Description3", Positions: []int{7, 8, 9}},
+	// Vérifier les éléments
+	expectedElements := []models.OntologyElement{
+		{Name: "Element1", Type: "Type1", Description: "Description1"},
+		{Name: "Element2", Type: "Type2", Description: "Description2"},
+		{Name: "Element3", Type: "Type3", Description: "Description3"},
 	}
 
-	if !reflect.DeepEqual(elements, expected) {
-		t.Errorf("ParseTSV returned unexpected result. Got %v, want %v", elements, expected)
-	}
-}
-
-func TestParsePositions(t *testing.T) {
-	tests := []struct {
-		input    string
-		expected []int
-		wantErr  bool
-	}{
-		{"1,2,3", []int{1, 2, 3}, false},
-		{"", []int{}, false},
-		{"1, 2, 3", []int{1, 2, 3}, false},
-		{"1,a,3", nil, true},
-		{" 1 , 2 , 3 ", []int{1, 2, 3}, false},
+	if !reflect.DeepEqual(elements, expectedElements) {
+		t.Errorf("ParseTSV returned unexpected elements. Got %v, want %v", elements, expectedElements)
 	}
 
-	for _, tt := range tests {
-		result, err := parsePositions(tt.input)
-		if (err != nil) != tt.wantErr {
-			t.Errorf("parsePositions(%q) error = %v, wantErr %v", tt.input, err, tt.wantErr)
-			continue
-		}
-		if !reflect.DeepEqual(result, tt.expected) {
-			t.Errorf("parsePositions(%q) = %v, want %v", tt.input, result, tt.expected)
-		}
+	// Vérifier les relations
+	expectedRelations := []models.Relation{
+		{Source: "Element1", Type: "Type1", Target: "Target1", Description: "Description1"},
+		{Source: "Element2", Type: "Type2", Target: "Target2", Description: "Description2"},
+		{Source: "Element3", Type: "Type3", Target: "Target3", Description: "Description3"},
+	}
+
+	if !reflect.DeepEqual(relations, expectedRelations) {
+		t.Errorf("ParseTSV returned unexpected relations. Got %v, want %v", relations, expectedRelations)
 	}
 }

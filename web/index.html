@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ontology Explorer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ontology Explorer</div>
+            <ul>
+                <li><a href="#" class="active">Recherche</a></li>
+                <li><a href="#">À propos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <h2>Charger une ontologie</h2>
+            <form id="upload-form" enctype="multipart/form-data">
+                <div>
+                    <label for="ontology-file">Fichier d'ontologie (TSV, OWL, RDF):</label>
+                    <input type="file" id="ontology-file" name="ontologyFile" accept=".tsv,.owl,.rdf" required>
+                </div>
+                <div>
+                    <label for="context-file">Fichier de contexte JSON (optionnel):</label>
+                    <input type="file" id="context-file" name="contextFile" accept=".json">
+                </div>
+                <button type="submit">Charger</button>
+            </form>
+        </section>
+
+        <section id="search-section">
+            <h2>Recherche</h2>
+            <form id="search-form">
+                <div class="search-bar">
+                    <input type="text" id="search-input" name="q" placeholder="Entrez votre terme de recherche" required>
+                    <button type="submit">Rechercher</button>
+                </div>
+                <div class="filters">
+                    <select id="ontology-select" name="ontology_id">
+                        <option value="">Toutes les ontologies</option>
+                    </select>
+                    <select id="element-type-select" name="element_type">
+                        <option value="">Tous les types</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+
+        <div class="results-and-details">
+            <section id="results-section">
+                <h2>Résultats</h2>
+                <div id="results-list"></div>
+                <div id="pagination"></div>
+            </section>
+
+            <section id="details-section">
+                <h2>Détails de l'élément</h2>
+                <div id="element-details"></div>
+                <div id="element-context"></div>
+                <div id="element-relations"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ontology Explorer. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

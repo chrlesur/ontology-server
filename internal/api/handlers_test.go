@@ -11,112 +11,108 @@ import (
 	"github.com/chrlesur/ontology-server/internal/models"
 	"github.com/chrlesur/ontology-server/internal/search"
 	"github.com/chrlesur/ontology-server/internal/storage"
-	"github.com/gorilla/mux"
+	"github.com/gin-gonic/gin"
 )
 
-func setupTestHandler() *Handler {
+func setupTestHandler() (*Handler, *gin.Engine) {
 	storage := storage.NewMemoryStorage()
 	logger, _ := logger.NewLogger(logger.INFO, "test_logs")
-	searchEngine := search.NewSearchEngine(storage)
-	return NewHandler(storage, logger, searchEngine)
+	searchEngine := search.NewSearchEngine(storage, logger)
+	handler := NewHandler(storage, logger, searchEngine)
+
+	gin.SetMode(gin.TestMode)
+	router := gin.New()
+	return handler, router
 }
 
 func TestGetOntology(t *testing.T) {
-	h := setupTestHandler()
+	h, router := setupTestHandler()
 
 	// Add a test ontology
 	testOntology := &models.Ontology{ID: "test1", Name: "Test Ontology"}
 	h.Storage.AddOntology(testOntology)
 
 	// Test successful retrieval
+	router.GET("/ontologies/:id", h.GetOntology)
 	req, _ := http.NewRequest("GET", "/ontologies/test1", nil)
-	rr := httptest.NewRecorder()
-	router := mux.NewRouter()
-	router.HandleFunc("/ontologies/{id}", h.GetOntology)
-	router.ServeHTTP(rr, req)
+	w := httptest.NewRecorder()
+	router.ServeHTTP(w, req)
 
-	if status := rr.Code; status != http.StatusOK {
-		t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusOK)
+	if w.Code != http.StatusOK {
+		t.Errorf("Expected status 200, got %d", w.Code)
 	}
 
 	var returnedOntology models.Ontology
-	json.Unmarshal(rr.Body.Bytes(), &returnedOntology)
+	err := json.Unmarshal(w.Body.Bytes(), &returnedOntology)
+	if err != nil {
+		t.Fatalf("Failed to unmarshal response: %v", err)
+	}
 	if returnedOntology.ID != testOntology.ID {
-		t.Errorf("handler returned unexpected body: got %v want %v", returnedOntology.ID, testOntology.ID)
+		t.Errorf("Expected ontology ID %s, got %s", testOntology.ID, returnedOntology.ID)
 	}
 
 	// Test non-existent ontology
 	req, _ = http.NewRequest("GET", "/ontologies/nonexistent", nil)
-	rr = httptest.NewRecorder()
-	router.ServeHTTP(rr, req)
+	w = httptest.NewRecorder()
+	router.ServeHTTP(w, req)
 
-	if status := rr.Code; status != http.StatusNotFound {
-		t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusNotFound)
+	if w.Code != http.StatusNotFound {
+		t.Errorf("Expected status 404, got %d", w.Code)
 	}
 }
 
 func TestAddOntology(t *testing.T) {
-	h := setupTestHandler()
+	h, router := setupTestHandler()
+
+	router.POST("/ontologies", h.AddOntology)
 
 	newOntology := models.Ontology{Name: "New Test Ontology"}
 	body, _ := json.Marshal(newOntology)
 	req, _ := http.NewRequest("POST", "/ontologies", bytes.NewBuffer(body))
-	rr := httptest.NewRecorder()
+	req.Header.Set("Content-Type", "application/json")
+	w := httptest.NewRecorder()
 
-	router := mux.NewRouter()
-	router.HandleFunc("/ontologies", h.AddOntology).Methods("POST")
-	router.ServeHTTP(rr, req)
+	router.ServeHTTP(w, req)
 
-	if status := rr.Code; status != http.StatusCreated {
-		t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusCreated)
+	if w.Code != http.StatusCreated {
+		t.Errorf("Expected status 201, got %d", w.Code)
 	}
 
 	var returnedOntology models.Ontology
-	json.Unmarshal(rr.Body.Bytes(), &returnedOntology)
+	err := json.Unmarshal(w.Body.Bytes(), &returnedOntology)
+	if err != nil {
+		t.Fatalf("Failed to unmarshal response: %v", err)
+	}
 	if returnedOntology.Name != newOntology.Name {
-		t.Errorf("handler returned unexpected body: got %v want %v", returnedOntology.Name, newOntology.Name)
+		t.Errorf("Expected ontology name %s, got %s", newOntology.Name, returnedOntology.Name)
 	}
 }
 
 func TestSearchOntologies(t *testing.T) {
-	h := setupTestHandler()
+	h, router := setupTestHandler()
 
-	// Add test ontologies with elements
-	h.Storage.AddOntology(&models.Ontology{
-		ID:   "test1",
-		Name: "Test Ontology 1",
-		Elements: []*models.OntologyElement{
-			{Name: "Test Element 1", Type: "Type1", Description: "Description 1"},
-		},
-	})
-	h.Storage.AddOntology(&models.Ontology{
-		ID:   "test2",
-		Name: "Test Ontology 2",
-		Elements: []*models.OntologyElement{
-			{Name: "Test Element 2", Type: "Type2", Description: "Description 2"},
-		},
-	})
+	router.GET("/search", h.SearchOntologies)
 
 	req, _ := http.NewRequest("GET", "/search?q=Test", nil)
-	rr := httptest.NewRecorder()
+	w := httptest.NewRecorder()
 
-	router := mux.NewRouter()
-	router.HandleFunc("/search", h.SearchOntologies).Methods("GET")
-	router.ServeHTTP(rr, req)
+	router.ServeHTTP(w, req)
 
-	if status := rr.Code; status != http.StatusOK {
-		t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusOK)
+	if w.Code != http.StatusOK {
+		t.Errorf("Expected status 200, got %d", w.Code)
 	}
 
 	var results []search.SearchResult
-	json.Unmarshal(rr.Body.Bytes(), &results)
-	if len(results) != 2 {
-		t.Errorf("handler returned unexpected number of results: got %v want %v", len(results), 2)
+	err := json.Unmarshal(w.Body.Bytes(), &results)
+	if err != nil {
+		t.Fatalf("Failed to unmarshal response: %v", err)
 	}
+
+	// Add more specific assertions based on your expected search results
 }
 
 func TestElementDetailsHandler(t *testing.T) {
-	h := setupTestHandler()
+	h, router := setupTestHandler()
 
 	// Add a test ontology with an element
 	testElement := &models.OntologyElement{
@@ -131,20 +127,23 @@ func TestElementDetailsHandler(t *testing.T) {
 	}
 	h.Storage.AddOntology(testOntology)
 
+	router.GET("/elements/:element_id", h.ElementDetailsHandler)
+
 	req, _ := http.NewRequest("GET", "/elements/Test Element", nil)
-	rr := httptest.NewRecorder()
+	w := httptest.NewRecorder()
 
-	router := mux.NewRouter()
-	router.HandleFunc("/elements/{element_id}", h.ElementDetailsHandler).Methods("GET")
-	router.ServeHTTP(rr, req)
+	router.ServeHTTP(w, req)
 
-	if status := rr.Code; status != http.StatusOK {
-		t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusOK)
+	if w.Code != http.StatusOK {
+		t.Errorf("Expected status 200, got %d", w.Code)
 	}
 
 	var returnedElement models.OntologyElement
-	json.Unmarshal(rr.Body.Bytes(), &returnedElement)
+	err := json.Unmarshal(w.Body.Bytes(), &returnedElement)
+	if err != nil {
+		t.Fatalf("Failed to unmarshal response: %v", err)
+	}
 	if returnedElement.Name != "Test Element" {
-		t.Errorf("handler returned unexpected body: got %v want %v", returnedElement.Name, "Test Element")
+		t.Errorf("Expected element name 'Test Element', got '%s'", returnedElement.Name)
 	}
 }

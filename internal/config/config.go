@@ -12,6 +12,7 @@ type Config struct {
 	Server struct {
 		Port int    `yaml:"port"`
 		Host string `yaml:"host"`
+		Mode string `yaml:"mode"` // Ajout du champ Mode
 	} `yaml:"server"`
 	Logging struct {
 		Level     string `yaml:"level"`

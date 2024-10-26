@@ -4,21 +4,22 @@ import (
 	"github.com/chrlesur/ontology-server/internal/logger"
 	"github.com/chrlesur/ontology-server/internal/search"
 	"github.com/chrlesur/ontology-server/internal/storage"
-	"github.com/gorilla/mux"
+	"github.com/gin-gonic/gin"
 )
 
-func NewRouter(storage *storage.MemoryStorage, logger *logger.Logger) *mux.Router {
-	searchEngine := search.NewSearchEngine(storage)
+func SetupRoutes(router *gin.RouterGroup, storage *storage.MemoryStorage, logger *logger.Logger) {
+	searchEngine := search.NewSearchEngine(storage, logger)
 	handler := NewHandler(storage, logger, searchEngine)
-	router := mux.NewRouter()
 
-	router.HandleFunc("/ontologies", handler.ListOntologies).Methods("GET")
-	router.HandleFunc("/ontologies", handler.AddOntology).Methods("POST")
-	router.HandleFunc("/ontologies/{id}", handler.GetOntology).Methods("GET")
-	router.HandleFunc("/ontologies/{id}", handler.UpdateOntology).Methods("PUT")
-	router.HandleFunc("/ontologies/{id}", handler.DeleteOntology).Methods("DELETE")
-	router.HandleFunc("/search", handler.SearchOntologies).Methods("GET")
-	router.HandleFunc("/elements/{element_id}", handler.ElementDetailsHandler).Methods("GET")
+	router.GET("/ontologies", handler.ListOntologies)
+	router.POST("/ontologies", handler.AddOntology)
+	router.GET("/ontologies/:id", handler.GetOntology)
+	router.PUT("/ontologies/:id", handler.UpdateOntology)
+	router.DELETE("/ontologies/:id", handler.DeleteOntology)
+	router.POST("/ontologies/load", handler.LoadOntology)
 
-	return router
+	router.GET("/search", handler.SearchOntologies)
+
+	router.GET("/elements/details/:element_id", handler.ElementDetailsHandler)
+	router.GET("/elements/relations/:element_name", handler.GetElementRelations)
 }

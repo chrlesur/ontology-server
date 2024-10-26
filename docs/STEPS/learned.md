@@ -1,0 +1,1 @@
+- pour le web : préciser qu'on veut gin comme server
