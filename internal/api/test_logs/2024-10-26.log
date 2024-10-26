@@ -1,0 +1,49 @@
+[INFO] [2024-10-26 15:16:21] [handlers.go:33] Getting ontology with ID: test1
+[INFO] [2024-10-26 15:16:21] [handlers.go:33] Getting ontology with ID: nonexistent
+[ERROR] [2024-10-26 15:16:21] [handlers.go:37] Error getting ontology: ontology with ID nonexistent not found
+[INFO] [2024-10-26 15:16:21] [handlers.go:56] Adding new ontology: New Test Ontology
+[INFO] [2024-10-26 15:16:21] [handlers.go:136] Searching ontologies with query: Test
+[INFO] [2024-10-26 15:16:21] [handlers.go:149] Getting details for element: elem1
+[ERROR] [2024-10-26 15:16:21] [handlers.go:153] Error getting element details: ontology with ID elem1 not found
+[INFO] [2024-10-26 15:18:36] [handlers.go:32] Getting ontology with ID: test1
+[INFO] [2024-10-26 15:18:36] [handlers.go:32] Getting ontology with ID: nonexistent
+[ERROR] [2024-10-26 15:18:36] [handlers.go:36] Error getting ontology: ontology with ID nonexistent not found
+[INFO] [2024-10-26 15:18:36] [handlers.go:55] Adding new ontology: New Test Ontology
+[INFO] [2024-10-26 15:18:36] [handlers.go:133] Searching ontologies with query: Test
+[INFO] [2024-10-26 15:18:36] [handlers.go:137] All ontologies: [0xc0000b8fa0 0xc0000b9040]
+[INFO] [2024-10-26 15:18:36] [handlers.go:142] Search results: []
+[INFO] [2024-10-26 15:18:36] [handlers.go:153] Getting details for element: elem1
+[ERROR] [2024-10-26 15:18:36] [handlers.go:157] Error getting element details: element not found
+[INFO] [2024-10-26 15:19:26] [handlers.go:32] Getting ontology with ID: test1
+[INFO] [2024-10-26 15:19:26] [handlers.go:32] Getting ontology with ID: nonexistent
+[ERROR] [2024-10-26 15:19:26] [handlers.go:36] Error getting ontology: ontology with ID nonexistent not found
+[INFO] [2024-10-26 15:19:26] [handlers.go:55] Adding new ontology: New Test Ontology
+[INFO] [2024-10-26 15:19:26] [handlers.go:133] Searching ontologies with query: Test
+[INFO] [2024-10-26 15:19:26] [handlers.go:137] All ontologies: [0xc000132c80 0xc000132d20]
+[INFO] [2024-10-26 15:19:26] [handlers.go:142] Search results: []
+[INFO] [2024-10-26 15:19:26] [handlers.go:153] Getting details for element: elem1
+[ERROR] [2024-10-26 15:19:26] [handlers.go:157] Error getting element details: element not found
+[INFO] [2024-10-26 15:22:50] [handlers.go:32] Getting ontology with ID: test1
+[INFO] [2024-10-26 15:22:50] [handlers.go:32] Getting ontology with ID: nonexistent
+[ERROR] [2024-10-26 15:22:50] [handlers.go:36] Error getting ontology: ontology with ID nonexistent not found
+[INFO] [2024-10-26 15:22:50] [handlers.go:55] Adding new ontology: New Test Ontology
+[INFO] [2024-10-26 15:22:50] [handlers.go:133] Searching ontologies with query: Test
+[INFO] [2024-10-26 15:22:50] [handlers.go:137] All ontologies: [0xc0000b0c80 0xc0000b0d20]
+[INFO] [2024-10-26 15:22:50] [handlers.go:142] Search results: [{Ontology:0xc0000b0c80 Element:0xc0000c4140 Relevance:0.4549450549450549} {Ontology:0xc0000b0d20 Element:0xc0000c4190 Relevance:0.4549450549450549}]
+[INFO] [2024-10-26 15:22:50] [handlers.go:153] Getting details for element: Test Element
+[INFO] [2024-10-26 15:24:24] [handlers.go:33] Getting ontology with ID: test1
+[INFO] [2024-10-26 15:24:24] [handlers.go:33] Getting ontology with ID: nonexistent
+[ERROR] [2024-10-26 15:24:24] [handlers.go:37] Error getting ontology: ontology with ID nonexistent not found
+[INFO] [2024-10-26 15:24:24] [handlers.go:59] Adding new ontology: New Test Ontology with ID: onto_1729949064780732500
+[INFO] [2024-10-26 15:24:24] [handlers.go:137] Searching ontologies with query: Test
+[INFO] [2024-10-26 15:24:24] [handlers.go:141] All ontologies: [0xc0000bafa0 0xc0000bb040]
+[INFO] [2024-10-26 15:24:24] [handlers.go:146] Search results: [{Ontology:0xc0000bafa0 Element:0xc0000ac190 Relevance:0.4549450549450549} {Ontology:0xc0000bb040 Element:0xc0000ac1e0 Relevance:0.4549450549450549}]
+[INFO] [2024-10-26 15:24:24] [handlers.go:157] Getting details for element: Test Element
+[INFO] [2024-10-26 15:25:04] [handlers.go:33] Getting ontology with ID: test1
+[INFO] [2024-10-26 15:25:04] [handlers.go:33] Getting ontology with ID: nonexistent
+[ERROR] [2024-10-26 15:25:04] [handlers.go:37] Error getting ontology: ontology with ID nonexistent not found
+[INFO] [2024-10-26 15:25:04] [handlers.go:59] Adding new ontology: New Test Ontology with ID: onto_1729949104972289000
+[INFO] [2024-10-26 15:25:04] [handlers.go:137] Searching ontologies with query: Test
+[INFO] [2024-10-26 15:25:04] [handlers.go:141] All ontologies: [0xc0000b8fa0 0xc0000b9040]
+[INFO] [2024-10-26 15:25:04] [handlers.go:146] Search results: [{Ontology:0xc0000b8fa0 Element:0xc0000aa190 Relevance:0.4549450549450549} {Ontology:0xc0000b9040 Element:0xc0000aa1e0 Relevance:0.4549450549450549}]
+[INFO] [2024-10-26 15:25:04] [handlers.go:157] Getting details for element: Test Element
