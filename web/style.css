@@ -131,7 +131,7 @@ main {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
@@ -140,12 +140,14 @@ main {
 }
 
 .modal-content {
-    background-color: white;
+    background-color: #fefefe;
     margin: 15% auto;
-    padding: 2rem;
-    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #888;
     width: 80%;
-    max-width: 600px;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .close {
@@ -163,35 +165,52 @@ main {
     cursor: pointer;
 }
 
-.loading-spinner {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+#upload-form {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.loading-spinner.hidden {
-    display: none;
+#upload-form input[type="file"] {
+    margin-top: 5px;
+}
+
+#upload-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#upload-form button:hover {
+    background-color: #45a049;
+}
+
+#upload-progress {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .spinner {
-    width: 50px;
-    height: 50px;
-    border: 3px solid #f3f3f3;
-    border-top: 3px solid #3498db;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
     animation: spin 1s linear infinite;
+    margin: 0 auto;
 }
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.hidden {
+    display: none;
 }
 
 mark {
