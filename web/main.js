@@ -2,6 +2,7 @@
 import { initUI } from './ui.js';
 import { initSearch, handleSearch } from './search.js';
 import { initOntologyLoader } from './ontologyLoader.js';
+import './results.js';
 
 // Fonction utilitaire pour afficher les messages d'erreur
 export function showErrorMessage(message) {

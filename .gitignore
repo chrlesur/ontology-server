@@ -44,4 +44,3 @@ Thumbs.db
 # Autres fichiers spécifiques au projet
 /docs/OLD/
 /docs/STEPS/
-logs/*.log

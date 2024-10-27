@@ -1,5 +1,5 @@
 // results.js
-import { getElementDetails } from './api.js';
+import { getElementDetails, getElementRelations } from './api.js';
 import { createRelationsGraph } from './graph.js';
 import { showErrorMessage } from './main.js';
 
@@ -28,27 +28,26 @@ export function displayResults(results) {
         resultsList.appendChild(resultItem);
     });
 }
+
 async function showElementDetails(elementName) {
     const loadingSpinner = document.getElementById('loading-spinner');
     loadingSpinner.classList.remove('hidden');
-
     try {
         const element = await getElementDetails(elementName);
         console.log("Détails de l'élément reçus:", element);
 
-        if (element) {
-            displayElementInfo(element);
-            displayElementContexts(element);
-            
-            if (element.Relations && element.Relations.length > 0) {
-                createRelationsGraph(element);
-            } else {
-                elementRelations.innerHTML = '<p>Aucune relation disponible pour cet élément.</p>';
-            }
+        displayElementInfo(element);
+        displayElementContexts(element);
+
+        console.log("Récupération des relations pour:", elementName);
+        // Récupérer et afficher les relations
+        const relations = await getElementRelations(elementName);
+        console.log("Relations reçues:", relations);
+        if (relations && relations.length > 0) {
+            displayElementRelations(relations);
+            createRelationsGraph(element, relations);
         } else {
-            elementDetails.innerHTML = '<p>Aucun détail disponible pour cet élément.</p>';
-            elementContexts.innerHTML = '';
-            elementRelations.innerHTML = '';
+            elementRelations.innerHTML = '<p>Aucune relation disponible pour cet élément.</p>';
         }
     } catch (error) {
         console.error('Erreur lors de la récupération des détails de l\'élément:', error);
@@ -56,6 +55,18 @@ async function showElementDetails(elementName) {
     } finally {
         loadingSpinner.classList.add('hidden');
     }
+}
+
+function displayElementRelations(relations) {
+    const elementRelations = document.getElementById('element-relations');
+    elementRelations.innerHTML = '<h3>Relations</h3>';
+    const ul = document.createElement('ul');
+    relations.forEach(relation => {
+        const li = document.createElement('li');
+        li.textContent = `${relation.Source} ${relation.Type} ${relation.Target}`;
+        ul.appendChild(li);
+    });
+    elementRelations.appendChild(ul);
 }
 
 function displayElementInfo(element) {

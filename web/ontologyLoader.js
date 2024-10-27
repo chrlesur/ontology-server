@@ -24,10 +24,12 @@ async function handleUpload(event) {
         const response = await uploadOntology(formData);
         console.log('Ontologie chargée avec succès:', response);
         
+        // Émettre un événement personnalisé pour signaler le chargement réussi
+        document.dispatchEvent(new CustomEvent('ontologyLoaded'));
+        
         // Fermer le modal après un court délai
         setTimeout(() => {
             closeModal();
-            // TODO: Mettre à jour l'interface utilisateur après le chargement réussi
         }, 1000);
     } catch (error) {
         console.error('Erreur lors du chargement de l\'ontologie:', error);

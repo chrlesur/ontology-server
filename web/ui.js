@@ -12,7 +12,11 @@ const closeModal = document.querySelector('.close');
 export async function initUI() {
     await populateOntologySelect();
     await populateElementTypeSelect();
+    await updateOntologySelect();
     setupModalListeners();
+
+    document.addEventListener('ontologyLoaded', updateOntologySelect);
+
 }
 
 // Remplir le sélecteur d'ontologies
@@ -58,4 +62,20 @@ function setupModalListeners() {
             uploadModal.style.display = 'none';
         }
     });
+}
+
+export async function updateOntologySelect() {
+    try {
+        const ontologies = await loadOntologies();
+        ontologySelect.innerHTML = '<option value="">Toutes les ontologies</option>';
+        ontologies.forEach(ontology => {
+            const option = document.createElement('option');
+            option.value = ontology.id;
+            option.textContent = ontology.name;
+            ontologySelect.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Erreur lors de la mise à jour des ontologies:', error);
+        showErrorMessage('Erreur lors de la mise à jour de la liste des ontologies.');
+    }
 }

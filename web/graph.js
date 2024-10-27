@@ -1,7 +1,7 @@
 // graph.js
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 
-export function createRelationsGraph(element) {
+export function createRelationsGraph(element, relations) {
     const elementRelations = document.getElementById('element-relations');
     elementRelations.innerHTML = ''; // Clear previous content
 
@@ -13,13 +13,26 @@ export function createRelationsGraph(element) {
         .attr("width", width)
         .attr("height", height);
 
-    const simulation = d3.forceSimulation()
-        .force("link", d3.forceLink().id(d => d.id).distance(100))
-        .force("charge", d3.forceManyBody().strength(-500))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+    // Créer un ensemble unique de noms de nœuds
+    const nodeNames = new Set([element.Name, ...relations.flatMap(r => [r.Source, r.Target])]);
 
-    const links = element.Relations.map(r => ({source: element.Name, target: r.Target, type: r.Type}));
-    const nodes = [{id: element.Name, group: 1}, ...element.Relations.map(r => ({id: r.Target, group: 2}))];
+    // Créer les nœuds en tant qu'objets
+    const nodes = Array.from(nodeNames).map(name => ({
+        id: name,
+        group: name === element.Name ? 1 : 2
+    }));
+
+    // Créer les liens
+    const links = relations.map(r => ({
+        source: r.Source,
+        target: r.Target,
+        type: r.Type
+    }));
+
+    const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+        .force("charge", d3.forceManyBody().strength(-300))
+        .force("center", d3.forceCenter(width / 2, height / 2));
 
     const link = svg.append("g")
         .selectAll("line")
@@ -43,14 +56,7 @@ export function createRelationsGraph(element) {
         .attr("dy", ".35em")
         .attr("font-size", "12px");
 
-    simulation
-        .nodes(nodes)
-        .on("tick", ticked);
-
-    simulation.force("link")
-        .links(links);
-
-    function ticked() {
+    simulation.on("tick", () => {
         link
             .attr("x1", d => d.source.x)
             .attr("y1", d => d.source.y)
@@ -59,5 +65,5 @@ export function createRelationsGraph(element) {
 
         node
             .attr("transform", d => `translate(${d.x},${d.y})`);
-    }
+    });
 }

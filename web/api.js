@@ -64,3 +64,22 @@ export async function uploadOntology(formData) {
     if (!response.ok) throw new Error('Erreur lors du chargement de l\'ontologie');
     return await response.json();
 }
+
+// api.js
+
+export async function getElementRelations(elementName) {
+    const url = `${API_BASE_URL}/elements/relations/${encodeURIComponent(elementName)}`;
+    console.log('Fetching element relations from:', url);
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log('Received element relations:', data);
+        return data;
+    } catch (error) {
+        console.error('Erreur lors de la récupération des relations de l\'élément:', error);
+        throw error;
+    }
+}
