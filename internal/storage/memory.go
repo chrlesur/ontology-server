@@ -3,6 +3,7 @@ package storage
 import (
 	"fmt"
 	"path/filepath"
+	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -196,6 +197,32 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 
 	log.Info(fmt.Sprintf("Loaded %d elements and %d relations from ontology file", len(elements), len(relations)))
 
+	// Normaliser et fusionner les éléments
+	normalizedElements := make(map[string]*models.OntologyElement)
+	for _, elem := range elements {
+		normalizedName := normalizeElementName(elem.Name)
+		if existingElem, exists := normalizedElements[normalizedName]; exists {
+			// Fusionner les éléments
+			existingElem.Positions = append(existingElem.Positions, elem.Positions...)
+			if len(elem.Description) > len(existingElem.Description) {
+				existingElem.Description = elem.Description
+			}
+			// Fusionner et dédupliquer les types
+			combinedTypes := existingElem.Type + "/" + elem.Type
+			existingElem.Type = deduplicateTypes(combinedTypes)
+		} else {
+			// Dédupliquer les types pour les nouveaux éléments aussi
+			elem.Type = deduplicateTypes(elem.Type)
+			normalizedElements[normalizedName] = elem
+		}
+	}
+
+	// Convertir la map en slice
+	elements = make([]*models.OntologyElement, 0, len(normalizedElements))
+	for _, elem := range normalizedElements {
+		elements = append(elements, elem)
+	}
+
 	// Charger le fichier de contexte JSON si fourni
 	var contexts []models.JSONContext
 	if contextFile != "" {
@@ -207,28 +234,13 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 		log.Info(fmt.Sprintf("Loaded %d contexts from JSON file", len(contexts)))
 	}
 
-	// Fonction helper pour vérifier si un élément est présent dans un contexte
-	elementInContext := func(elem string, ctx models.JSONContext) bool {
-		elemLower := strings.ToLower(elem)
-		for _, word := range ctx.Before {
-			if strings.ToLower(word) == elemLower {
-				return true
-			}
-		}
-		for _, word := range ctx.After {
-			if strings.ToLower(word) == elemLower {
-				return true
-			}
-		}
-		return strings.ToLower(ctx.Element) == elemLower
-	}
-
 	// Associer les contextes aux éléments
 	totalAssociations := 0
 	for _, elem := range elements {
 		contextMap := make(map[int]models.JSONContext)
+		normalizedElemName := normalizeElementName(elem.Name)
 		for _, ctx := range contexts {
-			if elementInContext(elem.Name, ctx) {
+			if elementInContext(normalizedElemName, ctx) {
 				for _, pos := range elem.Positions {
 					if pos >= ctx.StartOffset && pos <= ctx.EndOffset {
 						if _, exists := contextMap[ctx.Position]; !exists {
@@ -282,6 +294,63 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 
 	log.Info("Ontology successfully loaded and added to storage")
 	return nil
+}
+
+// Fonction helper pour normaliser les noms d'éléments
+func normalizeElementName(name string) string {
+	name = strings.ReplaceAll(name, "_", " ")
+	name = strings.Join(strings.Fields(name), " ")
+	return strings.ToLower(name)
+}
+
+func deduplicateTypes(types string) string {
+	typeSlice := strings.Split(types, "/")
+	typeMap := make(map[string]string)
+	for _, t := range typeSlice {
+		t = strings.TrimSpace(t)
+		normalizedType := normalizeType(t)
+		if existingType, exists := typeMap[normalizedType]; exists {
+			// Garder la version la plus longue du type
+			if len(t) > len(existingType) {
+				typeMap[normalizedType] = t
+			}
+		} else {
+			typeMap[normalizedType] = t
+		}
+	}
+
+	var uniqueTypes []string
+	for _, t := range typeMap {
+		uniqueTypes = append(uniqueTypes, t)
+	}
+
+	sort.Strings(uniqueTypes)
+	return strings.Join(uniqueTypes, "/")
+}
+
+func normalizeType(t string) string {
+	// Remplacer les underscores par des espaces
+	t = strings.ReplaceAll(t, "_", " ")
+	// Supprimer les espaces multiples
+	t = strings.Join(strings.Fields(t), " ")
+	// Mettre en minuscules
+	return strings.ToLower(t)
+}
+
+// Fonction helper pour vérifier si un élément est présent dans un contexte
+func elementInContext(elem string, ctx models.JSONContext) bool {
+	elemLower := strings.ToLower(elem)
+	for _, word := range ctx.Before {
+		if strings.ToLower(word) == elemLower {
+			return true
+		}
+	}
+	for _, word := range ctx.After {
+		if strings.ToLower(word) == elemLower {
+			return true
+		}
+	}
+	return strings.ToLower(ctx.Element) == elemLower
 }
 
 func (ms *MemoryStorage) GetElementContexts(elementName string) ([]models.JSONContext, error) {

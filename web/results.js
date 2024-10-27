@@ -23,9 +23,12 @@ export function displayResults(results) {
 }
 
 async function showElementDetails(elementName) {
+    const loadingSpinner = document.getElementById('loading-spinner');
+    loadingSpinner.classList.remove('hidden');
+
     try {
         const element = await getElementDetails(elementName);
-        console.log("Détails de l'élément reçus:", element); // Log pour le débogage
+        console.log("Détails de l'élément reçus:", element);
 
         displayElementInfo(element);
         displayElementContexts(element);
@@ -38,6 +41,8 @@ async function showElementDetails(elementName) {
     } catch (error) {
         console.error('Erreur lors de la récupération des détails de l\'élément:', error);
         showErrorMessage('Impossible de charger les détails de l\'élément.');
+    } finally {
+        loadingSpinner.classList.add('hidden');
     }
 }
 
@@ -66,6 +71,17 @@ function displayElementContexts(element) {
                     <p><strong>Position:</strong> ${ctx.position}</p>
                 </div>
             `;
+        });
+
+        // Ajouter des écouteurs d'événements pour les éléments surlignés
+        const highlightedElements = elementContexts.querySelectorAll('mark');
+        highlightedElements.forEach(el => {
+            el.style.cursor = 'pointer';
+            el.addEventListener('click', () => {
+                const searchInput = document.getElementById('search-input');
+                searchInput.value = el.textContent;
+                handleSearch(); // Assurez-vous que cette fonction est accessible globalement
+            });
         });
     } else {
         elementContexts.innerHTML += '<p>Aucun contexte disponible</p>';
