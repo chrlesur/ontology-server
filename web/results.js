@@ -9,7 +9,14 @@ const elementContexts = document.getElementById('element-contexts');
 const elementRelations = document.getElementById('element-relations');
 
 export function displayResults(results) {
+    const resultsList = document.getElementById('results-list');
     resultsList.innerHTML = '';
+
+    if (!results || results.length === 0) {
+        resultsList.innerHTML = '<p>Aucun résultat trouvé.</p>';
+        return;
+    }
+
     results.forEach(result => {
         const resultItem = document.createElement('div');
         resultItem.className = 'result-item';
@@ -21,7 +28,6 @@ export function displayResults(results) {
         resultsList.appendChild(resultItem);
     });
 }
-
 async function showElementDetails(elementName) {
     const loadingSpinner = document.getElementById('loading-spinner');
     loadingSpinner.classList.remove('hidden');
@@ -30,13 +36,19 @@ async function showElementDetails(elementName) {
         const element = await getElementDetails(elementName);
         console.log("Détails de l'élément reçus:", element);
 
-        displayElementInfo(element);
-        displayElementContexts(element);
-        
-        if (element.Relations && element.Relations.length > 0) {
-            createRelationsGraph(element);
+        if (element) {
+            displayElementInfo(element);
+            displayElementContexts(element);
+            
+            if (element.Relations && element.Relations.length > 0) {
+                createRelationsGraph(element);
+            } else {
+                elementRelations.innerHTML = '<p>Aucune relation disponible pour cet élément.</p>';
+            }
         } else {
-            elementRelations.innerHTML = '<p>Aucune relation disponible pour cet élément.</p>';
+            elementDetails.innerHTML = '<p>Aucun détail disponible pour cet élément.</p>';
+            elementContexts.innerHTML = '';
+            elementRelations.innerHTML = '';
         }
     } catch (error) {
         console.error('Erreur lors de la récupération des détails de l\'élément:', error);
@@ -47,11 +59,15 @@ async function showElementDetails(elementName) {
 }
 
 function displayElementInfo(element) {
+    const positions = element.Positions && Array.isArray(element.Positions) 
+        ? element.Positions.join(', ') 
+        : 'Non spécifié';
+
     elementDetails.innerHTML = `
         <h2>${escapeHtml(element.Name)}</h2>
         <p><strong>Type:</strong> ${escapeHtml(element.Type)}</p>
         <p><strong>Description:</strong> ${escapeHtml(element.Description)}</p>
-        <p><strong>Positions:</strong> ${element.Positions.join(', ')}</p>
+        <p><strong>Positions:</strong> ${positions}</p>
     `;
 }
 
@@ -78,9 +94,11 @@ function displayElementContexts(element) {
         highlightedElements.forEach(el => {
             el.style.cursor = 'pointer';
             el.addEventListener('click', () => {
-                const searchInput = document.getElementById('search-input');
-                searchInput.value = el.textContent;
-                handleSearch(); // Assurez-vous que cette fonction est accessible globalement
+                // Déclencher un événement personnalisé
+                const event = new CustomEvent('performSearch', {
+                    detail: { query: el.textContent }
+                });
+                document.dispatchEvent(event);
             });
         });
     } else {

@@ -22,7 +22,9 @@ export async function searchOntologies(query, ontologyId, elementType) {
 
     const response = await fetch(url);
     if (!response.ok) throw new Error('Erreur lors de la recherche');
-    return await response.json();
+    const data = await response.json();
+    
+    return Array.isArray(data) ? data : [];
 }
 
 // api.js
@@ -37,12 +39,22 @@ export async function getElementDetails(elementName) {
         }
         const data = await response.json();
         console.log('Received element details:', data);
-        return data;
+        
+        // Assurez-vous que toutes les propriétés attendues sont présentes
+        return {
+            Name: data.Name || '',
+            Type: data.Type || '',
+            Description: data.Description || '',
+            Positions: data.Positions || [],
+            Relations: data.Relations || [],
+            Contexts: data.Contexts || []
+        };
     } catch (error) {
         console.error('Erreur lors de la récupération des détails de l\'élément:', error);
         throw new Error('Erreur lors de la récupération des détails de l\'élément');
     }
 }
+
 // Charger une ontologie
 export async function uploadOntology(formData) {
     const response = await fetch(`${API_BASE_URL}/ontologies/load`, {

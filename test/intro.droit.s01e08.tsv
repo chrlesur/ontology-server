@@ -1,0 +1,1406 @@
+Effet_Direct	Type_Effet	Effet_Direct_Horizontal	4423,4429,5242,5780
+Effet_Indirect	Type_Effet	Effet juridique nécessitant une transposition dans l'ordre interne	31,5209,5247
+Texte_International	Source_Juridique	Norme_Nationale Selon l'article 55 de la Constitution	61,107,9923
+Ordre_Intérieur	Système_Juridique	Système juridique interne d'un pays
+Directive_Européenne	Type_Texte_International	Texte_International	100,103
+RGPD	Type_Texte_International	Règlement général sur la protection des données	195,236,304,5197,11751
+Effet_Direct_Vertical	Type_Effet_Direct	Effet permettant à un justiciable d'invoquer un texte contre l'État
+Effet_Direct_Horizontal	Type_Effet_Direct	Effet entre États ou personnes de droit privé
+Primauté	Principe_Juridique	Principe établissant la supériorité du droit de l'UE sur le droit national	320,334,337,453,498,544,600,649,1044,5767,5787,5803,5940,5980,6134,6966,6968,8050,11360,11422,11426,11499
+Article_55_Constitution	Source_Juridique	Article de la Constitution française sur les traités internationaux
+Union_Européenne	Organisation	Organisation politique et économique distincte du Conseil de l'Europe
+Conseil_de_l'Europe	Organisation	État_Européen 46 pays membres en 2023	1296,1315,1485,1494,1512,1540,1576,1590,1648,3064,3089,3504,3844,4784,4820
+Convention_Européenne_des_Droits_de_l'Homme	Document_juridique	Applicabilité_Ratione_Loci Définit le territoire d'application de la Convention
+Cour_Européenne_des_Droits_de_l'Homme	Institution	Convention_Européenne_des_Droits_de_l'Homme La Cour interprète et fait respecter la Convention	2052,4376
+Traité_sur_le_Fonctionnement_de_l'Union_Européenne	Document_juridique	Dispositions_substantielles Le TFUE contient les règles régissant le marché européen	4913
+Traité_sur_l'Union_Européenne	Document_juridique	Droit_institutionnel Le TUE contient le droit constitutionnel et institutionnel de l'UE	4922,5363
+Droit_primaire	Concept_juridique	TUE Le droit primaire comprend le Traité sur l'Union européenne	4866,4875,5083,5088,5123,11543,11650,11669,11701,11731,11743,12167,12202,12216,12229,12265,12390,12414,12432,12538,12545,12619,12627,12659
+Droit_dérivé	Concept_juridique	Règlement_européen Les règ	5094,5097,5153,5156,5295,5358,5876,11545,11664,11710,11754,11768,11780,11784,11804,12191,12197,12221,12225,12416,12435,12534,12622,12668,12681,12702,12764,12774,12793,12840,12872,12893
+Règlement_européen	Document_juridique	Acte juridique de l'UE directement applicable dans tous les États membres	11748
+Protocole_additionnel	Document_juridique	Convention_européenne_des_droits_de_l'homme Les protocoles additionnels ajoutent des droits à la Convention	2788,2813,2842
+Effet_direct	Concept_juridique	Arrêt_Van_Gend_en_Loos L'arrêt Van Gend en Loos a établi le principe de l'effet direct	4423,4429,5242,5780
+Juridictions_nationales	appliquent	Convention_Européenne_des_Droits_de_l'Homme Les juridictions nationales appliquent directement la Convention	4412,4438,4491
+Hiérarchie_des_normes	Concept	Organisation hiérarchique des différentes sources de droit	7295,7619,7628,11006,11081,11152
+Constitution	Norme_juridique	Bloc_constitutionnel La Constitution est un élément du bloc constitutionnel	463,476,938,2008,2021,4592,5041,7550,7557,7561,7574,7584,7896,7936,7939,7982,8014,9715,9720,9750,9774,9832,9850,9895,9911,9930,9934,9979,9987,10008,10065,10153,10163,10179,10641,10725,10780,10791,10799,10818,11802,11818,12150,12277,12343,12345,12560,12603,12607,12632,12654,12664,12800,12857
+Loi	Norme_juridique	Bloc_légal Les lois constituent le bloc légal	833,1063,1138,1156,1167,1199,1208,1213,3255,7703,7840,7921,7943,8002,8253,8280,8364,10267,10610,10950,11775
+Traité	Norme_juridique	Bloc_conventionnel Les traités constituent le bloc conventionnel	517,585,903,967,1144,1174,1241,4913,4922,5114,5121,5356,5363,5828,5851,5867,6238,7748,7768,7860,7898,8020,8052,8059,8094,8146,8175,8182,8194,8201,8740,8811,9026,9745,9768,9794,9804,9826,9942,9973,10082,10116,10136,11437,11539,11880,11884,11889,11904,11920,11928,11937,11988,12056,12077,12139,12255,12554
+Droit_de_l'Union_européenne	Système_juridique	Ensemble des règles juridiques de l'UE	1320,4506,4512,4663,6273
+Droit_interne	Système_juridique	Droit national d'un État	5984,6006,6082,6093,7745,7765,7774,7857,9023,9632,11167,11279,11307,11351,11451,11501,11551,11642,11672,11681
+Cour_de_justice_de_l'Union_européenne	Institution	Jurisprudence_européenne La CJUE contribue à la jurisprudence européenne	994,5695
+Directive_européenne	Norme_juridique	Acte juridique de l'UE fixant des objectifs à atteindre par les États membres	100,103
+Soft_law	Concept	Instruments juridiques non contraignants du droit de l'UE	5537
+Arrêt_Van_Gend_en_Loos	Jurisprudence	Effet_direct L'arrêt Van Gend en Loos a établi le principe de l'effet direct du droit de l'UE
+Arrêt_Costa_contre_ENEL	Jurisprudence	Primauté_du_droit_de_l'Union Pour la Cour de justice européenne
+Arrêt_Simmenthal	Jurisprudence	Arrêt précisant les conséquences du principe de primauté	6155
+Arrêt_Bosman	Jurisprudence	Liberté_de_circulation L'arrêt a appliqué le principe de liberté de circulation des travailleurs
+Accord	Document_juridique	Loi Les accords ont une autorité supérieure aux lois selon l'article 55	583
+Article_55	Disposition_légale	Principe_de_primauté L'article 55 de la Constitution définit le principe de primauté du droit international
+Principe_de_primauté	Concept_juridique	Cour_de_justice Le principe de primauté est défini par la Cour de justice	451,496,542,647,1042,5765,6132,11358,11420,11497
+Tribunal_constitutionnel_polonais	Institution_juridique	Primauté_droit_international Dans une décision controversée concernant la réforme judiciaire polonaise	925,1002
+Droit_international	Système_juridique	Traité Les traités sont une source importante du droit international	685,1051,1389,1400,1412,4091,11060
+Droit_européen	Système_juridique	Droit_interne Le droit européen inverse la hiérarchie du droit interne	1047,1278,1281,1341,1393,1428,4013,5174,5540,5574,5994,6002,6279,6885,6911,6964,7046,7049,8736,8760,11507,11558,11859,12316,12325,12354
+Effet_indirect	Concept_juridique	Nécessité de transposition du droit de l'UE par les États membres	31,5209,5247
+Norme_infraconstitutionnelle	Concept	Norme de rang inférieur à la Constitution	12181,12234,12250,12464,12570
+Traité_de_Maastricht	Concept	Droit_primaire Le traité de Maastricht est une source de droit primaire européen	11880,11884,11937,11988,12056,12077,12139,12554
+Article_54	Concept	Article de la Constitution française sur les traités internationaux	9877,12540,12550,12633
+Démarche_préventive	Concept	Mécanisme d'anticipation des conflits entre traités et Constitution	9861,9945,11823,12154,12552,12637
+Conseil_constitutionnel	Organisation	Constitution_française Le Conseil constitutionnel vérifie la constitutionnalité des lois	2306,8240,8284,8367,8374,9882,9919
+Cour_de_justice	Organisation	Cour de justice de l'Union européenne	706,877,994,5308,5381,5421,5489,5511,5633,5673,5680,5695,5805,5859,5896,5928,5956,6810,6815,6848,6936,8882,11415,11524
+Bloc_de_constitutionnalité	Concept	Charte_de_l'environnement Le bloc de constitutionnalité comprend la Charte de l'environnement	10772,10820,10899,11565,11637
+Bloc_de_conventionnalité	Concept	Bloc_de_légalité Les traités internationaux priment sur les lois	10826,10838,10843,10904,10914,11570,11630
+Bloc_de_légalité	Concept	Bloc_réglementaire Les lois priment sur les règlements	10853,10919,10928
+Bloc_réglementaire	Concept	Ensemble des normes réglementaires	10934,10939,11087
+Droit_de_l'Union	prime_sur	Appellation actuelle du système juridique de l'UE	1090,1320,4506,4512,4663,4678,4756,4763,4853,4861,4939,5590,5618,5792,6087,6152,6175,6183,6206,6230,6270,6273,6313,6342,7777,7785,7808,7820,9080,11170,11203,11222,11275,11293,11347,11355,11371,11626,12471,12576,12585,12612
+Conseil_de_l_Europe	Organisation	Convention_européenne_des_droits_de_l_homme Le Conseil de l'Europe a élaboré et adopté la Convention européenne des droits de l'homme
+Convention_européenne_des_droits_de_l_homme	Document_juridique	Démocratie La Convention européenne des droits de l'homme promeut et protège la démocratie
+État_de_droit	Concept_juridique	Principe selon lequel le pouvoir politique se soumet au droit
+Démocratie	Système_politique	Système politique fondé sur les principes de liberté et d'égalité	1912,1942,2078
+Cour_européenne_des_droits_de_l_homme	Institution_juridique	Convention_européenne_des_droits_de_l_homme La Cour européenne des droits de l'homme interprète et applique la Convention
+Union_européenne	Organisation	Organisation supranationale regroupant des États européens
+Primauté_du_droit_international	Principe_juridique	Principe selon lequel les traités internationaux ont une autorité supérieure aux lois nationales
+Article_55_Constitution_française	Disposition_légale	Primauté_du_droit_international L'article 55 consacre la primauté des traités sur les lois nationales
+Article_54_Constitution	Entité	Démarche_préventive L'article 54 définit la démarche préventive de révision constitutionnelle
+Révision_constitutionnelle	Entité	Modification de la Constitution pour l'adapter aux traités
+Cour_pénale_internationale	Entité	Souveraineté_de_l'État Nécessitant une révision constitutionnelle	10022,10087,11851,11872
+Souveraineté_de_l'État	Entité	Principe d'indépendance et d'autorité suprême d'un État	10055
+Arrêt_Jacques_Vabre	Entité	Primauté_du_droit_communautaire Cet arrê
+Arrêt_Nicolo	Entité	Arrêt du Conseil d'État reconnaissant la primauté des traités internationaux sur les lois
+Contrôle_de_conventionnalité	Entité	Contrôle de la compatibilité du droit interne avec les traités internationaux	8132,8160,8213,8944,9004,9494
+Contrôle_de_proportionnalité	Entité	Mise en balance des intérêts en jeu dans un conflit de droits	9184,9195,9208,9365,9445,9470,9517,9594,9616,9662,9682
+Présomption_d'innocence	Entité	Principe selon lequel toute personne est présumée innocente jusqu'à preuve du contraire	9314,9397,9460,9605
+Liberté_d'expression	Entité	Droit de s'exprimer librement	2335,2400,9301,9304,9403,9464,9609
+Séparation_des_pouvoirs	Entité	Principe d'organisation de l'État séparant les pouvoirs législatif, exécutif et judiciaire	8112,8232
+Principe_de_séparation_des_pouvoirs	Concept_juridique	Principe fondamental du droit constitutionnel	8230
+CJCE	Organisation	Ancienne dénomination de la Cour de justice de l'UE avant 2009	5660,5668,5687,5710
+CJUE	Organisation	Dénomination actuelle de la Cour de justice de l'UE depuis 2009
+Convention	Document_juridique	Synonyme de traité dans le contexte juridique	409,1309,1522,1546,1560,1601,1654,1956,1972,1986,2015,2065,2090,2106,2132,2151,2167,2182,2747,2767,2775,2796,3222,3228,3429,3484,3690,3706,3816,3828,3916,3943,4226,4238,4385,4405,4427,4465,4500,4535,4562,4622,4644,4660,4690,6304,8149,8176,8200,8208,10547
+Traité_CEE	Document	Droit_de_l'Union Le traité CEE a créé un ordre juridique propre
+Cour_de_Cassation	Institution_juridique	Plus haute juridiction de l'ordre judiciaire français	8236,8341,8384,8765,8829,8855,8869,8920,9213,9376,10195,10633
+Conseil_Constitutionnel	Institution_juridique	Institution chargée du contrôle de constitutionnalité en France	2306,8240,8284,8367,8374,9882,9919
+Droit_communautaire	Concept	Droit_de_l'Union Le droit communautaire est l'ancienne appellation du droit de l'Union	6168,6194,6213,6247,6252,8404,11428
+Traité_sur_l'Union_européenne	Document	Traité contenant le droit institutionnel et constitutionnel de l'UE	4922,5363
+Traité_sur_le_fonctionnement_de_l'UE	Document	Dispositions_substantielles Le TFUE contient les règles de fond du droit de l'UE
+Liberté_de_circulation	Principe_juridique	Liberté fondamentale garantie par le droit de l'UE	3022,6894,6953,8537,8552,8573,8694,8724,9083
+Tribunal_de_l'Union_européenne	Organisation	Juridiction de second degré de l'UE	5316,5369
+Commission_européenne	Organisation	Organe exécutif de l'Union européenne	5375
+Jurisprudence_européenne	Concept	Ensemble des décisions des juridictions européennes	5494,5624
+Article_55_de_la_Constitution	Disposition_légale	Primauté_des_traités L'article 55 établit la primauté des traités sur les lois
+Primauté_du_droit_de_l'Union	Principe_juridique	Inapplication_de_plein_droit Des normes nationales contraires
+Recommandation	Document	Acte juridique non contraignant du droit de l'UE
+Avis	Document	Acte juridique non contraignant du droit de l'UE	5519,5565,5582
+Inapplication_de_plein_droit	Concept_juridique	Sanction automatique d'une norme nationale contraire au droit de l'UE
+Cour_de_cassation	Institution_juridique	Contrôle_de_conventionnalité La Cour de cassation effectue le contrôle de conventionnalité	8236,8341,8384,8765,8829,8855,8869,8920,9213,9376,10195,10633
+Conseil_d'État	Institution_juridique	Contrôle_de_conventionnalité Le Conseil d'État effectue le contrôle de conventionnalité	8903,10190,10629
+Traité_de_l'Union_Européenne	Document_juridique	Code_des_droits_de_douane Le traité de l'UE prime sur le Code des droits de douane français	903,8811
+Code_des_droits_de_douane	Document_juridique	Code français régissant les droits de douane	8752,8790
+Liberté_de_circulation_des_marchandises	Principe_juridique	Principe fondamental du marché européen	8552,8694,8724,9083
+Norme_supralégislative	Concept_juridique	Loi Les normes supralégislatives sont supérieures aux lois
+Loi_interne	Concept	Règle de droit établie par un État pour son propre territoire	1138,1167,1213
+Principe_abrogation_loi_antérieure	Concept	Lex_posterior_derogat_priori Ce principe découle de la maxime latine
+Lex_posterior_derogat_priori	Concept	Principe de droit romain signifiant que la loi postérieure déroge à la loi antérieure	1191
+Droit_à_la_vie	Droit_Fondamental	Droit protégé par l'article 2 de la Convention	2200,2439,2518
+Convention_européenne	Document	Convention européenne des droits de l'homme	409,1309,1522,1546,1956,2151,3429,4405,4535,4622,6304,10547
+Interdiction_de_la_torture	Droit_Fondamental	Droit protégé par l'article 3 de la Convention	2443,4265
+Interdiction_de_l'esclavage	Droit_Fondamental	Article 4 de la Convention européenne des droits de l'homme
+Droit_à_la_liberté	Droit_Fondamental	Article 5 de la Convention européenne des droits de l'homme	2236,9400
+Primauté_droit_international	Concept	Principe selon lequel le droit international prime sur le droit interne
+Cour_de_justice_UE	Organisation	Affaire_Bosman La Cour de justice a statué sur l'affaire Bosman
+Droit_au_procès_équitable	Droit_Fondamental	Droit protégé par l'article 6 de la Convention	2245
+Liberté_de_pensée	Droit_Fondamental	Article 9 de la Convention européenne des droits de l'homme	2324,2397
+Droit_de_propriété	Droit_Fondamental	Droit protégé par l'article 1 du premier protocole additionnel	2820,2846
+Effet_direct_vertical	Concept	Possibilité pour un individu d'invoquer une norme internationale contre l'État
+Effet_direct_horizontal	Concept	Possibilité d'invoquer une norme internationale entre personnes privées ou entre États
+Pyramide_des_normes	Concept_juridique	Hiérarchie des normes juridiques	7517,9731,10747
+TFUE	Traité	Traité sur le fonctionnement de l'Union européenne	4911,5027,11740
+Arrêt_Sarran_Levacher	Jurisprudence	Supériorité_Constitution L'arrêt établit la supériorité de la Constitution sur les
+Arrêt_Fraisse	Jurisprudence	Arrêt de la Cour de cassation sur la hiérarchie des normes
+Traité_sur_le_fonctionnement_de_l'Union_européenne	Document	Traité contenant les dispositions substantielles du droit de l'UE	4913
+Convention_européenne_des_droits_de_l'homme	Document	Territoire_des_États_membres La Convention s'applique sur le territoire des États signataires
+Cour_européenne_des_droits_de_l'homme	Organisation	Convention_européenne_des_droits_de_l'homme La Cour est chargée d'interpréter et d'appliquer la Convention	2052,4376
+Affaire_Bosman	Jurisprudence	Liberté_de_circulation_des_travailleurs L'affaire Bosman a établi l'application de la liberté de circulation aux joueurs de football
+Royal_Club_Liégeois	Organisation	Club de football belge impliqué dans l'affaire Bosman	6431,6494
+Dunkerque	Organisation	Club de football français impliqué dans l'affaire Bosman	6458,6516,6572
+UEFA	Organisation	Union des associations européennes de football
+Indemnités_de_transfert	Concept	Paiements liés au transfert de joueurs entre clubs	6574,6586,6996
+Clauses_de_nationalité	Concept	Restrictions sur le nombre de joueurs étrangers dans les équipes	6579,6729,7000
+Liberté_de_circulation_des_travailleurs	Concept	Principe fondamental du droit de l'UE permettant aux travailleurs de se déplacer librement	6894
+Arrêt_Costa_ENEL	Jurisprudence	Primauté L'arrêt Costa contre ENEL a établi le principe de primauté du droit de l'UE
+TUE	Document	Traité sur l'Union européenne	5029
+Principe_de_légalité_des_délits_et_des_peines	Principe_juridique	Article 7 de la Convention européenne des droits de l'homme	2266
+Droit_au_respect_de_la_vie_privée	Droit_fondamental	Droit protégé par l'article 8 de la Convention	2309
+Liberté_de_réunion	Droit_fondamental	Article 11 de la Convention européenne des droits de l'homme	2346
+Droit_au_mariage	Droit_fondamental	Article 12 de la Convention européenne des droits de l'homme	2351
+Droit_de_recours_effectif	Droit_fondamental	Article 13 de la Convention européenne des droits de l'homme	2358
+Interdiction_de_discrimination	Principe_juridique	Article 14 de la Convention européenne des droits de l'homme	2362
+Non_bis_in_idem	Principe_juridique	Principe interdisant d'être jugé deux fois pour les mêmes faits	3190,3200
+Domaine_d'application	Concept_juridique	Champ d'application d'une règle de droit	3317,3356
+Ratione_personae	Concept_juridique	Domaine d'application d'une règle concernant les personnes	3443,3469
+Ordre_public_constitutionnel_européen	Concept_juridique	Ensemble des principes fondamentaux garantis par la Convention européenne des droits de l'homme
+Cour_de_Justice_de_l'Union_Européenne	Institution_juridique	Juridiction chargée d'interpréter le droit de l'Union européenne	994,5695
+Directive	Document_juridique	Droit_dérivé Les directives font partie du droit dérivé européen	100,103,181,185,5236,5251,12897
+Règlement	Document_juridique	Bloc_réglementaire Les règlements	197,210,5168,5235,5246,6530,6549,11271,11343,11538,11541,11746,11748
+Identité_constitutionnelle	Concept_juridique	Principes fondamentaux propres à la constitution d'un État
+Jurisprudence	Concept_juridique	Ensemble des décisions de justice faisant autorité	1767,5494,5624,5800,7842,8311,10992,11013,11025,11072,11099,11107,11115,11131,11134,11138,11142,12820
+Coutume	Concept_juridique	Règle de droit non écrite issue de l'usage	10995,11016,11029,11052,11095,11110,11118
+Bloc_constitutionnel	Concept	Bloc_conventionnel Hiérarchie établie par la jurisprudence française
+DDHC	Document_juridique	Déclaration des Droits de l'Homme et du Citoyen	10794
+Préambule_Constitution	Document_juridique	Préambule de la Constitution française
+Charte_de_l'environnement	Document_juridique	Texte constitutionnel sur l'environnement	10803
+Bloc_conventionnel	Concept	Bloc_légal Hiérarchie établie par la jurisprudence française
+Bloc_légal	Concept	Bloc_réglementaire Hiérarchie traditionnelle des normes
+Contrat	Document_juridique	Accord entre personnes privées créant des obligations
+Acte_administratif	Document_juridique	Décision prise par l'administration
+Primauté_du_droit_de_l'UE	Principe_juridique	Arrêt_Costa_contre_ENEL L'arrêt Costa contre ENEL a établi le principe de primauté
+Droits_de_l'homme	Concept_juridique	Droits fondamentaux inhérents à tous les êtres humains	2029,2055,4379,4543,4574,5049
+Requête_individuelle	Procédure_juridique	Procédure permettant à un individu de saisir la Cour européenne des droits de l'homme
+Requête_interétatique	Procédure_juridique	Procédure permettant à un État de saisir la Cour contre un autre État
+Individu	Peut_saisir	Cour_européenne_des_droits_de_l'homme Les individus peuvent déposer des requêtes devant la Cour
+État	Peut_saisir	Cour_européenne_des_droits_de_l'homme Les États peuvent déposer des requêtes contre d'autres États devant la Cour	3060,3501,3528,3975,3980,4215,4222,4336,4340,4395
+Cour_de_justice_de_l'UE	Institution	Arrêt_Bosman La Cour a rendu l'arrêt Bosman
+Tribunal_de_l'UE	Institution	Juridiction de l'UE de première instance
+Applicabilité_Ratione_Personae	Concept_Juridique	Champ d'application personnel d'un texte juridique
+Applicabilité_Ratione_Loci	Concept_Juridique	Champ d'application territorial d'un texte juridique
+Protocole_Additionnel	Document_Juridique	Texte complémentaire à la Convention ayant la même valeur juridique	2788,2813,2842
+Droit_Indérogeable	Concept_Juridique	Droit_à_la_Vie Droit ne pouvant être suspendu	2490
+État_de_Droit	Concept_Juridique	Principe selon lequel le pouvoir politique se soumet au droit
+Ordre_Public_Constitutionnel_Européen	Concept_Juridique	Ensemble des principes fondamentaux garantis par la Convention Européenne des Droits de l'Homme
+Constitution_française	Document_juridique	Bloc_de_conventionnalité La Constitution prime sur les traités internationaux dans l'ordre interne	10799
+Nouvelle-Calédonie	Territoire	Corps_électoral_néo-calédonien La Nouvelle-Calédonie a un corps électoral spécifique pour ses référendums	10235,10248,10289,10302,10336,10372,10690
+Corps_électoral_néo-calédonien	Concept_juridique	Ensemble des personnes autorisées à voter aux référendums en Nouvelle-Calédonie	10218,10350
+Pacte_de_New_York	Traité	Pacte international relatif aux droits civils et politiques	10528
+Effet_Direct	Type_Effet	Effet	juridique produit directement sans nécessité de transposition
+Effet_Indirect	Type_Effet	Effet	juridique nécessitant une transposition dans l'ordre interne
+Texte_International	Source_Juridique	Texte	juridique d'origine internationale
+Ordre_Intérieur	Système_Juridique	Système	juridique interne d'un pays
+Directive_Européenne	Type_Texte_International	Texte	européen nécessitant une transposition
+RGPD	Type_Texte_International	Règlement	Général sur la Protection des Données
+Effet_Direct_Vertical	Type_Effet_Direct	Effet	permettant à un justiciable d'invoquer un texte contre l'État
+Effet_Direct_Horizontal	Type_Effet_Direct	Effet	entre États ou personnes de droit privé
+Primauté	Principe_Juridique	Principe	de supériorité des normes internationales
+Article_55_Constitution	Source_Juridique	Article	constitutionnel fixant la primauté des traités
+Texte_International	nécessite_transposition	Ordre_Intérieur	Pour l'effet indirect
+Texte_International	a_primauté_sur	Norme_Nationale	Selon l'article 55 de la Constitution
+Effet_Direct	Type_Effet	Effet	juridique produit directement sans nécessité de transposition
+Effet_Indirect	Type_Effet	Effet	juridique nécessitant une transposition dans l'ordre interne
+Texte_International	Source_Juridique	Texte	juridique d'origine internationale
+Ordre_Intérieur	Système_Juridique	Système	juridique interne d'un pays
+Directive_Européenne	Type_Texte_International	Texte	européen nécessitant une transposition
+RGPD	Type_Texte_International	Règlement	Général sur la Protection des Données
+Effet_Direct_Vertical	Type_Effet_Direct	Effet	permettant à un justiciable d'invoquer un texte contre l'État
+Effet_Direct_Horizontal	Type_Effet_Direct	Effet	entre États ou personnes de droit privé
+Primauté	Principe_Juridique	Principe	de supériorité des normes internationales
+Article_55_Constitution	Source_Juridique	Article	constitutionnel fixant la primauté des traités
+Texte_International	nécessite_transposition	Ordre_Intérieur	Pour l'effet indirect
+Texte_International	a_primauté_sur	Norme_Nationale	Selon l'article 55 de la Constitution
+Union_Européenne	Organisation	Organisation	supranationale européenne
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme
+Convention_Européenne_des_Droits_de_l'Homme	Document_juridique	Traité	international protégeant les droits fondamentaux en Europe
+Cour_Européenne_des_Droits_de_l'Homme	Institution	Cour	internationale chargée d'appliquer la Convention Européenne des Droits de l'Homme
+Traité_sur_le_Fonctionnement_de_l'Union_Européenne	Document_juridique	Traité	définissant le fonctionnement de l'Union Européenne
+Traité_sur_l'Union_Européenne	Document_juridique	Traité	définissant les principes fondamentaux de l'Union Européenne
+Droit_primaire	Concept_juridique	Ensemble	des traités fondateurs de l'Union Européenne
+Droit_dérivé	Concept_juridique	Ensemble	des actes juridiques adoptés par les institutions de l'Union Européenne
+Règlement_européen	Document_juridique	Acte	juridique de l'UE directement applicable dans tous les États membres
+Protocole_additionnel	Document_juridique	Texte	ajouté à la Convention Européenne des Droits de l'Homme
+Effet_direct	Concept_juridique	Principe	permettant l'application directe du droit européen dans les États membres
+Union_Européenne	protège	Droits_fondamentaux	L'UE assure également la protection des droits fondamentaux
+Convention_Européenne_des_Droits_de_l'Homme	protège	Liberté_d'entreprendre	La CEDH protège aussi la liberté d'entreprendre
+Union_Européenne	se_concentre_sur	Marché_européen	L'UE se concentre principalement sur le marché européen
+Conseil_de_l'Europe	se_concentre_sur	Droits_fondamentaux	Le Conseil de l'Europe se concentre principalement sur les droits fondamentaux
+Traité_sur_le_Fonctionnement_de_l'Union_Européenne	contient	Dispositions_substantielles	Le TFUE contient les règles régissant le marché européen
+Traité_sur_l'Union_Européenne	contient	Droit_institutionnel	Le TUE contient le droit constitutionnel et institutionnel de l'UE
+Cour_Européenne_des_Droits_de_l'Homme	applique	Convention_Européenne_des_Droits_de_l'Homme	La CEDH applique la Convention contre les États
+Juridictions_nationales	appliquent	Convention_Européenne_des_Droits_de_l'Homme	Les juridictions nationales appliquent directement la Convention
+Convention_Européenne_des_Droits_de_l'Homme	a	Effet_direct	La Convention a un effet direct dans les juridictions nationales
+Protocole_additionnel	complète	Convention_Européenne_des_Droits_de_l'Homme	Les protocoles additionnels complètent la Convention avec de nouveaux droits
+Union_Européenne	Organisation	Organisation	supranationale européenne
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme
+Convention_Européenne_des_Droits_de_l'Homme	Document_juridique	Traité	international protégeant les droits fondamentaux en Europe
+Cour_Européenne_des_Droits_de_l'Homme	Institution	Cour	internationale chargée d'appliquer la Convention Européenne des Droits de l'Homme
+Traité_sur_le_Fonctionnement_de_l'Union_Européenne	Document_juridique	Traité	définissant le fonctionnement de l'Union Européenne
+Traité_sur_l'Union_Européenne	Document_juridique	Traité	définissant les principes fondamentaux de l'Union Européenne
+Droit_primaire	Concept_juridique	Ensemble	des traités fondateurs de l'Union Européenne
+Droit_dérivé	Concept_juridique	Ensemble	des actes juridiques adoptés par les institutions de l'Union Européenne
+Règlement_européen	Document_juridique	Acte	juridique de l'UE directement applicable dans tous les États membres
+Protocole_additionnel	Document_juridique	Texte	ajouté à la Convention Européenne des Droits de l'Homme
+Effet_direct	Concept_juridique	Principe	permettant l'application directe du droit européen dans les États membres
+Union_Européenne	protège	Droits_fondamentaux	L'UE assure également la protection des droits fondamentaux
+Convention_Européenne_des_Droits_de_l'Homme	protège	Liberté_d'entreprendre	La CEDH protège aussi la liberté d'entreprendre
+Union_Européenne	se_concentre_sur	Marché_européen	L'UE se concentre principalement sur le marché européen
+Conseil_de_l'Europe	se_concentre_sur	Droits_fondamentaux	Le Conseil de l'Europe se concentre principalement sur les droits fondamentaux
+Traité_sur_le_Fonctionnement_de_l'Union_Européenne	contient	Dispositions_substantielles	Le TFUE contient les règles régissant le marché européen
+Traité_sur_l'Union_Européenne	contient	Droit_institutionnel	Le TUE contient le droit constitutionnel et institutionnel de l'UE
+Cour_Européenne_des_Droits_de_l'Homme	applique	Convention_Européenne_des_Droits_de_l'Homme	La CEDH applique la Convention contre les États
+Juridictions_nationales	appliquent	Convention_Européenne_des_Droits_de_l'Homme	Les juridictions nationales appliquent directement la Convention
+Convention_Européenne_des_Droits_de_l'Homme	a	Effet_direct	La Convention a un effet direct dans les juridictions nationales
+Protocole_additionnel	complète	Convention_Européenne_des_Droits_de_l'Homme	Les protocoles additionnels complètent la Convention avec de nouveaux droits
+Hiérarchie_des_normes	Concept	Principe	d'organisation des normes juridiques selon leur importance
+Constitution	Norme_juridique	Norme	suprême dans la hiérarchie des normes
+Loi	Norme_juridique	Norme	inférieure à la Constitution dans la hiérarchie des normes
+Traité	Norme_juridique	Accord	international ayant une valeur supérieure aux lois nationales
+Droit_de_l'Union_européenne	Système_juridique	Ensemble	des normes juridiques de l'Union européenne
+Droit_interne	Système_juridique	Ensemble	des normes juridiques nationales
+Cour_de_justice_de_l'Union_européenne	Institution	Organe	juridictionnel de l'Union européenne
+Effet_direct	Principe_juridique	Capacité	d'une norme européenne à être directement applicable dans l'ordre juridique national
+Primauté	Principe_juridique	Principe	selon lequel le droit de l'UE prime sur le droit national
+Règlement_européen	Norme_juridique	Acte	juridique de l'UE directement applicable dans tous les États membres
+Directive_européenne	Norme_juridique	Acte	juridique de l'UE fixant des objectifs à atteindre par les États membres
+Soft_law	Concept	Ensemble	de règles non contraignantes mais influentes dans le droit de l'UE
+Arrêt_Van_Gend_en_Loos	Jurisprudence	Arrêt	fondateur sur l'effet direct du droit communautaire
+Arrêt_Costa_contre_ENEL	Jurisprudence	Arrêt	établissant le principe de primauté du droit communautaire
+Arrêt_Simmenthal	Jurisprudence	Arrêt	précisant les conséquences du principe de primauté
+Arrêt_Bosman	Jurisprudence	Arrêt	ayant libéralisé les transferts de joueurs de football en Europe
+Constitution	est_supérieure_à	Loi	Dans la hiérarchie des normes
+Traité	est_supérieur_à	Loi	Selon l'article 55 de la Constitution française
+Droit_de_l'Union_européenne	a_pour_principe	Effet_direct	Principe établi par la jurisprudence
+Droit_de_l'Union_européenne	a_pour_principe	Primauté	Principe établi par la jurisprudence
+Règlement_européen	a	Effet_direct	Application directe dans les États membres
+Directive_européenne	a	Effet_indirect	Nécessite une transposition nationale
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Van_Gend_en_Loos	Arrêt fondateur sur l'effet direct
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Costa_contre_ENEL	Arrêt établissant la primauté
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Simmenthal	Arrêt précisant les conséquences de la primauté
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Bosman	Arrêt sur la libre circulation des sportifs
+Droit_de_l'Union_européenne	comprend	Soft_law	Inclut les recommandations et avis
+Hiérarchie_des_normes	Concept	Principe	d'organisation des normes juridiques selon leur importance
+Constitution	Norme_juridique	Norme	suprême dans la hiérarchie des normes
+Loi	Norme_juridique	Norme	inférieure à la Constitution dans la hiérarchie des normes
+Traité	Norme_juridique	Accord	international ayant une valeur supérieure aux lois nationales
+Droit_de_l'Union_européenne	Système_juridique	Ensemble	des normes juridiques de l'Union européenne
+Droit_interne	Système_juridique	Ensemble	des normes juridiques nationales
+Cour_de_justice_de_l'Union_européenne	Institution	Organe	juridictionnel de l'Union européenne
+Effet_direct	Principe_juridique	Capacité	d'une norme européenne à être directement applicable dans l'ordre juridique national
+Primauté	Principe_juridique	Principe	selon lequel le droit de l'UE prime sur le droit national
+Règlement_européen	Norme_juridique	Acte	juridique de l'UE directement applicable dans tous les États membres
+Directive_européenne	Norme_juridique	Acte	juridique de l'UE fixant des objectifs à atteindre par les États membres
+Soft_law	Concept	Ensemble	de règles non contraignantes mais influentes dans le droit de l'UE
+Arrêt_Van_Gend_en_Loos	Jurisprudence	Arrêt	fondateur sur l'effet direct du droit communautaire
+Arrêt_Costa_contre_ENEL	Jurisprudence	Arrêt	établissant le principe de primauté du droit communautaire
+Arrêt_Simmenthal	Jurisprudence	Arrêt	précisant les conséquences du principe de primauté
+Arrêt_Bosman	Jurisprudence	Arrêt	ayant libéralisé les transferts de joueurs de football en Europe
+Constitution	est_supérieure_à	Loi	Dans la hiérarchie des normes
+Traité	est_supérieur_à	Loi	Selon l'article 55 de la Constitution française
+Droit_de_l'Union_européenne	a_pour_principe	Effet_direct	Principe établi par la jurisprudence
+Droit_de_l'Union_européenne	a_pour_principe	Primauté	Principe établi par la jurisprudence
+Règlement_européen	a	Effet_direct	Application directe dans les États membres
+Directive_européenne	a	Effet_indirect	Nécessite une transposition nationale
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Van_Gend_en_Loos	Arrêt fondateur sur l'effet direct
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Costa_contre_ENEL	Arrêt établissant la primauté
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Simmenthal	Arrêt précisant les conséquences de la primauté
+Cour_de_justice_de_l'Union_européenne	a_rendu	Arrêt_Bosman	Arrêt sur la libre circulation des sportifs
+Droit_de_l'Union_européenne	comprend	Soft_law	Inclut les recommandations et avis
+Traité	Document_juridique	Document	juridique international
+Accord	Document_juridique	Document	juridique international
+Loi	Document_juridique	Texte	législatif national
+Article_55	Disposition_légale	Article	de la Constitution française sur la primauté du droit international
+Principe_de_primauté	Concept_juridique	Principe	selon lequel le droit international prime sur le droit national
+Cour_de_justice_de_l'Union_européenne	Institution_juridique	Organe	judiciaire de l'Union européenne
+Tribunal_constitutionnel_polonais	Institution_juridique	Cour	suprême polonaise pour les questions constitutionnelles
+Droit_interne	Système_juridique	Ensemble	des règles juridiques nationales
+Droit_international	Système_juridique	Ensemble	des règles juridiques régissant les relations entre États
+Droit_européen	Système_juridique	Ensemble	des règles juridiques de l'Union européenne
+Effet_direct	Concept_juridique	Application	immédiate d'une norme internationale dans l'ordre juridique interne
+Effet_indirect	Concept_juridique	Nécessité	de transposer une norme internationale pour qu'elle s'applique dans l'ordre interne
+Directive_européenne	Document_juridique	Acte	législatif européen nécessitant une transposition
+Règlement_européen	Document_juridique	Acte	législatif européen d'application directe
+RGPD	Document_juridique	Règlement	général sur la protection des données
+Traité	a_autorité_supérieure	Loi	Les traités ont une autorité supérieure aux lois selon l'article 55
+Accord	a_autorité_supérieure	Loi	Les accords ont une autorité supérieure aux lois selon l'article 55
+Article_55	définit	Principe_de_primauté	L'article 55 de la Constitution définit le principe de primauté du droit international
+Principe_de_primauté	concerne	Droit_international	Le principe de primauté s'applique au droit international
+Principe_de_primauté	concerne	Droit_interne	Le principe de primauté s'applique par rapport au droit interne
+Cour_de_justice_de_l'Union_européenne	applique	Droit_européen	La CJUE applique et interprète le droit européen
+Tribunal_constitutionnel_polonais	interprète	Droit_interne	Le tribunal constitutionnel polonais interprète le droit national
+Droit_européen	est_un_type_de	Droit_international	Le droit européen est une forme de droit international
+Effet_direct	caractérise	Règlement_européen	Les règlements européens ont un effet direct dans les États membres
+Effet_indirect	caractérise	Directive_européenne	Les directives européennes ont un effet indirect nécessitant une transposition
+RGPD	est_un	Règlement_européen	Le RGPD est un exemple de règlement européen à effet direct
+Traité	Document_juridique	Document	juridique international
+Accord	Document_juridique	Document	juridique international
+Loi	Document_juridique	Texte	législatif national
+Article_55	Disposition_légale	Article	de la Constitution française sur la primauté du droit international
+Principe_de_primauté	Concept_juridique	Principe	selon lequel le droit international prime sur le droit national
+Cour_de_justice_de_l'Union_européenne	Institution_juridique	Organe	judiciaire de l'Union européenne
+Tribunal_constitutionnel_polonais	Institution_juridique	Cour	suprême polonaise pour les questions constitutionnelles
+Droit_interne	Système_juridique	Ensemble	des règles juridiques nationales
+Droit_international	Système_juridique	Ensemble	des règles juridiques régissant les relations entre États
+Droit_européen	Système_juridique	Ensemble	des règles juridiques de l'Union européenne
+Effet_direct	Concept_juridique	Application	immédiate d'une norme internationale dans l'ordre juridique interne
+Effet_indirect	Concept_juridique	Nécessité	de transposer une norme internationale pour qu'elle s'applique dans l'ordre interne
+Directive_européenne	Document_juridique	Acte	législatif européen nécessitant une transposition
+Règlement_européen	Document_juridique	Acte	législatif européen d'application directe
+RGPD	Document_juridique	Règlement	général sur la protection des données
+Traité	a_autorité_supérieure	Loi	Les traités ont une autorité supérieure aux lois selon l'article 55
+Accord	a_autorité_supérieure	Loi	Les accords ont une autorité supérieure aux lois selon l'article 55
+Article_55	définit	Principe_de_primauté	L'article 55 de la Constitution définit le principe de primauté du droit international
+Principe_de_primauté	concerne	Droit_international	Le principe de primauté s'applique au droit international
+Principe_de_primauté	concerne	Droit_interne	Le principe de primauté s'applique par rapport au droit interne
+Cour_de_justice_de_l'Union_européenne	applique	Droit_européen	La CJUE applique et interprète le droit européen
+Tribunal_constitutionnel_polonais	interprète	Droit_interne	Le tribunal constitutionnel polonais interprète le droit national
+Droit_européen	est_un_type_de	Droit_international	Le droit européen est une forme de droit international
+Effet_direct	caractérise	Règlement_européen	Les règlements européens ont un effet direct dans les États membres
+Effet_indirect	caractérise	Directive_européenne	Les directives européennes ont un effet indirect nécessitant une transposition
+RGPD	est_un	Règlement_européen	Le RGPD est un exemple de règlement européen à effet direct
+Droit_primaire	Concept	Droit	issu des traités européens
+Droit_dérivé	Concept	Droit	issu des institutions européennes
+Norme_infraconstitutionnelle	Concept	Norme	de rang inférieur à la Constitution
+Constitution	Concept	Loi	fondamentale d'un État
+Traité_de_Maastricht	Concept	Traité	européen de 1992 approfondissant l'intégration européenne
+Article_54	Concept	Article	de la Constitution française sur la révision constitutionnelle
+Démarche_préventive	Concept	Mécanisme	d'anticipation des conflits entre traités et Constitution
+Conseil_constitutionnel	Organisation	Institution	chargée du contrôle de constitutionnalité
+Cour_de_justice	Organisation	Cour	de justice de l'Union européenne
+Principe_de_primauté	Concept	Principe	selon lequel le droit de l'UE prime sur le droit national
+Hiérarchie_des_normes	Concept	Organisation	hiérarchique des différentes normes juridiques
+Bloc_de_constitutionnalité	Concept	Ensemble	des normes ayant valeur constitutionnelle
+Bloc_de_conventionnalité	Concept	Ensemble	des traités et conventions internationales
+Bloc_de_légalité	Concept	Ensemble	des normes législatives
+Bloc_réglementaire	Concept	Ensemble	des règlements et actes administratifs
+Droit_primaire	est_supérieur_à	Droit_dérivé	Le droit primaire a une valeur supérieure au droit dérivé dans la hiérarchie des normes européennes
+Droit_de_l'Union	prime_sur	Norme_infraconstitutionnelle	Le droit de l'Union prime sur les normes infraconstitutionnelles en cas de conflit
+Article_54	régit	Démarche_préventive	L'article 54 de la Constitution française prévoit la démarche préventive
+Conseil_constitutionnel	applique	Article_54	Le Conseil constitutionnel applique l'article 54 pour vérifier la compatibilité des traités avec la Constitution
+Constitution	peut_être_modifiée_par	Démarche_préventive	La Constitution peut être modifiée suite à la démarche préventive pour être compatible avec un traité
+Cour_de_justice	établit	Principe_de_primauté	La Cour de justice de l'UE établit le principe de primauté du droit de l'Union
+Bloc_de_constitutionnalité	est_supérieur_à	Bloc_de_conventionnalité	Dans l'ordre interne français, le bloc de constitutionnalité est supérieur au bloc de conventionnalité
+Bloc_de_conventionnalité	est_supérieur_à	Bloc_de_légalité	Le bloc de conventionnalité est supérieur au bloc de légalité dans la hiérarchie des normes
+Bloc_de_légalité	est_supérieur_à	Bloc_réglementaire	Le bloc de légalité est supérieur au bloc réglementaire dans la hiérarchie des normes
+Droit_primaire	Concept	Droit	issu des traités européens
+Droit_dérivé	Concept	Droit	issu des institutions européennes
+Norme_infraconstitutionnelle	Concept	Norme	de rang inférieur à la Constitution
+Constitution	Concept	Loi	fondamentale d'un État
+Traité_de_Maastricht	Concept	Traité	européen de 1992 approfondissant l'intégration européenne
+Article_54	Concept	Article	de la Constitution française sur la révision constitutionnelle
+Démarche_préventive	Concept	Mécanisme	d'anticipation des conflits entre traités et Constitution
+Conseil_constitutionnel	Organisation	Institution	chargée du contrôle de constitutionnalité
+Cour_de_justice	Organisation	Cour	de justice de l'Union européenne
+Principe_de_primauté	Concept	Principe	selon lequel le droit de l'UE prime sur le droit national
+Hiérarchie_des_normes	Concept	Organisation	hiérarchique des différentes normes juridiques
+Bloc_de_constitutionnalité	Concept	Ensemble	des normes ayant valeur constitutionnelle
+Bloc_de_conventionnalité	Concept	Ensemble	des traités et conventions internationales
+Bloc_de_légalité	Concept	Ensemble	des normes législatives
+Bloc_réglementaire	Concept	Ensemble	des règlements et actes administratifs
+Droit_primaire	est_supérieur_à	Droit_dérivé	Le droit primaire a une valeur supérieure au droit dérivé dans la hiérarchie des normes européennes
+Droit_de_l'Union	prime_sur	Norme_infraconstitutionnelle	Le droit de l'Union prime sur les normes infraconstitutionnelles en cas de conflit
+Article_54	régit	Démarche_préventive	L'article 54 de la Constitution française prévoit la démarche préventive
+Conseil_constitutionnel	applique	Article_54	Le Conseil constitutionnel applique l'article 54 pour vérifier la compatibilité des traités avec la Constitution
+Constitution	peut_être_modifiée_par	Démarche_préventive	La Constitution peut être modifiée suite à la démarche préventive pour être compatible avec un traité
+Cour_de_justice	établit	Principe_de_primauté	La Cour de justice de l'UE établit le principe de primauté du droit de l'Union
+Bloc_de_constitutionnalité	est_supérieur_à	Bloc_de_conventionnalité	Dans l'ordre interne français, le bloc de constitutionnalité est supérieur au bloc de conventionnalité
+Bloc_de_conventionnalité	est_supérieur_à	Bloc_de_légalité	Le bloc de conventionnalité est supérieur au bloc de légalité dans la hiérarchie des normes
+Bloc_de_légalité	est_supérieur_à	Bloc_réglementaire	Le bloc de légalité est supérieur au bloc réglementaire dans la hiérarchie des normes
+Conseil_de_l_Europe	Organisation	Organisation	internationale créée en 1949 pour promouvoir les droits de l'homme et l'État de droit en Europe
+Convention_européenne_des_droits_de_l_homme	Document_juridique	Traité	international adopté par le Conseil de l'Europe en 1950 pour protéger les droits de l'homme et les libertés fondamentales
+État_de_droit	Concept_juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Démocratie	Système_politique	Système	politique fondé sur la prééminence du droit et le respect des libertés individuelles
+Cour_européenne_des_droits_de_l_homme	Institution_juridique	Juridiction	internationale chargée de veiller au respect de la Convention européenne des droits de l'homme
+Union_européenne	Organisation	Organisation	politique et économique distincte du Conseil de l'Europe
+Droit_européen	Domaine_juridique	Ensemble	des règles juridiques issues du Conseil de l'Europe et de l'Union européenne
+Traité	Document_juridique	Accord	international créant des obligations juridiques entre les parties
+Primauté_du_droit_international	Principe_juridique	Principe	selon lequel les traités ont une autorité supérieure aux lois nationales
+Article_55_Constitution_française	Disposition_légale	Article	de la Constitution française établissant la primauté des traités sur les lois
+Effet_direct	Concept_juridique	Capacité	d'une norme internationale à produire des effets juridiques dans l'ordre interne sans nécessiter de transposition
+Effet_indirect	Concept_juridique	Nécessité	de transposer une norme internationale dans l'ordre interne pour qu'elle produise des effets juridiques
+Conseil_de_l_Europe	a_créé	Convention_européenne_des_droits_de_l_homme	Le Conseil de l'Europe a élaboré et adopté la Convention européenne des droits de l'homme
+Convention_européenne_des_droits_de_l_homme	protège	État_de_droit	La Convention européenne des droits de l'homme garantit le principe de l'État de droit
+Convention_européenne_des_droits_de_l_homme	protège	Démocratie	La Convention européenne des droits de l'homme promeut et protège la démocratie
+Cour_européenne_des_droits_de_l_homme	applique	Convention_européenne_des_droits_de_l_homme	La Cour européenne des droits de l'homme interprète et applique la Convention
+Droit_européen	inclut	Conseil_de_l_Europe	Le droit européen comprend les normes issues du Conseil de l'Europe
+Droit_européen	inclut	Union_européenne	Le droit européen comprend également les normes issues de l'Union européenne
+Traité	bénéficie_de	Primauté_du_droit_international	Les traités internationaux bénéficient du principe de primauté sur le droit interne
+Article_55_Constitution_française	établit	Primauté_du_droit_international	L'article 55 de la Constitution française consacre la primauté des traités sur les lois
+Traité	peut_avoir	Effet_direct	Certains traités peuvent avoir un effet direct dans l'ordre juridique interne
+Traité	peut_avoir	Effet_indirect	Certains traités nécessitent une transposition pour produire des effets dans l'ordre interne
+Conseil_de_l_Europe	Organisation	Organisation	internationale créée en 1949 pour promouvoir les droits de l'homme et l'État de droit en Europe
+Convention_européenne_des_droits_de_l_homme	Document_juridique	Traité	international adopté par le Conseil de l'Europe en 1950 pour protéger les droits de l'homme et les libertés fondamentales
+État_de_droit	Concept_juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Démocratie	Système_politique	Système	politique fondé sur la prééminence du droit et le respect des libertés individuelles
+Cour_européenne_des_droits_de_l_homme	Institution_juridique	Juridiction	internationale chargée de veiller au respect de la Convention européenne des droits de l'homme
+Union_européenne	Organisation	Organisation	politique et économique distincte du Conseil de l'Europe
+Droit_européen	Domaine_juridique	Ensemble	des règles juridiques issues du Conseil de l'Europe et de l'Union européenne
+Traité	Document_juridique	Accord	international créant des obligations juridiques entre les parties
+Primauté_du_droit_international	Principe_juridique	Principe	selon lequel les traités ont une autorité supérieure aux lois nationales
+Article_55_Constitution_française	Disposition_légale	Article	de la Constitution française établissant la primauté des traités sur les lois
+Effet_direct	Concept_juridique	Capacité	d'une norme internationale à produire des effets juridiques dans l'ordre interne sans nécessiter de transposition
+Effet_indirect	Concept_juridique	Nécessité	de transposer une norme internationale dans l'ordre interne pour qu'elle produise des effets juridiques
+Conseil_de_l_Europe	a_créé	Convention_européenne_des_droits_de_l_homme	Le Conseil de l'Europe a élaboré et adopté la Convention européenne des droits de l'homme
+Convention_européenne_des_droits_de_l_homme	protège	État_de_droit	La Convention européenne des droits de l'homme garantit le principe de l'État de droit
+Convention_européenne_des_droits_de_l_homme	protège	Démocratie	La Convention européenne des droits de l'homme promeut et protège la démocratie
+Cour_européenne_des_droits_de_l_homme	applique	Convention_européenne_des_droits_de_l_homme	La Cour européenne des droits de l'homme interprète et applique la Convention
+Droit_européen	inclut	Conseil_de_l_Europe	Le droit européen comprend les normes issues du Conseil de l'Europe
+Droit_européen	inclut	Union_européenne	Le droit européen comprend également les normes issues de l'Union européenne
+Traité	bénéficie_de	Primauté_du_droit_international	Les traités internationaux bénéficient du principe de primauté sur le droit interne
+Article_55_Constitution_française	établit	Primauté_du_droit_international	L'article 55 de la Constitution française consacre la primauté des traités sur les lois
+Traité	peut_avoir	Effet_direct	Certains traités peuvent avoir un effet direct dans l'ordre juridique interne
+Traité	peut_avoir	Effet_indirect	Certains traités nécessitent une transposition pour produire des effets dans l'ordre interne
+Article_54_Constitution	Entité	Article	de la Constitution française prévoyant un mécanisme préventif pour les traités contraires à la Constitution
+Conseil_constitutionnel	Entité	Institution	chargée de contrôler la constitutionnalité des lois et des traités
+Révision_constitutionnelle	Entité	Procédure	de modification de la Constitution
+Cour_pénale_internationale	Entité	Juridiction	internationale créée par traité
+Souveraineté_de_l'État	Entité	Principe	d'indépendance et d'autorité suprême d'un État
+Arrêt_Jacques_Vabre	Entité	Arrêt	de la Cour de cassation sur la primauté du droit européen
+Arrêt_Nicolo	Entité	Arrêt	du Conseil d'État sur la primauté du droit européen
+Constitution	Entité	Loi	fondamentale de l'État français
+Traité	Entité	Accord	international entre États
+Contrôle_de_conventionnalité	Entité	Contrôle	de la compatibilité du droit interne avec les traités internationaux
+Contrôle_de_proportionnalité	Entité	Méthode	d'arbitrage entre droits fondamentaux
+Présomption_d'innocence	Entité	Principe	juridique protégeant les personnes accusées
+Liberté_d'expression	Entité	Droit	fondamental de communiquer librement ses idées
+Hiérarchie_des_normes	Entité	Organisation	pyramidale des règles de droit
+Droit_de_l'Union_européenne	Entité	Ensemble	des règles juridiques de l'Union européenne
+Séparation_des_pouvoirs	Entité	Principe	d'organisation de l'État
+Article_54_Constitution	prévoit	Révision_constitutionnelle	En cas de traité contraire à la Constitution
+Conseil_constitutionnel	contrôle	Traité	Pour vérifier sa conformité à la Constitution
+Révision_constitutionnelle	permet	Ratification_traité	Pour rendre le traité compatible avec la Constitution
+Cour_pénale_internationale	impact	Souveraineté_de_l'État	Nécessitant une révision constitutionnelle
+Arrêt_Jacques_Vabre	établit	Primauté_droit_européen	Sur le droit interne français
+Arrêt_Nicolo	confirme	Primauté_droit_européen	Par le Conseil d'État
+Constitution	prime_sur	Traité	Dans l'ordre juridique interne français
+Contrôle_de_conventionnalité	vérifie	Compatibilité_droit_interne	Avec les traités internationaux
+Contrôle_de_proportionnalité	arbitre	Droits_fondamentaux	En cas de conflit entre eux
+Présomption_d'innocence	s'oppose_à	Liberté_d'expression	Dans certains cas judiciaires
+Hiérarchie_des_normes	organise	Règles_juridiques	De façon pyramidale
+Droit_de_l'Union_européenne	a_primauté_sur	Droit_interne	Sauf Constitution
+Séparation_des_pouvoirs	justifie	Refus_contrôle_conventionnalité	Initialement par les juridictions françaises
+Article_54_Constitution	Entité	Article	de la Constitution française prévoyant un mécanisme préventif pour les traités contraires à la Constitution
+Conseil_constitutionnel	Entité	Institution	chargée de contrôler la constitutionnalité des lois et des traités
+Révision_constitutionnelle	Entité	Procédure	de modification de la Constitution
+Cour_pénale_internationale	Entité	Juridiction	internationale créée par traité
+Souveraineté_de_l'État	Entité	Principe	d'indépendance et d'autorité suprême d'un État
+Arrêt_Jacques_Vabre	Entité	Arrêt	de la Cour de cassation sur la primauté du droit européen
+Arrêt_Nicolo	Entité	Arrêt	du Conseil d'État sur la primauté du droit européen
+Constitution	Entité	Loi	fondamentale de l'État français
+Traité	Entité	Accord	international entre États
+Contrôle_de_conventionnalité	Entité	Contrôle	de la compatibilité du droit interne avec les traités internationaux
+Contrôle_de_proportionnalité	Entité	Méthode	d'arbitrage entre droits fondamentaux
+Présomption_d'innocence	Entité	Principe	juridique protégeant les personnes accusées
+Liberté_d'expression	Entité	Droit	fondamental de communiquer librement ses idées
+Hiérarchie_des_normes	Entité	Organisation	pyramidale des règles de droit
+Droit_de_l'Union_européenne	Entité	Ensemble	des règles juridiques de l'Union européenne
+Séparation_des_pouvoirs	Entité	Principe	d'organisation de l'État
+Article_54_Constitution	prévoit	Révision_constitutionnelle	En cas de traité contraire à la Constitution
+Conseil_constitutionnel	contrôle	Traité	Pour vérifier sa conformité à la Constitution
+Révision_constitutionnelle	permet	Ratification_traité	Pour rendre le traité compatible avec la Constitution
+Cour_pénale_internationale	impact	Souveraineté_de_l'État	Nécessitant une révision constitutionnelle
+Arrêt_Jacques_Vabre	établit	Primauté_droit_européen	Sur le droit interne français
+Arrêt_Nicolo	confirme	Primauté_droit_européen	Par le Conseil d'État
+Constitution	prime_sur	Traité	Dans l'ordre juridique interne français
+Contrôle_de_conventionnalité	vérifie	Compatibilité_droit_interne	Avec les traités internationaux
+Contrôle_de_proportionnalité	arbitre	Droits_fondamentaux	En cas de conflit entre eux
+Présomption_d'innocence	s'oppose_à	Liberté_d'expression	Dans certains cas judiciaires
+Hiérarchie_des_normes	organise	Règles_juridiques	De façon pyramidale
+Droit_de_l'Union_européenne	a_primauté_sur	Droit_interne	Sauf Constitution
+Séparation_des_pouvoirs	justifie	Refus_contrôle_conventionnalité	Initialement par les juridictions françaises
+Droit_de_l'Union	Concept	Système	juridique de l'Union européenne
+Effet_direct	Principe	Principe	permettant l'application directe du droit de l'UE dans les États membres
+Principe_de_séparation_des_pouvoirs	Concept_juridique	Principe	fondamental du droit constitutionnel
+Contrôle_de_conventionnalité	Procédure_juridique	Contrôle	de la compatibilité d'une norme interne avec un traité international
+Primauté	Principe	Principe	établissant la supériorité du droit de l'UE sur le droit national
+CJCE	Organisation	Cour	de justice des Communautés européennes (avant 2009)
+CJUE	Organisation	Cour	de justice de l'Union européenne (après 2009)
+Arrêt_Van_Gend_en_Loos	Document	Arrêt	établissant le principe de l'effet direct
+Traité	Document_juridique	Accord	international juridiquement contraignant
+Arrêt_Costa_contre_ENEL	Document	Arrêt	établissant le principe de primauté
+Arrêt_Simmenthal	Document	Arrêt	précisant les conséquences du principe de primauté
+Convention	Document_juridique	Synonyme	de traité dans le contexte juridique
+Cour_de_Cassation	Institution_juridique	Plus	haute juridiction de l'ordre judiciaire français
+Traité_CEE	Document	Traité	instituant la Communauté économique européenne
+Droit_communautaire	Concept	Ancienne	appellation du droit de l'Union (avant 2009)
+Règlement_européen	Document	Norme	de portée générale à effet direct
+Conseil_Constitutionnel	Institution_juridique	Institution	chargée du contrôle de constitutionnalité en France
+Arrêt_Jacques_Vabre	Décision_juridique	Arrêt	important de la Cour de cassation en 1975 sur la primauté du droit communautaire
+Droit_communautaire	Système_juridique	Ancien	terme pour le droit de l'Union européenne avant 2009
+Directive_européenne	Document	Norme	fixant des objectifs à transposer par les États membres
+Traité_sur_l'Union_européenne	Document	Traité	définissant le cadre institutionnel de l'UE
+Droit_de_l'Union	Système_juridique	Ensemble	des normes juridiques de l'Union européenne
+Liberté_de_circulation	Principe_juridique	Principe	fondamental du marché européen
+Traité_sur_le_fonctionnement_de_l'UE	Document	Traité	contenant les dispositions substantielles du droit de l'UE
+Tribunal_de_l'Union_européenne	Organisation	Juridiction	de première instance de l'UE
+Commission_européenne	Organisation	Institution	exécutive de l'UE
+Jurisprudence_européenne	Concept	Ensemble	des décisions des juridictions européennes
+Constitution	Document_juridique	Loi	fondamentale d'un État
+Hiérarchie_des_normes	Concept_juridique	Organisation	pyramidale des différentes normes juridiques
+Article_55_de_la_Constitution	Disposition_légale	Article	constitutionnel français sur la primauté des traités
+Soft_law	Concept	Instruments	juridiques non contraignants en droit européen
+Recommandation	Document	Acte	juridique non contraignant du droit de l'UE
+Avis	Document	Acte	juridique non contraignant du droit de l'UE
+Primauté_du_droit_de_l'Union	Principe_juridique	Principe	selon lequel le droit de l'UE prime sur le droit national
+Effet_direct	Principe_juridique	Capacité	d'une norme de l'UE à créer directement des droits pour les particuliers
+Droit_de_l'Union	a_pour_principe	Effet_direct	Le droit de l'Union peut être directement applicable dans les États membres
+Arrêt_Costa_contre_ENEL	Décision_juridique	Arrêt	de la CJCE établissant la primauté du droit communautaire
+Arrêt_Simmenthal	Décision_juridique	Arrêt	de la CJCE précisant les conséquences de la primauté du droit communautaire
+Inapplication_de_plein_droit	Concept_juridique	Sanction	automatique d'une norme nationale contraire au droit de l'UE
+Droit_de_l'Union	a_pour_principe	Primauté	Le droit de l'Union prime sur le droit national
+CJCE	a_rendu	Arrêt_Van_Gend_en_Loos	Arrêt établissant le principe de l'effet direct
+CJCE	a_rendu	Arrêt_Costa_contre_ENEL	Arrêt établissant le principe de primauté
+Contrôle_de_conventionnalité	est_un_type_de	Procédure_juridique	Procédure de contrôle juridique
+CJCE	a_rendu	Arrêt_Simmenthal	Arrêt précisant les conséquences du principe de primauté
+Traité	est_synonyme_de	Convention	Dans le contexte juridique international
+Arrêt_Jacques_Vabre	établit	Primauté_du_droit_de_l'Union	Pour la Cour de cassation française
+Traité_CEE	a_institué	Droit_de_l'Union	Le traité CEE a créé un ordre juridique propre
+Règlement_européen	a_caractéristique	Effet_direct	Les règlements sont directement applicables
+Directive_européenne	nécessite	Transposition	Les directives doivent être transposées par les États membres
+Droit_communautaire	précède	Droit_de_l'Union	Changement de terminologie en 2009
+Liberté_de_circulation	est_un_principe_du	Droit_de_l'Union	Fondement du marché européen
+Traité_sur_l'Union_européenne	définit	Cadre_institutionnel	Le TUE établit le fonctionnement des institutions européennes
+Constitution	est_au_sommet_de	Hiérarchie_des_normes	Dans l'ordre juridique interne
+Article_55_de_la_Constitution	établit	Primauté_du_droit_de_l'Union	Dans l'ordre juridique français
+Traité_sur_le_fonctionnement_de_l'UE	contient	Dispositions_substantielles	Le TFUE contient les règles de fond du droit de l'UE
+Primauté_du_droit_de_l'Union	implique	Inapplication_de_plein_droit	Des normes nationales contraires
+Effet_direct	est_un_attribut_du	Droit_de_l'Union	Sauf pour les directives
+Arrêt_Costa_contre_ENEL	établit	Primauté_du_droit_de_l'Union	Pour la Cour de justice européenne
+CJUE	produit	Jurisprudence_européenne	La CJUE rend des décisions qui forment la jurisprudence européenne
+Soft_law	inclut	Recommandation	Les recommandations sont une forme de soft law en droit européen
+Soft_law	inclut	Avis	Les a
+Arrêt_Simmenthal	précise	Inapplication_de_plein_droit	Conséquence de la primauté du droit de l'UE
+Droit_de_l'Union	Concept	Système	juridique de l'Union européenne
+Effet_direct	Principe	Principe	permettant l'application directe du droit de l'UE dans les États membres
+Primauté	Principe	Principe	établissant la supériorité du droit de l'UE sur le droit national
+CJCE	Organisation	Cour	de justice des Communautés européennes (avant 2009)
+CJUE	Organisation	Cour	de justice de l'Union européenne (après 2009)
+Arrêt_Van_Gend_en_Loos	Document	Arrêt	établissant le principe de l'effet direct
+Arrêt_Costa_contre_ENEL	Document	Arrêt	établissant le principe de primauté
+Principe_de_séparation_des_pouvoirs	Concept_juridique	Principe	fondamental du droit constitutionnel
+Contrôle_de_conventionnalité	Procédure_juridique	Contrôle	de la compatibilité d'une norme interne avec un traité international
+Arrêt_Simmenthal	Document	Arrêt	précisant les conséquences du principe de primauté
+Traité_CEE	Document	Traité	instituant la Communauté économique européenne
+Droit_communautaire	Concept	Ancienne	appellation du droit de l'Union (avant 2009)
+Traité	Document_juridique	Accord	international juridiquement contraignant
+Règlement_européen	Document	Norme	de portée générale à effet direct
+Convention	Document_juridique	Synonyme	de traité dans le contexte juridique
+Directive_européenne	Document	Norme	fixant des objectifs à transposer par les États membres
+Traité_sur_l'Union_européenne	Document	Traité	définissant le cadre institutionnel de l'UE
+Cour_de_Cassation	Institution_juridique	Plus	haute juridiction de l'ordre judiciaire français
+Conseil_Constitutionnel	Institution_juridique	Institution	chargée du contrôle de constitutionnalité en France
+Traité_sur_le_fonctionnement_de_l'UE	Document	Traité	contenant les dispositions substantielles du droit de l'UE
+Arrêt_Jacques_Vabre	Décision_juridique	Arrêt	important de la Cour de cassation en 1975 sur la primauté du droit communautaire
+Tribunal_de_l'Union_européenne	Organisation	Juridiction	de première instance de l'UE
+Commission_européenne	Organisation	Institution	exécutive de l'UE
+Jurisprudence_européenne	Concept	Ensemble	des décisions des juridictions européennes
+Droit_communautaire	Système_juridique	Ancien	terme pour le droit de l'Union européenne avant 2009
+Soft_law	Concept	Instruments	juridiques non contraignants en droit européen
+Recommandation	Document	Acte	juridique non contraignant du droit de l'UE
+Avis	Document	Acte	juridique non contraignant du droit de l'UE
+Droit_de_l'Union	Système_juridique	Ensemble	des normes juridiques de l'Union européenne
+Liberté_de_circulation	Principe_juridique	Principe	fondamental du marché européen
+Constitution	Document_juridique	Loi	fondamentale d'un État
+Hiérarchie_des_normes	Concept_juridique	Organisation	pyramidale des différentes normes juridiques
+Droit_de_l'Union	a_pour_principe	Effet_direct	Le droit de l'Union peut être directement applicable dans les États membres
+Article_55_de_la_Constitution	Disposition_légale	Article	constitutionnel français sur la primauté des traités
+Primauté_du_droit_de_l'Union	Principe_juridique	Principe	selon lequel le droit de l'UE prime sur le droit national
+Effet_direct	Principe_juridique	Capacité	d'une norme de l'UE à créer directement des droits pour les particuliers
+Arrêt_Costa_contre_ENEL	Décision_juridique	Arrêt	de la CJCE établissant la primauté du droit communautaire
+Droit_de_l'Union	a_pour_principe	Primauté	Le droit de l'Union prime sur le droit national
+CJCE	a_rendu	Arrêt_Van_Gend_en_Loos	Arrêt établissant le principe de l'effet direct
+CJCE	a_rendu	Arrêt_Costa_contre_ENEL	Arrêt établissant le principe de primauté
+Arrêt_Simmenthal	Décision_juridique	Arrêt	de la CJCE précisant les conséquences de la primauté du droit communautaire
+Inapplication_de_plein_droit	Concept_juridique	Sanction	automatique d'une norme nationale contraire au droit de l'UE
+CJCE	a_rendu	Arrêt_Simmenthal	Arrêt précisant les conséquences du principe de primauté
+Traité_CEE	a_institué	Droit_de_l'Union	Le traité CEE a créé un ordre juridique propre
+Contrôle_de_conventionnalité	est_un_type_de	Procédure_juridique	Procédure de contrôle juridique
+Règlement_européen	a_caractéristique	Effet_direct	Les règlements sont directement applicables
+Directive_européenne	nécessite	Transposition	Les directives doivent être transposées par les États membres
+Traité	est_synonyme_de	Convention	Dans le contexte juridique international
+Traité_sur_l'Union_européenne	définit	Cadre_institutionnel	Le TUE établit le fonctionnement des institutions européennes
+Arrêt_Jacques_Vabre	établit	Primauté_du_droit_de_l'Union	Pour la Cour de cassation française
+Droit_communautaire	précède	Droit_de_l'Union	Changement de terminologie en 2009
+Traité_sur_le_fonctionnement_de_l'UE	contient	Dispositions_substantielles	Le TFUE contient les règles de fond du droit de l'UE
+CJUE	produit	Jurisprudence_européenne	La CJUE rend des décisions qui forment la jurisprudence européenne
+Soft_law	inclut	Recommandation	Les recommandations sont une forme de soft law en droit européen
+Liberté_de_circulation	est_un_principe_du	Droit_de_l'Union	Fondement du marché européen
+Soft_law	inclut	Avis	Les a
+Constitution	est_au_sommet_de	Hiérarchie_des_normes	Dans l'ordre juridique interne
+Article_55_de_la_Constitution	établit	Primauté_du_droit_de_l'Union	Dans l'ordre juridique français
+Primauté_du_droit_de_l'Union	implique	Inapplication_de_plein_droit	Des normes nationales contraires
+Effet_direct	est_un_attribut_du	Droit_de_l'Union	Sauf pour les directives
+Arrêt_Costa_contre_ENEL	établit	Primauté_du_droit_de_l'Union	Pour la Cour de justice européenne
+Arrêt_Simmenthal	précise	Inapplication_de_plein_droit	Conséquence de la primauté du droit de l'UE
+Contrôle_de_conventionnalité	Concept_juridique	Contrôle	de compatibilité entre le droit interne et les traités internationaux
+Cour_de_cassation	Institution_juridique	Juridiction	suprême de l'ordre judiciaire français
+Conseil_d'État	Institution_juridique	Plus	haute juridiction administrative française
+Traité_de_l'Union_Européenne	Document_juridique	Traité	fondateur de l'Union européenne
+Code_des_droits_de_douane	Document_juridique	Code	français régissant les droits de douane
+Arrêt_Jacques_Vabre	Décision_juridique	Arrêt	de principe de la Cour de cassation sur la primauté du droit européen
+Arrêt_Nicolo	Décision_juridique	Arrêt	du Conseil d'État reconnaissant la primauté du droit européen
+Liberté_de_circulation_des_marchandises	Principe_juridique	Principe	fondamental du marché européen
+Droit_de_l'Union	Système_juridique	Ensemble	des règles juridiques de l'Union européenne
+Hiérarchie_des_normes	Concept_juridique	Organisation	hiérarchique des différentes normes juridiques
+Constitution	Document_juridique	Loi	fondamentale d'un État
+Norme_supralégislative	Concept_juridique	Norme	juridique supérieure à la loi
+Norme_infraconstitutionnelle	Concept_juridique	Norme	juridique inférieure à la constitution
+Article_55_de_la_Constitution	Disposition_légale	Article	établissant la primauté des traités sur les lois en France
+Arrêt_Bosman	Décision_juridique	Arrêt	de la CJUE libéralisant les transferts de footballeurs en Europe
+Contrôle_de_conventionnalité	est_effectué_par	Cour_de_cassation	La Cour de cassation effectue le contrôle de conventionnalité
+Contrôle_de_conventionnalité	est_effectué_par	Conseil_d'État	Le Conseil d'État effectue le contrôle de conventionnalité
+Arrêt_Jacques_Vabre	établit	Contrôle_de_conventionnalité	L'arrêt Jacques Vabre établit le principe du contrôle de conventionnalité
+Traité_de_l'Union_Européenne	prime_sur	Code_des_droits_de_douane	Le traité de l'UE prime sur le Code des droits de douane français
+Liberté_de_circulation_des_marchandises	est_garantie_par	Traité_de_l'Union_Européenne	La liberté de circulation des marchandises est garantie par le traité de l'UE
+Droit_de_l'Union	fait_partie_de	Hiérarchie_des_normes	Le droit de l'Union fait partie de la hiérarchie des normes
+Constitution	est_supérieure_à	Norme_infraconstitutionnelle	La Constitution est supérieure aux normes infraconstitutionnelles
+Norme_supralégislative	est_supérieure_à	Loi	Les normes supralégislatives sont supérieures aux lois
+Article_55_de_la_Constitution	établit	Primauté_des_traités	L'article 55 établit la primauté des traités sur les lois
+Arrêt_Bosman	impacte	Liberté_de_circulation_des_travailleurs	L'arrêt Bosman impacte la liberté de circulation des travailleurs dans l'UE
+Droit_international	Concept	Ensemble	des règles juridiques régissant les relations entre États et organisations internationales
+Traité	Concept	Accord	international conclu entre États ou organisations internationales
+Loi_interne	Concept	Règle	de droit établie par un État pour son propre territoire
+Principe_abrogation_loi_antérieure	Concept	Principe	selon lequel une loi antérieure contraire à un traité est considérée comme abrogée
+Lex_posterior_derogat_priori	Concept	Principe	de droit romain signifiant que la loi postérieure déroge à la loi antérieure
+Convention_Européenne_des_Droits_de_l'Homme	Document_Juridique	Traité	international du Conseil de l'Europe sur les droits de l'homme
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme et l'État de droit en Europe
+Droit_européen	Concept	Ensemble	des règles juridiques applicables dans le cadre de l'Union européenne et du Conseil de l'Europe
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme et la démocratie en Europe
+Contrôle_de_conventionnalité	Concept_juridique	Contrôle	de compatibilité entre le droit interne et les traités internationaux
+Cour_de_cassation	Institution_juridique	Juridiction	suprême de l'ordre judiciaire français
+Union_Européenne	Organisation	Organisation	politique et économique distincte du Conseil de l'Europe
+Conseil_d'État	Institution_juridique	Plus	haute juridiction administrative française
+Traité_de_l'Union_Européenne	Document_juridique	Traité	fondateur de l'Union européenne
+Code_des_droits_de_douane	Document_juridique	Code	français régissant les droits de douane
+Arrêt_Jacques_Vabre	Décision_juridique	Arrêt	de principe de la Cour de cassation sur la primauté du droit européen
+Cour_Européenne_des_Droits_de_l'Homme	Institution	Tribunal	international chargé d'appliquer la Convention Européenne des Droits de l'Homme
+Arrêt_Nicolo	Décision_juridique	Arrêt	du Conseil d'État reconnaissant la primauté du droit européen
+Union_européenne	Organisation	Organisation	supranationale regroupant des États européens
+Liberté_de_circulation_des_marchandises	Principe_juridique	Principe	fondamental du marché européen
+Droit_de_l'Union	Système_juridique	Ensemble	des règles juridiques de l'Union européenne
+Droit_à_la_vie	Droit_Fondamental	Article	2 de la Convention Européenne des Droits de l'Homme
+Interdiction_de_la_torture	Droit_Fondamental	Article	3 de la Convention Européenne des Droits de l'Homme
+Interdiction_de_l'esclavage	Droit_Fondamental	Article	4 de la Convention Européenne des Droits de l'Homme
+Hiérarchie_des_normes	Concept_juridique	Organisation	hiérarchique des différentes normes juridiques
+Convention_européenne	Document	Traité	international adopté par le Conseil de l'Europe pour protéger les droits de l'homme
+Article_55_Constitution	Document	Article	de la Constitution française établissant la primauté des traités sur les lois
+Droit_à_la_liberté	Droit_Fondamental	Article	5 de la Convention Européenne des Droits de l'Homme
+Primauté_droit_international	Concept	Principe	selon lequel le droit international prime sur le droit interne
+Droit_au_procès_équitable	Droit_Fondamental	Article	6 de la Convention Européenne des Droits de l'Homme
+Liberté_de_pensée	Droit_Fondamental	Article	9 de la Convention Européenne des Droits de l'Homme
+Cour_de_justice_UE	Organisation	Institution	judiciaire de l'Union européenne
+Tribunal_constitutionnel_polonais	Organisation	Haute	juridiction polonaise chargée de contrôler la constitutionnalité des lois
+Constitution	Document_juridique	Loi	fondamentale d'un État
+Norme_supralégislative	Concept_juridique	Norme	juridique supérieure à la loi
+Norme_infraconstitutionnelle	Concept_juridique	Norme	juridique inférieure à la constitution
+Article_55_de_la_Constitution	Disposition_légale	Article	établissant la primauté des traités sur les lois en France
+Liberté_d'expression	Droit_Fondamental	Article	10 de la Convention Européenne des Droits de l'Homme
+Droit_de_propriété	Droit_Fondamental	Article	1 du Premier Protocole additionnel à la Convention Européenne des Droits de l'Homme
+Protocole_additionnel	Document_Juridique	Texte	complémentaire à la Convention Européenne des Droits de l'Homme ayant la même valeur juridique
+Effet_direct	Concept	Capacité	d'une norme internationale à être directement applicable dans l'ordre juridique interne
+Arrêt_Bosman	Décision_juridique	Arrêt	de la CJUE libéralisant les transferts de footballeurs en Europe
+Primauté_du_droit_international	Principe_Juridique	Principe	selon lequel le droit international prime sur le droit interne
+Article_55_Constitution_française	Disposition_Légale	Article	constitutionnel établissant la primauté des traités internationaux en droit français
+Effet_indirect	Concept	Nécessité	de transposer une norme internationale dans le droit interne pour qu'elle soit applicable
+Directive_européenne	Concept	Acte	législatif européen fixant des objectifs à atteindre par les États membres
+Règlement_européen	Concept	Acte	législatif européen directement applicable dans tous les États membres
+Contrôle_de_conventionnalité	est_effectué_par	Cour_de_cassation	La Cour de cassation effectue le contrôle de conventionnalité
+Contrôle_de_conventionnalité	est_effectué_par	Conseil_d'État	Le Conseil d'État effectue le contrôle de conventionnalité
+Arrêt_Jacques_Vabre	établit	Contrôle_de_conventionnalité	L'arrêt Jacques Vabre établit le principe du contrôle de conventionnalité
+Effet_direct	Concept_Juridique	Capacité	d'une norme internationale à être directement applicable dans l'ordre juridique interne
+Effet_indirect	Concept_Juridique	Nécessité	de transposer une norme internationale dans le droit interne pour qu'elle soit applicable
+RGPD	Document	Règlement	général sur la protection des données de l'Union européenne
+Traité_de_l'Union_Européenne	prime_sur	Code_des_droits_de_douane	Le traité de l'UE prime sur le Code des droits de douane français
+Effet_direct_vertical	Concept	Possibilité	pour un individu d'invoquer une norme internationale contre l'État
+Effet_direct_horizontal	Concept	Possibilité	d'invoquer une norme internationale entre personnes privées ou entre États
+Droit_international	contient	Traité	Les traités sont une source importante du droit international
+Liberté_de_circulation_des_marchandises	est_garantie_par	Traité_de_l'Union_Européenne	La liberté de circulation des marchandises est garantie par le traité de l'UE
+Droit_de_l'Union	fait_partie_de	Hiérarchie_des_normes	Le droit de l'Union fait partie de la hiérarchie des normes
+Convention_Européenne_des_Droits_de_l'Homme	protège	Droit_à_la_vie	La Convention garantit le droit à la vie
+Constitution	est_supérieure_à	Norme_infraconstitutionnelle	La Constitution est supérieure aux normes infraconstitutionnelles
+Norme_supralégislative	est_supérieure_à	Loi	Les normes supralégislatives sont supérieures aux lois
+Article_55_de_la_Constitution	établit	Primauté_des_traités	L'article 55 établit la primauté des traités sur les lois
+Arrêt_Bosman	impacte	Liberté_de_circulation_des_travailleurs	L'arrêt Bosman impacte la liberté de circulation des travailleurs dans l'UE
+Traité	a_primauté_sur	Loi_interne	Selon le principe de primauté du droit international
+Convention_Européenne_des_Droits_de_l'Homme	interdit	Interdiction_de_la_torture	La Convention interdit la torture
+Principe_abrogation_loi_antérieure	est_basé_sur	Lex_posterior_derogat_priori	Ce principe découle de la maxime latine
+Droit_européen	comprend	Conseil_de_l'Europe	Le Conseil de l'Europe fait partie du droit européen au sens large
+Convention_Européenne_des_Droits_de_l'Homme	garantit	Droit_au_procès_équitable	La Convention assure le droit à un procès équitable
+Conseil_de_l'Europe	a_adopté	Convention_Européenne_des_Droits_de_l'Homme	Le Conseil de l'Europe est à l'origine de la Convention
+Cour_Européenne_des_Droits_de_l'Homme	applique	Convention_Européenne_des_Droits_de_l'Homme	La Cour est chargée d'interpréter et d'appliquer la Convention
+Protocole_additionnel	complète	Convention_Européenne_des_Droits_de_l'Homme	Les protocoles additionnels ajoutent des droits à la Convention initiale
+Droit_européen	comprend	Union_européenne	L'Union européenne est une composante majeure du droit européen
+Conseil_de_l'Europe	a_adopté	Convention_européenne	La Convention européenne est le principal traité du Conseil de l'Europe
+Article_55_Constitution	établit	Primauté_droit_international	Cet article consacre la primauté des traités sur les lois françaises
+Article_55_Constitution_française	établit	Primauté_du_droit_international	L'article 55 consacre la primauté des traités sur les lois nationales
+Cour_de_justice_UE	applique	Droit_européen	La CJUE est chargée d'interpréter et d'appliquer le droit de l'UE
+Tribunal_constitutionnel_polonais	a_contesté	Primauté_droit_international	Dans une décision controversée concernant la réforme judiciaire polonaise
+Effet_direct	est_caractéristique_de	Règlement_européen	Les règlements européens ont un effet direct dans les États membres
+Convention_Européenne_des_Droits_de_l'Homme	Document_Juridique	Traité	international du Conseil de l'Europe sur les droits de l'homme
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme et l'État de droit en Europe
+Union_Européenne	Organisation	Organisation	politique et économique distincte du Conseil de l'Europe
+Cour_Européenne_des_Droits_de_l'Homme	Institution	Tribunal	international chargé d'appliquer la Convention Européenne des Droits de l'Homme
+Droit_international	Concept	Ensemble	des règles juridiques régissant les relations entre États et organisations internationales
+Droit_à_la_vie	Droit_Fondamental	Article	2 de la Convention Européenne des Droits de l'Homme
+Interdiction_de_la_torture	Droit_Fondamental	Article	3 de la Convention Européenne des Droits de l'Homme
+Interdiction_de_l'esclavage	Droit_Fondamental	Article	4 de la Convention Européenne des Droits de l'Homme
+Traité	Concept	Accord	international conclu entre États ou organisations internationales
+Droit_à_la_liberté	Droit_Fondamental	Article	5 de la Convention Européenne des Droits de l'Homme
+Droit_au_procès_équitable	Droit_Fondamental	Article	6 de la Convention Européenne des Droits de l'Homme
+Liberté_de_pensée	Droit_Fondamental	Article	9 de la Convention Européenne des Droits de l'Homme
+Liberté_d'expression	Droit_Fondamental	Article	10 de la Convention Européenne des Droits de l'Homme
+Loi_interne	Concept	Règle	de droit établie par un État pour son propre territoire
+Droit_de_propriété	Droit_Fondamental	Article	1 du Premier Protocole additionnel à la Convention Européenne des Droits de l'Homme
+Principe_abrogation_loi_antérieure	Concept	Principe	selon lequel une loi antérieure contraire à un traité est considérée comme abrogée
+Protocole_additionnel	Document_Juridique	Texte	complémentaire à la Convention Européenne des Droits de l'Homme ayant la même valeur juridique
+Lex_posterior_derogat_priori	Concept	Principe	de droit romain signifiant que la loi postérieure déroge à la loi antérieure
+Droit_européen	Concept	Ensemble	des règles juridiques applicables dans le cadre de l'Union européenne et du Conseil de l'Europe
+Primauté_du_droit_international	Principe_Juridique	Principe	selon lequel le droit international prime sur le droit interne
+Article_55_Constitution_française	Disposition_Légale	Article	constitutionnel établissant la primauté des traités internationaux en droit français
+Effet_direct	Concept_Juridique	Capacité	d'une norme internationale à être directement applicable dans l'ordre juridique interne
+Effet_indirect	Concept_Juridique	Nécessité	de transposer une norme internationale dans le droit interne pour qu'elle soit applicable
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme et la démocratie en Europe
+Union_européenne	Organisation	Organisation	supranationale regroupant des États européens
+Convention_Européenne_des_Droits_de_l'Homme	protège	Droit_à_la_vie	La Convention garantit le droit à la vie
+Convention_européenne	Document	Traité	international adopté par le Conseil de l'Europe pour protéger les droits de l'homme
+Convention_Européenne_des_Droits_de_l'Homme	interdit	Interdiction_de_la_torture	La Convention interdit la torture
+Article_55_Constitution	Document	Article	de la Constitution française établissant la primauté des traités sur les lois
+Convention_Européenne_des_Droits_de_l'Homme	garantit	Droit_au_procès_équitable	La Convention assure le droit à un procès équitable
+Conseil_de_l'Europe	a_adopté	Convention_Européenne_des_Droits_de_l'Homme	Le Conseil de l'Europe est à l'origine de la Convention
+Cour_Européenne_des_Droits_de_l'Homme	applique	Convention_Européenne_des_Droits_de_l'Homme	La Cour est chargée d'interpréter et d'appliquer la Convention
+Protocole_additionnel	complète	Convention_Européenne_des_Droits_de_l'Homme	Les protocoles additionnels ajoutent des droits à la Convention initiale
+Primauté_droit_international	Concept	Principe	selon lequel le droit international prime sur le droit interne
+Article_55_Constitution_française	établit	Primauté_du_droit_international	L'article 55 consacre la primauté des traités sur les lois nationales
+Cour_de_justice_UE	Organisation	Institution	judiciaire de l'Union européenne
+Tribunal_constitutionnel_polonais	Organisation	Haute	juridiction polonaise chargée de contrôler la constitutionnalité des lois
+Effet_direct	Concept	Capacité	d'une norme internationale à être directement applicable dans l'ordre juridique interne
+Effet_indirect	Concept	Nécessité	de transposer une norme internationale dans le droit interne pour qu'elle soit applicable
+Directive_européenne	Concept	Acte	législatif européen fixant des objectifs à atteindre par les États membres
+Règlement_européen	Concept	Acte	législatif européen directement applicable dans tous les États membres
+RGPD	Document	Règlement	général sur la protection des données de l'Union européenne
+Effet_direct_vertical	Concept	Possibilité	pour un individu d'invoquer une norme internationale contre l'État
+Effet_direct_horizontal	Concept	Possibilité	d'invoquer une norme internationale entre personnes privées ou entre États
+Droit_international	contient	Traité	Les traités sont une source importante du droit international
+Traité	a_primauté_sur	Loi_interne	Selon le principe de primauté du droit international
+Principe_abrogation_loi_antérieure	est_basé_sur	Lex_posterior_derogat_priori	Ce principe découle de la maxime latine
+Droit_européen	comprend	Conseil_de_l'Europe	Le Conseil de l'Europe fait partie du droit européen au sens large
+Droit_européen	comprend	Union_européenne	L'Union européenne est une composante majeure du droit européen
+Conseil_de_l'Europe	a_adopté	Convention_européenne	La Convention européenne est le principal traité du Conseil de l'Europe
+Article_55_Constitution	établit	Primauté_droit_international	Cet article consacre la primauté des traités sur les lois françaises
+Cour_de_justice_UE	applique	Droit_européen	La CJUE est chargée d'interpréter et d'appliquer le droit de l'UE
+Tribunal_constitutionnel_polonais	a_contesté	Primauté_droit_international	Dans une décision controversée concernant la réforme judiciaire polonaise
+Effet_direct	est_caractéristique_de	Règlement_européen	Les règlements européens ont un effet direct dans les États membres
+Droit_européen	Domaine_juridique	Système	juridique de l'Union européenne
+Bloc_de_constitutionnalité	Concept_juridique	Ensemble	des normes de valeur constitutionnelle
+Bloc_de_conventionnalité	Concept_juridique	Ensemble	des normes issues des traités internationaux
+Pyramide_des_normes	Concept_juridique	Hiérarchie	des normes juridiques
+Droit_de_l'Union	Domaine_juridique	Droit	issu de l'Union européenne
+Droit_interne	Domaine_juridique	Droit	national d'un État
+Droit_primaire	Type_droit	Droit	issu des traités européens
+Droit_dérivé	Type_droit	Droit	issu des institutions européennes
+TFUE	Traité	Traité	sur le fonctionnement de l'Union européenne
+RGPD	Règlement	Règlement	général sur la protection des données
+Article_55_Constitution	Article_juridique	Article	de la Constitution française sur les traités internationaux
+Article_54_Constitution	Article_juridique	Article	sur la révision constitutionnelle avant ratification d'un traité
+Traité_de_Maastricht	Traité	Traité	fondateur de l'Union européenne de 1992
+Principe_de_primauté	Principe_juridique	Principe	de supériorité du droit de l'UE sur le droit national
+Cour_de_justice	Institution	Cour	de justice de l'Union européenne
+Conseil_d'État	Institution	Plus	haute juridiction administrative française
+Cour_de_cassation	Institution	Plus	haute juridiction judiciaire française
+Arrêt_Sarran_Levacher	Jurisprudence	Arrêt	du Conseil d'État sur la hiérarchie des normes
+Arrêt_Fraisse	Jurisprudence	Arrêt	de la Cour de cassation sur la hiérarchie des normes
+Contrôle_de_proportionnalité	Méthode_juridique	Méthode	d'arbitrage entre droits fondamentaux
+Droit_européen	inverse	Droit_interne	Le droit européen inverse la hiérarchie du droit interne
+Droit_de_l'Union	comprend	Droit_primaire	Le droit de l'Union inclut le droit primaire
+Droit_de_l'Union	comprend	Droit_dérivé	Le droit de l'Union inclut le droit dérivé
+Droit_primaire	exemple	TFUE	Le TFUE est un exemple de droit primaire
+Droit_dérivé	exemple	RGPD	Le RGPD est un exemple de droit dérivé
+Droit_dérivé	prime_sur	Normes_infraconstitutionnelles	Le droit dérivé prime sur les normes infraconstitutionnelles
+Article_54_Constitution	définit	Démarche_préventive	L'article 54 définit la démarche préventive de révision constitutionnelle
+Traité_de_Maastricht	approfondit	Intégration_européenne	Le traité de Maastricht a approfondi l'intégration européenne
+Principe_de_primauté	défini_par	Cour_de_justice	Le principe de primauté est défini par la Cour de justice
+Conseil_d'État	a_rendu	Arrêt_Sarran_Levacher	Le Conseil d'État a rendu l'arrêt Sarran Levacher
+Cour_de_cassation	a_rendu	Arrêt_Fraisse	La Cour de cassation a rendu l'arrêt Fraisse
+Arrêt_Sarran_Levacher	établit	Supériorité_Constitution	L'arrêt établit la supériorité de la Constitution sur les
+Droit_européen	Domaine_juridique	Système	juridique de l'Union européenne
+Bloc_de_constitutionnalité	Concept_juridique	Ensemble	des normes de valeur constitutionnelle
+Bloc_de_conventionnalité	Concept_juridique	Ensemble	des normes issues des traités internationaux
+Pyramide_des_normes	Concept_juridique	Hiérarchie	des normes juridiques
+Droit_de_l'Union	Domaine_juridique	Droit	issu de l'Union européenne
+Droit_interne	Domaine_juridique	Droit	national d'un État
+Droit_primaire	Type_droit	Droit	issu des traités européens
+Droit_dérivé	Type_droit	Droit	issu des institutions européennes
+TFUE	Traité	Traité	sur le fonctionnement de l'Union européenne
+RGPD	Règlement	Règlement	général sur la protection des données
+Article_55_Constitution	Article_juridique	Article	de la Constitution française sur les traités internationaux
+Article_54_Constitution	Article_juridique	Article	sur la révision constitutionnelle avant ratification d'un traité
+Traité_de_Maastricht	Traité	Traité	fondateur de l'Union européenne de 1992
+Principe_de_primauté	Principe_juridique	Principe	de supériorité du droit de l'UE sur le droit national
+Cour_de_justice	Institution	Cour	de justice de l'Union européenne
+Conseil_d'État	Institution	Plus	haute juridiction administrative française
+Cour_de_cassation	Institution	Plus	haute juridiction judiciaire française
+Arrêt_Sarran_Levacher	Jurisprudence	Arrêt	du Conseil d'État sur la hiérarchie des normes
+Arrêt_Fraisse	Jurisprudence	Arrêt	de la Cour de cassation sur la hiérarchie des normes
+Contrôle_de_proportionnalité	Méthode_juridique	Méthode	d'arbitrage entre droits fondamentaux
+Droit_européen	inverse	Droit_interne	Le droit européen inverse la hiérarchie du droit interne
+Droit_de_l'Union	comprend	Droit_primaire	Le droit de l'Union inclut le droit primaire
+Droit_de_l'Union	comprend	Droit_dérivé	Le droit de l'Union inclut le droit dérivé
+Droit_primaire	exemple	TFUE	Le TFUE est un exemple de droit primaire
+Droit_dérivé	exemple	RGPD	Le RGPD est un exemple de droit dérivé
+Droit_dérivé	prime_sur	Normes_infraconstitutionnelles	Le droit dérivé prime sur les normes infraconstitutionnelles
+Article_54_Constitution	définit	Démarche_préventive	L'article 54 définit la démarche préventive de révision constitutionnelle
+Traité_de_Maastricht	approfondit	Intégration_européenne	Le traité de Maastricht a approfondi l'intégration européenne
+Principe_de_primauté	défini_par	Cour_de_justice	Le principe de primauté est défini par la Cour de justice
+Conseil_d'État	a_rendu	Arrêt_Sarran_Levacher	Le Conseil d'État a rendu l'arrêt Sarran Levacher
+Cour_de_cassation	a_rendu	Arrêt_Fraisse	La Cour de cassation a rendu l'arrêt Fraisse
+Arrêt_Sarran_Levacher	établit	Supériorité_Constitution	L'arrêt établit la supériorité de la Constitution sur les
+Droit_de_l'Union_européenne	Concept	Système	juridique de l'Union européenne
+Droit_primaire	Concept	Droit	originaire de l'UE, comprenant les traités
+Droit_dérivé	Concept	Droit	produit par les institutions européennes
+Traité_sur_le_fonctionnement_de_l'Union_européenne	Document	Traité	contenant les dispositions substantielles du droit de l'UE
+Traité_sur_l'Union_européenne	Document	Traité	contenant le droit institutionnel et constitutionnel de l'UE
+Règlement_européen	Document	Norme	de portée générale avec effet direct dans le droit de l'UE
+Directive_européenne	Document	Norme	fixant des objectifs à transposer par les États membres
+Cour_de_justice_de_l'Union_européenne	Organisation	Plus	haute juridiction de l'UE
+Tribunal_de_l'Union_européenne	Organisation	Juridiction	de second degré de l'UE
+Commission_européenne	Organisation	Institution	proposant et appliquant le droit de l'UE
+Jurisprudence_européenne	Concept	Ensemble	des décisions des juridictions européennes
+Soft_law	Concept	Ensemble	des recommandations et avis non contraignants en droit européen
+Effet_direct	Concept	Applicabilité	directe du droit de l'UE dans les États membres
+Effet_indirect	Concept	Nécessité	de transposition du droit de l'UE par les États membres
+Convention_européenne_des_droits_de_l'homme	Document	Traité	international protégeant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation	Organisation	internationale distincte de l'UE, auteur de la CEDH
+Cour_européenne_des_droits_de_l'homme	Organisation	Juridiction	appliquant la CEDH
+Droit_primaire	Inclut	Traité_sur_le_fonctionnement_de_l'Union_européenne	Le TFUE fait partie du droit primaire de l'UE
+Droit_primaire	Inclut	Traité_sur_l'Union_européenne	Le TUE fait partie du droit primaire de l'UE
+Droit_dérivé	Inclut	Règlement_européen	Les règlements font partie du droit dérivé de l'UE
+Droit_dérivé	Inclut	Directive_européenne	Les directives font partie du droit dérivé de l'UE
+Cour_de_justice_de_l'Union_européenne	Produit	Jurisprudence_européenne	La CJUE contribue à la jurisprudence européenne
+Règlement_européen	A_pour_caractéristique	Effet_direct	Les règlements ont un effet direct dans les États membres
+Directive_européenne	A_pour_caractéristique	Effet_indirect	Les directives nécessitent une transposition nationale
+Commission_européenne	Propose	Droit_dérivé	La Commission propose des actes de droit dérivé
+Droit_de_l'Union_européenne	Se_distingue_de	Convention_européenne_des_droits_de_l'homme	Le droit de l'UE et la CEDH sont deux systèmes juridiques distincts
+Conseil_de_l'Europe	A_créé	Convention_européenne_des_droits_de_l'homme	Le Conseil de l'Europe est à l'origine de la CEDH
+Cour_européenne_des_droits_de_l'homme	Applique	Convention_européenne_des_droits_de_l'homme	La CEDH est appliquée par la Cour européenne des droits de l'homme
+Droit_de_l'Union_européenne	Concept	Système	juridique de l'Union européenne
+Droit_primaire	Concept	Droit	originaire de l'UE, comprenant les traités
+Droit_dérivé	Concept	Droit	produit par les institutions européennes
+Traité_sur_le_fonctionnement_de_l'Union_européenne	Document	Traité	contenant les dispositions substantielles du droit de l'UE
+Traité_sur_l'Union_européenne	Document	Traité	contenant le droit institutionnel et constitutionnel de l'UE
+Règlement_européen	Document	Norme	de portée générale avec effet direct dans le droit de l'UE
+Directive_européenne	Document	Norme	fixant des objectifs à transposer par les États membres
+Cour_de_justice_de_l'Union_européenne	Organisation	Plus	haute juridiction de l'UE
+Tribunal_de_l'Union_européenne	Organisation	Juridiction	de second degré de l'UE
+Commission_européenne	Organisation	Institution	proposant et appliquant le droit de l'UE
+Jurisprudence_européenne	Concept	Ensemble	des décisions des juridictions européennes
+Soft_law	Concept	Ensemble	des recommandations et avis non contraignants en droit européen
+Effet_direct	Concept	Applicabilité	directe du droit de l'UE dans les États membres
+Effet_indirect	Concept	Nécessité	de transposition du droit de l'UE par les États membres
+Convention_européenne_des_droits_de_l'homme	Document	Traité	international protégeant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation	Organisation	internationale distincte de l'UE, auteur de la CEDH
+Cour_européenne_des_droits_de_l'homme	Organisation	Juridiction	appliquant la CEDH
+Droit_primaire	Inclut	Traité_sur_le_fonctionnement_de_l'Union_européenne	Le TFUE fait partie du droit primaire de l'UE
+Droit_primaire	Inclut	Traité_sur_l'Union_européenne	Le TUE fait partie du droit primaire de l'UE
+Droit_dérivé	Inclut	Règlement_européen	Les règlements font partie du droit dérivé de l'UE
+Droit_dérivé	Inclut	Directive_européenne	Les directives font partie du droit dérivé de l'UE
+Cour_de_justice_de_l'Union_européenne	Produit	Jurisprudence_européenne	La CJUE contribue à la jurisprudence européenne
+Règlement_européen	A_pour_caractéristique	Effet_direct	Les règlements ont un effet direct dans les États membres
+Directive_européenne	A_pour_caractéristique	Effet_indirect	Les directives nécessitent une transposition nationale
+Commission_européenne	Propose	Droit_dérivé	La Commission propose des actes de droit dérivé
+Droit_de_l'Union_européenne	Se_distingue_de	Convention_européenne_des_droits_de_l'homme	Le droit de l'UE et la CEDH sont deux systèmes juridiques distincts
+Conseil_de_l'Europe	A_créé	Convention_européenne_des_droits_de_l'homme	Le Conseil de l'Europe est à l'origine de la CEDH
+Cour_européenne_des_droits_de_l'homme	Applique	Convention_européenne_des_droits_de_l'homme	La CEDH est appliquée par la Cour européenne des droits de l'homme
+Affaire_Bosman	Jurisprudence	Arrêt	important de la Cour de justice de l'UE concernant la libre circulation des joueurs de football
+Royal_Club_Liégeois	Organisation	Club	de football belge impliqué dans l'affaire Bosman
+Dunkerque	Organisation	Club	de football français impliqué dans l'affaire Bosman
+UEFA	Organisation	Confédération	européenne de football
+Indemnités_de_transfert	Concept	Paiement	réglementaire lors du transfert de joueurs entre pays
+Clauses_de_nationalité	Concept	Limitations	sur le nombre de joueurs étrangers dans une équipe
+Cour_de_justice_UE	Organisation	Organe	judiciaire suprême de l'Union européenne
+Liberté_de_circulation_des_travailleurs	Concept	Principe	fondamental du droit de l'UE permettant aux travailleurs de se déplacer librement
+Effet_direct	Concept	Principe	juridique permettant l'application directe du droit de l'UE dans les États membres
+Primauté	Concept	Principe	établissant la supériorité du droit de l'UE sur le droit national
+Arrêt_Costa_ENEL	Jurisprudence	Arrêt	établissant le principe de primauté du droit de l'UE
+Arrêt_Van_Gend_en_Loos	Jurisprudence	Arrêt	établissant le principe de l'effet direct du droit de l'UE
+Arrêt_Simmenthal	Jurisprudence	Arrêt	précisant les conséquences du principe de primauté
+Droit_communautaire	Concept	Ancienne	appellation du droit de l'UE avant 2009
+Droit_de_l'Union	Concept	Appellation	actuelle du système juridique de l'UE
+Règlement_européen	Concept	Acte	législatif de l'UE directement applicable dans tous les États membres
+Directive_européenne	Concept	Acte	législatif de l'UE fixant des objectifs à atteindre par les États membres
+TFUE	Document	Traité	sur le fonctionnement de l'Union européenne
+TUE	Document	Traité	sur l'Union européenne
+Droit_primaire	Concept	Ensemble	des traités fondateurs de l'UE
+Droit_dérivé	Concept	Actes	juridiques adoptés par les institutions de l'UE sur la base des traités
+Affaire_Bosman	concerne	Liberté_de_circulation_des_travailleurs	L'affaire Bosman a établi l'application de la liberté de circulation aux joueurs de football
+Cour_de_justice_UE	a_rendu	Affaire_Bosman	La Cour de justice a statué sur l'affaire Bosman
+Indemnités_de_transfert	entrave	Liberté_de_circulation_des_travailleurs	Les indemnités de transfert ont été jugées comme une entrave à la libre circulation
+Clauses_de_nationalité	entrave	Liberté_de_circulation_des_travailleurs	Les clauses de nationalité ont été jugées comme une entrave à la libre circulation
+Arrêt_Costa_ENEL	établit	Primauté	L'arrêt Costa contre ENEL a établi le principe de primauté du droit de l'UE
+Arrêt_Van_Gend_en_Loos	établit	Effet_direct	L'arrêt Van Gend en Loos a établi le principe de l'effet direct du droit de l'UE
+Droit_communautaire	précède	Droit_de_l'Union	Le droit communautaire est l'ancienne appellation du droit de l'Union
+Règlement_européen	a_caractéristique	Effet_direct	Les règlements européens
+Affaire_Bosman	Jurisprudence	Arrêt	important de la Cour de justice de l'UE concernant la libre circulation des joueurs de football
+Royal_Club_Liégeois	Organisation	Club	de football belge impliqué dans l'affaire Bosman
+Dunkerque	Organisation	Club	de football français impliqué dans l'affaire Bosman
+UEFA	Organisation	Confédération	européenne de football
+Indemnités_de_transfert	Concept	Paiement	réglementaire lors du transfert de joueurs entre pays
+Clauses_de_nationalité	Concept	Limitations	sur le nombre de joueurs étrangers dans une équipe
+Cour_de_justice_UE	Organisation	Organe	judiciaire suprême de l'Union européenne
+Liberté_de_circulation_des_travailleurs	Concept	Principe	fondamental du droit de l'UE permettant aux travailleurs de se déplacer librement
+Effet_direct	Concept	Principe	juridique permettant l'application directe du droit de l'UE dans les États membres
+Primauté	Concept	Principe	établissant la supériorité du droit de l'UE sur le droit national
+Arrêt_Costa_ENEL	Jurisprudence	Arrêt	établissant le principe de primauté du droit de l'UE
+Arrêt_Van_Gend_en_Loos	Jurisprudence	Arrêt	établissant le principe de l'effet direct du droit de l'UE
+Arrêt_Simmenthal	Jurisprudence	Arrêt	précisant les conséquences du principe de primauté
+Droit_communautaire	Concept	Ancienne	appellation du droit de l'UE avant 2009
+Droit_de_l'Union	Concept	Appellation	actuelle du système juridique de l'UE
+Règlement_européen	Concept	Acte	législatif de l'UE directement applicable dans tous les États membres
+Directive_européenne	Concept	Acte	législatif de l'UE fixant des objectifs à atteindre par les États membres
+TFUE	Document	Traité	sur le fonctionnement de l'Union européenne
+TUE	Document	Traité	sur l'Union européenne
+Droit_primaire	Concept	Ensemble	des traités fondateurs de l'UE
+Droit_dérivé	Concept	Actes	juridiques adoptés par les institutions de l'UE sur la base des traités
+Affaire_Bosman	concerne	Liberté_de_circulation_des_travailleurs	L'affaire Bosman a établi l'application de la liberté de circulation aux joueurs de football
+Cour_de_justice_UE	a_rendu	Affaire_Bosman	La Cour de justice a statué sur l'affaire Bosman
+Indemnités_de_transfert	entrave	Liberté_de_circulation_des_travailleurs	Les indemnités de transfert ont été jugées comme une entrave à la libre circulation
+Clauses_de_nationalité	entrave	Liberté_de_circulation_des_travailleurs	Les clauses de nationalité ont été jugées comme une entrave à la libre circulation
+Arrêt_Costa_ENEL	établit	Primauté	L'arrêt Costa contre ENEL a établi le principe de primauté du droit de l'UE
+Arrêt_Van_Gend_en_Loos	établit	Effet_direct	L'arrêt Van Gend en Loos a établi le principe de l'effet direct du droit de l'UE
+Droit_communautaire	précède	Droit_de_l'Union	Le droit communautaire est l'ancienne appellation du droit de l'Union
+Règlement_européen	a_caractéristique	Effet_direct	Les règlements européens
+Convention_européenne_des_droits_de_l'homme	Document_juridique	Traité	international garantissant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation_internationale	Organisation	internationale promouvant les droits de l'homme et l'État de droit en Europe
+Cour_européenne_des_droits_de_l'homme	Institution_judiciaire	Cour	internationale chargée d'appliquer la Convention européenne des droits de l'homme
+Protocole_additionnel	Document_juridique	Texte	ajouté à la Convention européenne des droits de l'homme ayant la même valeur juridique
+Droit_à_la_vie	Droit_fondamental	Article	2 de la Convention européenne des droits de l'homme
+Interdiction_de_la_torture	Droit_fondamental	Article	3 de la Convention européenne des droits de l'homme
+Interdiction_de_l'esclavage	Droit_fondamental	Article	4 de la Convention européenne des droits de l'homme
+Droit_à_la_liberté	Droit_fondamental	Article	5 de la Convention européenne des droits de l'homme
+Droit_au_procès_équitable	Droit_fondamental	Article	6 de la Convention européenne des droits de l'homme
+Principe_de_légalité_des_délits_et_des_peines	Principe_juridique	Article	7 de la Convention européenne des droits de l'homme
+Droit_au_respect_de_la_vie_privée	Droit_fondamental	Article	8 de la Convention européenne des droits de l'homme
+Liberté_de_pensée	Droit_fondamental	Article	9 de la Convention européenne des droits de l'homme
+Liberté_d'expression	Droit_fondamental	Article	10 de la Convention européenne des droits de l'homme
+Liberté_de_réunion	Droit_fondamental	Article	11 de la Convention européenne des droits de l'homme
+Droit_au_mariage	Droit_fondamental	Article	12 de la Convention européenne des droits de l'homme
+Droit_de_recours_effectif	Droit_fondamental	Article	13 de la Convention européenne des droits de l'homme
+Interdiction_de_discrimination	Principe_juridique	Article	14 de la Convention européenne des droits de l'homme
+Droit_de_propriété	Droit_fondamental	Article	1 du premier protocole additionnel à la Convention européenne des droits de l'homme
+Non_bis_in_idem	Principe_juridique	Principe	interdisant d'être jugé deux fois pour les mêmes faits
+Domaine_d'application	Concept_juridique	Champ	d'application d'un texte de loi
+Ratione_personae	Concept_juridique	Domaine	d'application d'une règle concernant les personnes
+État_de_droit	Concept_juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Ordre_public_constitutionnel_européen	Concept_juridique	Ensemble	des principes fondamentaux garantis par la Convention européenne des droits de l'homme
+Primauté_du_droit_international	Principe_juridique	Principe	selon lequel les traités internationaux ont une autorité supérieure aux lois nationales
+Convention_européenne_des_droits_de_l'homme	protège	Droit_à_la_vie	La Convention garantit le droit à la vie
+Convention_européenne_des_droits_de_l'homme	protège	Interdiction_de_la_torture	La Convention interdit la torture
+Convention_européenne_des_droits_de_l'homme	protège	Interdiction_de_l'esclavage	La Convention interdit l'esclavage
+Convention_européenne_des_droits_de_l'homme	Document_juridique	Traité	international garantissant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation_internationale	Organisation	internationale promouvant les droits de l'homme et l'État de droit en Europe
+Cour_européenne_des_droits_de_l'homme	Institution_judiciaire	Cour	internationale chargée d'appliquer la Convention européenne des droits de l'homme
+Protocole_additionnel	Document_juridique	Texte	ajouté à la Convention européenne des droits de l'homme ayant la même valeur juridique
+Droit_à_la_vie	Droit_fondamental	Article	2 de la Convention européenne des droits de l'homme
+Interdiction_de_la_torture	Droit_fondamental	Article	3 de la Convention européenne des droits de l'homme
+Interdiction_de_l'esclavage	Droit_fondamental	Article	4 de la Convention européenne des droits de l'homme
+Droit_à_la_liberté	Droit_fondamental	Article	5 de la Convention européenne des droits de l'homme
+Droit_au_procès_équitable	Droit_fondamental	Article	6 de la Convention européenne des droits de l'homme
+Principe_de_légalité_des_délits_et_des_peines	Principe_juridique	Article	7 de la Convention européenne des droits de l'homme
+Droit_au_respect_de_la_vie_privée	Droit_fondamental	Article	8 de la Convention européenne des droits de l'homme
+Liberté_de_pensée	Droit_fondamental	Article	9 de la Convention européenne des droits de l'homme
+Liberté_d'expression	Droit_fondamental	Article	10 de la Convention européenne des droits de l'homme
+Liberté_de_réunion	Droit_fondamental	Article	11 de la Convention européenne des droits de l'homme
+Droit_au_mariage	Droit_fondamental	Article	12 de la Convention européenne des droits de l'homme
+Droit_de_recours_effectif	Droit_fondamental	Article	13 de la Convention européenne des droits de l'homme
+Interdiction_de_discrimination	Principe_juridique	Article	14 de la Convention européenne des droits de l'homme
+Droit_de_propriété	Droit_fondamental	Article	1 du premier protocole additionnel à la Convention européenne des droits de l'homme
+Non_bis_in_idem	Principe_juridique	Principe	interdisant d'être jugé deux fois pour les mêmes faits
+Domaine_d'application	Concept_juridique	Champ	d'application d'un texte de loi
+Ratione_personae	Concept_juridique	Domaine	d'application d'une règle concernant les personnes
+État_de_droit	Concept_juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Ordre_public_constitutionnel_européen	Concept_juridique	Ensemble	des principes fondamentaux garantis par la Convention européenne des droits de l'homme
+Primauté_du_droit_international	Principe_juridique	Principe	selon lequel les traités internationaux ont une autorité supérieure aux lois nationales
+Convention_européenne_des_droits_de_l'homme	protège	Droit_à_la_vie	La Convention garantit le droit à la vie
+Convention_européenne_des_droits_de_l'homme	protège	Interdiction_de_la_torture	La Convention interdit la torture
+Convention_européenne_des_droits_de_l'homme	protège	Interdiction_de_l'esclavage	La Convention interdit l'esclavage
+Contrôle_de_conventionnalité	Concept_juridique	Contrôle	de la compatibilité du droit interne avec les traités internationaux
+Contrôle_de_proportionnalité	Concept_juridique	Mise	en balance des droits fondamentaux en conflit
+Présomption_d'innocence	Principe_juridique	Droit	fondamental de l'accusé d'être présumé innocent jusqu'à preuve du contraire
+Liberté_d'expression	Droit_fondamental	Droit	de s'exprimer librement sans censure
+Hiérarchie_des_normes	Concept_juridique	Organisation	hiérarchique des différentes normes juridiques
+Constitution	Texte_juridique	Texte	fondamental d'un État, au sommet de la hiérarchie des normes
+Traité	Texte_juridique	Accord	international entre États
+Loi	Texte_juridique	Règle	de droit votée par le Parlement
+Cour_de_cassation	Institution_juridique	Plus	haute juridiction de l'ordre judiciaire français
+Conseil_d'État	Institution_juridique	Plus	haute juridiction de l'ordre administratif français
+Cour_de_Justice_de_l'Union_Européenne	Institution_juridique	Juridiction	chargée d'interpréter le droit de l'Union européenne
+Droit_de_l'Union_européenne	Système_juridique	Ensemble	des règles juridiques applicables au sein de l'Union européenne
+Liberté_de_circulation	Principe_juridique	Principe	fondamental du droit de l'Union européenne
+Séparation_des_pouvoirs	Principe_juridique	Principe	d'organisation de l'État séparant les pouvoirs législatif, exécutif et judiciaire
+Arrêt_Jacques_Vabre	Décision_juridique	Arrêt	de la Cour de cassation établissant la primauté du droit communautaire sur le droit national
+Arrêt_Nicolo	Décision_juridique	Arrêt	du Conseil d'État reconnaissant la primauté des traités internationaux sur les lois
+Arrêt_Bosman	Décision_juridique	Arrêt	de la CJUE libéralisant les transferts de footballeurs dans l'UE
+Contrôle_de_conventionnalité	est_un_type_de	Contrôle_juridique	Le contrôle de conventionnalité est une forme de contrôle juridique
+Contrôle_de_proportionnalité	est_utilisé_dans	Contrôle_de_conventionnalité	Le contrôle de proportionnalité est souvent utilisé dans le contrôle de conventionnalité
+Présomption_d'innocence	est_en_conflit_avec	Liberté_d'expression	Ces deux droits fondamentaux peuvent entrer en conflit
+Constitution	est_au_sommet_de	Hiérarchie_des_normes	La Constitution est la norme suprême dans l'ordre juridique interne
+Traité	a_primauté_sur	Loi	Les traités internationaux ont primauté sur les lois nationales selon l'article 55 de la Constitution
+Cour_de_cassation	effectue	Contrôle_de_conventionnalité	La Cour de cassation effectue le contrôle de conventionnalité depuis l'arrêt Jacques Vabre
+Conseil_d'État	effectue	Contrôle_de_conventionnalité	Le Conseil d'État effectue le contrôle de conventionnalité depuis l'arrêt Nicolo
+Droit_de_l'Union_européenne	inclut	Liberté_de_circulation	La liberté de circulation est un principe fondamental du droit de l'UE
+Arrêt_Jacques_Vabre	établit	Primauté_du_droit_communautaire	Cet arrê
+Contrôle_de_conventionnalité	Concept_juridique	Contrôle	de la compatibilité du droit interne avec les traités internationaux
+Contrôle_de_proportionnalité	Concept_juridique	Mise	en balance des droits fondamentaux en conflit
+Présomption_d'innocence	Principe_juridique	Droit	fondamental de l'accusé d'être présumé innocent jusqu'à preuve du contraire
+Liberté_d'expression	Droit_fondamental	Droit	de s'exprimer librement sans censure
+Hiérarchie_des_normes	Concept_juridique	Organisation	hiérarchique des différentes normes juridiques
+Constitution	Texte_juridique	Texte	fondamental d'un État, au sommet de la hiérarchie des normes
+Traité	Texte_juridique	Accord	international entre États
+Loi	Texte_juridique	Règle	de droit votée par le Parlement
+Cour_de_cassation	Institution_juridique	Plus	haute juridiction de l'ordre judiciaire français
+Conseil_d'État	Institution_juridique	Plus	haute juridiction de l'ordre administratif français
+Cour_de_Justice_de_l'Union_Européenne	Institution_juridique	Juridiction	chargée d'interpréter le droit de l'Union européenne
+Droit_de_l'Union_européenne	Système_juridique	Ensemble	des règles juridiques applicables au sein de l'Union européenne
+Liberté_de_circulation	Principe_juridique	Principe	fondamental du droit de l'Union européenne
+Séparation_des_pouvoirs	Principe_juridique	Principe	d'organisation de l'État séparant les pouvoirs législatif, exécutif et judiciaire
+Arrêt_Jacques_Vabre	Décision_juridique	Arrêt	de la Cour de cassation établissant la primauté du droit communautaire sur le droit national
+Arrêt_Nicolo	Décision_juridique	Arrêt	du Conseil d'État reconnaissant la primauté des traités internationaux sur les lois
+Arrêt_Bosman	Décision_juridique	Arrêt	de la CJUE libéralisant les transferts de footballeurs dans l'UE
+Contrôle_de_conventionnalité	est_un_type_de	Contrôle_juridique	Le contrôle de conventionnalité est une forme de contrôle juridique
+Contrôle_de_proportionnalité	est_utilisé_dans	Contrôle_de_conventionnalité	Le contrôle de proportionnalité est souvent utilisé dans le contrôle de conventionnalité
+Présomption_d'innocence	est_en_conflit_avec	Liberté_d'expression	Ces deux droits fondamentaux peuvent entrer en conflit
+Constitution	est_au_sommet_de	Hiérarchie_des_normes	La Constitution est la norme suprême dans l'ordre juridique interne
+Traité	a_primauté_sur	Loi	Les traités internationaux ont primauté sur les lois nationales selon l'article 55 de la Constitution
+Cour_de_cassation	effectue	Contrôle_de_conventionnalité	La Cour de cassation effectue le contrôle de conventionnalité depuis l'arrêt Jacques Vabre
+Conseil_d'État	effectue	Contrôle_de_conventionnalité	Le Conseil d'État effectue le contrôle de conventionnalité depuis l'arrêt Nicolo
+Droit_de_l'Union_européenne	inclut	Liberté_de_circulation	La liberté de circulation est un principe fondamental du droit de l'UE
+Arrêt_Jacques_Vabre	établit	Primauté_du_droit_communautaire	Cet arrê
+Droit_dérivé	Concept_juridique	Droit	issu des institutions européennes
+Droit_primaire	Concept_juridique	Droit	issu des traités européens
+Constitution	Document_juridique	Texte	fondamental d'un État
+Directive	Document_juridique	Texte	législatif européen à transposer
+Règlement	Document_juridique	Texte	législatif européen d'application directe
+Identité_constitutionnelle	Concept_juridique	Principes	fondamentaux propres à la constitution d'un État
+Article_54	Disposition_juridique	Article	de la Constitution française sur les traités internationaux
+Traité_de_Maastricht	Document_juridique	Traité	fondateur de l'Union européenne
+Norme_infraconstitutionnelle	Concept_juridique	Norme	de rang inférieur à la Constitution
+Bloc_de_constitutionnalité	Concept_juridique	Ensemble	des textes et principes de valeur constitutionnelle
+Bloc_de_conventionnalité	Concept_juridique	Ensemble	des traités et conventions internationales
+Bloc_de_légalité	Concept_juridique	Ensemble	des normes législatives
+Bloc_réglementaire	Concept_juridique	Ensemble	des règlements et actes administratifs
+Jurisprudence	Concept_juridique	Ensemble	des décisions de justice faisant autorité
+Coutume	Concept_juridique	Règle	de droit non écrite issue de la pratique
+Droit_dérivé	est_inférieur_à	Droit_primaire	Le droit dérivé découle du droit primaire
+Directive	est_un	Droit_dérivé	Les directives font partie du droit dérivé européen
+Règlement	est_un	Droit_dérivé	Les règlements font partie du droit dérivé européen
+Constitution	contient	Article_54	L'article 54 fait partie de la Constitution française
+Traité_de_Maastricht	est_un	Droit_primaire	Le traité de Maastricht est une source de droit primaire européen
+Droit_dérivé	prime_sur	Norme_infraconstitutionnelle	Le droit dérivé l'emporte sur les normes infraconstitutionnelles
+Constitution	contient	Identité_constitutionnelle	L'identité constitutionnelle est un concept lié à la Constitution
+Bloc_de_constitutionnalité	est_supérieur_à	Bloc_de_conventionnalité	Dans l'ordre interne français, le bloc de constitutionnalité prime
+Bloc_de_conventionnalité	est_supérieur_à	Bloc_de_légalité	Le droit international prime sur les lois nationales
+Bloc_de_légalité	est_supérieur_à	Bloc_réglementaire	Les lois sont supérieures aux règlements
+Jurisprudence	peut_avoir_valeur_de	Bloc_de_constitutionnalité	La jurisprudence peut avoir une valeur constitutionnelle
+Jurisprudence	peut_avoir_valeur_de	Bloc_de_conventionnalité	La jurisprudence peut avoir une valeur conventionnelle
+Jurisprudence	peut_avoir_valeur_de	Bloc_de_légalité	La jurisprudence peut avoir une valeur légale
+Coutume	peut_avoir_valeur_de	Bloc_de_constitutionnalité	La coutume peut avoir une valeur constitutionnelle
+Coutume	peut_avoir_valeur_de	Bloc_de_conventionnalité	La coutume peut avoir une valeur conventionnelle
+Droit_dérivé	Concept_juridique	Droit	issu des institutions européennes
+Droit_primaire	Concept_juridique	Droit	issu des traités européens
+Constitution	Document_juridique	Texte	fondamental d'un État
+Directive	Document_juridique	Texte	législatif européen à transposer
+Règlement	Document_juridique	Texte	législatif européen d'application directe
+Identité_constitutionnelle	Concept_juridique	Principes	fondamentaux propres à la constitution d'un État
+Article_54	Disposition_juridique	Article	de la Constitution française sur les traités internationaux
+Traité_de_Maastricht	Document_juridique	Traité	fondateur de l'Union européenne
+Norme_infraconstitutionnelle	Concept_juridique	Norme	de rang inférieur à la Constitution
+Bloc_de_constitutionnalité	Concept_juridique	Ensemble	des textes et principes de valeur constitutionnelle
+Bloc_de_conventionnalité	Concept_juridique	Ensemble	des traités et conventions internationales
+Bloc_de_légalité	Concept_juridique	Ensemble	des normes législatives
+Bloc_réglementaire	Concept_juridique	Ensemble	des règlements et actes administratifs
+Jurisprudence	Concept_juridique	Ensemble	des décisions de justice faisant autorité
+Coutume	Concept_juridique	Règle	de droit non écrite issue de la pratique
+Droit_dérivé	est_inférieur_à	Droit_primaire	Le droit dérivé découle du droit primaire
+Directive	est_un	Droit_dérivé	Les directives font partie du droit dérivé européen
+Règlement	est_un	Droit_dérivé	Les règlements font partie du droit dérivé européen
+Constitution	contient	Article_54	L'article 54 fait partie de la Constitution française
+Traité_de_Maastricht	est_un	Droit_primaire	Le traité de Maastricht est une source de droit primaire européen
+Droit_dérivé	prime_sur	Norme_infraconstitutionnelle	Le droit dérivé l'emporte sur les normes infraconstitutionnelles
+Constitution	contient	Identité_constitutionnelle	L'identité constitutionnelle est un concept lié à la Constitution
+Bloc_de_constitutionnalité	est_supérieur_à	Bloc_de_conventionnalité	Dans l'ordre interne français, le bloc de constitutionnalité prime
+Bloc_de_conventionnalité	est_supérieur_à	Bloc_de_légalité	Le droit international prime sur les lois nationales
+Bloc_de_légalité	est_supérieur_à	Bloc_réglementaire	Les lois sont supérieures aux règlements
+Jurisprudence	peut_avoir_valeur_de	Bloc_de_constitutionnalité	La jurisprudence peut avoir une valeur constitutionnelle
+Jurisprudence	peut_avoir_valeur_de	Bloc_de_conventionnalité	La jurisprudence peut avoir une valeur conventionnelle
+Jurisprudence	peut_avoir_valeur_de	Bloc_de_légalité	La jurisprudence peut avoir une valeur légale
+Coutume	peut_avoir_valeur_de	Bloc_de_constitutionnalité	La coutume peut avoir une valeur constitutionnelle
+Coutume	peut_avoir_valeur_de	Bloc_de_conventionnalité	La coutume peut avoir une valeur conventionnelle
+Hiérarchie_des_normes	Concept	Structure	hiérarchique des normes juridiques
+Bloc_constitutionnel	Concept	Ensemble	des normes ayant valeur constitutionnelle
+Constitution	Document_juridique	Loi	fondamentale de l'État
+DDHC	Document_juridique	Déclaration	des Droits de l'Homme et du Citoyen
+Préambule_Constitution	Document_juridique	Préambule	de la Constitution française
+Charte_de_l'environnement	Document_juridique	Texte	à valeur constitutionnelle sur l'environnement
+Bloc_conventionnel	Concept	Ensemble	des traités et conventions internationales
+Traité	Document_juridique	Accord	international entre États
+Bloc_légal	Concept	Ensemble	des lois votées par le Parlement
+Loi	Document_juridique	Texte	législatif voté par le Parlement
+Bloc_réglementaire	Concept	Ensemble	des règlements et actes administratifs
+Règlement	Document_juridique	Texte	d'application des lois
+Jurisprudence	Concept	Ensemble	des décisions de justice faisant autorité
+Coutume	Concept	Règle	de droit non écrite issue de l'usage
+Contrat	Document_juridique	Accord	entre personnes privées créant des obligations
+Acte_administratif	Document_juridique	Décision	prise par l'administration
+Droit_de_l'Union_européenne	Domaine_juridique	Ensemble	des règles juridiques de l'UE
+Primauté_du_droit_de_l'UE	Principe_juridique	Principe	de supériorité du droit de l'UE sur le droit national
+Contrôle_de_conventionnalité	Procédure_juridique	Contrôle	de la conformité du droit interne aux traités
+Contrôle_de_proportionnalité	Procédure_juridique	Mise	en balance des intérêts en jeu dans un conflit de droits
+Révision_constitutionnelle	Procédure_juridique	Modification	de la Constitution pour l'adapter aux traités
+Conseil_constitutionnel	Institution	Organe	chargé du contrôle de constitutionnalité
+Cour_de_cassation	Institution	Plus	haute juridiction de l'ordre judiciaire français
+Conseil_d'État	Institution	Plus	haute juridiction de l'ordre administratif français
+Liberté_d'expression	Droit_fondamental	Droit	de s'exprimer librement
+Présomption_d'innocence	Droit_fondamental	Principe	selon lequel toute personne est présumée innocente jusqu'à preuve du contraire
+Bloc_constitutionnel	est_supérieur_à	Bloc_conventionnel	Hiérarchie établie par la jurisprudence française
+Bloc_conventionnel	est_supérieur_à	Bloc_légal	Hiérarchie établie par la jurisprudence française
+Bloc_légal	est_supérieur_à	Bloc_réglementaire	Hiérarchie traditionnelle des normes
+Constitution	fait_partie_de	Bloc_constitutionnel	La Constitution est un élément du bloc constitutionnel
+DDHC	fait_partie_de	Bloc_constitutionnel	La DDHC a valeur constitutionnelle
+Préambule_Constitution	fait_partie_de	Bloc_constitutionnel	Le préambule a valeur constitutionnelle
+Charte_de_l'environnement	fait_partie_de	Bloc_constitutionnel	La Charte a valeur constitutionnelle
+Traité	fait_partie_de	Bloc_conventionnel	Les traités constituent le bloc conventionnel
+Loi	fait_partie_de	Bloc_légal	Les lois constituent le bloc légal
+Règlement	fait_partie_de	Bloc_réglementaire	Les règlements
+Hiérarchie_des_normes	Concept	Structure	hiérarchique des normes juridiques
+Bloc_constitutionnel	Concept	Ensemble	des normes ayant valeur constitutionnelle
+Constitution	Document_juridique	Loi	fondamentale de l'État
+DDHC	Document_juridique	Déclaration	des Droits de l'Homme et du Citoyen
+Préambule_Constitution	Document_juridique	Préambule	de la Constitution française
+Charte_de_l'environnement	Document_juridique	Texte	à valeur constitutionnelle sur l'environnement
+Bloc_conventionnel	Concept	Ensemble	des traités et conventions internationales
+Traité	Document_juridique	Accord	international entre États
+Bloc_légal	Concept	Ensemble	des lois votées par le Parlement
+Loi	Document_juridique	Texte	législatif voté par le Parlement
+Bloc_réglementaire	Concept	Ensemble	des règlements et actes administratifs
+Règlement	Document_juridique	Texte	d'application des lois
+Jurisprudence	Concept	Ensemble	des décisions de justice faisant autorité
+Coutume	Concept	Règle	de droit non écrite issue de l'usage
+Contrat	Document_juridique	Accord	entre personnes privées créant des obligations
+Acte_administratif	Document_juridique	Décision	prise par l'administration
+Droit_de_l'Union_européenne	Domaine_juridique	Ensemble	des règles juridiques de l'UE
+Primauté_du_droit_de_l'UE	Principe_juridique	Principe	de supériorité du droit de l'UE sur le droit national
+Contrôle_de_conventionnalité	Procédure_juridique	Contrôle	de la conformité du droit interne aux traités
+Contrôle_de_proportionnalité	Procédure_juridique	Mise	en balance des intérêts en jeu dans un conflit de droits
+Révision_constitutionnelle	Procédure_juridique	Modification	de la Constitution pour l'adapter aux traités
+Conseil_constitutionnel	Institution	Organe	chargé du contrôle de constitutionnalité
+Cour_de_cassation	Institution	Plus	haute juridiction de l'ordre judiciaire français
+Conseil_d'État	Institution	Plus	haute juridiction de l'ordre administratif français
+Liberté_d'expression	Droit_fondamental	Droit	de s'exprimer librement
+Présomption_d'innocence	Droit_fondamental	Principe	selon lequel toute personne est présumée innocente jusqu'à preuve du contraire
+Bloc_constitutionnel	est_supérieur_à	Bloc_conventionnel	Hiérarchie établie par la jurisprudence française
+Bloc_conventionnel	est_supérieur_à	Bloc_légal	Hiérarchie établie par la jurisprudence française
+Bloc_légal	est_supérieur_à	Bloc_réglementaire	Hiérarchie traditionnelle des normes
+Constitution	fait_partie_de	Bloc_constitutionnel	La Constitution est un élément du bloc constitutionnel
+DDHC	fait_partie_de	Bloc_constitutionnel	La DDHC a valeur constitutionnelle
+Préambule_Constitution	fait_partie_de	Bloc_constitutionnel	Le préambule a valeur constitutionnelle
+Charte_de_l'environnement	fait_partie_de	Bloc_constitutionnel	La Charte a valeur constitutionnelle
+Traité	fait_partie_de	Bloc_conventionnel	Les traités constituent le bloc conventionnel
+Loi	fait_partie_de	Bloc_légal	Les lois constituent le bloc légal
+Règlement	fait_partie_de	Bloc_réglementaire	Les règlements
+Convention_européenne_des_droits_de_l'homme	Document_juridique	Traité	international garantissant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation	Organisation	internationale créée en 1949 pour promouvoir les droits de l'homme et l'État de droit
+Cour_européenne_des_droits_de_l'homme	Institution	Cour	internationale chargée d'appliquer la Convention européenne des droits de l'homme
+État_de_droit	Concept_juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Démocratie	Système_politique	Système	politique fondé sur les principes de liberté et d'égalité
+Droits_de_l'homme	Concept_juridique	Droits	fondamentaux inhérents à tous les êtres humains
+Protocole_additionnel	Document_juridique	Texte	ajouté à la Convention européenne des droits de l'homme ayant la même valeur juridique
+Droit_à_la_vie	Droit_fondamental	Droit	protégé par l'article 2 de la Convention
+Interdiction_de_la_torture	Droit_fondamental	Droit	protégé par l'article 3 de la Convention
+Droit_au_procès_équitable	Droit_fondamental	Droit	protégé par l'article 6 de la Convention
+Droit_au_respect_de_la_vie_privée	Droit_fondamental	Droit	protégé par l'article 8 de la Convention
+Liberté_d'expression	Droit_fondamental	Droit	protégé par l'article 10 de la Convention
+Droit_de_propriété	Droit_fondamental	Droit	protégé par l'article 1 du premier protocole additionnel
+Effet_direct	Concept_juridique	Principe	permettant l'application directe de la Convention par les juridictions nationales
+Requête_individuelle	Procédure_juridique	Procédure	permettant à un individu de saisir la Cour européenne des droits de l'homme
+Requête_interétatique	Procédure_juridique	Procédure	permettant à un État de saisir la Cour contre un autre État
+Domaine_d'application	Concept_juridique	Champ	d'application d'une règle de droit
+Convention_européenne_des_droits_de_l'homme	Protège	Droits_de_l'homme	La Convention garantit les droits fondamentaux en Europe
+Cour_européenne_des_droits_de_l'homme	Applique	Convention_européenne_des_droits_de_l'homme	La Cour est chargée d'interpréter et d'appliquer la Convention
+Conseil_de_l'Europe	A_créé	Convention_européenne_des_droits_de_l'homme	Le Conseil de l'Europe est à l'origine de la Convention
+Protocole_additionnel	Complète	Convention_européenne_des_droits_de_l'homme	Les protocoles additionnels ajoutent des droits à la Convention
+Convention_européenne_des_droits_de_l'homme	A_effet_direct	Juridictions_nationales	La Convention peut être directement appliquée par les tribunaux nationaux
+Individu	Peut_saisir	Cour_européenne_des_droits_de_l'homme	Les individus peuvent déposer des requêtes devant la Cour
+État	Peut_saisir	Cour_européenne_des_droits_de_l'homme	Les États peuvent déposer des requêtes contre d'autres États devant la Cour
+Convention_européenne_des_droits_de_l'homme	A_pour_domaine_d'application	Territoire_des_États_membres	La Convention s'applique sur le territoire des États signataires
+Convention_européenne_des_droits_de_l'homme	Document_juridique	Traité	international garantissant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation	Organisation	internationale créée en 1949 pour promouvoir les droits de l'homme et l'État de droit
+Cour_européenne_des_droits_de_l'homme	Institution	Cour	internationale chargée d'appliquer la Convention européenne des droits de l'homme
+État_de_droit	Concept_juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Démocratie	Système_politique	Système	politique fondé sur les principes de liberté et d'égalité
+Droits_de_l'homme	Concept_juridique	Droits	fondamentaux inhérents à tous les êtres humains
+Protocole_additionnel	Document_juridique	Texte	ajouté à la Convention européenne des droits de l'homme ayant la même valeur juridique
+Droit_à_la_vie	Droit_fondamental	Droit	protégé par l'article 2 de la Convention
+Interdiction_de_la_torture	Droit_fondamental	Droit	protégé par l'article 3 de la Convention
+Droit_au_procès_équitable	Droit_fondamental	Droit	protégé par l'article 6 de la Convention
+Droit_au_respect_de_la_vie_privée	Droit_fondamental	Droit	protégé par l'article 8 de la Convention
+Liberté_d'expression	Droit_fondamental	Droit	protégé par l'article 10 de la Convention
+Droit_de_propriété	Droit_fondamental	Droit	protégé par l'article 1 du premier protocole additionnel
+Effet_direct	Concept_juridique	Principe	permettant l'application directe de la Convention par les juridictions nationales
+Requête_individuelle	Procédure_juridique	Procédure	permettant à un individu de saisir la Cour européenne des droits de l'homme
+Requête_interétatique	Procédure_juridique	Procédure	permettant à un État de saisir la Cour contre un autre État
+Domaine_d'application	Concept_juridique	Champ	d'application d'une règle de droit
+Convention_européenne_des_droits_de_l'homme	Protège	Droits_de_l'homme	La Convention garantit les droits fondamentaux en Europe
+Cour_européenne_des_droits_de_l'homme	Applique	Convention_européenne_des_droits_de_l'homme	La Cour est chargée d'interpréter et d'appliquer la Convention
+Conseil_de_l'Europe	A_créé	Convention_européenne_des_droits_de_l'homme	Le Conseil de l'Europe est à l'origine de la Convention
+Protocole_additionnel	Complète	Convention_européenne_des_droits_de_l'homme	Les protocoles additionnels ajoutent des droits à la Convention
+Convention_européenne_des_droits_de_l'homme	A_effet_direct	Juridictions_nationales	La Convention peut être directement appliquée par les tribunaux nationaux
+Individu	Peut_saisir	Cour_européenne_des_droits_de_l'homme	Les individus peuvent déposer des requêtes devant la Cour
+État	Peut_saisir	Cour_européenne_des_droits_de_l'homme	Les États peuvent déposer des requêtes contre d'autres États devant la Cour
+Convention_européenne_des_droits_de_l'homme	A_pour_domaine_d'application	Territoire_des_États_membres	La Convention s'applique sur le territoire des États signataires
+Arrêt_Bosman	Décision_juridique	Arrêt	de la Cour de justice de l'UE ayant libéralisé les transferts de joueurs de football en Europe
+Cour_de_justice_de_l'UE	Institution	Organe	judiciaire suprême de l'Union européenne
+UEFA	Organisation	Union	des associations européennes de football
+Liberté_de_circulation	Principe_juridique	Liberté	fondamentale garantie par le droit de l'UE
+Indemnités_de_transfert	Concept_juridique	Paiements	liés au transfert de joueurs entre clubs
+Clauses_de_nationalité	Concept_juridique	Restrictions	sur le nombre de joueurs étrangers dans les équipes
+Hiérarchie_des_normes	Concept_juridique	Organisation	hiérarchique des différentes sources de droit
+Effet_direct	Principe_juridique	Principe	permettant l'invocation directe du droit de l'UE par les particuliers
+Primauté_du_droit_de_l'UE	Principe_juridique	Principe	établissant la supériorité du droit de l'UE sur le droit national
+Droit_primaire	Source_de_droit	Traités	fondateurs de l'Union européenne
+Droit_dérivé	Source_de_droit	Actes	juridiques adoptés par les institutions de l'UE
+Règlement_européen	Source_de_droit	Acte	juridique de l'UE directement applicable dans tous les États membres
+Directive_européenne	Source_de_droit	Acte	juridique de l'UE fixant des objectifs à atteindre par les États membres
+CJCE	Institution	Ancienne	dénomination de la Cour de justice de l'UE avant 2009
+CJUE	Institution	Dénomination	actuelle de la Cour de justice de l'UE depuis 2009
+Tribunal_de_l'UE	Institution	Juridiction	de l'UE de première instance
+Commission_européenne	Institution	Organe	exécutif de l'Union européenne
+Soft_law	Concept_juridique	Instruments	juridiques non contraignants du droit de l'UE
+TFUE	Traité	Traité	sur le fonctionnement de l'Union européenne
+TUE	Traité	Traité	sur l'Union européenne
+Arrêt_Bosman	a_jugé	Indemnités_de_transfert	L'arrêt a déclaré les indemnités de transfert contraires au droit de l'UE
+Arrêt_Bosman	a_jugé	Clauses_de_nationalité	L'arrêt a déclaré les clauses de nationalité contraires au droit de l'UE
+Arrêt_Bosman	applique	Liberté_de_circulation	L'arrêt a appliqué le principe de liberté de circulation des travailleurs
+Cour_de_justice_de_l'UE	a_rendu	Arrêt_Bosman	La Cour a rendu l'arrêt Bosman
+Effet_direct	est_consacré_par	Arrêt_Van_Gend_en_Loos	L'arrêt Van Gend en Loos a établi le principe de l'effet direct
+Primauté_du_droit_de_l'UE	est_consacrée_par	Arrêt_Costa_contre_ENEL	L'arrêt Costa contre ENEL a établi le principe de primauté
+Droit_primaire	inclut	TFUE	Le droit primaire comprend le Traité sur le fonctionnement de l'UE
+Droit_primaire	inclut	TUE	Le droit primaire comprend le Traité sur l'Union européenne
+Droit_dérivé	inclut	Règlement_européen	Les règ
+Arrêt_Bosman	Décision_juridique	Arrêt	de la Cour de justice de l'UE ayant libéralisé les transferts de joueurs de football en Europe
+Cour_de_justice_de_l'UE	Institution	Organe	judiciaire suprême de l'Union européenne
+UEFA	Organisation	Union	des associations européennes de football
+Liberté_de_circulation	Principe_juridique	Liberté	fondamentale garantie par le droit de l'UE
+Indemnités_de_transfert	Concept_juridique	Paiements	liés au transfert de joueurs entre clubs
+Clauses_de_nationalité	Concept_juridique	Restrictions	sur le nombre de joueurs étrangers dans les équipes
+Hiérarchie_des_normes	Concept_juridique	Organisation	hiérarchique des différentes sources de droit
+Effet_direct	Principe_juridique	Principe	permettant l'invocation directe du droit de l'UE par les particuliers
+Primauté_du_droit_de_l'UE	Principe_juridique	Principe	établissant la supériorité du droit de l'UE sur le droit national
+Droit_primaire	Source_de_droit	Traités	fondateurs de l'Union européenne
+Droit_dérivé	Source_de_droit	Actes	juridiques adoptés par les institutions de l'UE
+Règlement_européen	Source_de_droit	Acte	juridique de l'UE directement applicable dans tous les États membres
+Directive_européenne	Source_de_droit	Acte	juridique de l'UE fixant des objectifs à atteindre par les États membres
+CJCE	Institution	Ancienne	dénomination de la Cour de justice de l'UE avant 2009
+CJUE	Institution	Dénomination	actuelle de la Cour de justice de l'UE depuis 2009
+Tribunal_de_l'UE	Institution	Juridiction	de l'UE de première instance
+Commission_européenne	Institution	Organe	exécutif de l'Union européenne
+Soft_law	Concept_juridique	Instruments	juridiques non contraignants du droit de l'UE
+TFUE	Traité	Traité	sur le fonctionnement de l'Union européenne
+TUE	Traité	Traité	sur l'Union européenne
+Arrêt_Bosman	a_jugé	Indemnités_de_transfert	L'arrêt a déclaré les indemnités de transfert contraires au droit de l'UE
+Arrêt_Bosman	a_jugé	Clauses_de_nationalité	L'arrêt a déclaré les clauses de nationalité contraires au droit de l'UE
+Arrêt_Bosman	applique	Liberté_de_circulation	L'arrêt a appliqué le principe de liberté de circulation des travailleurs
+Cour_de_justice_de_l'UE	a_rendu	Arrêt_Bosman	La Cour a rendu l'arrêt Bosman
+Effet_direct	est_consacré_par	Arrêt_Van_Gend_en_Loos	L'arrêt Van Gend en Loos a établi le principe de l'effet direct
+Primauté_du_droit_de_l'UE	est_consacrée_par	Arrêt_Costa_contre_ENEL	L'arrêt Costa contre ENEL a établi le principe de primauté
+Droit_primaire	inclut	TFUE	Le droit primaire comprend le Traité sur le fonctionnement de l'UE
+Droit_primaire	inclut	TUE	Le droit primaire comprend le Traité sur l'Union européenne
+Droit_dérivé	inclut	Règlement_européen	Les règ
+Convention_Européenne_des_Droits_de_l'Homme	Document_Juridique	Traité	international garantissant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme et l'État de droit en Europe
+Cour_Européenne_des_Droits_de_l'Homme	Institution	Cour	internationale chargée d'appliquer la Convention Européenne des Droits de l'Homme
+Applicabilité_Ratione_Personae	Concept_Juridique	Champ	d'application personnel d'un texte juridique
+Applicabilité_Ratione_Loci	Concept_Juridique	Champ	d'application territorial d'un texte juridique
+Protocole_Additionnel	Document_Juridique	Texte	complémentaire à la Convention ayant la même valeur juridique
+Droit_Indérogeable	Concept_Juridique	Droit	fondamental ne pouvant être suspendu même en cas de circonstances exceptionnelles
+État_de_Droit	Concept_Juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Ordre_Public_Constitutionnel_Européen	Concept_Juridique	Ensemble	des principes fondamentaux garantis par la Convention Européenne des Droits de l'Homme
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_à_la_Vie	Article 2 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Interdiction_de_la_Torture	Article 3 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Interdiction_de_l'Esclavage	Article 4 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_à_la_Liberté	Article 5 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_au_Procès_Équitable	Article 6 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Principe_de_Légalité_des_Peines	Article 7 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_à_la_Vie_Privée	Article 8 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Liberté_d'Expression	Article 10 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_de_Propriété	Article 1 du Premier Protocole Additionnel
+Conseil_de_l'Europe	A_Pour_Membre	État_Européen	46 pays membres en 2023
+Cour_Européenne_des_Droits_de_l'Homme	Applique	Convention_Européenne_des_Droits_de_l'Homme	La Cour interprète et fait respecter la Convention
+Convention_Européenne_des_Droits_de_l'Homme	A_Pour_Champ_d'Application	Applicabilité_Ratione_Personae	Définit les personnes pouvant invoquer la Convention
+Convention_Européenne_des_Droits_de_l'Homme	A_Pour_Champ_d'Application	Applicabilité_Ratione_Loci	Définit le territoire d'application de la Convention
+Droit_Indérogeable	Est_Caractéristique_De	Droit_à_la_Vie	Droit ne pouvant être suspendu
+Convention_Européenne_des_Droits_de_l'Homme	Document_Juridique	Traité	international garantissant les droits fondamentaux en Europe
+Conseil_de_l'Europe	Organisation	Organisation	internationale promouvant les droits de l'homme et l'État de droit en Europe
+Cour_Européenne_des_Droits_de_l'Homme	Institution	Cour	internationale chargée d'appliquer la Convention Européenne des Droits de l'Homme
+Applicabilité_Ratione_Personae	Concept_Juridique	Champ	d'application personnel d'un texte juridique
+Applicabilité_Ratione_Loci	Concept_Juridique	Champ	d'application territorial d'un texte juridique
+Protocole_Additionnel	Document_Juridique	Texte	complémentaire à la Convention ayant la même valeur juridique
+Droit_Indérogeable	Concept_Juridique	Droit	fondamental ne pouvant être suspendu même en cas de circonstances exceptionnelles
+État_de_Droit	Concept_Juridique	Principe	selon lequel le pouvoir politique se soumet au droit
+Ordre_Public_Constitutionnel_Européen	Concept_Juridique	Ensemble	des principes fondamentaux garantis par la Convention Européenne des Droits de l'Homme
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_à_la_Vie	Article 2 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Interdiction_de_la_Torture	Article 3 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Interdiction_de_l'Esclavage	Article 4 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_à_la_Liberté	Article 5 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_au_Procès_Équitable	Article 6 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Principe_de_Légalité_des_Peines	Article 7 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_à_la_Vie_Privée	Article 8 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Liberté_d'Expression	Article 10 de la Convention
+Convention_Européenne_des_Droits_de_l'Homme	Protège	Droit_de_Propriété	Article 1 du Premier Protocole Additionnel
+Conseil_de_l'Europe	A_Pour_Membre	État_Européen	46 pays membres en 2023
+Cour_Européenne_des_Droits_de_l'Homme	Applique	Convention_Européenne_des_Droits_de_l'Homme	La Cour interprète et fait respecter la Convention
+Convention_Européenne_des_Droits_de_l'Homme	A_Pour_Champ_d'Application	Applicabilité_Ratione_Personae	Définit les personnes pouvant invoquer la Convention
+Convention_Européenne_des_Droits_de_l'Homme	A_Pour_Champ_d'Application	Applicabilité_Ratione_Loci	Définit le territoire d'application de la Convention
+Droit_Indérogeable	Est_Caractéristique_De	Droit_à_la_Vie	Droit ne pouvant être suspendu
+Constitution_française	Document_juridique	Constitution	de la République française
+Bloc_de_constitutionnalité	Concept_juridique	Ensemble	des textes ayant valeur constitutionnelle en France
+DDHC	Document_juridique	Déclaration	des Droits de l'Homme et du Citoyen
+Préambule_Constitution	Document_juridique	Préambule	de la Constitution française
+Charte_de_l'environnement	Document_juridique	Texte	constitutionnel sur l'environnement
+Bloc_de_conventionnalité	Concept_juridique	Ensemble	des traités et conventions internationales
+Bloc_de_légalité	Concept_juridique	Ensemble	des normes législatives
+Bloc_réglementaire	Concept_juridique	Ensemble	des normes réglementaires
+Conseil_constitutionnel	Institution	Institution	chargée du contrôle de constitutionnalité
+Conseil_d'État	Institution	Plus	haute juridiction administrative française
+Cour_de_cassation	Institution	Plus	haute juridiction judiciaire française
+Nouvelle-Calédonie	Territoire	Collectivité	française d'outre-mer
+Corps_électoral_néo-calédonien	Concept_juridique	Ensemble	des personnes autorisées à voter aux référendums en Nouvelle-Calédonie
+Pacte_de_New_York	Traité	Pacte	international relatif aux droits civils et politiques
+Convention_européenne	Traité	Convention	européenne des droits de l'homme
+Contrôle_de_conventionnalité	Concept_juridique	Contrôle	de la compatibilité du droit interne avec les traités internationaux
+Contrôle_de_proportionnalité	Concept_juridique	Mise	en balance des intérêts en jeu dans un conflit de droits
+Liberté_d'expression	Droit_fondamental	Droit	de s'exprimer librement
+Présomption_d'innocence	Droit_fondamental	Principe	selon lequel toute personne est présumée innocente jusqu'à preuve du contraire
+Liberté_de_circulation_des_marchandises	Principe_économique	Principe	fondamental du marché européen
+Constitution_française	contient	Bloc_de_constitutionnalité	La Constitution inclut le bloc de constitutionnalité
+Bloc_de_constitutionnalité	inclut	DDHC	Le bloc de constitutionnalité comprend la DDHC
+Bloc_de_constitutionnalité	inclut	Préambule_Constitution	Le bloc de constitutionnalité comprend le préambule de la Constitution
+Bloc_de_constitutionnalité	inclut	Charte_de_l'environnement	Le bloc de constitutionnalité comprend la Charte de l'environnement
+Constitution_française	a_priorité_sur	Bloc_de_conventionnalité	La Constitution prime sur les traités internationaux dans l'ordre interne
+Bloc_de_conventionnalité	a_priorité_sur	Bloc_de_légalité	Les traités internationaux priment sur les lois
+Bloc_de_légalité	a_priorité_sur	Bloc_réglementaire	Les lois priment sur les règlements
+Conseil_constitutionnel	contrôle	Constitution_française	Le Conseil constitutionnel vérifie la constitutionnalité des lois
+Conseil_d'État	applique	Contrôle_de_conventionnalité	Le Conseil d'État effectue le contrôle de conventionnalité
+Cour_de_cassation	applique	Contrôle_de_conventionnalité	La Cour de cassation effectue le contrôle de conventionnalité
+Nouvelle-Calédonie	possède	Corps_électoral_néo-calédonien	La Nouvelle-Calédonie a un corps électoral spécifique pour ses référendums
+Constitution_française	Document_juridique	Constitution	de la République française
+Bloc_de_constitutionnalité	Concept_juridique	Ensemble	des textes ayant valeur constitutionnelle en France
+DDHC	Document_juridique	Déclaration	des Droits de l'Homme et du Citoyen
+Préambule_Constitution	Document_juridique	Préambule	de la Constitution française
+Charte_de_l'environnement	Document_juridique	Texte	constitutionnel sur l'environnement
+Bloc_de_conventionnalité	Concept_juridique	Ensemble	des traités et conventions internationales
+Bloc_de_légalité	Concept_juridique	Ensemble	des normes législatives
+Bloc_réglementaire	Concept_juridique	Ensemble	des normes réglementaires
+Conseil_constitutionnel	Institution	Institution	chargée du contrôle de constitutionnalité
+Conseil_d'État	Institution	Plus	haute juridiction administrative française
+Cour_de_cassation	Institution	Plus	haute juridiction judiciaire française
+Nouvelle-Calédonie	Territoire	Collectivité	française d'outre-mer
+Corps_électoral_néo-calédonien	Concept_juridique	Ensemble	des personnes autorisées à voter aux référendums en Nouvelle-Calédonie
+Pacte_de_New_York	Traité	Pacte	international relatif aux droits civils et politiques
+Convention_européenne	Traité	Convention	européenne des droits de l'homme
+Contrôle_de_conventionnalité	Concept_juridique	Contrôle	de la compatibilité du droit interne avec les traités internationaux
+Contrôle_de_proportionnalité	Concept_juridique	Mise	en balance des intérêts en jeu dans un conflit de droits
+Liberté_d'expression	Droit_fondamental	Droit	de s'exprimer librement
+Présomption_d'innocence	Droit_fondamental	Principe	selon lequel toute personne est présumée innocente jusqu'à preuve du contraire
+Liberté_de_circulation_des_marchandises	Principe_économique	Principe	fondamental du marché européen
+Constitution_française	contient	Bloc_de_constitutionnalité	La Constitution inclut le bloc de constitutionnalité
+Bloc_de_constitutionnalité	inclut	DDHC	Le bloc de constitutionnalité comprend la DDHC
+Bloc_de_constitutionnalité	inclut	Préambule_Constitution	Le bloc de constitutionnalité comprend le préambule de la Constitution
+Bloc_de_constitutionnalité	inclut	Charte_de_l'environnement	Le bloc de constitutionnalité comprend la Charte de l'environnement
+Constitution_française	a_priorité_sur	Bloc_de_conventionnalité	La Constitution prime sur les traités internationaux dans l'ordre interne
+Bloc_de_conventionnalité	a_priorité_sur	Bloc_de_légalité	Les traités internationaux priment sur les lois
+Bloc_de_légalité	a_priorité_sur	Bloc_réglementaire	Les lois priment sur les règlements
+Conseil_constitutionnel	contrôle	Constitution_française	Le Conseil constitutionnel vérifie la constitutionnalité des lois
+Conseil_d'État	applique	Contrôle_de_conventionnalité	Le Conseil d'État effectue le contrôle de conventionnalité
+Cour_de_cassation	applique	Contrôle_de_conventionnalité	La Cour de cassation effectue le contrôle de conventionnalité
+Nouvelle-Calédonie	possède	Corps_électoral_néo-calédonien	La Nouvelle-Calédonie a un corps électoral spécifique pour ses référendums

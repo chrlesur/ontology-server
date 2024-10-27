@@ -1,25 +1,56 @@
-Qualification_Juridique	Concept	Processus de détermination du statut légal d'une situation ou d'un individu	1
-Agent_Service_Public	Concept	Personne travaillant pour un service public	23,47,189,24,48,62,81,117,120,154,177,190,208,244,443
-Principe_Neutralité	Concept	Principe imposant l'impartialité dans l'exercice des fonctions publiques	26,318
-Conseil_État	Organisation	Juridiction administrative suprême française	13,83,246
-Fédération_Française_Football	Organisation	Organisation régissant le football en France	51,52,54
-Ordre_Public	Concept	Ensemble des règles assurant le fonctionnement de la société	24,48,62,81,117,120,154,177,190,208,244,443
-Rapporteur_Public	Rôle	Membre du tribunal administratif donnant un avis sur les décisions à prendre	116,119,153,207
-Hijab	Objet	Voile couvrant les cheveux et le cou porté par certaines femmes musulmanes	88,213,314,361
-Joueuse_Internationale	Rôle	Joueuse de football représentant son pays en compétitions internationales	8,12,31,82,115,118,152,157,172,206,219,245,302,327,356,360,389,394,406,441,455,248,315,370,267,412,102,193,236,254,72
-Joueuse_Licenciée	Rôle	Joueuse de football inscrite auprès de la fédération	64,110,372,444,18,40,89,97,182,72,315,370
-Ministre_Intérieur	Rôle	Membre du gouvernement chargé de la sécurité intérieure	303,328,341,381,398
-Ministre_Égalité	Rôle	Membre du gouvernement chargé de l'égalité entre les femmes et les hommes	303,328,341,381,398
-Laïcité	Concept	Principe de séparation de l'État et de la religion	324
-Controverse	Concept	Débat ou discussion publique sur un sujet polémique	464
-Qualification_Juridique	Détermine	Statut_Légal	La qualification juridique détermine le statut légal d'une situation
-Conseil_État	Applique	Principe_Neutralité	Le Conseil d'État applique le principe de neutralité aux agents du service public
-Fédération_Française_Football	Peut_Restreindre	Expression_Opinions	La FFF peut restreindre l'expression d'opinions pour préserver l'ordre public
-Rapporteur_Public	Donne_Avis	Décision_Juridique	Le rapporteur public donne son avis sur les décisions juridiques à prendre
-Conseil_État	Décide	Interdiction_Hijab	Le Conseil d'État a décidé d'interdire le hijab pour certaines catégories de joueuses
-Ministre_Intérieur	Soutient	Interdiction_Générale_Hijab	Le ministre de l'Intérieur soutient une interdiction générale du hijab
-Ministre_Égalité	Soutient	Autorisation_Hijab	La ministre de l'Égalité soutient le droit de porter le hijab
-Controverse	Concerne	Port_Hijab	Une controverse existe concernant le port du hijab dans le football
-Joueuse_Internationale	Est_Considérée_Comme	Agent_Service_Public	Les joueuses internationales sont considérées comme des agents du service public
-Joueuse_Licenciée	N'est_Pas_Considérée_Comme	Agent_Service_Public	Les joueuses licenciées ne sont pas considérées comme des agents du service public
-Décision_Juridique	Peut_Générer	Controverse	Les décisions juridiques peuvent générer des controverses publiques
+Conseil_d'État	Institution	Interdiction_du_hijab Valide l'interdiction du hijab pour prévenir l'atteinte à l'ordre public	13,83,246
+Fédération_française_de_football	Organisation	Expression_d'opinions Peut restreindre l'expression d'opinions pour prévenir les risques d'atteinte à l'ordre public	51,52,4,27,53,66,138,140,196,199,223,238,269,299,304,319,329,343,358,400,462,466,54
+Rapporteur_public	Rôle	Décision_juridique Donne son avis sur la décision à prendre dans l'intérêt général	116,119,153,207
+Ministre_de_l'Intérieur	Rôle	Port_du_hijab S'oppose au port du hijab en se référant à la neutralité et à la laïcité	303,328
+Ministre_chargée_de_l'égalité	Rôle	Droit_de_porter_le_hijab Estime que les joueuses ont le droit de porter le hijab	303,328,341,381,398,342,399,4,27,53,66,138,140,196,199,223,238,269,299,304,319,329,343,358,400,462,466,344,401
+Qualification_juridique	Concept	Régime_applicable Détermine le régime juridique applicable aux joueuses	1
+Neutralité	Principe	Principe d'impartialité dans le service public	28,320
+Ordre_public	Concept	Ensemble des règles essentielles au fonctionnement de la société	61,80,176,243,60,79,175,242
+Laïcité	Principe	Principe de séparation de l'État et de la religion	324
+Hijab	Objet	Voile couvrant les cheveux porté par certaines femmes musulmanes	88,213,314,361
+Joueuses_internationales	Groupe	Agents_du_service_public Sont considérées comme des agents du service public	216,263
+Joueuses_simples_licenciées	Groupe	Agents_du_service_public Ne sont pas considérées comme des agents du service public	230
+Conseil_d'État	Institution	Haute	juridiction administrative française
+Fédération_française_de_football	Organisation	Organisation	régissant le football en France
+Rapporteur_public	Rôle	Membre	du tribunal administratif donnant un avis sur la décision à prendre
+Ministre_de_l'Intérieur	Rôle	Responsable	gouvernemental chargé de la sécurité intérieure
+Ministre_chargée_de_l'égalité	Rôle	Responsable	gouvernemental chargé de l'égalité entre les femmes et les hommes
+Qualification_juridique	Concept	Processus	de détermination du statut juridique d'une situation
+Neutralité	Principe	Principe	d'impartialité dans le service public
+Ordre_public	Concept	Ensemble	des règles essentielles au fonctionnement de la société
+Laïcité	Principe	Principe	de séparation de l'État et de la religion
+Hijab	Objet	Voile	couvrant les cheveux porté par certaines femmes musulmanes
+Joueuses_internationales	Groupe	Joueuses	représentant leur pays dans des compétitions internationales
+Joueuses_simples_licenciées	Groupe	Joueuses	ayant une licence de football sans statut international
+Conseil_d'État	Établit	Qualification_juridique	Détermine le statut juridique des joueuses
+Conseil_d'État	Applique	Neutralité	Applique le principe de neutralité aux agents du service public
+Conseil_d'État	Valide	Interdiction_du_hijab	Valide l'interdiction du hijab pour prévenir l'atteinte à l'ordre public
+Fédération_française_de_football	Peut_restreindre	Expression_d'opinions	Peut restreindre l'expression d'opinions pour prévenir les risques d'atteinte à l'ordre public
+Rapporteur_public	Donne_avis	Décision_juridique	Donne son avis sur la décision à prendre dans l'intérêt général
+Ministre_de_l'Intérieur	S'oppose	Port_du_hijab	S'oppose au port du hijab en se référant à la neutralité et à la laïcité
+Ministre_chargée_de_l'égalité	Soutient	Droit_de_porter_le_hijab	Estime que les joueuses ont le droit de porter le hijab
+Joueuses_internationales	Sont	Agents_du_service_public	Sont considérées comme des agents du service public
+Joueuses_simples_licenciées	Ne_sont_pas	Agents_du_service_public	Ne sont pas considérées comme des agents du service public
+Qualification_juridique	Influence	Régime_applicable	Détermine le régime juridique applicable aux joueuses
+Conseil_d'État	Institution	Haute	juridiction administrative française
+Fédération_française_de_football	Organisation	Organisation	régissant le football en France
+Rapporteur_public	Rôle	Membre	du tribunal administratif donnant un avis sur la décision à prendre
+Ministre_de_l'Intérieur	Rôle	Responsable	gouvernemental chargé de la sécurité intérieure
+Ministre_chargée_de_l'égalité	Rôle	Responsable	gouvernemental chargé de l'égalité entre les femmes et les hommes
+Qualification_juridique	Concept	Processus	de détermination du statut juridique d'une situation
+Neutralité	Principe	Principe	d'impartialité dans le service public
+Ordre_public	Concept	Ensemble	des règles essentielles au fonctionnement de la société
+Laïcité	Principe	Principe	de séparation de l'État et de la religion
+Hijab	Objet	Voile	couvrant les cheveux porté par certaines femmes musulmanes
+Joueuses_internationales	Groupe	Joueuses	représentant leur pays dans des compétitions internationales
+Joueuses_simples_licenciées	Groupe	Joueuses	ayant une licence de football sans statut international
+Conseil_d'État	Établit	Qualification_juridique	Détermine le statut juridique des joueuses
+Conseil_d'État	Applique	Neutralité	Applique le principe de neutralité aux agents du service public
+Conseil_d'État	Valide	Interdiction_du_hijab	Valide l'interdiction du hijab pour prévenir l'atteinte à l'ordre public
+Fédération_française_de_football	Peut_restreindre	Expression_d'opinions	Peut restreindre l'expression d'opinions pour prévenir les risques d'atteinte à l'ordre public
+Rapporteur_public	Donne_avis	Décision_juridique	Donne son avis sur la décision à prendre dans l'intérêt général
+Ministre_de_l'Intérieur	S'oppose	Port_du_hijab	S'oppose au port du hijab en se référant à la neutralité et à la laïcité
+Ministre_chargée_de_l'égalité	Soutient	Droit_de_porter_le_hijab	Estime que les joueuses ont le droit de porter le hijab
+Joueuses_internationales	Sont	Agents_du_service_public	Sont considérées comme des agents du service public
+Joueuses_simples_licenciées	Ne_sont_pas	Agents_du_service_public	Ne sont pas considérées comme des agents du service public
+Qualification_juridique	Influence	Régime_applicable	Détermine le régime juridique applicable aux joueuses

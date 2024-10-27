@@ -1,0 +1,46 @@
+# Fichiers et dossiers spécifiques à Go
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/Godeps/
+main.exe
+
+# Fichiers de log
+*.log
+/logs/
+
+# Fichiers de configuration
+*.env
+
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.tmp*
+/temp/
+
+# Fichiers de cache
+.cache/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers de profiling Go
+*.prof
+*.out
+
+# Autres fichiers spécifiques au projet
+/docs/OLD/
+/docs/STEPS/

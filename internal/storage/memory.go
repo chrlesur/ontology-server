@@ -3,6 +3,7 @@ package storage
 import (
 	"fmt"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"sync"
@@ -214,6 +215,10 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 			// Dédupliquer les types pour les nouveaux éléments aussi
 			elem.Type = deduplicateTypes(elem.Type)
 			normalizedElements[normalizedName] = elem
+			// Conserver le nom original
+			elem.OriginalName = elem.Name
+			// Utiliser le nom normalisé comme nouveau nom
+			elem.Name = normalizedName
 		}
 	}
 
@@ -241,6 +246,7 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 		normalizedElemName := normalizeElementName(elem.Name)
 		for _, ctx := range contexts {
 			if elementInContext(normalizedElemName, ctx) {
+				// Vérifier si au moins une position de l'élément est dans la plage du contexte
 				for _, pos := range elem.Positions {
 					if pos >= ctx.StartOffset && pos <= ctx.EndOffset {
 						if _, exists := contextMap[ctx.Position]; !exists {
@@ -298,11 +304,37 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 
 // Fonction helper pour normaliser les noms d'éléments
 func normalizeElementName(name string) string {
-	name = strings.ReplaceAll(name, "_", " ")
-	name = strings.Join(strings.Fields(name), " ")
-	return strings.ToLower(name)
-}
+	// Remplacer les underscores par des espaces, sauf pour certains préfixes
+	parts := strings.SplitN(name, "_", 2)
+	if len(parts) == 2 && (parts[0] == "est" || parts[0] == "a") {
+		return parts[0] + " " + strings.ReplaceAll(parts[1], "_", " ")
+	}
 
+	// Remplacer les underscores par des espaces pour les autres cas
+	name = strings.ReplaceAll(name, "_", " ")
+
+	// Liste des préfixes qui peuvent être suivis d'une apostrophe en français
+	prefixes := []string{
+		"l", "d", "j", "m", "t", "s", "c", "n", "qu",
+		"jusqu", "lorsqu", "puisqu", "quoiqu", "quelqu",
+	}
+
+	// Remplacer les espaces par des apostrophes pour ces préfixes
+	for _, prefix := range prefixes {
+		pattern := fmt.Sprintf(`\b%s \b`, prefix)
+		replacement := fmt.Sprintf("%s'", prefix)
+		name = regexp.MustCompile(pattern).ReplaceAllString(name, replacement)
+	}
+
+	// Gestion spéciale pour "aujourd hui"
+	name = strings.ReplaceAll(name, "aujourd hui", "aujourd'hui")
+
+	// Supprimer les espaces multiples
+	name = strings.Join(strings.Fields(name), " ")
+
+	// Ne pas mettre en minuscules pour préserver la casse originale
+	return name
+}
 func deduplicateTypes(types string) string {
 	typeSlice := strings.Split(types, "/")
 	typeMap := make(map[string]string)
@@ -340,33 +372,61 @@ func normalizeType(t string) string {
 // Fonction helper pour vérifier si un élément est présent dans un contexte
 func elementInContext(elem string, ctx models.JSONContext) bool {
 	elemLower := strings.ToLower(elem)
-	for _, word := range ctx.Before {
-		if strings.ToLower(word) == elemLower {
-			return true
-		}
-	}
-	for _, word := range ctx.After {
-		if strings.ToLower(word) == elemLower {
-			return true
-		}
-	}
-	return strings.ToLower(ctx.Element) == elemLower
-}
+	contextText := strings.ToLower(strings.Join(append(ctx.Before, ctx.Element), " ") + " " + strings.Join(ctx.After, " "))
 
+	// Vérification de la correspondance exacte
+	if strings.Contains(contextText, elemLower) {
+		return true
+	}
+
+	// Vérification avec les underscores remplacés par des espaces
+	elemWithoutUnderscore := strings.ReplaceAll(elemLower, "_", " ")
+	if strings.Contains(contextText, elemWithoutUnderscore) {
+		return true
+	}
+
+	// Vérification des parties individuelles du nom de l'élément
+	elemParts := strings.FieldsFunc(elemLower, func(r rune) bool {
+		return r == '_' || r == ' '
+	})
+
+	matchCount := 0
+	for _, part := range elemParts {
+		if strings.Contains(contextText, part) {
+			matchCount++
+		}
+	}
+
+	// Si plus de la moitié des parties correspondent, considérez-le comme une correspondance
+	if float64(matchCount)/float64(len(elemParts)) > 0.5 {
+		return true
+	}
+
+	// Vérification spéciale pour les éléments contenant "est" ou "a"
+	if strings.Contains(elemLower, "est_") || strings.Contains(elemLower, "a_") {
+		parts := strings.SplitN(elemLower, "_", 2)
+		if len(parts) == 2 && strings.Contains(contextText, parts[1]) {
+			return true
+		}
+	}
+
+	return false
+}
 func (ms *MemoryStorage) GetElementContexts(elementName string) ([]models.JSONContext, error) {
 	ms.mutex.RLock()
 	defer ms.mutex.RUnlock()
 
-	log.Info("GetElementContext Called")
+	log.Info("GetElementContext Called for: " + elementName)
+	normalizedName := normalizeElementName(elementName)
 
 	for _, ontology := range ms.ontologies {
 		for _, elem := range ontology.Elements {
-			if elem.Name == elementName {
-				log.Info("GetElementContext found")
+			if normalizeElementName(elem.Name) == normalizedName {
+				log.Info(fmt.Sprintf("GetElementContext found for %s with %d contexts", elem.Name, len(elem.Contexts)))
 				return elem.Contexts, nil
 			}
 		}
 	}
 
-	return nil, fmt.Errorf("element not found")
+	return nil, fmt.Errorf("element not found: %s", elementName)
 }

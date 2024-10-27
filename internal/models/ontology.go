@@ -6,11 +6,12 @@ import (
 
 // OntologyElement représente un élément individuel dans l'ontologie
 type OntologyElement struct {
-	Name        string
-	Type        string
-	Positions   []int
-	Description string
-	Contexts    []JSONContext
+	Name         string
+	OriginalName string
+	Type         string
+	Positions    []int
+	Description  string
+	Contexts     []JSONContext
 }
 
 // Relation représente une relation entre deux éléments de l'ontologie

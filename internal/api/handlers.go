@@ -263,3 +263,14 @@ func (h *Handler) GetElementRelations(c *gin.Context) {
 	h.Logger.Info(fmt.Sprintf("Found %d relations for element: %s", len(relations), elementName))
 	c.JSON(http.StatusOK, relations)
 }
+
+func (h *Handler) GetElementContexts(c *gin.Context) {
+	elementName := c.Param("element_name")
+	contexts, err := h.Storage.GetElementContexts(elementName)
+	if err != nil {
+		h.Logger.Error(fmt.Sprintf("Error getting contexts for element %s: %v", elementName, err))
+		c.JSON(http.StatusNotFound, gin.H{"error": "Element not found"})
+		return
+	}
+	c.JSON(http.StatusOK, contexts)
+}

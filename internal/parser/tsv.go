@@ -38,6 +38,7 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 
 	reader := csv.NewReader(bufio.NewReader(file))
 	reader.Comma = '\t'         // Use tab as delimiter
+	reader.LazyQuotes = true    // Allow quotes within fields
 	reader.FieldsPerRecord = -1 // Allow variable number of fields
 
 	var elements []models.OntologyElement
@@ -61,10 +62,19 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 			continue
 		}
 
+		// Les deux premiers champs sont toujours le nom et le type
+		name := strings.TrimSpace(record[0])
+		elemType := strings.TrimSpace(record[1])
+
+		// Le dernier champ est toujours les positions
+		positionsStr := record[len(record)-1]
+
+		// Tout ce qui se trouve entre est la description (peut contenir des tabulations)
+		description := strings.Join(record[2:len(record)-1], "\t")
+
 		// Parse positions
 		var positions []int
-		positionsStr := strings.Split(record[3], ",")
-		for _, pos := range positionsStr {
+		for _, pos := range strings.Split(positionsStr, ",") {
 			if p, err := strconv.Atoi(strings.TrimSpace(pos)); err == nil {
 				positions = append(positions, p)
 			}
@@ -72,25 +82,28 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 
 		// Create an OntologyElement
 		element := models.OntologyElement{
-			Name:        strings.TrimSpace(record[0]),
-			Type:        strings.TrimSpace(record[1]),
-			Description: strings.TrimSpace(record[2]),
+			Name:        name,
+			Type:        elemType,
+			Description: strings.TrimSpace(description),
 			Positions:   positions,
 		}
 		elements = append(elements, element)
 
 		// Create a Relation
+		// Note: Nous supposons que le champ Type de la relation est le même que le Type de l'élément
+		// Si ce n'est pas le cas, vous devrez ajuster cette logique
 		relation := models.Relation{
-			Source:      strings.TrimSpace(record[0]),
-			Type:        strings.TrimSpace(record[1]),
-			Target:      strings.TrimSpace(record[2]),
-			Description: strings.TrimSpace(record[2]),
+			Source:      name,
+			Type:        elemType,
+			Target:      strings.TrimSpace(record[2]), // Supposons que le troisième champ est la cible
+			Description: strings.TrimSpace(description),
 		}
 		relations = append(relations, relation)
 
 		log.Info(fmt.Sprintf("Parsed line %d: Element: %s, Type: %s, Description: %s",
 			lineNumber, element.Name, element.Type, element.Description))
 	}
+
 	log.Info(fmt.Sprintf("Finished parsing TSV file. Found %d elements and %d relations.", len(elements), len(relations)))
 	return elements, relations, nil
 }

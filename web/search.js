@@ -15,7 +15,8 @@ export function initSearch() {
 }
 
 // Gestion de la recherche
-async function handleSearch(event) {
+
+export async function handleSearch(event) {
     if (event) event.preventDefault();
     const query = searchInput.value;
     const ontologyId = ontologySelect.value;
@@ -24,9 +25,14 @@ async function handleSearch(event) {
     try {
         const results = await searchOntologies(query, ontologyId, elementType);
         displayResults(results);
+        
+        if (results.length === 0) {
+            console.log('Aucun résultat trouvé pour la recherche.');
+        }
     } catch (error) {
         console.error('Erreur lors de la recherche:', error);
         showErrorMessage('Une erreur est survenue lors de la recherche.');
+        displayResults([]); // Afficher un message "Aucun résultat" en cas d'erreur
     }
 }
 

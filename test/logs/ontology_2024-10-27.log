@@ -1,8 +1,0 @@
-2024/10/27 11:07:33 [INFO] root.go:81 - Initializing Ontology application
-2024/10/27 11:07:33 [INFO] enrich.go:37 - Starting ontology enrichment process
-2024/10/27 11:07:33 [INFO] pipeline.go:83 - Starting pipeline execution
-2024/10/27 11:07:33 [INFO] enrich.go:64 - Starting pass 1 of 1
-2024/10/27 11:07:33 [INFO] pipeline.go:116 - Starting pass 1 with initial result token count: 0
-2024/10/27 11:07:33 [INFO] pipeline.go:158 - Processing single pass, input tokens: 12, previous result tokens: 0
-2024/10/27 11:07:33 [ERROR] pipeline.go:162 - Failed to parse input: Failed to access input: %v: CreateFile C:\PROJETS\ontology-server\test\help: Le fichier spécifié est introuvable.
-2024/10/27 11:07:33 [ERROR] pipeline.go:120 - Error processing pass: 1%!(EXTRA *fmt.wrapError=Failed to access input: %v: CreateFile C:\PROJETS\ontology-server\test\help: Le fichier spécifié est introuvable.)
