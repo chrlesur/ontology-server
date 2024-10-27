@@ -69,17 +69,18 @@ export async function uploadOntology(formData) {
 
 export async function getElementRelations(elementName) {
     const url = `${API_BASE_URL}/elements/relations/${encodeURIComponent(elementName)}`;
-    console.log('Fetching element relations from:', url);
     try {
         const response = await fetch(url);
         if (!response.ok) {
+            if (response.status === 404) {
+                return []; // Retourne un tableau vide si aucune relation n'est trouvée
+            }
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        console.log('Received element relations:', data);
         return data;
     } catch (error) {
         console.error('Erreur lors de la récupération des relations de l\'élément:', error);
-        throw error;
+        return []; // Retourne un tableau vide en cas d'erreur
     }
 }

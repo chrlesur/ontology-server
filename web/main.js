@@ -28,3 +28,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         showErrorMessage('Une erreur est survenue lors de l\'initialisation de l\'application.');
     }
 });
+
+window.addEventListener('resize', () => {
+    const selectedElement = document.querySelector('.result-item.selected');
+    if (selectedElement) {
+        const elementName = selectedElement.querySelector('h3').textContent;
+        showElementDetails(elementName);
+    }
+});

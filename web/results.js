@@ -11,12 +11,7 @@ const elementRelations = document.getElementById('element-relations');
 export function displayResults(results) {
     const resultsList = document.getElementById('results-list');
     resultsList.innerHTML = '';
-
-    if (!results || results.length === 0) {
-        resultsList.innerHTML = '<p>Aucun résultat trouvé.</p>';
-        return;
-    }
-
+    
     results.forEach(result => {
         const resultItem = document.createElement('div');
         resultItem.className = 'result-item';
@@ -24,49 +19,65 @@ export function displayResults(results) {
             <h3>${escapeHtml(result.ElementName)}</h3>
             <p>${escapeHtml(result.Description)}</p>
         `;
-        resultItem.addEventListener('click', () => showElementDetails(result.ElementName));
+        resultItem.addEventListener('click', () => {
+            // Supprimer la classe 'selected' de tous les éléments
+            document.querySelectorAll('.result-item').forEach(item => item.classList.remove('selected'));
+            // Ajouter la classe 'selected' à l'élément cliqué
+            resultItem.classList.add('selected');
+            showElementDetails(result.ElementName);
+        });
         resultsList.appendChild(resultItem);
     });
 }
 
 async function showElementDetails(elementName) {
     const loadingSpinner = document.getElementById('loading-spinner');
-    loadingSpinner.classList.remove('hidden');
+    if (loadingSpinner) loadingSpinner.classList.remove('hidden');
+
     try {
         const element = await getElementDetails(elementName);
         console.log("Détails de l'élément reçus:", element);
 
         displayElementInfo(element);
         displayElementContexts(element);
-
-        console.log("Récupération des relations pour:", elementName);
-        // Récupérer et afficher les relations
+        
         const relations = await getElementRelations(elementName);
-        console.log("Relations reçues:", relations);
+        console.log("Relations de l'élément reçues:", relations);
+
         if (relations && relations.length > 0) {
             displayElementRelations(relations);
             createRelationsGraph(element, relations);
         } else {
-            elementRelations.innerHTML = '<p>Aucune relation disponible pour cet élément.</p>';
+            displayElementRelations([]);
+            // Vous pouvez également choisir de cacher ou effacer le graphique ici
         }
     } catch (error) {
-        console.error('Erreur lors de la récupération des détails de l\'élément:', error);
-        showErrorMessage('Impossible de charger les détails de l\'élément.');
+        console.error('Erreur lors de la récupération des détails ou des relations de l\'élément:', error);
+        showErrorMessage('Impossible de charger les détails ou les relations de l\'élément.');
     } finally {
-        loadingSpinner.classList.add('hidden');
+        if (loadingSpinner) loadingSpinner.classList.add('hidden');
     }
 }
 
 function displayElementRelations(relations) {
-    const elementRelations = document.getElementById('element-relations');
-    elementRelations.innerHTML = '<h3>Relations</h3>';
-    const ul = document.createElement('ul');
-    relations.forEach(relation => {
-        const li = document.createElement('li');
-        li.textContent = `${relation.Source} ${relation.Type} ${relation.Target}`;
-        ul.appendChild(li);
-    });
-    elementRelations.appendChild(ul);
+    const relationsList = document.getElementById('element-relations-list');
+    if (!relationsList) {
+        console.error("Element 'element-relations-list' not found");
+        return;
+    }
+
+    relationsList.innerHTML = '';
+    if (relations && relations.length > 0) {
+        const ul = document.createElement('ul');
+        relations.forEach(relation => {
+            const li = document.createElement('li');
+            li.textContent = `${relation.Source} ${relation.Type} ${relation.Target}`;
+            ul.appendChild(li);
+        });
+        relationsList.appendChild(ul);
+    } else {
+        relationsList.innerHTML = '<p>Aucune relation disponible pour cet élément.</p>';
+    }
 }
 
 function displayElementInfo(element) {
@@ -129,4 +140,15 @@ function escapeHtml(unsafe) {
          .replace(/>/g, "&gt;")
          .replace(/"/g, "&quot;")
          .replace(/'/g, "&#039;");
+}
+
+function displayRelationsList(relations) {
+    const relationsList = document.getElementById('element-relations-list');
+    relationsList.innerHTML = '';
+    relations.forEach(relation => {
+        const relationItem = document.createElement('div');
+        relationItem.className = 'relation-item';
+        relationItem.textContent = `${relation.Source} ${relation.Type} ${relation.Target}`;
+        relationsList.appendChild(relationItem);
+    });
 }

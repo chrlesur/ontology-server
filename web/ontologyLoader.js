@@ -2,48 +2,49 @@
 import { uploadOntology } from './api.js';
 import { showErrorMessage } from './main.js';
 
-const uploadForm = document.getElementById('upload-form');
-const uploadModal = document.getElementById('upload-modal');
-const uploadProgress = document.getElementById('upload-progress');
-
 // Initialisation du chargeur d'ontologie
 export function initOntologyLoader() {
-    uploadForm.addEventListener('submit', handleUpload);
-    document.querySelector('.close').addEventListener('click', closeModal);
-}
+    const uploadButton = document.getElementById('upload-button');
+    const uploadModal = document.getElementById('upload-modal');
+    const closeButton = uploadModal ? uploadModal.querySelector('.close') : null;
+    const uploadForm = document.getElementById('upload-form');
+    const uploadProgress = document.getElementById('upload-progress');
 
-// Gestion du chargement de fichiers
-async function handleUpload(event) {
-    event.preventDefault();
-    const formData = new FormData(uploadForm);
-    
-    try {
-        uploadForm.classList.add('hidden');
-        uploadProgress.classList.remove('hidden');
-        
-        const response = await uploadOntology(formData);
-        console.log('Ontologie chargée avec succès:', response);
-        
-        // Émettre un événement personnalisé pour signaler le chargement réussi
-        document.dispatchEvent(new CustomEvent('ontologyLoaded'));
-        
-        // Fermer le modal après un court délai
-        setTimeout(() => {
-            closeModal();
-        }, 1000);
-    } catch (error) {
-        console.error('Erreur lors du chargement de l\'ontologie:', error);
-        showErrorMessage('Une erreur est survenue lors du chargement de l\'ontologie.');
-    } finally {
-        uploadForm.classList.remove('hidden');
-        uploadProgress.classList.add('hidden');
+    if (!uploadButton || !uploadModal || !closeButton || !uploadForm || !uploadProgress) {
+        console.error("One or more required elements are missing");
+        return;
     }
-}
 
-function closeModal() {
-    uploadModal.style.display = 'none';
-    uploadForm.reset();
-}
+    uploadButton.addEventListener('click', () => {
+        uploadModal.style.display = 'block';
+    });
 
-// Exporter la fonction closeModal pour l'utiliser ailleurs si nécessaire
-export { closeModal };
+    closeButton.addEventListener('click', () => {
+        uploadModal.style.display = 'none';
+    });
+
+    uploadForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        
+        try {
+            uploadForm.classList.add('hidden');
+            uploadProgress.classList.remove('hidden');
+            
+            const formData = new FormData(uploadForm);
+            const response = await uploadOntology(formData);
+            console.log('Ontologie chargée avec succès:', response);
+            
+            // Fermer le modal après un court délai
+            setTimeout(() => {
+                uploadModal.style.display = 'none';
+                // TODO: Mettre à jour l'interface utilisateur après le chargement réussi
+            }, 1000);
+        } catch (error) {
+            console.error('Erreur lors du chargement de l\'ontologie:', error);
+            showErrorMessage('Une erreur est survenue lors du chargement de l\'ontologie.');
+        } finally {
+            uploadForm.classList.remove('hidden');
+            uploadProgress.classList.add('hidden');
+        }
+    });
+}

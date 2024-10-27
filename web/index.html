@@ -31,17 +31,26 @@
         </section>
 
         <div class="content-wrapper">
-            <section id="results-section">
-                <h2>Résultats</h2>
-                <div id="results-list"></div>
-            </section>
-
-            <section id="details-section">
-                <div id="element-details"></div>
-                <div id="element-contexts"></div>
-                <div id="element-relations"></div>
-            </section>
+            <div class="left-column">
+                <section id="results-section">
+                    <h2>Résultats</h2>
+                    <div id="results-list"></div>
+                </section>
+            </div>
+            <div class="right-column">
+                <section id="details-section">
+                    <div id="element-details"></div>
+                    <div id="element-contexts"></div>
+                </section>
+            </div>
         </div>
+        <section id="relations-section">
+            <h2>Relations</h2>
+            <div class="relations-content">
+                <div id="element-relations-graph"></div>
+                <div id="element-relations-list"></div>
+            </div>
+        </section>
     </main>
 
     <div id="upload-modal" class="modal">
@@ -66,10 +75,11 @@
         </div>
     </div>
 
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script type="module" src="main.js"></script>
     <div id="loading-spinner" class="loading-spinner hidden">
         <div class="spinner"></div>
     </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>

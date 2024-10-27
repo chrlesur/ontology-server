@@ -1,14 +1,13 @@
-// graph.js
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 
 export function createRelationsGraph(element, relations) {
-    const elementRelations = document.getElementById('element-relations');
-    elementRelations.innerHTML = ''; // Clear previous content
+    const graphContainer = document.getElementById('element-relations-graph');
+    graphContainer.innerHTML = ''; // Clear previous content
 
-    const width = elementRelations.clientWidth;
-    const height = 400;
+    const width = graphContainer.clientWidth;
+    const height = graphContainer.clientHeight;
     
-    const svg = d3.select(elementRelations)
+    const svg = d3.select(graphContainer)
         .append("svg")
         .attr("width", width)
         .attr("height", height);
