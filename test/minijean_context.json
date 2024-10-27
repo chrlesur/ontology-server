@@ -1,0 +1,106 @@
+[{
+    "position": 77,
+    "before": ["PAIN","DE","VIE","Page","9-14",":","4.","LA","FÊTE","DES","TENTES","Page","14-15",":","5.","LA","FÊTE","DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES"],
+    "after": ["LA","DERNIÈRE","PÂQUE","II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2."],
+    "element": "Évangile_de_Jean",
+    "length": 1
+  },
+  {
+    "position": 82,
+    "before": [":","4.","LA","FÊTE","DES","TENTES","Page","14-15",":","5.","LA","FÊTE","DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II"],
+    "after": ["L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":"],
+    "element": "Pêche_miraculeuse",
+    "length": 3
+  },
+  {
+    "position": 88,
+    "before": ["Page","14-15",":","5.","LA","FÊTE","DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE"],
+    "after": ["L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION"],
+    "element": "Évangile_de_Jean",
+    "length": 1
+  },
+  {
+    "position": 90,
+    "before": [":","5.","LA","FÊTE","DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU"],
+    "after": ["DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26"],
+    "element": "Évangile_de_Jean",
+    "length": 2
+  },
+  {
+    "position": 94,
+    "before": ["DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22"],
+    "after": ["1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION"],
+    "element": "Pêche miraculeuse",
+    "length": 4
+  },
+  {
+    "position": 99,
+    "before": [":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS"],
+    "after": ["JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE"],
+    "element": "Évangile_de_Jean",
+    "length": 2
+  },
+  {
+    "position": 103,
+    "before": ["MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES"],
+    "after": ["Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2"],
+    "element": "Disciples",
+    "length": 1
+  },
+  {
+    "position": 106,
+    "before": ["PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24"],
+    "after": ["2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2","PROLOGUE.","1","1Au"],
+    "element": "Pêche miraculeuse",
+    "length": 2
+  },
+  {
+    "position": 112,
+    "before": ["–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25"],
+    "after": ["3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2","PROLOGUE.","1","1Au","commencement","était","le","Verbe","et","le"],
+    "element": "Pêche miraculeuse",
+    "length": 5
+  },
+  {
+    "position": 118,
+    "before": ["DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA"],
+    "after": ["Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2","PROLOGUE.","1","1Au","commencement","était","le","Verbe","et","le","Verbe","était","avec","Dieu","et","le"],
+    "element": "Résurrection",
+    "length": 1
+  },
+  {
+    "position": 121,
+    "before": ["DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26"],
+    "after": ["4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2","PROLOGUE.","1","1Au","commencement","était","le","Verbe","et","le","Verbe","était","avec","Dieu","et","le","Verbe","était","Dieu."],
+    "element": "Pêche miraculeuse",
+    "length": 2
+  },
+  {
+    "position": 127,
+    "before": ["DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25"],
+    "after": ["ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2","PROLOGUE.","1","1Au","commencement","était","le","Verbe","et","le","Verbe","était","avec","Dieu","et","le","Verbe","était","Dieu.","2Il","était","au","commencement","avec","Dieu."],
+    "element": "Pêche miraculeuse",
+    "length": 2
+  },
+  {
+    "position": 131,
+    "before": ["AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON"],
+    "after": ["JEAN","2","PROLOGUE.","1","1Au","commencement","était","le","Verbe","et","le","Verbe","était","avec","Dieu","et","le","Verbe","était","Dieu.","2Il","était","au","commencement","avec","Dieu.","3Tout","fut","par","lui,"],
+    "element": "Évangile_de_Jean",
+    "length": 2
+  },
+  {
+    "position": 139,
+    "before": ["PASSION","Page","24-25",":","3.","LE","JOUR","DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2","PROLOGUE.","1","1Au","commencement","était"],
+    "after": ["Verbe","et","le","Verbe","était","avec","Dieu","et","le","Verbe","était","Dieu.","2Il","était","au","commencement","avec","Dieu.","3Tout","fut","par","lui,","et","sans","lui","rien","ne","fut.","4Ce","qui"],
+    "element": "Pêche_miraculeuse",
+    "length": 5
+  },
+  {
+    "position": 146,
+    "before": ["DE","LA","RÉSURRECTION","Page","25-26",":","4.","PREMIÈRE","CONCLUSION","Page","25",":","ÈPILOGUE","L’EVANGILE","SELON","SAINT","JEAN","2","PROLOGUE.","1","1Au","commencement","était","le","Verbe","et","le","Verbe","était","avec"],
+    "after": ["et","le","Verbe","était","Dieu.","2Il","était","au","commencement","avec","Dieu.","3Tout","fut","par","lui,","et","sans","lui","rien","ne","fut.","4Ce","qui","fut","en","lui","était","la","vie,","et"],
+    "element": "Pêche_miraculeuse",
+    "length": 4
+  }
+  ]

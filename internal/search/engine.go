@@ -48,6 +48,8 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 	resultChan := make(chan SearchResult)
 
 	ontologies := se.Storage.ListOntologies()
+	se.Logger.Info(fmt.Sprintf("Searching through %d ontologies", len(ontologies)))
+
 	for _, ontology := range ontologies {
 		if ontologyID != "" && ontology.ID != ontologyID {
 			continue
@@ -56,7 +58,11 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 		wg.Add(1)
 		go func(onto *models.Ontology) {
 			defer wg.Done()
+			se.Logger.Info(fmt.Sprintf("Searching in ontology: %s (Elements: %d)", onto.ID, len(onto.Elements)))
 			for _, element := range onto.Elements {
+				se.Logger.Info(fmt.Sprintf("Examining element: %s (Type: %s, Contexts: %d)",
+					element.Name, element.Type, len(element.Contexts)))
+
 				if elementType != "" && element.Type != elementType {
 					continue
 				}
@@ -68,7 +74,7 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 					if len(element.Positions) > 0 {
 						position = element.Positions[0]
 					}
-					resultChan <- SearchResult{
+					result := SearchResult{
 						OntologyID:  onto.ID,
 						ElementName: element.Name,
 						ElementType: element.Type,
@@ -76,8 +82,11 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 						Context:     context,
 						Position:    position,
 						Relevance:   relevance,
-						Contexts:    element.Contexts, // Ajout des contextes ici
+						Contexts:    element.Contexts,
 					}
+					se.Logger.Info(fmt.Sprintf("Found relevant result: %s (Relevance: %.2f, Contexts: %d)",
+						result.ElementName, result.Relevance, len(result.Contexts)))
+					resultChan <- result
 				}
 			}
 		}(ontology)
@@ -95,6 +104,9 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 	sortSearchResults(results)
 
 	se.Logger.Info(fmt.Sprintf("Search completed. Found %d results.", len(results)))
+	for _, result := range results {
+		se.Logger.Info(fmt.Sprintf("Result: %s (Contexts: %d)", result.ElementName, len(result.Contexts)))
+	}
 	return results, nil
 }
 

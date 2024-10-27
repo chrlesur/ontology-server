@@ -109,6 +109,7 @@ func (ms *MemoryStorage) GetElement(elementName string) (*models.OntologyElement
 	for _, ontology := range ms.ontologies {
 		for _, element := range ontology.Elements {
 			if element.Name == elementName {
+				log.Info(fmt.Sprintf("Found element %s with %d contexts", elementName, len(element.Contexts)))
 				return element, nil
 			}
 		}
@@ -193,6 +194,8 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 		return fmt.Errorf("unsupported ontology file format")
 	}
 
+	log.Info(fmt.Sprintf("Loaded %d elements and %d relations from ontology file", len(elements), len(relations)))
+
 	// Charger le fichier de contexte JSON si fourni
 	var contexts []models.JSONContext
 	if contextFile != "" {
@@ -201,39 +204,74 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 			log.Error(fmt.Sprintf("Error parsing context file: %v", err))
 			return fmt.Errorf("error parsing context file: %w", err)
 		}
+		log.Info(fmt.Sprintf("Loaded %d contexts from JSON file", len(contexts)))
+	}
+
+	// Fonction helper pour vérifier si un élément est présent dans un contexte
+	elementInContext := func(elem string, ctx models.JSONContext) bool {
+		elemLower := strings.ToLower(elem)
+		for _, word := range ctx.Before {
+			if strings.ToLower(word) == elemLower {
+				return true
+			}
+		}
+		for _, word := range ctx.After {
+			if strings.ToLower(word) == elemLower {
+				return true
+			}
+		}
+		return strings.ToLower(ctx.Element) == elemLower
 	}
 
 	// Associer les contextes aux éléments
-	elementMap := make(map[string]*models.OntologyElement)
-	for i := range elements {
-		elementMap[elements[i].Name] = elements[i]
-	}
-
-	for _, ctx := range contexts {
-		if elem, ok := elementMap[ctx.Element]; ok {
-			if elem.Contexts == nil {
-				elem.Contexts = make([]models.JSONContext, 0)
+	totalAssociations := 0
+	for _, elem := range elements {
+		contextMap := make(map[int]models.JSONContext)
+		for _, ctx := range contexts {
+			if elementInContext(elem.Name, ctx) {
+				for _, pos := range elem.Positions {
+					if pos >= ctx.StartOffset && pos <= ctx.EndOffset {
+						if _, exists := contextMap[ctx.Position]; !exists {
+							contextMap[ctx.Position] = ctx
+							totalAssociations++
+							log.Info(fmt.Sprintf("Associated new context (position %d) to element %s", ctx.Position, elem.Name))
+						}
+						break
+					}
+				}
 			}
+		}
+		// Convertir la map en slice pour l'élément
+		elem.Contexts = make([]models.JSONContext, 0, len(contextMap))
+		for _, ctx := range contextMap {
 			elem.Contexts = append(elem.Contexts, ctx)
 		}
+		log.Info(fmt.Sprintf("Element %s has %d unique contexts after association", elem.Name, len(elem.Contexts)))
 	}
+
+	log.Info(fmt.Sprintf("Associated a total of %d unique contexts to elements", totalAssociations))
 
 	// Créer une nouvelle ontologie avec les éléments et relations parsés
 	ontology := &models.Ontology{
 		ID:         fmt.Sprintf("onto_%d", time.Now().UnixNano()),
 		Name:       filepath.Base(ontologyFile),
 		Filename:   ontologyFile,
-		Format:     filepath.Ext(ontologyFile)[1:], // Remove the dot from the extension
-		Size:       0,                              // You might want to get the actual file size
-		SHA256:     "",                             // You might want to calculate the file hash
+		Format:     filepath.Ext(ontologyFile)[1:],
+		Size:       0,
+		SHA256:     "",
 		ImportedAt: time.Now(),
 		Elements:   elements,
 		Relations:  relations,
 	}
 
-	log.Info(fmt.Sprintf("Loaded ontology with ID: %s", ontology.ID))
-	log.Info(fmt.Sprintf("Number of elements: %d", len(ontology.Elements)))
-	log.Info(fmt.Sprintf("Number of relations: %d", len(ontology.Relations)))
+	log.Info(fmt.Sprintf("Created new ontology with ID: %s", ontology.ID))
+	log.Info(fmt.Sprintf("Number of elements in ontology: %d", len(ontology.Elements)))
+	log.Info(fmt.Sprintf("Number of relations in ontology: %d", len(ontology.Relations)))
+
+	// Vérification finale des contextes
+	for _, elem := range ontology.Elements {
+		log.Info(fmt.Sprintf("Element %s has %d unique contexts after ontology creation", elem.Name, len(elem.Contexts)))
+	}
 
 	// Ajouter l'ontologie au stockage
 	err = ms.AddOntology(ontology)

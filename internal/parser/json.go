@@ -28,6 +28,19 @@ func ParseJSON(filename string) ([]models.JSONContext, error) {
 		return nil, fmt.Errorf("failed to decode JSON: %w", err)
 	}
 
-	log.Info(fmt.Sprintf("Finished parsing JSON file. Found %d contexts.", len(contexts)))
+	// Calculer StartOffset et EndOffset pour chaque contexte
+	for i := range contexts {
+		ctx := &contexts[i]
+		ctx.StartOffset = ctx.Position - len(ctx.Before)
+		ctx.EndOffset = ctx.Position + ctx.Length + len(ctx.After) - 1
+		log.Info(fmt.Sprintf("Context for '%s': StartOffset=%d, EndOffset=%d", ctx.Element, ctx.StartOffset, ctx.EndOffset))
+	}
+
+	log.Info(fmt.Sprintf("Parsed %d contexts from JSON file", len(contexts)))
+	for i, ctx := range contexts {
+		log.Info(fmt.Sprintf("Context %d: Element=%s, Position=%d, StartOffset=%d, EndOffset=%d",
+			i, ctx.Element, ctx.Position, ctx.StartOffset, ctx.EndOffset))
+	}
+
 	return contexts, nil
 }
