@@ -42,14 +42,12 @@ async function showElementDetails(elementName) {
         displayElementContexts(element);
         
         const relations = await getElementRelations(elementName);
-        console.log("Relations de l'élément reçues:", relations);
-
         if (relations && relations.length > 0) {
-            displayElementRelations(relations);
             createRelationsGraph(element, relations);
+            displayRelationsList(relations);
         } else {
-            displayElementRelations([]);
-            // Vous pouvez également choisir de cacher ou effacer le graphique ici
+            document.getElementById('element-relations-graph').innerHTML = '<p>Aucune relation à afficher.</p>';
+            document.getElementById('element-relations-list').innerHTML = '<p>Aucune relation disponible.</p>';
         }
     } catch (error) {
         console.error('Erreur lors de la récupération des détails ou des relations de l\'élément:', error);
@@ -143,12 +141,19 @@ function escapeHtml(unsafe) {
 }
 
 function displayRelationsList(relations) {
-    const relationsList = document.getElementById('element-relations-list');
-    relationsList.innerHTML = '';
-    relations.forEach(relation => {
-        const relationItem = document.createElement('div');
-        relationItem.className = 'relation-item';
-        relationItem.textContent = `${relation.Source} ${relation.Type} ${relation.Target}`;
-        relationsList.appendChild(relationItem);
-    });
+    const listContainer = document.getElementById('element-relations-list');
+    listContainer.innerHTML = ''; // Clear previous content
+
+    if (relations && relations.length > 0) {
+        const ul = document.createElement('ul');
+        relations.forEach(relation => {
+            const li = document.createElement('li');
+            li.className = 'relation-item';
+            li.textContent = `${relation.Source} ${relation.Type} ${relation.Target}`;
+            ul.appendChild(li);
+        });
+        listContainer.appendChild(ul);
+    } else {
+        listContainer.innerHTML = '<p class="no-relations">Aucune relation disponible.</p>';
+    }
 }

@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"unicode"
 
 	"github.com/chrlesur/ontology-server/internal/logger"
 	"github.com/chrlesur/ontology-server/internal/models"
@@ -37,12 +38,12 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 	defer file.Close()
 
 	reader := csv.NewReader(bufio.NewReader(file))
-	reader.Comma = '\t'         // Use tab as delimiter
-	reader.LazyQuotes = true    // Allow quotes within fields
-	reader.FieldsPerRecord = -1 // Allow variable number of fields
+	reader.Comma = '\t'
+	reader.LazyQuotes = true
+	reader.FieldsPerRecord = -1
 
 	var elements []models.OntologyElement
-	var relations []models.Relation
+	relationMap := make(map[string]models.Relation)
 
 	lineNumber := 0
 	for {
@@ -62,25 +63,16 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 			continue
 		}
 
-		// Les deux premiers champs sont toujours le nom et le type
 		name := strings.TrimSpace(record[0])
 		elemType := strings.TrimSpace(record[1])
-
-		// Le dernier champ est toujours les positions
 		positionsStr := record[len(record)-1]
-
-		// Tout ce qui se trouve entre est la description (peut contenir des tabulations)
 		description := strings.Join(record[2:len(record)-1], "\t")
 
-		// Parse positions
-		var positions []int
-		for _, pos := range strings.Split(positionsStr, ",") {
-			if p, err := strconv.Atoi(strings.TrimSpace(pos)); err == nil {
-				positions = append(positions, p)
-			}
+		positions, err := parsePositions(positionsStr)
+		if err != nil {
+			log.Warning(fmt.Sprintf("Error parsing positions on line %d: %v", lineNumber, err))
 		}
 
-		// Create an OntologyElement
 		element := models.OntologyElement{
 			Name:        name,
 			Type:        elemType,
@@ -89,28 +81,42 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 		}
 		elements = append(elements, element)
 
-		// Create a Relation
-		// Note: Nous supposons que le champ Type de la relation est le même que le Type de l'élément
-		// Si ce n'est pas le cas, vous devrez ajuster cette logique
-		relation := models.Relation{
-			Source:      name,
-			Type:        elemType,
-			Target:      strings.TrimSpace(record[2]), // Supposons que le troisième champ est la cible
-			Description: strings.TrimSpace(description),
+		// Dédupliquer les relations
+		relationKey := fmt.Sprintf("%s|%s|%s", name, elemType, strings.TrimSpace(record[2]))
+		if _, exists := relationMap[relationKey]; !exists {
+			relationMap[relationKey] = models.Relation{
+				Source:      name,
+				Type:        elemType,
+				Target:      strings.TrimSpace(record[2]),
+				Description: strings.TrimSpace(description),
+			}
 		}
-		relations = append(relations, relation)
 
 		log.Info(fmt.Sprintf("Parsed line %d: Element: %s, Type: %s, Description: %s",
 			lineNumber, element.Name, element.Type, element.Description))
 	}
 
-	log.Info(fmt.Sprintf("Finished parsing TSV file. Found %d elements and %d relations.", len(elements), len(relations)))
+	// Convertir la map de relations en slice
+	relations := make([]models.Relation, 0, len(relationMap))
+	for _, relation := range relationMap {
+		relations = append(relations, relation)
+	}
+
+	log.Info(fmt.Sprintf("Finished parsing TSV file. Found %d elements and %d unique relations.", len(elements), len(relations)))
 	return elements, relations, nil
 }
 
 func parsePositions(positionsStr string) ([]int, error) {
 	positionsStr = strings.TrimSpace(positionsStr)
 	if positionsStr == "" {
+		return []int{}, nil
+	}
+
+	// Vérifier si la chaîne contient des caractères non numériques (à l'exception des virgules et des espaces)
+	if strings.IndexFunc(positionsStr, func(r rune) bool {
+		return !unicode.IsDigit(r) && r != ',' && r != ' '
+	}) != -1 {
+		// Si c'est le cas, retourner un slice vide sans erreur
 		return []int{}, nil
 	}
 
@@ -124,7 +130,8 @@ func parsePositions(positionsStr string) ([]int, error) {
 		}
 		position, err := strconv.Atoi(pos)
 		if err != nil {
-			return nil, fmt.Errorf("invalid position: %s", pos)
+			// Ignorer les erreurs de conversion et continuer
+			continue
 		}
 		positions = append(positions, position)
 	}

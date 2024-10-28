@@ -6,6 +6,7 @@
     <title>Ontology Explorer</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 </head>
 <body>
     <header>
@@ -39,18 +40,22 @@
             </div>
             <div class="right-column">
                 <section id="details-section">
+                    <h2>Détails</h2>
                     <div id="element-details"></div>
                     <div id="element-contexts"></div>
                 </section>
             </div>
         </div>
-        <section id="relations-section">
-            <h2>Relations</h2>
-            <div class="relations-content">
+        <div class="relations-wrapper">
+            <section id="graph-section">
+                <h2>Graphique des relations</h2>
                 <div id="element-relations-graph"></div>
+            </section>
+            <section id="relations-section">
+                <h2>Liste des relations</h2>
                 <div id="element-relations-list"></div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
     <div id="upload-modal" class="modal">
@@ -79,7 +84,6 @@
         <div class="spinner"></div>
     </div>
 
-    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script type="module" src="main.js"></script>
 </body>
 </html>
