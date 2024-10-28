@@ -108,7 +108,7 @@ main {
 }
 
 #graph-section {
-    flex: 1.25; /* Augmenté de 25% */
+    flex: 1.25;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -118,7 +118,7 @@ main {
 }
 
 #relations-section {
-    flex: 0.75; /* Diminué de 25% */
+    flex: 0.75;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -215,32 +215,47 @@ main {
     align-items: center;
 }
 
-.mermaid svg {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .mermaid .node rect {
     fill: #e1f5fe;
     stroke: #4fc3f7;
+    rx: 5;
+    ry: 5;
+}
+
+.mermaid .node text {
+    fill: #333;
+    font-weight: 300;
 }
 
 .mermaid .edgeLabel {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 2px;
-    font-size: 10px;
-    line-height: 1.2;
+    background-color: transparent !important;
+    color: #333 !important;
 }
 
-.mermaid .nodeLabel {
+.mermaid .edgeLabel foreignObject {
+    overflow: visible;
+}
+
+.mermaid .edgeLabel div {
+    background-color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
     font-size: 12px;
     line-height: 1.2;
 }
 
-.mermaid .nodeLabel i {
-    font-size: 10px;
-    color: #666;
+.mermaid .edgePath .path {
+    stroke: #9e9e9e;
+    stroke-width: 1.5px;
 }
+
+.mermaid .flowchart-link {
+    stroke: #9e9e9e;
+    stroke-width: 1.5px;
+}
+
 .modal {
     display: none;
     position: fixed;
