@@ -1,6 +1,7 @@
 import { performSearch } from './search.js';
 
 export function createRelationsGraph(element, relations) {
+    console.log("Création du graphique pour:", element.Name);
     const graphContainer = document.getElementById('element-relations-graph');
     graphContainer.innerHTML = '';
 
@@ -14,14 +15,14 @@ export function createRelationsGraph(element, relations) {
     const nodes = new Map();
 
     // Ajouter le nœud principal
-    const mainNodeId = `node_${escapeId(element.Name)}`;
+    const mainNodeId = escapeId(element.Name);
     nodes.set(mainNodeId, element.Name);
     mermaidDef += `    ${mainNodeId}["${element.Name}<br><i>${element.Type}</i>"]\n`;
 
     // Ajouter les relations
     relations.forEach(relation => {
-        const sourceId = `node_${escapeId(relation.Source)}`;
-        const targetId = `node_${escapeId(relation.Target)}`;
+        const sourceId = escapeId(relation.Source);
+        const targetId = escapeId(relation.Target);
 
         // Ajouter les nœuds s'ils n'existent pas déjà
         if (!nodes.has(sourceId)) {
@@ -57,26 +58,36 @@ export function createRelationsGraph(element, relations) {
         mermaidDiv.innerHTML = result.svg;
 
         const svg = mermaidDiv.querySelector('svg');
+        
+        // Réappliquer panzoom
         const instance = panzoom(svg, {
             maxZoom: 5,
             minZoom: 0.1,
             initialZoom: 1
         });
 
+        // Centrer le graphique
         const bbox = svg.getBBox();
         const viewportWidth = graphContainer.clientWidth;
         const viewportHeight = graphContainer.clientHeight;
         instance.moveTo(viewportWidth/2 - bbox.width/2, viewportHeight/2 - bbox.height/2);
 
+        // Ajouter des gestionnaires d'événements de clic aux nœuds
         svg.querySelectorAll('.node').forEach(node => {
             node.style.cursor = 'pointer';
-            node.addEventListener('click', (event) => {
-                const nodeId = node.id;
-                const originalName = nodes.get(nodeId);
-                if (originalName) {
-                    performSearch(originalName);
+            node.addEventListener('click', function(event) {
+                event.preventDefault();
+                event.stopPropagation();
+                const nodeText = this.querySelector('tspan')?.textContent || this.textContent;
+                console.log("Nœud cliqué, texte:", nodeText);
+                if (nodeText) {
+                    performSearch(nodeText.split('\n')[0]); // Prendre seulement la première ligne
                 }
             });
         });
+
+        console.log("Graphique créé avec", nodes.size, "nœuds");
+    }).catch(error => {
+        console.error("Erreur lors de la création du graphique:", error);
     });
 }
