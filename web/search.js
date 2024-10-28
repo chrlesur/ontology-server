@@ -48,3 +48,8 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
+
+export function performSearch(query) {
+    searchInput.value = query;
+    handleSearch();
+}

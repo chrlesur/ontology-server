@@ -36,7 +36,7 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -45,9 +45,10 @@ nav {
     border: 1px solid white;
     color: white;
     cursor: pointer;
-    margin-left: 1rem;
-    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.8rem;
     border-radius: 4px;
+    font-size: 0.9rem;
 }
 
 main {
@@ -96,8 +97,28 @@ main {
     height: calc(60vh - 2rem);
 }
 
-.left-column, .right-column, #graph-section, #relations-section {
+.left-column, .right-column {
     flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#graph-section {
+    flex: 1.25; /* Augmenté de 25% */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#relations-section {
+    flex: 0.75; /* Diminué de 25% */
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -121,11 +142,11 @@ main {
     border-bottom: 1px solid #ddd;
 }
 
-#results-list, #element-relations-graph, #element-relations-list {
+#results-list, #element-relations-list {
     flex: 1;
     overflow-y: auto;
     padding: 0.5rem;
-    
+    font-size: 0.9rem;
 }
 
 #details-section {
@@ -143,8 +164,6 @@ main {
 #element-details {
     flex: 0 0 auto;
     background-color: #f0f0f0;
-    font-size: 0.9rem;
-
 }
 
 #element-contexts {
@@ -152,11 +171,14 @@ main {
 }
 
 #element-relations-graph {
+    flex: 1;
     background-color: #f9f9f9;
-}
-
-#results-list, #element-relations-list {
-    font-size: 0.9rem;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .result-item, .relation-item {
@@ -184,11 +206,41 @@ main {
     margin: 0;
 }
 
-#element-relations-graph svg {
+.mermaid {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.mermaid svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mermaid .node rect {
+    fill: #e1f5fe;
+    stroke: #4fc3f7;
+}
+
+.mermaid .edgeLabel {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.mermaid .nodeLabel {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.mermaid .nodeLabel i {
+    font-size: 10px;
+    color: #666;
+}
 .modal {
     display: none;
     position: fixed;

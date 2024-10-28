@@ -1,68 +1,79 @@
-import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+import { performSearch } from './search.js'; // Assurez-vous que cette fonction existe et est exportée
 
 export function createRelationsGraph(element, relations) {
     const graphContainer = document.getElementById('element-relations-graph');
     graphContainer.innerHTML = ''; // Clear previous content
 
-    const width = graphContainer.clientWidth;
-    const height = graphContainer.clientHeight;
-    
-    const svg = d3.select(graphContainer)
-        .append("svg")
-        .attr("width", width)
-        .attr("height", height);
+    // Fonction pour échapper les chaînes contenant des espaces ou des caractères spéciaux
+    const escapeString = (str) => {
+        return str.replace(/[^a-zA-Z0-9]/g, '_');
+    };
 
-    // Créer un ensemble unique de noms de nœuds
-    const nodeNames = new Set([element.Name, ...relations.flatMap(r => [r.Source, r.Target])]);
+    // Créer un ensemble pour stocker les nœuds uniques
+    const nodes = new Set([element.Name]);
 
-    // Créer les nœuds en tant qu'objets
-    const nodes = Array.from(nodeNames).map(name => ({
-        id: name,
-        group: name === element.Name ? 1 : 2
-    }));
+    // Créer la définition du diagramme Mermaid
+    let mermaidDef = 'graph TD\n';
 
-    // Créer les liens
-    const links = relations.map(r => ({
-        source: r.Source,
-        target: r.Target,
-        type: r.Type
-    }));
+    // Ajouter le nœud principal
+    const escapedName = escapeString(element.Name);
+    const escapedType = escapeString(element.Type);
+    mermaidDef += `    ${escapedName}["${element.Name}<br/>${element.Type}"]\n`;
 
-    const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(100))
-        .force("charge", d3.forceManyBody().strength(-300))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+    // Ajouter les relations
+    relations.forEach(relation => {
+        const escapedSource = escapeString(relation.Source);
+        const escapedTarget = escapeString(relation.Target);
+        const escapedType = escapeString(relation.Type);
+        
+        nodes.add(relation.Source);
+        nodes.add(relation.Target);
+        mermaidDef += `    ${escapedSource}["${relation.Source}"] -- "${relation.Type}" --> ${escapedTarget}["${relation.Target}"]\n`;
+    });
 
-    const link = svg.append("g")
-        .selectAll("line")
-        .data(links)
-        .enter().append("line")
-        .attr("stroke", "#999")
-        .attr("stroke-width", 2);
+    // Ajouter les nœuds isolés
+    nodes.forEach(node => {
+        const escapedNode = escapeString(node);
+        if (node !== element.Name && !relations.some(r => r.Source === node || r.Target === node)) {
+            mermaidDef += `    ${escapedNode}["${node}"]\n`;
+        }
+    });
 
-    const node = svg.append("g")
-        .selectAll("g")
-        .data(nodes)
-        .enter().append("g");
+    // Créer un élément div pour le diagramme
+    const mermaidDiv = document.createElement('div');
+    mermaidDiv.className = 'mermaid';
+    mermaidDiv.textContent = mermaidDef;
+    graphContainer.appendChild(mermaidDiv);
 
-    node.append("circle")
-        .attr("r", 20)
-        .attr("fill", d => d.group === 1 ? "#ff9900" : "#66b3ff");
+    // Initialiser et rendre le diagramme Mermaid
+    mermaid.initialize({ 
+        startOnLoad: true, 
+        theme: 'default',
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true,
+            curve: 'basis'
+        }
+    });
 
-    node.append("text")
-        .text(d => d.id)
-        .attr("text-anchor", "middle")
-        .attr("dy", ".35em")
-        .attr("font-size", "12px");
+    mermaid.render('graphDiv', mermaidDef).then(result => {
+        mermaidDiv.innerHTML = result.svg;
 
-    simulation.on("tick", () => {
-        link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y)
-            .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y);
+        // Appliquer panzoom au SVG
+        const svg = mermaidDiv.querySelector('svg');
+        panzoom(svg, {
+            maxZoom: 5,
+            minZoom: 0.5,
+            initialZoom: 0.8
+        });
 
-        node
-            .attr("transform", d => `translate(${d.x},${d.y})`);
+        // Ajouter des événements de clic aux éléments du graphique
+        svg.querySelectorAll('.nodeLabel, .edgeLabel').forEach(element => {
+            element.style.cursor = 'pointer';
+            element.addEventListener('click', (event) => {
+                const text = event.target.textContent.split('\n')[0]; // Prendre seulement la première ligne
+                performSearch(text);
+            });
+        });
     });
 }
