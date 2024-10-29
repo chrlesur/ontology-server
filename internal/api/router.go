@@ -22,4 +22,7 @@ func SetupRoutes(router *gin.RouterGroup, storage *storage.MemoryStorage, logger
 
 	router.GET("/elements/details/:element_id", handler.ElementDetailsHandler)
 	router.GET("/elements/relations/:element_name", handler.GetElementRelations)
+
+	router.GET("/view-source", handler.ViewSourceFile)
+
 }

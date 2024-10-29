@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ontology Explorer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script src="https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js"></script>
@@ -25,7 +25,7 @@
             <input type="text" id="search-input" placeholder="Rechercher...">
             <button id="search-button">Rechercher</button>
             <select id="ontology-select">
-                <option value="">Toutes les ontologies</option>
+                <option value="">Tous les fichiers</option>
             </select>
             <select id="element-type-select">
                 <option value="">Tous les types</option>
@@ -47,6 +47,7 @@
                 </section>
             </div>
         </div>
+        
         <div class="relations-wrapper">
             <section id="graph-section">
                 <h2>Graphique des relations</h2>
@@ -59,21 +60,37 @@
         </div>
     </main>
 
+    <!-- Modal de chargement -->
     <div id="upload-modal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Charger des fichiers</h2>
+            
+            <div id="error-message" class="error-message"></div>
+            <div id="success-message" class="success-message"></div>
+            
             <form id="upload-form">
-                <div>
+                <div class="form-group">
                     <label for="ontology-file">Fichier d'ontologie (TSV, OWL, RDF):</label>
                     <input type="file" id="ontology-file" name="ontologyFile" accept=".tsv,.owl,.rdf" required>
+                    <small class="help-text">Fichier principal contenant l'ontologie</small>
                 </div>
-                <div>
-                    <label for="context-file">Fichier de contexte JSON (optionnel):</label>
+                <div class="form-group">
+                    <label for="metadata-file">Fichier de métadonnées (JSON):</label>
+                    <input type="file" id="metadata-file" name="metadataFile" accept=".json" required>
+                    <small class="help-text">Métadonnées de la source (obligatoire)</small>
+                </div>
+                <div class="form-group">
+                    <label for="context-file">Fichier de contexte (JSON):</label>
                     <input type="file" id="context-file" name="contextFile" accept=".json">
+                    <small class="help-text">Contextes des éléments (optionnel)</small>
                 </div>
-                <button type="submit">Charger</button>
+                <div class="form-actions">
+                    <button type="submit" class="primary-button">Charger</button>
+                    <button type="button" class="secondary-button" onclick="closeModal()">Annuler</button>
+                </div>
             </form>
+            
             <div id="upload-progress" class="hidden">
                 <div class="spinner"></div>
                 <p>Chargement en cours...</p>
@@ -81,10 +98,15 @@
         </div>
     </div>
 
+    <!-- Tooltip pour les métadonnées -->
+    <div id="metadata-tooltip" class="metadata-tooltip"></div>
+
+    <!-- Spinner de chargement global -->
     <div id="loading-spinner" class="loading-spinner hidden">
         <div class="spinner"></div>
     </div>
 
+    <!-- Scripts -->
     <script type="module" src="main.js"></script>
 </body>
 </html>

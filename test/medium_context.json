@@ -1,6 +1,20 @@
-[{"position": 7,"before": ["Les","généralités","où","on","avait","d'abord","mentionné"],
+[{"position": 1,"before": ["Les"],
+    "after": ["où","on","avait","d'abord","mentionné","l'effet","direct","et","l'effet","indirect,","et","on","allait","se","lancer","à","la","plus","haute","taille.","Alors","juste,","effet","indirect,","vous","vous","souvenez,","c'est","important,","vous"],
+    "element": "Liberté_de_pensée",
+    "length": 1
+  },
+  {
+    "position": 7,
+    "before": ["Les","généralités","où","on","avait","d'abord","mentionné"],
     "after": ["direct","et","l'effet","indirect,","et","on","allait","se","lancer","à","la","plus","haute","taille.","Alors","juste,","effet","indirect,","vous","vous","souvenez,","c'est","important,","vous","le","savez","bien,","c'est","quelqu'un","qui"],
     "element": "Effet_direct",
+    "length": 1
+  },
+  {
+    "position": 16,
+    "before": ["Les","généralités","où","on","avait","d'abord","mentionné","l'effet","direct","et","l'effet","indirect,","et","on","allait","se"],
+    "after": ["à","la","plus","haute","taille.","Alors","juste,","effet","indirect,","vous","vous","souvenez,","c'est","important,","vous","le","savez","bien,","c'est","quelqu'un","qui","est","de","l'opinion","à","l'université","maintenant.","Si","vous","faites"],
+    "element": "Union_Européenne",
     "length": 1
   },
   {
@@ -18,6 +32,13 @@
     "length": 1
   },
   {
+    "position": 75,
+    "before": ["vous","faites","l'effet","indirect,","rappelez-vous,","il","faut","que","le","texte","international,","qui","est","la","source","de","la","règle,","soit","transposé","dans","l'ordre","intérieur,","pour","produire","un","effet","juridique,","ou","être"],
+    "after": ["Je","l'ai","cité","comme","exemple","typique,","mais","c'est","peut-être","le","principal","exemple","qu'il","faut","retenir",":","la","directive","européenne.","La","directive","européenne,","c'est","un","texte","international,","européen,","qui","pour","produire"],
+    "element": "Liberté_d'expression",
+    "length": 1
+  },
+  {
     "position": 98,
     "before": ["pour","produire","un","effet","juridique,","ou","être","contraignant.","Je","l'ai","cité","comme","exemple","typique,","mais","c'est","peut-être","le","principal","exemple","qu'il","faut","retenir",":","la","directive","européenne.","La","directive","européenne,"],
     "after": ["un","texte","international,","européen,","qui","pour","produire","un","effet","juridique","dans","le","système","français,","c'est-à-dire","dans","l'ordre","interne,","chez","nous","en","France,","mais","ça","vaut","aussi","pour","l'ordre","intérieur","italien,"],
@@ -25,11 +46,11 @@
     "length": 1
   },
   {
-    "position": 115,
-    "before": ["le","principal","exemple","qu'il","faut","retenir",":","la","directive","européenne.","La","directive","européenne,","c'est","un","texte","international,","européen,","qui","pour","produire","un","effet","juridique","dans","le","système","français,","c'est-à-dire","dans"],
-    "after": ["interne,","chez","nous","en","France,","mais","ça","vaut","aussi","pour","l'ordre","intérieur","italien,","pour","l'ordre","intérieur","allemand,","pour","tous","les","pays","membres","de","l'Union","européenne,","qui","font","le","texte","de"],
-    "element": "Macédoine",
-    "length": 1
+    "position": 146,
+    "before": ["interne,","chez","nous","en","France,","mais","ça","vaut","aussi","pour","l'ordre","intérieur","italien,","pour","l'ordre","intérieur","allemand,","pour","tous","les","pays","membres","de","l'Union","européenne,","qui","font","le","texte","de"],
+    "after": ["française,","interne,","chez","nous,","dans","l'ordre","juridique","et","libertaire.","Je","l'ai","dit","en","prenant","cet","exemple,","que","l'ancien","texte","qui","protégeait","les","données","en","ligne,","c'était","la","directive","de","1995."],
+    "element": "Cour_de_justice_UE",
+    "length": 6
   },
   {
     "position": 173,
@@ -44,6 +65,20 @@
     "after": ["direct","du","RGPD,","le","Règlement","général","sur","la","protection","des","données,","qui","signifie","que","ce","texte","de","règlement","n'a","pas","besoin","de","texte","interne","pour","produire","des","effets","juridiques","dans"],
     "element": "Effet_direct",
     "length": 1
+  },
+  {
+    "position": 189,
+    "before": ["en","prenant","cet","exemple,","que","l'ancien","texte","qui","protégeait","les","données","en","ligne,","c'était","la","directive","de","1995.","Cette","directive","a","été","remplacée","par","un","texte","d'effet","direct","du","RGPD,"],
+    "after": ["Règlement","général","sur","la","protection","des","données,","qui","signifie","que","ce","texte","de","règlement","n'a","pas","besoin","de","texte","interne","pour","produire","des","effets","juridiques","dans","l'ordre","français,","dans","le"],
+    "element": "Droit_à_la_liberté",
+    "length": 6
+  },
+  {
+    "position": 212,
+    "before": ["par","un","texte","d'effet","direct","du","RGPD,","le","Règlement","général","sur","la","protection","des","données,","qui","signifie","que","ce","texte","de","règlement","n'a","pas","besoin","de","texte","interne","pour","produire"],
+    "after": ["effets","juridiques","dans","l'ordre","français,","dans","le","système","juridique","français.","Donc","ça,","c'est","l'effet","direct","du","RGPD.","Après,","on","avait","affiné","entre","l'effet","direct","vertical","et","l'effet","direct","horizontal,","et"],
+    "element": "État_de_droit",
+    "length": 3
   },
   {
     "position": 226,
@@ -74,6 +109,13 @@
     "length": 1
   },
   {
+    "position": 342,
+    "before": ["la","primauté.","Le","caractère","important","de","la","règle","internationale,","de","la","source","internationale,","c'est","sa","primauté.","Alors","la","primauté,","c'est","la","notion","d'effet","qui","permet","de","répondre","à","cette","question"],
+    "after": ["On","va,","je","vais","vous","le","dire","dans","la","suite","du","parcours,","quelle","norme","il","faut","appliquer","pour","l'emporter","en","cas","de","conflit","entre","la","source","internationale","et","la","source"],
+    "element": "Droit_de_l'Union_européenne",
+    "length": 1
+  },
+  {
     "position": 379,
     "before": ["dire","dans","la","suite","du","parcours,","quelle","norme","il","faut","appliquer","pour","l'emporter","en","cas","de","conflit","entre","la","source","internationale","et","la","source","interne.","On","a","déjà","commencé","à"],
     "after": ["un","certain","nombre","de","ces","graphiques,","on","a","vu","l'illustration","avec","le","conflit","entre","la","protection","de","la","vie","privée","par","la","convention","européenne,","c'est","une","norme","internationale,","et","l'interdiction"],
@@ -81,52 +123,80 @@
     "length": 1
   },
   {
-    "position": 390,
-    "before": ["pour","l'emporter","en","cas","de","conflit","entre","la","source","internationale","et","la","source","interne.","On","a","déjà","commencé","à","voir","un","certain","nombre","de","ces","graphiques,","on","a","vu","l'illustration"],
-    "after": ["le","conflit","entre","la","protection","de","la","vie","privée","par","la","convention","européenne,","c'est","une","norme","internationale,","et","l'interdiction","de","l'inceste","par","l'article","161","du","Code","civil.","On","a","déjà"],
-    "element": "Lex_posterior_derogat_priori",
-    "length": 1
-  },
-  {
-    "position": 401,
-    "before": ["la","source","interne.","On","a","déjà","commencé","à","voir","un","certain","nombre","de","ces","graphiques,","on","a","vu","l'illustration","avec","le","conflit","entre","la","protection","de","la","vie","privée","par"],
-    "after": ["convention","européenne,","c'est","une","norme","internationale,","et","l'interdiction","de","l'inceste","par","l'article","161","du","Code","civil.","On","a","déjà","vu","des","exemples","de","conflits.","Par","principe,","ça","doit","être","la"],
-    "element": "Norme_nationale",
-    "length": 6
-  },
-  {
-    "position": 427,
-    "before": ["la","vie","privée","par","la","convention","européenne,","c'est","une","norme","internationale,","et","l'interdiction","de","l'inceste","par","l'article","161","du","Code","civil.","On","a","déjà","vu","des","exemples","de","conflits.","Par"],
-    "after": ["ça","doit","être","la","norme","internationale","qui","l'emporte.","On","va","approfondir,","c'est","ce","qu'on","appelle","le","principe","de","primauté","de","la","norme","internationale","qui","est","prévu","dans","notre","constitution,","à"],
+    "position": 432,
+    "before": ["convention","européenne,","c'est","une","norme","internationale,","et","l'interdiction","de","l'inceste","par","l'article","161","du","Code","civil.","On","a","déjà","vu","des","exemples","de","conflits.","Par","principe,","ça","doit","être","la"],
+    "after": ["internationale","qui","l'emporte.","On","va","approfondir,","c'est","ce","qu'on","appelle","le","principe","de","primauté","de","la","norme","internationale","qui","est","prévu","dans","notre","constitution,","à","l'article","55.","Cet","article,","c'est"],
     "element": "Norme_internationale",
-    "length": 6
+    "length": 1
   },
   {
     "position": 444,
     "before": ["161","du","Code","civil.","On","a","déjà","vu","des","exemples","de","conflits.","Par","principe,","ça","doit","être","la","norme","internationale","qui","l'emporte.","On","va","approfondir,","c'est","ce","qu'on","appelle","le"],
     "after": ["de","primauté","de","la","norme","internationale","qui","est","prévu","dans","notre","constitution,","à","l'article","55.","Cet","article,","c'est","l'article","le","plus","important","de","la","Constitution,","retenez-le,","vous","allez","le","revoir"],
-    "element": "Norme_internationale",
-    "length": 6
+    "element": "Principe_de_primauté",
+    "length": 1
   },
   {
-    "position": 484,
-    "before": ["dans","notre","constitution,","à","l'article","55.","Cet","article,","c'est","l'article","le","plus","important","de","la","Constitution,","retenez-le,","vous","allez","le","revoir","en","droit","constitutionnel.","L'article","55,","c'est","l'article,","vous","pouvez"],
-    "after": ["retenir,","qui","fixe","le","principe","de","primauté","des","textes","internationaux,","des","traités.","C'est","ce","que","je","vous","ai","dit","la","semaine","dernière,","que","le","terme","traité,","c'était","le","terme","générique"],
-    "element": "Convention_Européenne_des_Droits_de_l'Homme",
-    "length": 12
+    "position": 446,
+    "before": ["Code","civil.","On","a","déjà","vu","des","exemples","de","conflits.","Par","principe,","ça","doit","être","la","norme","internationale","qui","l'emporte.","On","va","approfondir,","c'est","ce","qu'on","appelle","le","principe","de"],
+    "after": ["de","la","norme","internationale","qui","est","prévu","dans","notre","constitution,","à","l'article","55.","Cet","article,","c'est","l'article","le","plus","important","de","la","Constitution,","retenez-le,","vous","allez","le","revoir","en","droit"],
+    "element": "Primauté",
+    "length": 1
+  },
+  {
+    "position": 449,
+    "before": ["a","déjà","vu","des","exemples","de","conflits.","Par","principe,","ça","doit","être","la","norme","internationale","qui","l'emporte.","On","va","approfondir,","c'est","ce","qu'on","appelle","le","principe","de","primauté","de","la"],
+    "after": ["internationale","qui","est","prévu","dans","notre","constitution,","à","l'article","55.","Cet","article,","c'est","l'article","le","plus","important","de","la","Constitution,","retenez-le,","vous","allez","le","revoir","en","droit","constitutionnel.","L'article","55,"],
+    "element": "Norme_internationale",
+    "length": 1
+  },
+  {
+    "position": 489,
+    "before": ["55.","Cet","article,","c'est","l'article","le","plus","important","de","la","Constitution,","retenez-le,","vous","allez","le","revoir","en","droit","constitutionnel.","L'article","55,","c'est","l'article,","vous","pouvez","le","retenir,","qui","fixe","le"],
+    "after": ["de","primauté","des","textes","internationaux,","des","traités.","C'est","ce","que","je","vous","ai","dit","la","semaine","dernière,","que","le","terme","traité,","c'était","le","terme","générique","qui","pouvait","désigner","les","sources"],
+    "element": "Convention_européenne_des_droits_de_l'homme",
+    "length": 7
+  },
+  {
+    "position": 535,
+    "before": ["semaine","dernière,","que","le","terme","traité,","c'était","le","terme","générique","qui","pouvait","désigner","les","sources","internationales.","De","recopier","l'article","55,","c'est","juste","que","cet","article,","c'est","l'article","qui","prévoit","le"],
+    "after": ["de","primauté","des","textes","internationaux,","des","normes","internationales,","sur","les","normes","nationales.","Il","est","rédigé","ainsi",":","\"Les","traités","ou","accords","régulièrement","ratifiés","ou","approuvés","ont,","dès","leur","publication,","une"],
+    "element": "Principe_de_primauté",
+    "length": 1
   },
   {
     "position": 537,
     "before": ["que","le","terme","traité,","c'était","le","terme","générique","qui","pouvait","désigner","les","sources","internationales.","De","recopier","l'article","55,","c'est","juste","que","cet","article,","c'est","l'article","qui","prévoit","le","principe","de"],
     "after": ["des","textes","internationaux,","des","normes","internationales,","sur","les","normes","nationales.","Il","est","rédigé","ainsi",":","\"Les","traités","ou","accords","régulièrement","ratifiés","ou","approuvés","ont,","dès","leur","publication,","une","autorité","supérieure"],
-    "element": "Norme_nationale",
-    "length": 10
+    "element": "Primauté",
+    "length": 1
   },
   {
     "position": 605,
     "before": ["chaque","accord","ou","traité,","de","son","application","par","l'autre","partie.\"","Alors,","ce","qui","nous","intéresse","ici,","c'est","la","primauté,","l'autorité","supérieure","à","celle","des","lois,","mais","on","a","aussi","une"],
     "after": ["de","réserve","que","vous","approfondirez","plus","en","droit","constitutionnel.","Nous,","ici,","dans","l'étude","des","sources,","cette","partie-là,","l'article","55,","nous","intéresse,","une","autorité","supérieure","à","celle","des","lois.","Alors,","il"],
     "element": "Directive_européenne",
+    "length": 1
+  },
+  {
+    "position": 678,
+    "before": ["peu","l'actualité,","tend","à","être","mis","en","question,","notamment","par","certaines","parties","de","l'échiquier","politique,","enfin,","parties","de","l'échiquier","politique,","plutôt","administratives,","plutôt","des","partis","souverainistes,","qui","soutiennent","que","le"],
+    "after": ["international","ne","devrait","pas","l'emporter","sur","le","droit","national.","Alors,","j'illustre","ici","ces","heurts","récents","par","un","arrêt","de","la","Cour","de","justice.","Peut-être","que","vous","avez","croisé","cette","actualité"],
+    "element": "Droit_international",
+    "length": 1
+  },
+  {
+    "position": 814,
+    "before": ["la","retraite,","comme","il","se","trouve","que","dans","les","cours","supérieures,","tous","les","magistrats","étaient","âgés,","ils","sont","tous","recouverts.","Et","ensuite,","le","gouvernement","s'était","aménagé","la","possibilité","de","renommer"],
+    "after": ["il","voulait,","sur","des","critères","qui","n'étaient","pas","clarifiés","dans","la","loi.","Donc","en","fait,","ce","qu'avait","fait","le","gouvernement,","c'est","qu'il","avait","sélectionné","les","juges","qu'il","voulait","mettre","dans"],
+    "element": "Droit_à_la_vie",
+    "length": 1
+  },
+  {
+    "position": 833,
+    "before": ["recouverts.","Et","ensuite,","le","gouvernement","s'était","aménagé","la","possibilité","de","renommer","qui","il","voulait,","sur","des","critères","qui","n'étaient","pas","clarifiés","dans","la","loi.","Donc","en","fait,","ce","qu'avait","fait"],
+    "after": ["gouvernement,","c'est","qu'il","avait","sélectionné","les","juges","qu'il","voulait","mettre","dans","la","cour","suprême","pour","que","le","pouvoir","judiciaire","ne","puisse","pas","l'empêcher,","lui-même","en","tant","qu'exécutif,","d'agir","selon","ses"],
+    "element": "Interdiction_de_la_torture",
     "length": 1
   },
   {
@@ -141,6 +211,13 @@
     "before": ["manquements,","retenez","simplement","ici,","c'était","l'article","7","du","traité","de","l'Union","européenne,","lié","au","fait","que","cette","manipulation","était","destinée","à","recomposer","à","sa","guise","les","juridictions","supérieures","polonaises.","Le"],
     "after": ["constitutionnel","polonais","s'est","prononcé","sur","la","question","et","a","jugé","que","la","constitution","polonaise","l'emporterait","sur","les","traités","européens.","Et","donc","que","les","pouvoirs","exécutifs","étaient","libres","de","faire","ce"],
     "element": "Tribunal_constitutionnel_polonais",
+    "length": 1
+  },
+  {
+    "position": 939,
+    "before": ["recomposer","à","sa","guise","les","juridictions","supérieures","polonaises.","Le","tribunal","constitutionnel","polonais","s'est","prononcé","sur","la","question","et","a","jugé","que","la","constitution","polonaise","l'emporterait","sur","les","traités","européens.","Et"],
+    "after": ["que","les","pouvoirs","exécutifs","étaient","libres","de","faire","ce","qu'ils","en","préfèrent.","Voici","la","transcription","corrigée",":","Même","si","le","traité","européen","l'empêchait","de","proposer","à","sa","guise","de","pouvoir"],
+    "element": "Droit_national",
     "length": 1
   },
   {
@@ -165,6 +242,20 @@
     "length": 1
   },
   {
+    "position": 1044,
+    "before": ["y","a","des","heurts","entre","droits","internes","et","droits","internationaux,","en","l'occurrence","européens,","et","que","certains","partis","insistent,","soutiennent","que","le","principe","de","primauté,","notamment","du","droit","européen","et","du"],
+    "after": ["international","en","général,","devrait","être","écarté","au","moins","lorsqu'il","s'agit","d'une","loi","constitutionnelle.","Alors,","on","va","approfondir","un","peu","plus","tard","la","question.","La","question","du","conflit","entre","la","norme"],
+    "element": "Droit_international",
+    "length": 1
+  },
+  {
+    "position": 1056,
+    "before": ["européens,","et","que","certains","partis","insistent,","soutiennent","que","le","principe","de","primauté,","notamment","du","droit","européen","et","du","droit","international","en","général,","devrait","être","écarté","au","moins","lorsqu'il","s'agit","d'une"],
+    "after": ["constitutionnelle.","Alors,","on","va","approfondir","un","peu","plus","tard","la","question.","La","question","du","conflit","entre","la","norme","interne","et","la","norme","internationale","présentera","d'abord","le","droit","de","l'Union","et"],
+    "element": "Loi",
+    "length": 1
+  },
+  {
     "position": 1078,
     "before": ["devrait","être","écarté","au","moins","lorsqu'il","s'agit","d'une","loi","constitutionnelle.","Alors,","on","va","approfondir","un","peu","plus","tard","la","question.","La","question","du","conflit","entre","la","norme","interne","et","la"],
     "after": ["internationale","présentera","d'abord","le","droit","de","l'Union","et","ensuite,","dans","un","deuxième","chapitre","de","ce","titre,","sur","l'articulation","des","règles,","on","évoquera","plus","en","détail","la","façon","dont","sont","réglés"],
@@ -179,6 +270,13 @@
     "length": 1
   },
   {
+    "position": 1149,
+    "before": ["juste","deux","éléments","sur","lesquels","je","reviendrai","plus","tard,","lorsqu'on","a","une","loi","interne","qui","est","antérieure","au","traité,","on","considère","par","principe,","on","va","annoncer","ce","principe,","que","la"],
+    "after": ["antérieure","est","abrogée,","c'est-à-dire","qu'on","ne","peut","pas","avoir","une","loi","interne","qui","est","contraire","à","un","traité,","on","considère","qu'elle","est","abrogée,","il","y","a","un","principe","de","droit"],
+    "element": "Loi",
+    "length": 1
+  },
+  {
     "position": 1160,
     "before": ["une","loi","interne","qui","est","antérieure","au","traité,","on","considère","par","principe,","on","va","annoncer","ce","principe,","que","la","loi","antérieure","est","abrogée,","c'est-à-dire","qu'on","ne","peut","pas","avoir","une"],
     "after": ["interne","qui","est","contraire","à","un","traité,","on","considère","qu'elle","est","abrogée,","il","y","a","un","principe","de","droit","romain","qui","le","dit,","\"lex","posterior","derogat","priori\",","qui","le","dit,"],
@@ -186,10 +284,17 @@
     "length": 1
   },
   {
-    "position": 1182,
-    "before": ["abrogée,","c'est-à-dire","qu'on","ne","peut","pas","avoir","une","loi","interne","qui","est","contraire","à","un","traité,","on","considère","qu'elle","est","abrogée,","il","y","a","un","principe","de","droit","romain","qui"],
-    "after": ["dit,","\"lex","posterior","derogat","priori\",","qui","le","dit,","la","loi","postérieure","déroge,","et","donc","en","fait","abroge","la","loi","antérieure.","Comme","c'est","la","loi","interne","qui","est","postérieure,","c'est","la"],
-    "element": "Union_européenne",
+    "position": 1192,
+    "before": ["qui","est","contraire","à","un","traité,","on","considère","qu'elle","est","abrogée,","il","y","a","un","principe","de","droit","romain","qui","le","dit,","\"lex","posterior","derogat","priori\",","qui","le","dit,","la"],
+    "after": ["postérieure","déroge,","et","donc","en","fait","abroge","la","loi","antérieure.","Comme","c'est","la","loi","interne","qui","est","postérieure,","c'est","la","situation...","polonaise.","Là,","la","question","est","entière","et","on","l'abordera"],
+    "element": "Loi",
+    "length": 1
+  },
+  {
+    "position": 1201,
+    "before": ["est","abrogée,","il","y","a","un","principe","de","droit","romain","qui","le","dit,","\"lex","posterior","derogat","priori\",","qui","le","dit,","la","loi","postérieure","déroge,","et","donc","en","fait","abroge","la"],
+    "after": ["antérieure.","Comme","c'est","la","loi","interne","qui","est","postérieure,","c'est","la","situation...","polonaise.","Là,","la","question","est","entière","et","on","l'abordera","en","détail","dans","le","chapitre","2","du","cours","qui,"],
+    "element": "Loi",
     "length": 1
   },
   {
@@ -218,6 +323,27 @@
     "before": ["dans","un","suspense","insoutenable","quelques","minutes","et","après","la","pause,","on","reprendra","la","façon","dont","on","règle","les","choses.","Alors,","je","vous","propose","de","voir","maintenant","le","droit","européen.","Le"],
     "after": ["européen","de","2","Europes","juridiques","que","j'ai","déjà","dit","à","plusieurs","reprises.","L'Europe","du","Conseil","de","l'Europe.","Donc","ça,","c'est","le","droit","qui","est","issu","de","la","Convention","européenne,","le"],
     "element": "Droit_européen",
+    "length": 1
+  },
+  {
+    "position": 1352,
+    "before": ["dans","un","3e","paradigme.","Alors,","je","m'en","tiens","à","vous","présenter","le","droit","européen.","On","aurait","pu","multiplier","la","présentation","d'une","moindre","tâche","dans","le","paradigme","de","présenter","le","droit"],
+    "after": ["l'ONU.","C'est","déjà","un","petit","peu","fait","en","évoquant","la","création","de","2","cours","qui","sont","rattachées","à","l'ONU","l'année","dernière,","on","va","s'en","tenir","à","notre","exploration","du","droit"],
+    "element": "René_Cassin",
+    "length": 1
+  },
+  {
+    "position": 1382,
+    "before": ["de","l'ONU.","C'est","déjà","un","petit","peu","fait","en","évoquant","la","création","de","2","cours","qui","sont","rattachées","à","l'ONU","l'année","dernière,","on","va","s'en","tenir","à","notre","exploration","du"],
+    "after": ["international","et","du","droit","européen.","On","a","des","cours","de","droit","international,","dans","lesquels","on","aborde","plus","en","détail","le","contexte","du","droit","international,","mais","il","me","semble","qu'en","première"],
+    "element": "Droit_international",
+    "length": 1
+  },
+  {
+    "position": 1386,
+    "before": ["un","petit","peu","fait","en","évoquant","la","création","de","2","cours","qui","sont","rattachées","à","l'ONU","l'année","dernière,","on","va","s'en","tenir","à","notre","exploration","du","droit","international","et","du"],
+    "after": ["européen.","On","a","des","cours","de","droit","international,","dans","lesquels","on","aborde","plus","en","détail","le","contexte","du","droit","international,","mais","il","me","semble","qu'en","première","année,","c'est","surtout","important"],
+    "element": "Légalité_des_peines",
     "length": 1
   },
   {
@@ -294,13 +420,6 @@
     "position": 2048,
     "before": ["libertés","publiques","et","aux","droits","de","l'homme.","C'est","un","travail","connu,","l'arrêt","Parti","communiste","de","l'Union","de","Turquie","et","l'arrêt","Voisinou","contre","la","Turquie,","dans","lequel","la","Cour","européenne","des"],
     "after": ["de","l'homme","énonce","l'unique","modèle","politique","envisagé","par","la","Convention","et","part","dans","les","seules","histoires","compatibles","avec","elle",":","c'est","la","démocratie,","ce","que","disait","déjà","le","statut","de"],
-    "element": "Cour_Européenne_des_Droits_de_l'Homme",
-    "length": 1
-  },
-  {
-    "position": 2068,
-    "before": ["Voisinou","contre","la","Turquie,","dans","lequel","la","Cour","européenne","des","droits","de","l'homme","énonce","l'unique","modèle","politique","envisagé","par","la","Convention","et","part","dans","les","seules","histoires","compatibles","avec","elle"],
-    "after": ["c'est","la","démocratie,","ce","que","disait","déjà","le","statut","de","Londres,","et","que","la","Convention","est","une","sorte","d'instrument","constitutionnel","de","l'ordre","public","européen.","Ça,","c'est","dire","l'importance","de","la"],
     "element": "Cour_européenne_des_droits_de_l'homme",
     "length": 1
   },
@@ -308,14 +427,14 @@
     "position": 2144,
     "before": ["déjà","vu","certainement","des","arrêts","dans","lesquels","les","textes","de","la","Convention","étaient","invoqués.","Vous","allez","voir","qu'aussi,","dans","toutes","vos","études,","dans","toutes","les","matières,","les","textes","de","la"],
     "after": ["européenne","peuvent","être","invoqués","et","peuvent","permettre","de","faire","plier","les","textes","internes.","Donc","la","Convention","peut","l'emporter","et","primer","sur","les","textes","internes.","Alors","les","droits","protégés","par","la"],
-    "element": "Convention_Européenne",
+    "element": "Convention_européenne",
     "length": 1
   },
   {
-    "position": 2363,
-    "before": ["en","a","parlé","un","peu","plus.","Liberté","de","réunion","et","d'association,","droit","au","mariage,","plus","des","dispositions","générales,","droit","de","recours","effectif,","interdiction","de","discrimination.","Ce","sont","des","dispositions","générales,"],
-    "after": ["sont","un","peu","moins","importantes,","puisqu'en","réalité...","en","réalité,","on","se","fonde","le","plus","souvent","sur","des","dispositions","particulières.","Donc,","par","exemple,","\"Procès","équitable\",","\"Vie","privée\",","\"Liberté","de","pensée\",","\"Liberté"],
-    "element": "Effet_direct",
+    "position": 2221,
+    "before": ["a","le","droit","à","la","vie.","Peut-être","que","vous","pouvez","commencer","à","retenir","certains","articles","les","plus","importants,","pas","dans","le","détail","mais","juste","dans","l'énumération.","L'interdiction","de","la","torture,"],
+    "after": ["de","l'esclavage","et","du","travail","forcé,","le","droit","à","la","liberté","et","à","la","sûreté,","le","droit","au","procès","équitable.","Celui-ci,","on","l'a","déjà","mentionné","à","nombreuses","reprises,","retenez-le,","il"],
+    "element": "Interdiction_de_l'esclavage",
     "length": 1
   },
   {
@@ -336,7 +455,7 @@
     "position": 2908,
     "before": ["vais","retenir","cette","expression,","la","contrainte","par","corps,","je","ne","l'ai","pas","encore","utilisée.","Auparavant,","quand","on","ne","payait","pas","ses","dettes,","on","allait","en","prison.","Donc","on","exerçait","des"],
     "after": ["par","corps","pour","des","dettes,","comme","si","ce","n'étaient","pas","des","dettes","soumises","au","droit","privé.","Je","vous","détaille","un","truc","particulier,","vous","pouviez","aller","en","prison.","Aujourd'hui,","la","contrainte"],
-    "element": "Union_Européenne",
+    "element": "Union_européenne",
     "length": 1
   },
   {
@@ -354,6 +473,13 @@
     "length": 1
   },
   {
+    "position": 3228,
+    "before": ["important","en","matière","pénale.","Voilà.","Alors","j'en","viens,","après","cette","énumération","de","certains","droits","obligés","par","la","Convention,","à","l'application.","Qui","applique","la","Convention","?","C'est","mon","point","suivant.","Qui"],
+    "after": ["dit","où","elle","s'applique","?","Ça","renvoie","à","la","question","de","l'application,","à","l'idée","de","domaine","d'un","texte","de","loi.","On","parle","aussi","de","champ","d'application.","Vous","avez","peut-être","déjà"],
+    "element": "Droit_de_propriété",
+    "length": 1
+  },
+  {
     "position": 3310,
     "before": ["Je","vous","donne","juste","un","exemple","qui","va","vous","paraître","peut-être","évident.","Je","vous","ai","déjà","parlé","du","code","civil","et","du","code","de","commerce.","Le","code","de","commerce,","son"],
     "after": ["d'application","sont","les","relations","commerciales.","Ici,","les","actes","de","commerce","et","les","personnes","commerçantes.","Ça","veut","dire","que","les","textes","du","code","de","commerce","ne","s'appliquent","pas","à","des","relations"],
@@ -361,11 +487,11 @@
     "length": 1
   },
   {
-    "position": 3436,
-    "before": ["commerçants,","dans","leurs","activités","professionnelles.","Donc","là,","c'est","la","question","du","domaine,","de","l'application","de","la","Convention","européenne.","Alors,","quant","aux","personnes","qui","sont","concernées,","on","parle","aussi","du","domaine"],
-    "after": ["personae","en","latin.","C'est","une","expression","en","latin,","comme","ça","vous","les","entendez","les","premières","fois.","Donc","ça,","c'est","une","expression","assez","commune,","le","domaine","ratione","personae.","Ce","sont","tous"],
-    "element": "Ratione_personae",
-    "length": 1
+    "position": 3435,
+    "before": ["de","commerçants,","dans","leurs","activités","professionnelles.","Donc","là,","c'est","la","question","du","domaine,","de","l'application","de","la","Convention","européenne.","Alors,","quant","aux","personnes","qui","sont","concernées,","on","parle","aussi","du"],
+    "after": ["ratione","personae","en","latin.","C'est","une","expression","en","latin,","comme","ça","vous","les","entendez","les","premières","fois.","Donc","ça,","c'est","une","expression","assez","commune,","le","domaine","ratione","personae.","Ce","sont"],
+    "element": "Domaine_ratione_personae",
+    "length": 2
   },
   {
     "position": 3790,
@@ -375,31 +501,10 @@
     "length": 1
   },
   {
-    "position": 3938,
-    "before": ["la","Convention","à","des","migrants","qui","ne","sont","pas","résidents,","mais","qui","seraient","interceptés","par","les","autorités","d'ici","l'Italie,","donc","les","autorités","dont","l'État","est","lié","par","la","Convention.","Alors,"],
-    "after": ["loci","?","Ça","veut","dire","en","fonction","du","lieu.","Donc,","le","domaine","d'applicabilité","en","fonction","du","lieu,","ce","sont","toutes","les","violations","qui","sont","commises","sur","le","territoire","d'un","État,"],
-    "element": "Ratione_loci",
-    "length": 1
-  },
-  {
-    "position": 3979,
-    "before": ["le","domaine","d'applicabilité","en","fonction","du","lieu,","ce","sont","toutes","les","violations","qui","sont","commises","sur","le","territoire","d'un","État,","y","compris","par","un","État","tiers.","Avec,","là","aussi,","donc"],
-    "after": ["loci","?","Je","suis","passé","vite.","Ratione","loci","?","Vous","pouvez","retenir","l'expression.","Même","chose,","on","l'utilise","dans","tous","les","domaines","du","droit,","pas","seulement","au","droit","européen.","C'est","le"],
-    "element": "Ratione_loci",
-    "length": 1
-  },
-  {
-    "position": 3986,
-    "before": ["ce","sont","toutes","les","violations","qui","sont","commises","sur","le","territoire","d'un","État,","y","compris","par","un","État","tiers.","Avec,","là","aussi,","donc","ratione","loci","?","Je","suis","passé","vite."],
-    "after": ["loci","?","Vous","pouvez","retenir","l'expression.","Même","chose,","on","l'utilise","dans","tous","les","domaines","du","droit,","pas","seulement","au","droit","européen.","C'est","le","domaine","ratione","loci","d'une","règle,","le","domaine"],
-    "element": "Ratione_loci",
-    "length": 1
-  },
-  {
-    "position": 4011,
-    "before": ["?","Je","suis","passé","vite.","Ratione","loci","?","Vous","pouvez","retenir","l'expression.","Même","chose,","on","l'utilise","dans","tous","les","domaines","du","droit,","pas","seulement","au","droit","européen.","C'est","le","domaine"],
-    "after": ["loci","d'une","règle,","le","domaine","rationae","personae","d'une","règle.","Le","domaine","en","fonction","des","personnes,","le","domaine","en","fonction","du","lieu.","Le","lieu,","avec","une","précision,","là","aussi,","une","affaire"],
-    "element": "Ratione_loci",
+    "position": 4010,
+    "before": ["loci","?","Je","suis","passé","vite.","Ratione","loci","?","Vous","pouvez","retenir","l'expression.","Même","chose,","on","l'utilise","dans","tous","les","domaines","du","droit,","pas","seulement","au","droit","européen.","C'est","le"],
+    "after": ["ratione","loci","d'une","règle,","le","domaine","rationae","personae","d'une","règle.","Le","domaine","en","fonction","des","personnes,","le","domaine","en","fonction","du","lieu.","Le","lieu,","avec","une","précision,","là","aussi,","une"],
+    "element": "Domaine_ratione_loci",
     "length": 1
   },
   {
@@ -410,6 +515,13 @@
     "length": 1
   },
   {
+    "position": 4084,
+    "before": ["ressortissant","allemand,","qui","est","pris","à","tort","pour","un","terroriste.","Il","est","arrêté","en","Macédoine.","Il","est","arrêté","en","Macédoine,","et","il","fait","l'objet","de","ce","qu'on","appelle,","dans","le"],
+    "after": ["international","public,","de","façon","un","peu","euphémisée,","de","restitution","extraordinaire.","En","gros,","il","est","arrêté","sauvagement","par","des","agents","de","la","CIA,","ou","des","agents","américains,","qui","le","prennent","pour"],
+    "element": "Droit_international",
+    "length": 1
+  },
+  {
     "position": 4142,
     "before": ["le","prennent","pour","un","terroriste","recherché,","terroriste","des","réseaux","internationaux.","Il","est","emmené","dans","une","base","secrète,","et","il","est","torturé","pendant","plusieurs","mois.","Il","est","finalement","libéré","quand","la"],
     "after": ["s'aperçoit","de","son","erreur.","Et","alors,","il","est","libéré","de","la","même","façon","qu'il","est","jeté","dans","la","nature","en","Macédoine,","encore.","Après","plusieurs","mois","de","torture","par","la","CIA."],
@@ -417,10 +529,17 @@
     "length": 1
   },
   {
+    "position": 4169,
+    "before": ["libéré","quand","la","CIA","s'aperçoit","de","son","erreur.","Et","alors,","il","est","libéré","de","la","même","façon","qu'il","est","jeté","dans","la","nature","en","Macédoine,","encore.","Après","plusieurs","mois","de"],
+    "after": ["par","la","CIA.","Il","agit","devant","la","CEDH,","simplement.","Qui","a","simplement","été","torturé","par","des","Américains","sur","le","territoire","de","Macédoine.","Et","donc,","là,","la","Cour","décide","de","dire"],
+    "element": "Torture",
+    "length": 1
+  },
+  {
     "position": 4398,
     "before": ["la","Cour","européenne","des","droits","de","l'homme,","peut","appliquer","la","Convention","contre","les","États,","soit","à","la","requête","d'un","autre","État,","soit","à","la","requête","d'un","requérant","justiciable.","Et","la"],
     "after": ["européenne","est","aussi","appliquée","par","les","juridictions","nationales.","Maintenant,","vous","connaissez","la","notion","en","vertu","de","son","effet","direct,","de","la","Convention","en","effet","direct.","Donc","elle","est","directement","applicable"],
-    "element": "Convention_Européenne",
+    "element": "Convention_européenne",
     "length": 1
   },
   {
@@ -448,7 +567,7 @@
     "position": 4606,
     "before": ["que","l'Union","européenne...","l'Union","Européenne","s'intéresse","plutôt","à","la","constitution","d'un","marché","européen,","mais","en","fait,","chacune","des","deux","Europes,","on","va","dire,","s'intéresse","au","sujet","de","l'autre.","Par","exemple,"],
     "after": ["Européenne","protège","aussi","les","droits","fondamentaux,","et","la","Convention","Européenne,","dans","une","moindre","mesure,","s'intéresse","aussi","au","marché","à","travers","la","liberté","d'entreprendre,","qui","est","une","liberté","protégée","par","la"],
-    "element": "Union_européenne",
+    "element": "Union_Européenne",
     "length": 1
   }
 ]

@@ -6,6 +6,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/chrlesur/ontology-server/internal/logger"
@@ -204,13 +205,25 @@ func (h *Handler) ElementDetailsHandler(c *gin.Context) {
 }
 
 func (h *Handler) LoadOntology(c *gin.Context) {
+	// Fichier d'ontologie principal
 	ontologyFile, err := c.FormFile("ontologyFile")
 	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "No ontology file uploaded"})
 		return
 	}
 
-	// Sauvegarder le fichier d'ontologie temporairement
+	// Fichier de métadonnées (obligatoire)
+	metadataFile, err := c.FormFile("metadataFile")
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "No metadata file uploaded"})
+		return
+	}
+
+	// Fichier de contexte (optionnel)
+	var contextTempFile string
+	contextFile, err := c.FormFile("contextFile")
+
+	// Sauvegarder temporairement les fichiers
 	ontologyTempFile := filepath.Join(os.TempDir(), ontologyFile.Filename)
 	if err := c.SaveUploadedFile(ontologyFile, ontologyTempFile); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save ontology file"})
@@ -218,10 +231,14 @@ func (h *Handler) LoadOntology(c *gin.Context) {
 	}
 	defer os.Remove(ontologyTempFile)
 
-	var contextTempFile string
-	contextFile, err := c.FormFile("contextFile")
-	if err == nil {
-		// Un fichier de contexte a été fourni
+	metadataTempFile := filepath.Join(os.TempDir(), metadataFile.Filename)
+	if err := c.SaveUploadedFile(metadataFile, metadataTempFile); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save metadata file"})
+		return
+	}
+	defer os.Remove(metadataTempFile)
+
+	if contextFile != nil {
 		contextTempFile = filepath.Join(os.TempDir(), contextFile.Filename)
 		if err := c.SaveUploadedFile(contextFile, contextTempFile); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save context file"})
@@ -230,8 +247,8 @@ func (h *Handler) LoadOntology(c *gin.Context) {
 		defer os.Remove(contextTempFile)
 	}
 
-	// Charger l'ontologie
-	err = h.Storage.LoadOntologyFromFile(ontologyTempFile, contextTempFile)
+	// Charger l'ontologie avec les métadonnées
+	err = h.Storage.LoadOntologyFromFile(ontologyTempFile, contextTempFile, metadataTempFile)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": fmt.Sprintf("Failed to load ontology: %v", err)})
 		return
@@ -243,6 +260,8 @@ func (h *Handler) LoadOntology(c *gin.Context) {
 // GetElementRelations récupère les relations d'un élément spécifique
 func (h *Handler) GetElementRelations(c *gin.Context) {
 	h.Logger.Info("GetElementRelations endpoint called")
+
+	// Décoder le nom de l'élément depuis l'URL
 	encodedElementName := c.Param("element_name")
 	elementName, err := url.QueryUnescape(encodedElementName)
 	if err != nil {
@@ -256,7 +275,8 @@ func (h *Handler) GetElementRelations(c *gin.Context) {
 	relations, err := h.Storage.GetElementRelations(elementName)
 	if err != nil {
 		h.Logger.Error(fmt.Sprintf("Error getting element relations: %v", err))
-		c.JSON(http.StatusNotFound, gin.H{"error": "Relations not found"})
+		// Retourner un tableau vide avec status 200 si aucune relation n'est trouvée
+		c.JSON(http.StatusOK, []models.Relation{})
 		return
 	}
 
@@ -273,4 +293,100 @@ func (h *Handler) GetElementContexts(c *gin.Context) {
 		return
 	}
 	c.JSON(http.StatusOK, contexts)
+}
+
+// Ajouter un endpoint pour récupérer les métadonnées d'une ontologie
+func (h *Handler) GetOntologyMetadata(c *gin.Context) {
+	id := c.Param("id")
+
+	ontology, err := h.Storage.GetOntology(id)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "Ontology not found"})
+		return
+	}
+
+	if ontology.Source == nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "No metadata available for this ontology"})
+		return
+	}
+
+	c.JSON(http.StatusOK, ontology.Source)
+}
+
+// ViewSourceFile gère l'affichage des fichiers source
+func (h *Handler) ViewSourceFile(c *gin.Context) {
+	// Récupérer le chemin du fichier depuis les query params
+	filePath := c.Query("path")
+	if filePath == "" {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "No file path provided"}) // gin.H pour format JSON cohérent
+		return
+	}
+
+	// Vérifier que le fichier existe
+	if _, err := os.Stat(filePath); os.IsNotExist(err) {
+		c.JSON(http.StatusNotFound, gin.H{"error": "File not found"}) // gin.H pour format JSON cohérent
+		return
+	}
+
+	// Déterminer le type MIME
+	ext := strings.ToLower(filepath.Ext(filePath))
+	var contentType string
+	switch ext {
+	case ".pdf":
+		contentType = "application/pdf"
+	case ".md":
+		contentType = "text/markdown"
+	case ".txt":
+		contentType = "text/plain"
+	case ".html":
+		contentType = "text/html"
+	default:
+		contentType = "application/octet-stream"
+	}
+
+	// Pour les fichiers markdown, convertir en HTML si nécessaire
+	if ext == ".md" {
+		file, err := os.ReadFile(filePath)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to read file"})
+			return
+		}
+
+		// Si vous voulez ajouter une conversion Markdown vers HTML ici
+		// Vous pouvez utiliser une bibliothèque comme blackfriday
+
+		c.Header("Content-Type", "text/html")
+		c.Header("Content-Disposition", "inline; filename="+filepath.Base(filePath))
+		c.String(http.StatusOK, `
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="UTF-8">
+                <style>
+                    body { 
+                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                        line-height: 1.6;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        padding: 20px;
+                    }
+                    pre {
+                        background: #f5f5f5;
+                        padding: 15px;
+                        border-radius: 5px;
+                    }
+                </style>
+            </head>
+            <body>
+                <pre>%s</pre>
+            </body>
+            </html>
+        `, string(file))
+		return
+	}
+
+	// Pour tous les autres types de fichiers
+	c.Header("Content-Type", contentType)
+	c.Header("Content-Disposition", "inline; filename="+filepath.Base(filePath))
+	c.File(filePath)
 }

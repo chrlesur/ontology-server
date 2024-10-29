@@ -37,6 +37,7 @@ type SearchResult struct {
 	Position    int
 	Relevance   float64
 	Contexts    []models.JSONContext
+	Source      *models.SourceMetadata
 }
 
 // Search effectue une recherche dans les ontologies
@@ -83,6 +84,7 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 						Position:    position,
 						Relevance:   relevance,
 						Contexts:    element.Contexts,
+						Source:      onto.Source,
 					}
 					se.Logger.Info(fmt.Sprintf("Found relevant result: %s (Relevance: %.2f, Contexts: %d)",
 						result.ElementName, result.Relevance, len(result.Contexts)))

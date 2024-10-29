@@ -22,6 +22,17 @@ type Relation struct {
 	Description string
 }
 
+// SourceMetadata représente les métadonnées du fichier source
+type SourceMetadata struct {
+	SourceFile     string    `json:"source_file"`
+	Directory      string    `json:"directory"`
+	FileDate       time.Time `json:"file_date"`
+	SHA256Hash     string    `json:"sha256_hash"`
+	OntologyFile   string    `json:"ontology_file"`
+	ContextFile    string    `json:"context_file"`
+	ProcessingDate time.Time `json:"processing_date"`
+}
+
 // Ontology représente une ontologie complète
 type Ontology struct {
 	ID         string
@@ -33,4 +44,5 @@ type Ontology struct {
 	ImportedAt time.Time
 	Elements   []*OntologyElement
 	Relations  []*Relation
+	Source     *SourceMetadata
 }

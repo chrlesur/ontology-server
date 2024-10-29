@@ -7,14 +7,14 @@
     "position": 8,
     "before": ["L’EVANGILE","SELON","SAINT","JEAN","1","Page","1",":"],
     "after": ["I","–","LE","MISTÈRE","DE","JÈSUS","Page","1-6",":","1.","L’ANNONCE","DE","LA","NOUVELLE","ÉCONOMIE","A.","La","semaine","inaugurale","B.","La","première","Pâque","Page","6-7",":","2.","DEUXIÈME","FÊTE","A"],
-    "element": "Prologue",
+    "element": "Ensevelissement",
     "length": 1
   },
   {
     "position": 22,
     "before": ["L’EVANGILE","SELON","SAINT","JEAN","1","Page","1",":","PROLOGUE","I","–","LE","MISTÈRE","DE","JÈSUS","Page","1-6",":","1.","L’ANNONCE","DE","LA"],
     "after": ["ÉCONOMIE","A.","La","semaine","inaugurale","B.","La","première","Pâque","Page","6-7",":","2.","DEUXIÈME","FÊTE","A","JÈRUSALEM","Page","7-9",":","3.","LA","PÂQUE","DU","PAIN","DE","VIE","Page","9-14",":"],
-    "element": "Nouvelle_Économie",
+    "element": "Nouvelle_économie",
     "length": 1
   },
   {
@@ -42,7 +42,7 @@
     "position": 47,
     "before": [":","1.","L’ANNONCE","DE","LA","NOUVELLE","ÉCONOMIE","A.","La","semaine","inaugurale","B.","La","première","Pâque","Page","6-7",":","2.","DEUXIÈME","FÊTE","A","JÈRUSALEM","Page","7-9",":","3.","LA","PÂQUE","DU"],
     "after": ["DE","VIE","Page","9-14",":","4.","LA","FÊTE","DES","TENTES","Page","14-15",":","5.","LA","FÊTE","DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE"],
-    "element": "Pain_de_vie",
+    "element": "Pain_de_Vie",
     "length": 1
   },
   {
@@ -78,6 +78,13 @@
     "before": ["Page","9-14",":","4.","LA","FÊTE","DES","TENTES","Page","14-15",":","5.","LA","FÊTE","DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE"],
     "after": ["II","–","L’HEURE","DE","JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page"],
     "element": "Pâque",
+    "length": 1
+  },
+  {
+    "position": 84,
+    "before": ["LA","FÊTE","DES","TENTES","Page","14-15",":","5.","LA","FÊTE","DE","LA","DÉDICACE","Page","16-17",":","6.","FIN","DU","MINISTÈRE","PUBLIC","ET","PRÉLIMINAIRES","DE","LA","DERNIÈRE","PÂQUE","II","–","L’HEURE"],
+    "after": ["JÈSUS","LA","PÂQUE","DE","L’AGNEAU","DE","DIEU","Page","17-22",":","1.","LE","DERNIER","REPAS","DE","JÉSUS","AVEC","SES","DISCIPLES","Page","22-24",":","2.","LA","PASSION","Page","24-25",":","3.","LE"],
+    "element": "Esprit_Saint",
     "length": 1
   },
   {
@@ -242,13 +249,6 @@
     "length": 1
   },
   {
-    "position": 259,
-    "before": ["pas","la","lumière,","mais","il","avait","à","rendre","témoignage","à","la","lumière.","9Le","Verbe","était","la","lumière","véritable,","qui","éclaire","tout","homme",";","il","venait","dans","le","monde.","10Il","était"],
-    "after": ["le","monde,","et","le","monde","fut","par","lui,","et","le","monde","ne","l'a","pas","reconnu.","11Il","est","venu","chez","lui,","et","les","siens","ne","l'ont","pas","accueilli.","12Mais","à","tous"],
-    "element": "Nicodème",
-    "length": 1
-  },
-  {
     "position": 264,
     "before": ["avait","à","rendre","témoignage","à","la","lumière.","9Le","Verbe","était","la","lumière","véritable,","qui","éclaire","tout","homme",";","il","venait","dans","le","monde.","10Il","était","dans","le","monde,","et","le"],
     "after": ["fut","par","lui,","et","le","monde","ne","l'a","pas","reconnu.","11Il","est","venu","chez","lui,","et","les","siens","ne","l'ont","pas","accueilli.","12Mais","à","tous","ceux","qui","l'ont","accueilli,","il"],
@@ -274,6 +274,13 @@
     "before": ["Dieu,","à","ceux","qui","croient","en","son","nom,","13lui","qui","ne","fut","engendré","ni","du","sang,","ni","d'un","vouloir","de","chair,","ni","d'un","vouloir","d'homme,","mais","de","Dieu.","14Et","le"],
     "after": ["s'est","fait","chair","et","il","a","habité","parmi","nous,","et","nous","avons","contemplé","sa","gloire,","gloire","qu'il","tient","de","son","Père","comme","Fils","unique,","plein","de","grâce","et","de","vérité."],
     "element": "Verbe",
+    "length": 1
+  },
+  {
+    "position": 335,
+    "before": ["qui","croient","en","son","nom,","13lui","qui","ne","fut","engendré","ni","du","sang,","ni","d'un","vouloir","de","chair,","ni","d'un","vouloir","d'homme,","mais","de","Dieu.","14Et","le","Verbe","s'est","fait"],
+    "after": ["et","il","a","habité","parmi","nous,","et","nous","avons","contemplé","sa","gloire,","gloire","qu'il","tient","de","son","Père","comme","Fils","unique,","plein","de","grâce","et","de","vérité.","15Jean","lui","rend"],
+    "element": "Chair",
     "length": 1
   },
   {
@@ -357,7 +364,7 @@
     "position": 460,
     "before": [";","le","Fils","unique,","qui","est","tourné","vers","le","sein","du","Père,","lui,","l'a","fait","connaître.","Le","témoignage","de","Jean.","I","–","LE","MISTÈRE","DE","JÈSUS","1.","L’ANNONCE","DE","LA"],
     "after": ["ÉCONOMIE","A.","La","semaine","inaugurale","Le","témoignage","de","Jean.","19Et","voici","quel","fut","le","témoignage","de","Jean,","quand","les","Juifs","lui","envoyèrent","de","Jérusalem","des","prêtres","et","des","lévites","pour"],
-    "element": "Nouvelle_Économie",
+    "element": "Nouvelle_économie",
     "length": 1
   },
   {
@@ -396,6 +403,13 @@
     "length": 1
   },
   {
+    "position": 521,
+    "before": ["lui","demander",":","\"","Qui","es-tu","?","\"","20Il","confessa,","il","ne","nia","pas,","il","confessa",":","\"","Je","ne","suis","pas","le","Christ.","\"","-","21\"","Qu'es-tu","donc","?"],
+    "after": ["demandèrent-ils.","Es-tu","Élie","?","\"","Il","dit",":","\"","Je","ne","le","suis","pas.","\"","-","\"","Es-tu","le","prophète","?","\"","Il","répondit",":","\"","Non.","\"","22Ils","lui"],
+    "element": "Noces_de_Cana",
+    "length": 1
+  },
+  {
     "position": 524,
     "before": ["\"","Qui","es-tu","?","\"","20Il","confessa,","il","ne","nia","pas,","il","confessa",":","\"","Je","ne","suis","pas","le","Christ.","\"","-","21\"","Qu'es-tu","donc","?","lui","demandèrent-ils.","Es-tu"],
     "after": ["?","\"","Il","dit",":","\"","Je","ne","le","suis","pas.","\"","-","\"","Es-tu","le","prophète","?","\"","Il","répondit",":","\"","Non.","\"","22Ils","lui","dirent","alors",":"],
@@ -403,17 +417,10 @@
     "length": 1
   },
   {
-    "position": 533,
-    "before": ["nia","pas,","il","confessa",":","\"","Je","ne","suis","pas","le","Christ.","\"","-","21\"","Qu'es-tu","donc","?","lui","demandèrent-ils.","Es-tu","Élie","?","\"","Il","dit",":","\"","Je","ne"],
-    "after": ["suis","pas.","\"","-","\"","Es-tu","le","prophète","?","\"","Il","répondit",":","\"","Non.","\"","22Ils","lui","dirent","alors",":","\"","Qui","es-tu,","que","nous","donnions","réponse","à","ceux"],
-    "element": "Judas_Iscariote",
-    "length": 6
-  },
-  {
-    "position": 541,
-    "before": ["suis","pas","le","Christ.","\"","-","21\"","Qu'es-tu","donc","?","lui","demandèrent-ils.","Es-tu","Élie","?","\"","Il","dit",":","\"","Je","ne","le","suis","pas.","\"","-","\"","Es-tu","le"],
-    "after": ["?","\"","Il","répondit",":","\"","Non.","\"","22Ils","lui","dirent","alors",":","\"","Qui","es-tu,","que","nous","donnions","réponse","à","ceux","qui","nous","ont","envoyés","?","Que","dis-tu","de"],
-    "element": "Prophète",
+    "position": 578,
+    "before": ["Non.","\"","22Ils","lui","dirent","alors",":","\"","Qui","es-tu,","que","nous","donnions","réponse","à","ceux","qui","nous","ont","envoyés","?","Que","dis-tu","de","toi-même","?","\"","-","23Il","déclara"],
+    "after": ["\"","Je","suis","la","voix","de","celui","qui","crie","dans","le","désert",":","Rendez","droit","le","chemin","du","Seigneur,","comme","a","dit","Isaïe,","le","prophète.","\"","24On","avait","envoyé","des"],
+    "element": "Porte_des_brebis",
     "length": 1
   },
   {
@@ -421,13 +428,6 @@
     "before": ["nous","ont","envoyés","?","Que","dis-tu","de","toi-même","?","\"","-","23Il","déclara",":","\"","Je","suis","la","voix","de","celui","qui","crie","dans","le","désert",":","Rendez","droit","le"],
     "after": ["du","Seigneur,","comme","a","dit","Isaïe,","le","prophète.","\"","24On","avait","envoyé","des","Pharisiens.","25Ils","lui","demandèrent",":","\"","Pourquoi","donc","baptises-tu,","si","tu","n'es","ni","le","Christ,","ni","Élie,"],
     "element": "Chemin",
-    "length": 1
-  },
-  {
-    "position": 628,
-    "before": ["comme","a","dit","Isaïe,","le","prophète.","\"","24On","avait","envoyé","des","Pharisiens.","25Ils","lui","demandèrent",":","\"","Pourquoi","donc","baptises-tu,","si","tu","n'es","ni","le","Christ,","ni","Élie,","ni","le"],
-    "after": ["?","\"","26Jean","leur","répondit",":","\"","Moi,","je","baptise","dans","l'eau.","Au","milieu","de","vous","se","tient","quelqu'un","que","vous","ne","connaissez","pas,","27celui","qui","vient","derrière","moi,","dont"],
-    "element": "Prophète",
     "length": 1
   },
   {
@@ -456,13 +456,6 @@
     "before": ["se","passait","à","Béthanie","au-delà","du","Jourdain,","où","Jean","baptisait.","29Le","lendemain,","il","voit","Jésus","venir","vers","lui","et","il","dit",":","\"","Voici","l'agneau","de","Dieu,","qui","enlève","le"],
     "after": ["du","monde.","30C'est","de","lui","que","j'ai","dit",":","Derrière","moi","vient","un","homme","qui","est","passé","devant","moi","parce","qu'avant","moi","il","était.","31Et","moi,","je","ne","le","connaissais"],
     "element": "Péché",
-    "length": 1
-  },
-  {
-    "position": 738,
-    "before": ["que","j'ai","dit",":","Derrière","moi","vient","un","homme","qui","est","passé","devant","moi","parce","qu'avant","moi","il","était.","31Et","moi,","je","ne","le","connaissais","pas",";","mais","c'est","pour"],
-    "after": ["fût","manifesté","à","Israël","que","je","suis","venu","baptisant","dans","l'eau.","\"","32Et","Jean","rendit","témoignage","en","disant",":","\"","J'ai","vu","l'Esprit","descendre,","tel","une","colombe","venant","du","ciel,"],
-    "element": "Esprit_Saint",
     "length": 1
   },
   {
@@ -540,6 +533,13 @@
     "before": ["Jésus","qui","passait,","il","dit",":","\"","Voici","l'agneau","de","Dieu.","\"","37Les","deux","disciples","entendirent","ses","paroles","et","suivirent","Jésus.","38Jésus","se","retourna","et,","voyant","qu'ils","L’EVANGILE","SELON","SAINT"],
     "after": ["3","le","suivaient,","leur","dit",":","\"","Que","cherchez-vous","?","\"","Ils","lui","dirent",":","\"","Rabbi","-","ce","qui","veut","dire","Maître","-,","où","demeures-tu","?","\"","39Il","leur"],
     "element": "Jean",
+    "length": 1
+  },
+  {
+    "position": 875,
+    "before": [":","\"","Voici","l'agneau","de","Dieu.","\"","37Les","deux","disciples","entendirent","ses","paroles","et","suivirent","Jésus.","38Jésus","se","retourna","et,","voyant","qu'ils","L’EVANGILE","SELON","SAINT","JEAN","3","le","suivaient,","leur"],
+    "after": [":","\"","Que","cherchez-vous","?","\"","Ils","lui","dirent",":","\"","Rabbi","-","ce","qui","veut","dire","Maître","-,","où","demeures-tu","?","\"","39Il","leur","dit",":","\"","Venez","et"],
+    "element": "Esprit_de_vérité",
     "length": 1
   },
   {
@@ -634,13 +634,6 @@
     "length": 1
   },
   {
-    "position": 1065,
-    "before": ["Nathanaèl","et","lui","dit",":","\"","Celui","dont","Moïse","a","écrit","dans","la","Loi,","ainsi","que","les","prophètes,","nous","l'avons","trouvé",":","Jésus,","le","fils","de","Joseph,","de","Nazareth.","\""],
-    "after": ["lui","dit",":","\"","De","Nazareth,","peut-il","sortir","quelque","chose","de","bon","?","\"","Philippe","lui","dit",":","\"","Viens","et","vois.","\"","47Jésus","vit","Nathanaèl","venir","vers","lui","et"],
-    "element": "Éphraïm",
-    "length": 1
-  },
-  {
     "position": 1080,
     "before": ["que","les","prophètes,","nous","l'avons","trouvé",":","Jésus,","le","fils","de","Joseph,","de","Nazareth.","\"","46Nathanaèl","lui","dit",":","\"","De","Nazareth,","peut-il","sortir","quelque","chose","de","bon","?","\""],
     "after": ["lui","dit",":","\"","Viens","et","vois.","\"","47Jésus","vit","Nathanaèl","venir","vers","lui","et","il","dit","de","lui",":","\"","Voici","vraiment","un","Israélite","sans","détour.","\"","48Nathanaèl","lui"],
@@ -715,6 +708,13 @@
     "before": ["y","était.","2Jésus","aussi","fut","invité","à","ces","noces,","ainsi","que","ses","disciples.","3Or","il","n'y","avait","plus","de","vin,","car","le","vin","des","noces","était","épuisé.","La","mère","de"],
     "after": ["lui","dit",":","\"","Ils","n'ont","pas","de","vin.","\"","4Jésus","lui","dit",":","\"","Que","me","veux-tu,","femme","?","Mon","heure","n'est","pas","encore","arrivée.","\"","5Sa","mère","dit"],
     "element": "Jésus",
+    "length": 1
+  },
+  {
+    "position": 1436,
+    "before": ["sert","d'abord","le","bon","vin","et,","quand","les","gens","sont","ivres,","le","moins","bon.","Toi,","tu","as","gardé","le","bon","vin","jusqu'à","présent","!","\"","11Tel","fut","le","premier","des"],
+    "after": ["de","Jésus,","il","l'accomplit","à","Cana","de","Galilée","et","il","manifesta","sa","gloire","et","ses","disciples","crurent","en","lui.","12Après","quoi,","il","descendit","à","Capharnaüm,","lui,","ainsi","que","sa","mère"],
+    "element": "Signes",
     "length": 1
   },
   {
@@ -823,13 +823,6 @@
     "length": 1
   },
   {
-    "position": 1602,
-    "before": ["\"","17Ses","disciples","se","rappelèrent","qu'il","est","écrit",":","\"","Le","zèle","pour","ta","maison","me","dévorera.","\"","18Alors","les","Juifs","prirent","la","parole","et","lui","dirent",":","\"","Quel"],
-    "after": ["nous","montres-tu","pour","agir","ainsi","?","\"","19Jésus","leur","répondit",":","\"","Détruisez","ce","sanctuaire","et","en","trois","jours","je","le","relèverai.","\"","20Les","Juifs","lui","dirent","alors",":","\""],
-    "element": "Signe",
-    "length": 1
-  },
-  {
     "position": 1627,
     "before": ["lui","dirent",":","\"","Quel","signe","nous","montres-tu","pour","agir","ainsi","?","\"","19Jésus","leur","répondit",":","\"","Détruisez","ce","sanctuaire","et","en","trois","jours","je","le","relèverai.","\"","20Les"],
     "after": ["lui","dirent","alors",":","\"","Il","a","fallu","quarante-six","ans","pour","bâtir","ce","sanctuaire,","et","toi,","en","trois","jours","tu","le","relèveras","?","\"","21Mais","lui","parlait","du","sanctuaire","de"],
@@ -841,6 +834,13 @@
     "before": ["pour","bâtir","ce","sanctuaire,","et","toi,","en","trois","jours","tu","le","relèveras","?","\"","21Mais","lui","parlait","du","sanctuaire","de","son","corps.","22Aussi,","quand","il","ressuscita","d'entre","les","morts,","ses"],
     "after": ["se","rappelèrent","qu'il","avait","dit","cela,","et","ils","crurent","à","l'Écriture","et","à","la","parole","qu'il","avait","dite.","L’EVANGILE","SELON","SAINT","JEAN","4","Séjour","à","Jérusalem.","23Comme","il","était","à"],
     "element": "Disciples",
+    "length": 1
+  },
+  {
+    "position": 1679,
+    "before": ["relèveras","?","\"","21Mais","lui","parlait","du","sanctuaire","de","son","corps.","22Aussi,","quand","il","ressuscita","d'entre","les","morts,","ses","disciples","se","rappelèrent","qu'il","avait","dit","cela,","et","ils","crurent","à"],
+    "after": ["et","à","la","parole","qu'il","avait","dite.","L’EVANGILE","SELON","SAINT","JEAN","4","Séjour","à","Jérusalem.","23Comme","il","était","à","Jérusalem","durant","la","fête","de","la","Pâque,","beaucoup","crurent","en","son"],
+    "element": "Écriture",
     "length": 1
   },
   {
@@ -862,6 +862,13 @@
     "before": ["se","rappelèrent","qu'il","avait","dit","cela,","et","ils","crurent","à","l'Écriture","et","à","la","parole","qu'il","avait","dite.","L’EVANGILE","SELON","SAINT","JEAN","4","Séjour","à","Jérusalem.","23Comme","il","était","à"],
     "after": ["durant","la","fête","de","la","Pâque,","beaucoup","crurent","en","son","nom,","à","la","vue","des","signes","qu'il","faisait.","24Mais","Jésus,","lui,","ne","se","fiait","pas","à","eux,","parce","qu'il","les"],
     "element": "Jérusalem",
+    "length": 1
+  },
+  {
+    "position": 1715,
+    "before": ["avait","dite.","L’EVANGILE","SELON","SAINT","JEAN","4","Séjour","à","Jérusalem.","23Comme","il","était","à","Jérusalem","durant","la","fête","de","la","Pâque,","beaucoup","crurent","en","son","nom,","à","la","vue","des"],
+    "after": ["qu'il","faisait.","24Mais","Jésus,","lui,","ne","se","fiait","pas","à","eux,","parce","qu'il","les","connaissait","tous","25et","qu'il","n'avait","pas","besoin","d'un","témoignage","sur","l'homme",":","car","lui-même","connaissait","ce"],
+    "element": "Signes",
     "length": 1
   },
   {
@@ -893,6 +900,13 @@
     "length": 1
   },
   {
+    "position": 1803,
+    "before": ["vint","de","nuit","trouver","Jésus","et","lui","dit",":","\"","Rabbi,","nous","le","savons,","tu","viens","de","la","part","de","Dieu","comme","un","Maître",":","personne","ne","peut","faire","les"],
+    "after": ["que","tu","fais,","si","Dieu","n'est","pas","avec","lui.","\"","3Jésus","lui","répondit",":","\"","En","vérité,","en","vérité,","je","te","le","dis,","à","moins","de","naître","d'en","haut,","nul"],
+    "element": "Signes",
+    "length": 1
+  },
+  {
     "position": 1808,
     "before": ["et","lui","dit",":","\"","Rabbi,","nous","le","savons,","tu","viens","de","la","part","de","Dieu","comme","un","Maître",":","personne","ne","peut","faire","les","signes","que","tu","fais,","si"],
     "after": ["n'est","pas","avec","lui.","\"","3Jésus","lui","répondit",":","\"","En","vérité,","en","vérité,","je","te","le","dis,","à","moins","de","naître","d'en","haut,","nul","ne","peut","voir","le","Royaume"],
@@ -914,10 +928,24 @@
     "length": 1
   },
   {
+    "position": 1904,
+    "before": ["En","vérité,","en","vérité,","je","te","le","dis,","à","moins","de","naître","d'eau","et","d'Esprit,","nul","ne","peut","entrer","dans","le","Royaume","de","Dieu.","6Ce","qui","est","né","de","la"],
+    "after": ["est","chair,","ce","qui","est","né","de","l'Esprit","est","esprit.","7Ne","t'étonne","pas,","si","je","t'ai","dit",":","Il","vous","fait","naître","d'en","haut.","8Le","vent","souffle","où","il","veut"],
+    "element": "Chair",
+    "length": 1
+  },
+  {
     "position": 1912,
     "before": ["à","moins","de","naître","d'eau","et","d'Esprit,","nul","ne","peut","entrer","dans","le","Royaume","de","Dieu.","6Ce","qui","est","né","de","la","chair","est","chair,","ce","qui","est","né","de"],
     "after": ["est","esprit.","7Ne","t'étonne","pas,","si","je","t'ai","dit",":","Il","vous","fait","naître","d'en","haut.","8Le","vent","souffle","où","il","veut","et","tu","entends","sa","voix,","mais","tu","ne"],
     "element": "Esprit",
+    "length": 1
+  },
+  {
+    "position": 1940,
+    "before": ["né","de","l'Esprit","est","esprit.","7Ne","t'étonne","pas,","si","je","t'ai","dit",":","Il","vous","fait","naître","d'en","haut.","8Le","vent","souffle","où","il","veut","et","tu","entends","sa","voix,"],
+    "after": ["tu","ne","sais","pas","d'où","il","vient","ni","où","il","va.","Ainsi","en","est-il","de","quiconque","est","né","de","l'Esprit.","\"","9Nicodème","lui","répondit",":","\"","Comment","cela","peut-il","se"],
+    "element": "Purification_du_Temple",
     "length": 1
   },
   {
@@ -994,7 +1022,7 @@
     "position": 2128,
     "before": ["qu'il","a","donné","son","Fils","unique,","afin","que","quiconque","croit","en","lui","ne","se","perde","pas,","mais","ait","la","vie","éternelle.","17Car","Dieu","n'a","pas","envoyé","son","Fils","dans","le"],
     "after": ["pour","juger","le","monde,","mais","pour","que","le","monde","soit","sauvé","par","lui.","18Qui","croit","en","lui","n'est","pas","jugé",";","qui","ne","croit","pas","est","déjà","jugé,","parce","qu'il"],
-    "element": "Monde",
+    "element": "Judas_Iscariote",
     "length": 1
   },
   {
@@ -1138,6 +1166,13 @@
     "length": 1
   },
   {
+    "position": 2318,
+    "before": ["les","gens","se","présentaient","et","se","faisaient","baptiser.","24Jean,","en","effet,","n'avait","pas","encore","été","jeté","en","prison.","25Il","s'éleva","alors","une","discussion","entre","les","disciples","de","Jean","et","un"],
+    "after": ["à","propos","de","purification",":","26ils","vinrent","trouver","Jean","et","lui","dirent",":","\"","Rabbi,","celui","qui","était","avec","toi","de","l'autre","côté","du","Jourdain,","celui","à","qui","tu","as"],
+    "element": "Juif",
+    "length": 1
+  },
+  {
     "position": 2327,
     "before": ["en","effet,","n'avait","pas","encore","été","jeté","en","prison.","25Il","s'éleva","alors","une","discussion","entre","les","disciples","de","Jean","et","un","Juif","à","propos","de","purification",":","26ils","vinrent","trouver"],
     "after": ["et","lui","dirent",":","\"","Rabbi,","celui","qui","était","avec","toi","de","l'autre","côté","du","Jourdain,","celui","à","qui","tu","as","rendu","témoignage,","le","voilà","qui","baptise","et","tous","viennent"],
@@ -1149,6 +1184,13 @@
     "before": ["pas","le","Christ,","mais","je","suis","envoyé","devant","lui.","\"","29Qui","a","l'épouse","est","l'époux",";","mais","l'ami","de","l'époux","qui","se","tient","là","et","qui","l'entend,","est","ravi","de"],
     "after": ["à","la","voix","de","l'époux.","Telle","est","ma","joie,","et","elle","est","complète.","30Il","faut","que","lui","grandisse","et","que","moi","je","décroisse.","31Celui","qui","vient","d'en","haut","est","au-dessus"],
     "element": "Joie",
+    "length": 1
+  },
+  {
+    "position": 2477,
+    "before": ["qui","vient","d'en","haut","est","au-dessus","de","tous",";","celui","qui","est","de","la","terre","est","terrestre","et","parle","en","terrestre.","Celui","qui","vient","du","ciel","32témoigne","de","ce","qu'il"],
+    "after": ["vu","et","entendu,","et","son","témoignage,","nul","ne","l'accueille.","33Qui","accueille","son","témoignage","certifie","que","Dieu","est","véridique",";","34en","effet,","celui","que","Dieu","a","envoyé","prononce","les","paroles","de"],
+    "element": "Nicodème",
     "length": 1
   },
   {
@@ -1362,13 +1404,6 @@
     "length": 1
   },
   {
-    "position": 2781,
-    "before": ["te","dit",":","Donne-moi","à","boire,","c'est","toi","qui","l'aurais","prié","et","il","t'aurait","donné","de","l'eau","vive.","\"","11Elle","lui","dit",":","\"","Seigneur,","tu","n'as","rien","pour","puiser,"],
-    "after": ["le","puits","est","profond.","D'où","l'as-tu","donc,","l'eau","vive","?","12Serais-tu","plus","grand","que","notre","père","Jacob,","qui","nous","a","donné","ce","puits","et","y","a","bu","lui-même,","ainsi","que"],
-    "element": "Saint_de_Dieu",
-    "length": 1
-  },
-  {
     "position": 2789,
     "before": ["qui","l'aurais","prié","et","il","t'aurait","donné","de","l'eau","vive.","\"","11Elle","lui","dit",":","\"","Seigneur,","tu","n'as","rien","pour","puiser,","et","le","puits","est","profond.","D'où","l'as-tu","donc,"],
     "after": ["vive","?","12Serais-tu","plus","grand","que","notre","père","Jacob,","qui","nous","a","donné","ce","puits","et","y","a","bu","lui-même,","ainsi","que","ses","fils","et","ses","bêtes","?","\"","13Jésus"],
@@ -1408,6 +1443,13 @@
     "before": ["plus","ici","pour","puiser.","\"","16Il","lui","dit",":","\"","Va,","appelle","ton","mari","et","reviens","ici.","\"","17La","femme","lui","répondit",":","\"","Je","n'ai","pas","de","mari.","\""],
     "after": ["lui","dit",":","\"","Tu","as","bien","fait","de","dire",":","\"Je","n'ai","pas","de","mari\",","18car","tu","as","eu","cinq","maris","et","celui","que","tu","as","maintenant","n'est","pas"],
     "element": "Jésus",
+    "length": 1
+  },
+  {
+    "position": 2928,
+    "before": ["ici.","\"","17La","femme","lui","répondit",":","\"","Je","n'ai","pas","de","mari.","\"","Jésus","lui","dit",":","\"","Tu","as","bien","fait","de","dire",":","\"Je","n'ai","pas","de"],
+    "after": ["18car","tu","as","eu","cinq","maris","et","celui","que","tu","as","maintenant","n'est","pas","ton","mari",";","en","cela","tu","dis","vrai.","\"","19La","femme","lui","dit",":","\"","Seigneur,"],
+    "element": "Mont_des_Oliviers",
     "length": 1
   },
   {
@@ -1453,13 +1495,6 @@
     "length": 1
   },
   {
-    "position": 3084,
-    "before": ["en","vérité,","car","tels","sont","les","adorateurs","que","cherche","le","Père.","24Dieu","est","esprit,","et","ceux","qui","adorent,","c'est","en","esprit","et","en","vérité","qu'ils","doivent","adorer.","\"","25La","femme"],
-    "after": ["dit",":","\"","Je","sais","que","le","Messie","doit","venir,","celui","qu'on","appelle","Christ.","Quand","il","viendra,","il","nous","expliquera","tout.","\"","26Jésus","lui","dit",":","\"","Je","le","suis,"],
-    "element": "Sauveur_du_monde",
-    "length": 1
-  },
-  {
     "position": 3092,
     "before": ["cherche","le","Père.","24Dieu","est","esprit,","et","ceux","qui","adorent,","c'est","en","esprit","et","en","vérité","qu'ils","doivent","adorer.","\"","25La","femme","lui","dit",":","\"","Je","sais","que","le"],
     "after": ["doit","venir,","celui","qu'on","appelle","Christ.","Quand","il","viendra,","il","nous","expliquera","tout.","\"","26Jésus","lui","dit",":","\"","Je","le","suis,","moi","qui","te","parle.","\"","27Là-dessus","arrivèrent","ses"],
@@ -1485,13 +1520,6 @@
     "before": ["31Entre-temps,","les","disciples","le","priaient,","en","disant",":","\"","Rabbi,","mange.","\"","32Mais","il","leur","dit",":","\"","J'ai","à","manger","un","aliment","que","vous","ne","connaissez","pas.","\"","33Les"],
     "after": ["se","disaient","entre","eux",":","\"","Quelqu'un","lui","aurait-il","apporté","à","manger","?","\"","34Jésus","leur","dit",":","\"","Ma","nourriture","est","de","faire","la","volonté","de","celui","qui","m'a"],
     "element": "Disciples",
-    "length": 1
-  },
-  {
-    "position": 3265,
-    "before": ["\"","Quelqu'un","lui","aurait-il","apporté","à","manger","?","\"","34Jésus","leur","dit",":","\"","Ma","nourriture","est","de","faire","la","volonté","de","celui","qui","m'a","envoyé","et","de","mener","son"],
-    "after": ["à","bonne","fin.","35Ne","dites-vous","pas",":","Encore","quatre","mois","et","vient","la","moisson","?","Eh","bien","!","je","vous","dis",":","Levez","les","yeux","et","regardez","les","champs,","ils"],
-    "element": "Œuvre",
     "length": 1
   },
   {
@@ -1544,24 +1572,10 @@
     "length": 1
   },
   {
-    "position": 3492,
-    "before": ["sauveur","du","monde.","\"","L’EVANGILE","SELON","SAINT","JEAN","6","Jésus","en","Galilée.","43Après","ces","deux","jours,","il","partit","de","là","pour","la","Galilée.","44Jésus","avait","en","effet","témoigné","lui-même","qu'un"],
-    "after": ["n'est","pas","honoré","dans","sa","propre","patrie.","45Quand","donc","il","vint","en","Galilée,","les","Galiléens","l'accueillirent,","ayant","vu","tout","ce","qu'il","avait","fait","à","Jérusalem","lors","de","la","fête",";"],
-    "element": "Prophète",
-    "length": 1
-  },
-  {
     "position": 3517,
     "before": ["en","effet","témoigné","lui-même","qu'un","prophète","n'est","pas","honoré","dans","sa","propre","patrie.","45Quand","donc","il","vint","en","Galilée,","les","Galiléens","l'accueillirent,","ayant","vu","tout","ce","qu'il","avait","fait","à"],
     "after": ["lors","de","la","fête",";","car","eux","aussi","étaient","venus","à","la","fête.","Second","signe","à","Cana",":","guérison","du","fils","d’un","fonctionnaire","royal.","46Il","retourna","alors","à","Cana","de"],
     "element": "Jérusalem",
-    "length": 1
-  },
-  {
-    "position": 3532,
-    "before": ["il","vint","en","Galilée,","les","Galiléens","l'accueillirent,","ayant","vu","tout","ce","qu'il","avait","fait","à","Jérusalem","lors","de","la","fête",";","car","eux","aussi","étaient","venus","à","la","fête.","Second"],
-    "after": ["à","Cana",":","guérison","du","fils","d’un","fonctionnaire","royal.","46Il","retourna","alors","à","Cana","de","Galilée,","où","il","avait","changé","l'eau","en","vin.","Et","il","y","avait","un","fonctionnaire","royal,"],
-    "element": "Signe",
     "length": 1
   },
   {
@@ -1604,6 +1618,13 @@
     "before": ["Cana","de","Galilée,","où","il","avait","changé","l'eau","en","vin.","Et","il","y","avait","un","fonctionnaire","royal,","dont","le","fils","était","malade","à","Capharnaüm.","47Apprenant","que","Jésus","était","arrivé","de"],
     "after": ["en","Galilée,","il","s'en","vint","le","trouver","et","il","le","priait","de","descendre","guérir","son","fils,","car","il","allait","mourir.","48Jésus","lui","dit",":","\"","Si","vous","ne","voyez","des"],
     "element": "Judée",
+    "length": 1
+  },
+  {
+    "position": 3607,
+    "before": ["en","Galilée,","il","s'en","vint","le","trouver","et","il","le","priait","de","descendre","guérir","son","fils,","car","il","allait","mourir.","48Jésus","lui","dit",":","\"","Si","vous","ne","voyez","des"],
+    "after": ["et","des","prodiges,","vous","ne","croirez","pas","!","\"","49Le","fonctionnaire","royal","lui","dit",":","\"","Seigneur,","descends","avant","que","ne","meure","mon","petit","enfant.","\"","50Jésus","lui","dit",":"],
+    "element": "Signes",
     "length": 1
   },
   {
@@ -1754,13 +1775,6 @@
     "length": 1
   },
   {
-    "position": 4102,
-    "before": ["c'était","Jésus","qui","l'avait","guéri.","16C'est","pourquoi","les","Juifs","persécutaient","Jésus",":","parce","qu'il","faisait","ces","choses-là","le","jour","du","sabbat.","17Mais","il","répondit",":","\"","Mon","Père","est","à"],
-    "after": ["jusqu'à","présent","et","j'œuvre","moi","aussi","\"","18Aussi","les","Juifs","n'en","cherchaient","que","davantage","à","le","tuer,","puisque,","non","content","de","violer","le","sabbat,","il","appelait","encore","Dieu","son","propre"],
-    "element": "Œuvre",
-    "length": 1
-  },
-  {
     "position": 4112,
     "before": ["Jésus",":","parce","qu'il","faisait","ces","choses-là","le","jour","du","sabbat.","17Mais","il","répondit",":","\"","Mon","Père","est","à","l'œuvre","jusqu'à","présent","et","j'œuvre","moi","aussi","\"","18Aussi","les"],
     "after": ["n'en","cherchaient","que","davantage","à","le","tuer,","puisque,","non","content","de","violer","le","sabbat,","il","appelait","encore","Dieu","son","propre","Père,","se","faisant","égal","à","Dieu.","Discours","sur","l’œuvre","du"],
@@ -1772,13 +1786,6 @@
     "before": ["est","à","l'œuvre","jusqu'à","présent","et","j'œuvre","moi","aussi","\"","18Aussi","les","Juifs","n'en","cherchaient","que","davantage","à","le","tuer,","puisque,","non","content","de","violer","le","sabbat,","il","appelait","encore"],
     "after": ["son","propre","Père,","se","faisant","égal","à","Dieu.","Discours","sur","l’œuvre","du","Fils.","19Jésus","reprit","donc","la","parole","et","leur","dit",":","\"","En","vérité,","en","vérité,","je","vous","le"],
     "element": "Dieu",
-    "length": 1
-  },
-  {
-    "position": 4141,
-    "before": ["les","Juifs","n'en","cherchaient","que","davantage","à","le","tuer,","puisque,","non","content","de","violer","le","sabbat,","il","appelait","encore","Dieu","son","propre","Père,","se","faisant","égal","à","Dieu.","Discours","sur"],
-    "after": ["du","Fils.","19Jésus","reprit","donc","la","parole","et","leur","dit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","le","Fils","ne","peut","rien","faire","de","lui-même,","qu'il","ne"],
-    "element": "Œuvre",
     "length": 1
   },
   {
@@ -2142,7 +2149,7 @@
     "position": 4784,
     "before": ["me","croiriez","aussi,","car","c'est","de","moi","qu'il","a","écrit.","47Mais","si","vous","ne","croyez","pas","à","ses","écrits,","comment","croirez-vous","à","mes","paroles","?","\"","3.","LA","PÂQUE","DU"],
     "after": ["DE","VIE","(NOUVELLE","OPPOSITION","À","LA","RÉVÉLATION)","La","multiplication","des","pains.","6","1Après","cela,","Jésus","s'en","alla","de","l'autre","côté","de","la","mer","de","Galilée","ou","de","Tibériade.","2Une","grande"],
-    "element": "Pain_de_vie",
+    "element": "Pain_de_Vie",
     "length": 1
   },
   {
@@ -2174,6 +2181,13 @@
     "length": 1
   },
   {
+    "position": 4822,
+    "before": ["La","multiplication","des","pains.","6","1Après","cela,","Jésus","s'en","alla","de","l'autre","côté","de","la","mer","de","Galilée","ou","de","Tibériade.","2Une","grande","foule","le","suivait,","à","la","vue","des"],
+    "after": ["qu'il","opérait","sur","les","malades.","3Jésus","gravit","la","montagne","et","là,","il","s'assit","avec","ses","disciples.","4Or","la","Pâque,","la","fête","des","Juifs,","était","proche.","5Levant","alors","les","yeux","et"],
+    "element": "Signes",
+    "length": 1
+  },
+  {
     "position": 4856,
     "before": ["les","malades.","3Jésus","gravit","la","montagne","et","là,","il","s'assit","avec","ses","disciples.","4Or","la","Pâque,","la","fête","des","Juifs,","était","proche.","5Levant","alors","les","yeux","et","voyant","qu'une","grande"],
     "after": ["venait","à","lui,","Jésus","dit","à","Philippe",":","\"","Où","achèterons-nous","des","pains","pour","que","mangent","ces","gens","?","\"","6Il","disait","cela","pour","le","mettre","à","l'épreuve,","car","lui-même"],
@@ -2192,6 +2206,13 @@
     "before": ["là,","il","s'assit","avec","ses","disciples.","4Or","la","Pâque,","la","fête","des","Juifs,","était","proche.","5Levant","alors","les","yeux","et","voyant","qu'une","grande","foule","venait","à","lui,","Jésus","dit","à"],
     "after": [":","\"","Où","achèterons-nous","des","pains","pour","que","mangent","ces","gens","?","\"","6Il","disait","cela","pour","le","mettre","à","l'épreuve,","car","lui-même","savait","ce","qu'il","allait","faire.","7Philippe","lui"],
     "element": "Philippe",
+    "length": 1
+  },
+  {
+    "position": 4901,
+    "before": ["que","mangent","ces","gens","?","\"","6Il","disait","cela","pour","le","mettre","à","l'épreuve,","car","lui-même","savait","ce","qu'il","allait","faire.","7Philippe","lui","répondit",":","\"","Deux","cents","deniers","de"],
+    "after": ["ne","suffisent","pas","pour","que","chacun","en","reçoive","un","petit","morceau.","\"","8Un","de","ses","disciples,","André,","le","frère","de","Simon-Pierre,","lui","dit",":","9\"","Il","y","a","ici","un"],
+    "element": "Pain",
     "length": 1
   },
   {
@@ -2220,20 +2241,6 @@
     "before": ["voulaient.","12Quand","ils","furent","repus,","il","dit","à","ses","disciples",":","\"","Rassemblez","les","morceaux","en","surplus,","afin","que","rien","ne","soit","perdu.","\"","13Ils","les","rassemblèrent","donc","et","remplirent"],
     "after": ["couffins","avec","les","morceaux","des","cinq","pains","d'orge","restés","en","surplus","à","ceux","qui","avaient","mangé.","14A","la","vue","du","signe","qu'il","venait","de","faire,","les","gens","disaient",":","\""],
     "element": "Douze",
-    "length": 1
-  },
-  {
-    "position": 5053,
-    "before": ["soit","perdu.","\"","13Ils","les","rassemblèrent","donc","et","remplirent","douze","couffins","avec","les","morceaux","des","cinq","pains","d'orge","restés","en","surplus","à","ceux","qui","avaient","mangé.","14A","la","vue","du"],
-    "after": ["qu'il","venait","de","faire,","les","gens","disaient",":","\"","C'est","vraiment","lui","le","prophète","qui","doit","venir","dans","le","monde.","\"","15Alors","Jésus,","se","rendant","compte","qu'ils","allaient","venir","s'emparer"],
-    "element": "Signe",
-    "length": 1
-  },
-  {
-    "position": 5067,
-    "before": ["des","cinq","pains","d'orge","restés","en","surplus","à","ceux","qui","avaient","mangé.","14A","la","vue","du","signe","qu'il","venait","de","faire,","les","gens","disaient",":","\"","C'est","vraiment","lui","le"],
-    "after": ["qui","doit","venir","dans","le","monde.","\"","15Alors","Jésus,","se","rendant","compte","qu'ils","allaient","venir","s'emparer","de","lui","pour","le","faire","roi,","s'enfuit","L’EVANGILE","SELON","SAINT","JEAN","8","à","nouveau"],
-    "element": "Prophète",
     "length": 1
   },
   {
@@ -2342,6 +2349,13 @@
     "length": 1
   },
   {
+    "position": 5358,
+    "before": ["répondit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","vous","me","cherchez,","non","pas","parce","que","vous","avez","vu","des","signes,","mais","parce","que","vous","avez","mangé","du"],
+    "after": ["et","avez","été","rassasiés.","27Travaillez","non","pour","la","nourriture","qui","se","perd,","mais","pour","la","nourriture","qui","demeure","en","vie","éternelle,","celle","que","vous","donnera","le","Fils","de","l'homme,","car"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
     "position": 5378,
     "before": ["vu","des","signes,","mais","parce","que","vous","avez","mangé","du","pain","et","avez","été","rassasiés.","27Travaillez","non","pour","la","nourriture","qui","se","perd,","mais","pour","la","nourriture","qui","demeure","en"],
     "after": ["éternelle,","celle","que","vous","donnera","le","Fils","de","l'homme,","car","c'est","lui","que","le","Père,","Dieu,","a","marqué","de","son","sceau.","\"","28Ils","lui","dirent","alors",":","\"","Que","devons-nous"],
@@ -2370,31 +2384,17 @@
     "length": 1
   },
   {
-    "position": 5423,
-    "before": ["Père,","Dieu,","a","marqué","de","son","sceau.","\"","28Ils","lui","dirent","alors",":","\"","Que","devons-nous","faire","pour","travailler","aux","œuvres","de","Dieu","?","\"","29Jésus","leur","répondit",":","\""],
-    "after": ["de","Dieu,","c'est","que","vous","croyiez","en","celui","qu'il","a","envoyé.","\"","30Ils","lui","dirent","alors",":","\"","Quel","signe","fais-tu","donc,","pour","qu'à","sa","vue","nous","te","croyions","?"],
-    "element": "Œuvre",
-    "length": 1
-  },
-  {
-    "position": 5443,
-    "before": ["œuvres","de","Dieu","?","\"","29Jésus","leur","répondit",":","\"","L'œuvre","de","Dieu,","c'est","que","vous","croyiez","en","celui","qu'il","a","envoyé.","\"","30Ils","lui","dirent","alors",":","\"","Quel"],
-    "after": ["fais-tu","donc,","pour","qu'à","sa","vue","nous","te","croyions","?","Quelle","œuvre","accomplis-tu","?","31Nos","pères","ont","mangé","la","manne","dans","le","désert,","selon","ce","qui","est","écrit",":","Il"],
-    "element": "Signe",
-    "length": 1
-  },
-  {
-    "position": 5455,
-    "before": ["Dieu,","c'est","que","vous","croyiez","en","celui","qu'il","a","envoyé.","\"","30Ils","lui","dirent","alors",":","\"","Quel","signe","fais-tu","donc,","pour","qu'à","sa","vue","nous","te","croyions","?","Quelle"],
-    "after": ["accomplis-tu","?","31Nos","pères","ont","mangé","la","manne","dans","le","désert,","selon","ce","qui","est","écrit",":","Il","leur","a","donné","à","manger","du","pain","venu","du","ciel.","\"","32Jésus"],
-    "element": "Œuvre",
-    "length": 1
-  },
-  {
     "position": 5463,
     "before": ["a","envoyé.","\"","30Ils","lui","dirent","alors",":","\"","Quel","signe","fais-tu","donc,","pour","qu'à","sa","vue","nous","te","croyions","?","Quelle","œuvre","accomplis-tu","?","31Nos","pères","ont","mangé","la"],
     "after": ["dans","le","désert,","selon","ce","qui","est","écrit",":","Il","leur","a","donné","à","manger","du","pain","venu","du","ciel.","\"","32Jésus","leur","répondit",":","\"","En","vérité,","en","vérité,"],
     "element": "Manne",
+    "length": 1
+  },
+  {
+    "position": 5480,
+    "before": ["nous","te","croyions","?","Quelle","œuvre","accomplis-tu","?","31Nos","pères","ont","mangé","la","manne","dans","le","désert,","selon","ce","qui","est","écrit",":","Il","leur","a","donné","à","manger","du"],
+    "after": ["venu","du","ciel.","\"","32Jésus","leur","répondit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","non,","ce","n'est","pas","Moïse","qui","vous","a","donné","le","pain","qui","vient"],
+    "element": "Pain",
     "length": 1
   },
   {
@@ -2405,6 +2405,13 @@
     "length": 1
   },
   {
+    "position": 5508,
+    "before": ["manger","du","pain","venu","du","ciel.","\"","32Jésus","leur","répondit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","non,","ce","n'est","pas","Moïse","qui","vous","a","donné","le"],
+    "after": ["qui","vient","du","ciel",";","mais","c'est","mon","Père","qui","vous","le","donne,","le","pain","qui","vient","du","ciel,","le","vrai",";","33car","le","pain","de","Dieu,","c'est","celui","qui"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
     "position": 5517,
     "before": ["répondit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","non,","ce","n'est","pas","Moïse","qui","vous","a","donné","le","pain","qui","vient","du","ciel",";","mais","c'est","mon"],
     "after": ["qui","vous","le","donne,","le","pain","qui","vient","du","ciel,","le","vrai",";","33car","le","pain","de","Dieu,","c'est","celui","qui","descend","du","ciel","et","donne","la","vie","au","monde."],
@@ -2412,10 +2419,31 @@
     "length": 1
   },
   {
+    "position": 5523,
+    "before": ["vérité,","je","vous","le","dis,","non,","ce","n'est","pas","Moïse","qui","vous","a","donné","le","pain","qui","vient","du","ciel",";","mais","c'est","mon","Père","qui","vous","le","donne,","le"],
+    "after": ["qui","vient","du","ciel,","le","vrai",";","33car","le","pain","de","Dieu,","c'est","celui","qui","descend","du","ciel","et","donne","la","vie","au","monde.","\"","34Ils","lui","dirent","alors",":"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
+    "position": 5533,
+    "before": ["qui","vous","a","donné","le","pain","qui","vient","du","ciel",";","mais","c'est","mon","Père","qui","vous","le","donne,","le","pain","qui","vient","du","ciel,","le","vrai",";","33car","le"],
+    "after": ["de","Dieu,","c'est","celui","qui","descend","du","ciel","et","donne","la","vie","au","monde.","\"","34Ils","lui","dirent","alors",":","\"","Seigneur,","donne-nous","toujours","ce","pain-là.","\"","35Jésus","leur","dit"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
     "position": 5545,
     "before": ["c'est","mon","Père","qui","vous","le","donne,","le","pain","qui","vient","du","ciel,","le","vrai",";","33car","le","pain","de","Dieu,","c'est","celui","qui","descend","du","ciel","et","donne","la"],
     "after": ["au","monde.","\"","34Ils","lui","dirent","alors",":","\"","Seigneur,","donne-nous","toujours","ce","pain-là.","\"","35Jésus","leur","dit",":","\"","Je","suis","le","pain","de","vie.","Qui","vient","à","moi"],
     "element": "Vie",
+    "length": 1
+  },
+  {
+    "position": 5569,
+    "before": ["descend","du","ciel","et","donne","la","vie","au","monde.","\"","34Ils","lui","dirent","alors",":","\"","Seigneur,","donne-nous","toujours","ce","pain-là.","\"","35Jésus","leur","dit",":","\"","Je","suis","le"],
+    "after": ["de","vie.","Qui","vient","à","moi","n'aura","jamais","faim",";","qui","croit","en","moi","n'aura","jamais","soif.","36Mais","je","vous","l'ai","dit",":","vous","me","voyez","et","vous","ne","croyez"],
+    "element": "Pain",
     "length": 1
   },
   {
@@ -2444,6 +2472,13 @@
     "before": ["40Oui,","telle","est","la","volonté","de","mon","Père,","que","quiconque","voit","le","Fils","et","croit","en","lui","ait","la","vie","éternelle,","et","je","le","ressusciterai","au","dernier","jour.","\"","41Les"],
     "after": ["alors","se","mirent","à","murmurer","à","son","sujet,","parce","qu'il","avait","dit",":","\"","Je","suis","le","pain","descendu","du","ciel.","\"","42Ils","disaient",":","\"","Celui-là","n'est-il","pas","Jésus,"],
     "element": "Juifs",
+    "length": 1
+  },
+  {
+    "position": 5720,
+    "before": ["la","vie","éternelle,","et","je","le","ressusciterai","au","dernier","jour.","\"","41Les","Juifs","alors","se","mirent","à","murmurer","à","son","sujet,","parce","qu'il","avait","dit",":","\"","Je","suis","le"],
+    "after": ["descendu","du","ciel.","\"","42Ils","disaient",":","\"","Celui-là","n'est-il","pas","Jésus,","le","fils","de","Joseph,","dont","nous","connaissons","le","père","et","la","mère","?","Comment","peut-il","dire","maintenant",":"],
+    "element": "Pain",
     "length": 1
   },
   {
@@ -2489,10 +2524,52 @@
     "length": 1
   },
   {
+    "position": 5856,
+    "before": ["celui","qui","vient","d'auprès","de","Dieu",":","celui-là","a","vu","le","Père.","47En","vérité,","en","vérité,","je","vous","le","dis,","celui","qui","croit","a","la","vie","éternelle.","48Je","suis","le"],
+    "after": ["de","vie.","49Vos","pères,","dans","le","désert,","ont","mangé","la","manne","et","sont","morts",";","50ce","pain","est","celui","qui","descend","du","ciel","pour","qu'on","le","mange","et","ne","meure"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
     "position": 5867,
     "before": ["Père.","47En","vérité,","en","vérité,","je","vous","le","dis,","celui","qui","croit","a","la","vie","éternelle.","48Je","suis","le","pain","de","vie.","49Vos","pères,","dans","le","désert,","ont","mangé","la"],
     "after": ["et","sont","morts",";","50ce","pain","est","celui","qui","descend","du","ciel","pour","qu'on","le","mange","et","ne","meure","pas.","51Je","suis","le","pain","vivant,","descendu","du","ciel.","Qui","mangera"],
     "element": "Manne",
+    "length": 1
+  },
+  {
+    "position": 5873,
+    "before": ["vous","le","dis,","celui","qui","croit","a","la","vie","éternelle.","48Je","suis","le","pain","de","vie.","49Vos","pères,","dans","le","désert,","ont","mangé","la","manne","et","sont","morts",";","50ce"],
+    "after": ["est","celui","qui","descend","du","ciel","pour","qu'on","le","mange","et","ne","meure","pas.","51Je","suis","le","pain","vivant,","descendu","du","ciel.","Qui","mangera","ce","pain","vivra","à","jamais.","Et"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
+    "position": 5891,
+    "before": ["dans","le","désert,","ont","mangé","la","manne","et","sont","morts",";","50ce","pain","est","celui","qui","descend","du","ciel","pour","qu'on","le","mange","et","ne","meure","pas.","51Je","suis","le"],
+    "after": ["vivant,","descendu","du","ciel.","Qui","mangera","ce","pain","vivra","à","jamais.","Et","même,","le","pain","que","je","donnerai,","c'est","ma","chair","pour","la","vie","du","monde.","\"","52Les","Juifs","alors"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
+    "position": 5899,
+    "before": ["sont","morts",";","50ce","pain","est","celui","qui","descend","du","ciel","pour","qu'on","le","mange","et","ne","meure","pas.","51Je","suis","le","pain","vivant,","descendu","du","ciel.","Qui","mangera","ce"],
+    "after": ["vivra","à","jamais.","Et","même,","le","pain","que","je","donnerai,","c'est","ma","chair","pour","la","vie","du","monde.","\"","52Les","Juifs","alors","se","mirent","à","discuter","fort","entre","eux",";"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
+    "position": 5906,
+    "before": ["qui","descend","du","ciel","pour","qu'on","le","mange","et","ne","meure","pas.","51Je","suis","le","pain","vivant,","descendu","du","ciel.","Qui","mangera","ce","pain","vivra","à","jamais.","Et","même,","le"],
+    "after": ["que","je","donnerai,","c'est","ma","chair","pour","la","vie","du","monde.","\"","52Les","Juifs","alors","se","mirent","à","discuter","fort","entre","eux",";","ils","disaient",":","\"","Comment","celui-là","peut-il"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
+    "position": 5912,
+    "before": ["le","mange","et","ne","meure","pas.","51Je","suis","le","pain","vivant,","descendu","du","ciel.","Qui","mangera","ce","pain","vivra","à","jamais.","Et","même,","le","pain","que","je","donnerai,","c'est","ma"],
+    "after": ["pour","la","vie","du","monde.","\"","52Les","Juifs","alors","se","mirent","à","discuter","fort","entre","eux",";","ils","disaient",":","\"","Comment","celui-là","peut-il","nous","donner","sa","chair","à","manger"],
+    "element": "Chair",
     "length": 1
   },
   {
@@ -2510,10 +2587,24 @@
     "length": 1
   },
   {
+    "position": 5940,
+    "before": ["c'est","ma","chair","pour","la","vie","du","monde.","\"","52Les","Juifs","alors","se","mirent","à","discuter","fort","entre","eux",";","ils","disaient",":","\"","Comment","celui-là","peut-il","nous","donner","sa"],
+    "after": ["à","manger","?","\"","53Alors","Jésus","leur","dit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","si","vous","ne","mangez","la","chair","du","Fils","de","l'homme","et","ne"],
+    "element": "Chair",
+    "length": 1
+  },
+  {
     "position": 5946,
     "before": ["du","monde.","\"","52Les","Juifs","alors","se","mirent","à","discuter","fort","entre","eux",";","ils","disaient",":","\"","Comment","celui-là","peut-il","nous","donner","sa","chair","à","manger","?","\"","53Alors"],
     "after": ["leur","dit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","si","vous","ne","mangez","la","chair","du","Fils","de","l'homme","et","ne","buvez","son","sang,","vous","n'aurez","pas"],
     "element": "Jésus",
+    "length": 1
+  },
+  {
+    "position": 5964,
+    "before": ["Comment","celui-là","peut-il","nous","donner","sa","chair","à","manger","?","\"","53Alors","Jésus","leur","dit",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","si","vous","ne","mangez","la"],
+    "after": ["du","Fils","de","l'homme","et","ne","buvez","son","sang,","vous","n'aurez","pas","la","vie","en","vous.","54Qui","mange","ma","chair","et","boit","mon","sang","a","la","vie","éternelle","et","je"],
+    "element": "Chair",
     "length": 1
   },
   {
@@ -2531,10 +2622,24 @@
     "length": 1
   },
   {
+    "position": 5984,
+    "before": ["vérité,","je","vous","le","dis,","si","vous","ne","mangez","la","chair","du","Fils","de","l'homme","et","ne","buvez","son","sang,","vous","n'aurez","pas","la","vie","en","vous.","54Qui","mange","ma"],
+    "after": ["et","boit","mon","sang","a","la","vie","éternelle","et","je","le","L’EVANGILE","SELON","SAINT","JEAN","9","ressusciterai","au","dernier","jour.","55Car","ma","chair","est","vraiment","une","nourriture","et","mon","sang"],
+    "element": "Chair",
+    "length": 1
+  },
+  {
+    "position": 5988,
+    "before": ["dis,","si","vous","ne","mangez","la","chair","du","Fils","de","l'homme","et","ne","buvez","son","sang,","vous","n'aurez","pas","la","vie","en","vous.","54Qui","mange","ma","chair","et","boit","mon"],
+    "after": ["a","la","vie","éternelle","et","je","le","L’EVANGILE","SELON","SAINT","JEAN","9","ressusciterai","au","dernier","jour.","55Car","ma","chair","est","vraiment","une","nourriture","et","mon","sang","vraiment","une","boisson.","56Qui"],
+    "element": "Sang",
+    "length": 1
+  },
+  {
     "position": 5991,
     "before": ["ne","mangez","la","chair","du","Fils","de","l'homme","et","ne","buvez","son","sang,","vous","n'aurez","pas","la","vie","en","vous.","54Qui","mange","ma","chair","et","boit","mon","sang","a","la"],
     "after": ["éternelle","et","je","le","L’EVANGILE","SELON","SAINT","JEAN","9","ressusciterai","au","dernier","jour.","55Car","ma","chair","est","vraiment","une","nourriture","et","mon","sang","vraiment","une","boisson.","56Qui","mange","ma","chair"],
-    "element": "Vie_Éternelle",
+    "element": "Vie_éternelle",
     "length": 1
   },
   {
@@ -2542,6 +2647,48 @@
     "before": ["et","ne","buvez","son","sang,","vous","n'aurez","pas","la","vie","en","vous.","54Qui","mange","ma","chair","et","boit","mon","sang","a","la","vie","éternelle","et","je","le","L’EVANGILE","SELON","SAINT"],
     "after": ["9","ressusciterai","au","dernier","jour.","55Car","ma","chair","est","vraiment","une","nourriture","et","mon","sang","vraiment","une","boisson.","56Qui","mange","ma","chair","et","boit","mon","sang","demeure","en","moi","et"],
     "element": "Jean",
+    "length": 1
+  },
+  {
+    "position": 6007,
+    "before": ["la","vie","en","vous.","54Qui","mange","ma","chair","et","boit","mon","sang","a","la","vie","éternelle","et","je","le","L’EVANGILE","SELON","SAINT","JEAN","9","ressusciterai","au","dernier","jour.","55Car","ma"],
+    "after": ["est","vraiment","une","nourriture","et","mon","sang","vraiment","une","boisson.","56Qui","mange","ma","chair","et","boit","mon","sang","demeure","en","moi","et","moi","en","lui.","57De","même","que","le","Père,"],
+    "element": "Chair",
+    "length": 1
+  },
+  {
+    "position": 6014,
+    "before": ["chair","et","boit","mon","sang","a","la","vie","éternelle","et","je","le","L’EVANGILE","SELON","SAINT","JEAN","9","ressusciterai","au","dernier","jour.","55Car","ma","chair","est","vraiment","une","nourriture","et","mon"],
+    "after": ["vraiment","une","boisson.","56Qui","mange","ma","chair","et","boit","mon","sang","demeure","en","moi","et","moi","en","lui.","57De","même","que","le","Père,","qui","est","vivant,","m'a","envoyé","et","que"],
+    "element": "Sang",
+    "length": 1
+  },
+  {
+    "position": 6021,
+    "before": ["vie","éternelle","et","je","le","L’EVANGILE","SELON","SAINT","JEAN","9","ressusciterai","au","dernier","jour.","55Car","ma","chair","est","vraiment","une","nourriture","et","mon","sang","vraiment","une","boisson.","56Qui","mange","ma"],
+    "after": ["et","boit","mon","sang","demeure","en","moi","et","moi","en","lui.","57De","même","que","le","Père,","qui","est","vivant,","m'a","envoyé","et","que","je","vis","par","le","Père,","de","même"],
+    "element": "Chair",
+    "length": 1
+  },
+  {
+    "position": 6025,
+    "before": ["le","L’EVANGILE","SELON","SAINT","JEAN","9","ressusciterai","au","dernier","jour.","55Car","ma","chair","est","vraiment","une","nourriture","et","mon","sang","vraiment","une","boisson.","56Qui","mange","ma","chair","et","boit","mon"],
+    "after": ["demeure","en","moi","et","moi","en","lui.","57De","même","que","le","Père,","qui","est","vivant,","m'a","envoyé","et","que","je","vis","par","le","Père,","de","même","celui","qui","me","mange,"],
+    "element": "Sang",
+    "length": 1
+  },
+  {
+    "position": 6063,
+    "before": ["57De","même","que","le","Père,","qui","est","vivant,","m'a","envoyé","et","que","je","vis","par","le","Père,","de","même","celui","qui","me","mange,","lui","aussi","vivra","par","moi.","58Voici","le"],
+    "after": ["descendu","du","ciel",";","il","n'est","pas","comme","celui","qu'ont","mangé","les","pères","et","ils","sont","morts",";","qui","mange","ce","pain","vivra","à","jamais.","\"","59Tel","fut","l'enseignement","qu'il"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
+    "position": 6085,
+    "before": ["mange,","lui","aussi","vivra","par","moi.","58Voici","le","pain","descendu","du","ciel",";","il","n'est","pas","comme","celui","qu'ont","mangé","les","pères","et","ils","sont","morts",";","qui","mange","ce"],
+    "after": ["vivra","à","jamais.","\"","59Tel","fut","l'enseignement","qu'il","donna","dans","une","synagogue","à","Capharnaüm.","60Après","l'avoir","entendu,","beaucoup","de","ses","disciples","dirent",":","\"","Elle","est","dure,","cette","parole","!"],
+    "element": "Pain",
     "length": 1
   },
   {
@@ -2591,6 +2738,13 @@
     "before": ["disciples","murmuraient","à","ce","propos,","Jésus","leur","dit",":","\"","Cela","vous","scandalise","?","62Et","quand","vous","verrez","le","Fils","de","l'homme","monter","là","où","il","était","auparavant","?...","63C'est"],
     "after": ["qui","vivifie,","la","chair","ne","sert","de","rien.","Les","paroles","que","je","vous","ai","dites","sont","esprit","et","elles","sont","vie.","64Mais","il","en","est","parmi","vous","qui","ne","croient"],
     "element": "Esprit",
+    "length": 1
+  },
+  {
+    "position": 6161,
+    "before": ["propos,","Jésus","leur","dit",":","\"","Cela","vous","scandalise","?","62Et","quand","vous","verrez","le","Fils","de","l'homme","monter","là","où","il","était","auparavant","?...","63C'est","l'esprit","qui","vivifie,","la"],
+    "after": ["ne","sert","de","rien.","Les","paroles","que","je","vous","ai","dites","sont","esprit","et","elles","sont","vie.","64Mais","il","en","est","parmi","vous","qui","ne","croient","pas.","\"","Jésus","savait"],
+    "element": "Chair",
     "length": 1
   },
   {
@@ -2734,20 +2888,6 @@
     "length": 1
   },
   {
-    "position": 6638,
-    "before": ["Jésus","monta","au","Temple","et","se","mit","à","enseigner.","15Les","Juifs,","étonnés,","disaient",":","\"","Comment","connaît-il","les","lettres","sans","avoir","étudié","?","\"","16Jésus","leur","répondit",":","\"","Ma"],
-    "after": ["n'est","pas","de","moi,","mais","de","celui","qui","m'a","envoyé.","17Si","quelqu'un","veut","faire","sa","volonté,","il","reconnaîtra","si","ma","doctrine","est","de","Dieu","ou","si","je","parle","de","moi-même."],
-    "element": "Doctrine",
-    "length": 1
-  },
-  {
-    "position": 6659,
-    "before": ["étudié","?","\"","16Jésus","leur","répondit",":","\"","Ma","doctrine","n'est","pas","de","moi,","mais","de","celui","qui","m'a","envoyé.","17Si","quelqu'un","veut","faire","sa","volonté,","il","reconnaîtra","si","ma"],
-    "after": ["est","de","Dieu","ou","si","je","parle","de","moi-même.","18Celui","qui","parle","de","lui-même","cherche","sa","propre","gloire",";","mais","celui","qui","cherche","la","gloire","de","celui","qui","l'a","envoyé,"],
-    "element": "Doctrine",
-    "length": 1
-  },
-  {
     "position": 6662,
     "before": ["16Jésus","leur","répondit",":","\"","Ma","doctrine","n'est","pas","de","moi,","mais","de","celui","qui","m'a","envoyé.","17Si","quelqu'un","veut","faire","sa","volonté,","il","reconnaîtra","si","ma","doctrine","est","de"],
     "after": ["ou","si","je","parle","de","moi-même.","18Celui","qui","parle","de","lui-même","cherche","sa","propre","gloire",";","mais","celui","qui","cherche","la","gloire","de","celui","qui","l'a","envoyé,","celui-là","est","véridique"],
@@ -2787,20 +2927,6 @@
     "before": ["en","lui","d'imposture.","19Moïse","ne","vous","a-t-il","pas","donné","la","Loi","?","Et","aucun","de","vous","ne","la","pratique,","la","Loi","!","Pourquoi","cherchez-vous","à","me","tuer","?","\"","20La"],
     "after": ["répondit",":","\"","Tu","as","un","démon.","Qui","cherche","à","te","tuer","?","\"","21Jésus","leur","répondit",":","\"","Pour","une","seule","œuvre","que","j'ai","faite,","vous","voilà","tous","étonnés."],
     "element": "Foule",
-    "length": 1
-  },
-  {
-    "position": 6751,
-    "before": ["cherchez-vous","à","me","tuer","?","\"","20La","foule","répondit",":","\"","Tu","as","un","démon.","Qui","cherche","à","te","tuer","?","\"","21Jésus","leur","répondit",":","\"","Pour","une","seule"],
-    "after": ["que","j'ai","faite,","vous","voilà","tous","étonnés.","22Moïse","vous","a","donné","la","circoncision","-","non","qu'elle","vienne","de","Moïse","mais","des","patriarches","-","et,","le","jour","du","sabbat,","vous","la"],
-    "element": "Œuvre",
-    "length": 1
-  },
-  {
-    "position": 6764,
-    "before": ["un","démon.","Qui","cherche","à","te","tuer","?","\"","21Jésus","leur","répondit",":","\"","Pour","une","seule","œuvre","que","j'ai","faite,","vous","voilà","tous","étonnés.","22Moïse","vous","a","donné","la"],
-    "after": ["-","non","qu'elle","vienne","de","Moïse","mais","des","patriarches","-","et,","le","jour","du","sabbat,","vous","la","pratiquez","sur","un","homme.","23Alors,","un","homme","reçoit","la","circoncision,","le","jour","du"],
-    "element": "Circoncision",
     "length": 1
   },
   {
@@ -2846,6 +2972,13 @@
     "length": 1
   },
   {
+    "position": 7017,
+    "before": ["son","heure","n'était","pas","encore","venue.","Jésus","annonce","son","prochain","départ.","31Dans","la","foule,","beaucoup","crurent","en","lui","et","disaient",":","\"","Le","Christ,","quand","il","viendra,","fera-t-il","plus","de"],
+    "after": ["que","n'en","a","fait","celui-ci","?","32Ces","rumeurs","de","la","foule","à","son","sujet","parvinrent","aux","oreilles","des","Pharisiens.","Ils","envoyèrent","des","gardes","pour","le","saisir.","33Jésus","dit","alors",":"],
+    "element": "Signes",
+    "length": 1
+  },
+  {
     "position": 7028,
     "before": ["31Dans","la","foule,","beaucoup","crurent","en","lui","et","disaient",":","\"","Le","Christ,","quand","il","viendra,","fera-t-il","plus","de","signes","que","n'en","a","fait","celui-ci","?","32Ces","rumeurs","de","la"],
     "after": ["à","son","sujet","parvinrent","aux","oreilles","des","Pharisiens.","Ils","envoyèrent","des","gardes","pour","le","saisir.","33Jésus","dit","alors",":","\"","Pour","un","peu","de","temps","encore","je","suis","avec","vous,"],
@@ -2860,24 +2993,17 @@
     "length": 1
   },
   {
-    "position": 7113,
-    "before": ["pouvez","pas","venir.","\"","35Les","Juifs","se","dirent","entre","eux",":","\"","Où","va-t-il","aller,","que","nous","ne","le","trouverons","pas","?","Va-t-il","rejoindre","ceux","qui","sont","dispersés","chez","les"],
-    "after": ["et","enseigner","les","Grecs","?","36Que","signifie","cette","parole","qu'il","a","dite",":","\"Vous","me","chercherez","et","ne","me","trouverez","pas",";","et","où","je","suis,","vous","ne","pouvez","pas"],
-    "element": "Grecs",
-    "length": 1
-  },
-  {
-    "position": 7117,
-    "before": ["35Les","Juifs","se","dirent","entre","eux",":","\"","Où","va-t-il","aller,","que","nous","ne","le","trouverons","pas","?","Va-t-il","rejoindre","ceux","qui","sont","dispersés","chez","les","Grecs","et","enseigner","les"],
-    "after": ["?","36Que","signifie","cette","parole","qu'il","a","dite",":","\"Vous","me","chercherez","et","ne","me","trouverez","pas",";","et","où","je","suis,","vous","ne","pouvez","pas","venir\"","?","\"","La"],
-    "element": "Grecs",
-    "length": 1
-  },
-  {
     "position": 7122,
     "before": ["eux",":","\"","Où","va-t-il","aller,","que","nous","ne","le","trouverons","pas","?","Va-t-il","rejoindre","ceux","qui","sont","dispersés","chez","les","Grecs","et","enseigner","les","Grecs","?","36Que","signifie","cette"],
     "after": ["qu'il","a","dite",":","\"Vous","me","chercherez","et","ne","me","trouverez","pas",";","et","où","je","suis,","vous","ne","pouvez","pas","venir\"","?","\"","La","promesse","de","l’eau","vive.","37Le"],
     "element": "Parole",
+    "length": 1
+  },
+  {
+    "position": 7188,
+    "before": ["le","grand","jour,","Jésus,","debout,","s'écria",":","\"","Si","quelqu'un","a","soif,","qu'il","vienne","à","moi,","et","qu'il","boive,","38celui","qui","croit","en","moi","!","\"","selon","le","mot","de"],
+    "after": [":","De","son","sein","couleront","des","fleuves","d'eau","vive.","39Il","parlait","de","l'Esprit","que","devaient","recevoir","ceux","qui","avaient","cru","en","lui",";","car","il","n'y","avait","pas","encore","d'Esprit,"],
+    "element": "Écriture",
     "length": 1
   },
   {
@@ -2892,13 +3018,6 @@
     "before": ["son","sein","couleront","des","fleuves","d'eau","vive.","39Il","parlait","de","l'Esprit","que","devaient","recevoir","ceux","qui","avaient","cru","en","lui",";","car","il","n'y","avait","pas","encore","d'Esprit,","parce","que"],
     "after": ["n'avait","pas","encore","été","glorifié.","Nouvelles","discussions","sur","l’origine","du","Christ.","40Dans","la","foule,","plusieurs,","qui","avaient","entendu","ces","paroles,","disaient",":","\"","C'est","vraiment","lui","le","prophète","!","\""],
     "element": "Jésus",
-    "length": 1
-  },
-  {
-    "position": 7249,
-    "before": ["parce","que","Jésus","n'avait","pas","encore","été","glorifié.","Nouvelles","discussions","sur","l’origine","du","Christ.","40Dans","la","foule,","plusieurs,","qui","avaient","entendu","ces","paroles,","disaient",":","\"","C'est","vraiment","lui","le"],
-    "after": ["!","\"","41D'autres","disaient",":","\"","C'est","le","Christ","!","\"","Mais","d'autres","disaient",":","\"","Est-ce","de","la","Galilée","que","le","Christ","doit","venir","?","42L'Écriture","n'a-t-elle","pas","dit"],
-    "element": "Prophète",
     "length": 1
   },
   {
@@ -3130,6 +3249,13 @@
     "before": ["alors",":","\"","Tu","te","rends","témoignage","à","toi-même",";","ton","témoignage","n'est","pas","valable.","\"","14Jésus","leur","répondit",":","\"","Bien","que","je","me","rende","témoignage","à","moi-même,","mon"],
     "after": ["est","valable,","parce","que","je","sais","d'où","je","suis","venu","et","où","je","vais",";","mais","vous,","vous","ne","savez","pas","d'où","je","viens","ni","où","je","vais.","15Vous,","vous"],
     "element": "Témoignage",
+    "length": 1
+  },
+  {
+    "position": 7816,
+    "before": ["que","je","sais","d'où","je","suis","venu","et","où","je","vais",";","mais","vous,","vous","ne","savez","pas","d'où","je","viens","ni","où","je","vais.","15Vous,","vous","jugez","selon","la"],
+    "after": [";","moi,","je","ne","juge","personne",";","16et","s'il","m'arrive","de","juger,","moi,","mon","jugement","est","selon","la","vérité,","parce","que","je","suis","pas","seul",";","mais","il","y","a"],
+    "element": "Chair",
     "length": 1
   },
   {
@@ -3406,13 +3532,6 @@
     "length": 1
   },
   {
-    "position": 8607,
-    "before": ["de","Dieu",";","si","vous","n'entendez","pas,","c'est","que","vous","n'êtes","pas","de","Dieu.","\"","48Les","Juifs","lui","répondirent",":","\"","N'avons-nous","pas","raison","de","dire","que","tu","es","un"],
-    "after": ["et","que","tu","as","un","démon","?","\"","49Jésus","répondit",":","\"","Je","n'ai","pas","un","démon","mais","j'honore","mon","Père,","et","vous","cherchez","à","me","déshonorer.","50Je","ne","cherche"],
-    "element": "Samaritain",
-    "length": 1
-  },
-  {
     "position": 8640,
     "before": ["tu","as","un","démon","?","\"","49Jésus","répondit",":","\"","Je","n'ai","pas","un","démon","mais","j'honore","mon","Père,","et","vous","cherchez","à","me","déshonorer.","50Je","ne","cherche","pas","ma"],
     "after": [";","il","est","quelqu'un","qui","la","cherche","et","qui","juge.","51En","vérité,","en","vérité,","je","vous","le","dis,","si","quelqu'un","garde","ma","parole,","il","ne","verra","jamais","la","mort.","\""],
@@ -3553,6 +3672,13 @@
     "length": 1
   },
   {
+    "position": 9252,
+    "before": ["disaient",":","\"","Il","ne","vient","pas","de","Dieu,","cet","homme-là,","puisqu'il","n'observe","pas","le","sabbat","\"",";","d'autres","disaient",":","\"","Comment","un","homme","pécheur","peut-il","faire","de","tels"],
+    "after": ["?","\"","Et","il","y","eut","scission","parmi","eux.","17Alors","ils","dirent","encore","à","l'aveugle",":","\"","Toi,","que","dis-tu","de","lui,","de","ce","qu'il","t'a","ouvert","les","yeux","?"],
+    "element": "Signes",
+    "length": 1
+  },
+  {
     "position": 9293,
     "before": ["ils","dirent","encore","à","l'aveugle",":","\"","Toi,","que","dis-tu","de","lui,","de","ce","qu'il","t'a","ouvert","les","yeux","?","\"","Il","dit",":","\"","C'est","un","prophète.","\"","18Les"],
     "after": ["ne","crurent","pas","qu'il","eût","été","aveugle","tant","qu'ils","n'eurent","pas","appelé","les","parents","de","celui","qui","avait","recouvré","la","vue.","19Ils","leur","demandèrent",":","\"","Celui-ci","est-il","votre","fils"],
@@ -3623,6 +3749,13 @@
     "length": 1
   },
   {
+    "position": 9560,
+    "before": ["écouté.","Pourquoi","voulez-vous","l'entendre","à","nouveau","?","Est-ce","que,","vous","aussi,","vous","voudriez","devenir","ses","disciples","?","\"","28Ils","l'injurièrent","et","lui","dirent",":","\"","C'est","toi","qui","es","son"],
+    "after": [";","mais","nous,","c'est","de","Moïse","que","nous","sommes","disciples.","29Nous","savons,","nous,","que","Dieu","a","parlé","à","Moïse",";","mais","celui-là,","nous","ne","savons","pas","d'où","il","est.","\""],
+    "element": "Disciple",
+    "length": 1
+  },
+  {
     "position": 9566,
     "before": ["?","Est-ce","que,","vous","aussi,","vous","voudriez","devenir","ses","disciples","?","\"","28Ils","l'injurièrent","et","lui","dirent",":","\"","C'est","toi","qui","es","son","disciple",";","mais","nous,","c'est","de"],
     "after": ["que","nous","sommes","disciples.","29Nous","savons,","nous,","que","Dieu","a","parlé","à","Moïse",";","mais","celui-là,","nous","ne","savons","pas","d'où","il","est.","\"","30L'homme","leur","répondit",":","\"","C'est"],
@@ -3686,6 +3819,13 @@
     "length": 1
   },
   {
+    "position": 9854,
+    "before": ["mais","vous","dites",":","Nous","voyons","!","Votre","péché","demeure.","\"","Guérison","d’un","aveugle-né.","10","1\"","En","vérité,","en","vérité,","je","vous","le","dis,","celui","qui","n'entre","pas","par","la"],
+    "after": ["dans","l'enclos","des","brebis,","mais","en","fait","l'escalade","par","une","autre","voie,","celui-là","est","un","voleur","et","un","brigand",";","2celui","qui","entre","par","la","porte","est","le","pasteur","des"],
+    "element": "Porte",
+    "length": 1
+  },
+  {
     "position": 9870,
     "before": ["En","vérité,","en","vérité,","je","vous","le","dis,","celui","qui","n'entre","pas","par","la","porte","dans","l'enclos","des","brebis,","mais","en","fait","l'escalade","par","une","autre","voie,","celui-là","est","un"],
     "after": ["et","un","brigand",";","2celui","qui","entre","par","la","porte","est","le","pasteur","des","brebis.","3Le","portier","lui","ouvre","et","les","brebis","écoutent","sa","voix,","et","ses","brebis","à","lui,"],
@@ -3693,17 +3833,10 @@
     "length": 1
   },
   {
-    "position": 9873,
-    "before": ["vérité,","je","vous","le","dis,","celui","qui","n'entre","pas","par","la","porte","dans","l'enclos","des","brebis,","mais","en","fait","l'escalade","par","une","autre","voie,","celui-là","est","un","voleur","et","un"],
-    "after": [";","2celui","qui","entre","par","la","porte","est","le","pasteur","des","brebis.","3Le","portier","lui","ouvre","et","les","brebis","écoutent","sa","voix,","et","ses","brebis","à","lui,","il","les","appelle"],
-    "element": "Brigand",
-    "length": 1
-  },
-  {
-    "position": 9887,
-    "before": ["des","brebis,","mais","en","fait","l'escalade","par","une","autre","voie,","celui-là","est","un","voleur","et","un","brigand",";","2celui","qui","entre","par","la","porte","est","le","pasteur","des","brebis.","3Le"],
-    "after": ["lui","ouvre","et","les","brebis","écoutent","sa","voix,","et","ses","brebis","à","lui,","il","les","appelle","une","à","une","et","il","les","mène","dehors.","4Quand","il","a","fait","sortir","toutes"],
-    "element": "Portier",
+    "position": 9880,
+    "before": ["n'entre","pas","par","la","porte","dans","l'enclos","des","brebis,","mais","en","fait","l'escalade","par","une","autre","voie,","celui-là","est","un","voleur","et","un","brigand",";","2celui","qui","entre","par","la"],
+    "after": ["est","le","pasteur","des","brebis.","3Le","portier","lui","ouvre","et","les","brebis","écoutent","sa","voix,","et","ses","brebis","à","lui,","il","les","appelle","une","à","une","et","il","les","mène"],
+    "element": "Porte",
     "length": 1
   },
   {
@@ -3732,6 +3865,13 @@
     "before": ["fuiront","au","contraire,","parce","qu'elles","ne","connaissent","pas","la","voix","des","étrangers.","\"","6Jésus","leur","tint","ce","discours","mystérieux,","mais","eux","ne","comprirent","pas","ce","dont","il","leur","parlait.","7Alors"],
     "after": ["dit","à","nouveau",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","je","suis","la","porte","des","brebis.","8Tous","ceux","qui","sont","venus","avant","moi","sont","des","voleurs","et"],
     "element": "Jésus",
+    "length": 1
+  },
+  {
+    "position": 9993,
+    "before": ["discours","mystérieux,","mais","eux","ne","comprirent","pas","ce","dont","il","leur","parlait.","7Alors","Jésus","dit","à","nouveau",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","je","suis","la"],
+    "after": ["des","brebis.","8Tous","ceux","qui","sont","venus","avant","moi","sont","des","voleurs","et","des","brigands",";","mais","les","brebis","ne","les","ont","pas","écoutés.","9Je","suis","la","porte.","Si","quelqu'un"],
+    "element": "Porte",
     "length": 1
   },
   {
@@ -3766,7 +3906,7 @@
     "position": 10071,
     "before": ["ne","vient","que","pour","voler,","égorger","et","faire","périr.","Moi,","je","suis","venu","pour","qu'on","ait","la","vie","et","qu'on","l'ait","surabondante.","11Moi","je","suis","le","bon","pasteur",";","le"],
     "after": ["pasteur","donne","sa","vie","pour","ses","brebis.","12Le","mercenaire,","qui","n'est","pas","le","pasteur","et","à","qui","n'appartiennent","pas","les","brebis,","voit-il","venir","le","loup,","il","laisse","les","brebis","et"],
-    "element": "Bon_pasteur",
+    "element": "Bon_Pasteur",
     "length": 1
   },
   {
@@ -3899,7 +4039,7 @@
     "position": 10429,
     "before": ["26mais","vous","ne","croyez","pas,","parce","que","vous","n'êtes","pas","de","mes","brebis.","27Mes","brebis","écoutent","ma","voix,","je","les","connais","et","elles","me","suivent",";","28je","leur","donne","la"],
     "after": ["éternelle",";","elles","ne","périront","jamais","et","nul","ne","les","arrachera","de","ma","main.","29Mon","Père,","quant","à","ce","qu'il","m'a","donné,","est","plus","grand","que","tous.","Nul","ne","peut"],
-    "element": "Vie_Éternelle",
+    "element": "Vie_éternelle",
     "length": 1
   },
   {
@@ -3938,13 +4078,6 @@
     "length": 1
   },
   {
-    "position": 10524,
-    "before": ["montré","quantité","de","bonnes","œuvres,","venant","du","Père",";","pour","laquelle","de","ces","œuvres","me","lapidez-vous","?","\"","33Les","Juifs","lui","répondirent",":","\"","Ce","n'est","pas","pour","une","bonne"],
-    "after": ["que","nous","te","lapidons,","mais","pour","un","blasphème","et","parce","que","toi,","n'étant","qu'un","homme,","tu","te","fais","Dieu.","\"","34Jésus","leur","répondit",":","\"","N'est-il","pas","écrit","dans","votre"],
-    "element": "Œuvre",
-    "length": 1
-  },
-  {
     "position": 10555,
     "before": ["que","nous","te","lapidons,","mais","pour","un","blasphème","et","parce","que","toi,","n'étant","qu'un","homme,","tu","te","fais","Dieu.","\"","34Jésus","leur","répondit",":","\"","N'est-il","pas","écrit","dans","votre"],
     "after": [":","J'ai","dit",":","vous","êtes","des","dieux","?","35Alors","qu'elle","a","appelé","dieux","ceux","à","qui","la","parole","de","Dieu","fut","adressée","-","et","l'Écriture","ne","peut","être","récusée"],
@@ -3963,6 +4096,13 @@
     "before": ["leur","répondit",":","\"","N'est-il","pas","écrit","dans","votre","Loi",":","J'ai","dit",":","vous","êtes","des","dieux","?","35Alors","qu'elle","a","appelé","dieux","ceux","à","qui","la","parole","de"],
     "after": ["fut","adressée","-","et","l'Écriture","ne","peut","être","récusée","-","36à","celui","que","le","Père","a","consacré","et","envoyé","dans","le","monde","vous","dites",":","\"Tu","blasphèmes\",","parce","que","j'ai"],
     "element": "Dieu",
+    "length": 1
+  },
+  {
+    "position": 10581,
+    "before": ["pas","écrit","dans","votre","Loi",":","J'ai","dit",":","vous","êtes","des","dieux","?","35Alors","qu'elle","a","appelé","dieux","ceux","à","qui","la","parole","de","Dieu","fut","adressée","-","et"],
+    "after": ["ne","peut","être","récusée","-","36à","celui","que","le","Père","a","consacré","et","envoyé","dans","le","monde","vous","dites",":","\"Tu","blasphèmes\",","parce","que","j'ai","dit",":","\"Je","suis","Fils"],
+    "element": "Écriture",
     "length": 1
   },
   {
@@ -4029,13 +4169,6 @@
     "length": 1
   },
   {
-    "position": 10722,
-    "before": ["nouveau","il","s'en","alla","au-delà","du","Jourdain,","au","lieu","où","Jean","avait","d'abord","baptisé,","et","il","y","demeura.","41Beaucoup","vinrent","à","lui","et","disaient",":","\"","Jean","n'a","fait","aucun"],
-    "after": [";","mais","tout","ce","que","Jean","a","dit","de","celui-ci","était","vrai.","\"","42Et","là,","beaucoup","crurent","en","lui.","Résurrection","de","Lazare.","11","1Il","y","avait","un","malade,","Lazare,","de"],
-    "element": "Signe",
-    "length": 1
-  },
-  {
     "position": 10728,
     "before": ["Jourdain,","au","lieu","où","Jean","avait","d'abord","baptisé,","et","il","y","demeura.","41Beaucoup","vinrent","à","lui","et","disaient",":","\"","Jean","n'a","fait","aucun","signe",";","mais","tout","ce","que"],
     "after": ["a","dit","de","celui-ci","était","vrai.","\"","42Et","là,","beaucoup","crurent","en","lui.","Résurrection","de","Lazare.","11","1Il","y","avait","un","malade,","Lazare,","de","Béthanie,","le","village","de","Marie","et"],
@@ -4081,7 +4214,7 @@
     "position": 10825,
     "before": ["Jésus",":","\"","Seigneur,","celui","que","tu","aimes","est","malade.","\"","4A","cette","nouvelle,","Jésus","dit",":","\"","Cette","maladie","ne","mène","pas","à","la","mort,","elle","est","pour","la"],
     "after": ["de","Dieu",":","afin","que","le","Fils","de","Dieu","soit","glorifié","par","elle.","\"","5Or","Jésus","aimait","Marthe","et","sa","sœur","et","Lazare.","6Quand","il","apprit","que","celui-ci","était","malade,"],
-    "element": "Gloire",
+    "element": "Gloire_de_Dieu",
     "length": 1
   },
   {
@@ -4368,7 +4501,7 @@
     "position": 11496,
     "before": ["lui","dit",":","\"","Seigneur,","il","sent","déjà",":","c'est","le","quatrième","jour.","\"","40Jésus","lui","dit",":","\"","Ne","t'ai-je","pas","dit","que","si","tu","crois,","tu","verras","la"],
     "after": ["de","Dieu","?","\"","41On","enleva","donc","la","pierre.","Jésus","leva","les","yeux","en","haut","et","dit",":","\"","Père,","je","te","rends","grâces","de","m'avoir","écouté.","42Je","savais","que"],
-    "element": "Gloire",
+    "element": "Gloire_de_Dieu",
     "length": 1
   },
   {
@@ -4757,6 +4890,13 @@
     "length": 1
   },
   {
+    "position": 12412,
+    "before": ["Fils","de","l'homme.","24En","vérité,","en","vérité,","je","vous","le","dis,","si","le","grain","de","blé","tombé","en","terre","ne","meurt","pas,","il","demeure","seul",";","mais","s'il","meurt,","il"],
+    "after": ["beaucoup","de","fruit.","25Qui","aime","sa","vie","la","perd",";","et","qui","hait","sa","vie","en","ce","monde","la","conservera","en","vie","éternelle.","26Si","quelqu'un","me","sert,","qu'il","me","suive,"],
+    "element": "Porte",
+    "length": 1
+  },
+  {
     "position": 12419,
     "before": ["je","vous","le","dis,","si","le","grain","de","blé","tombé","en","terre","ne","meurt","pas,","il","demeure","seul",";","mais","s'il","meurt,","il","porte","beaucoup","de","fruit.","25Qui","aime","sa"],
     "after": ["la","perd",";","et","qui","hait","sa","vie","en","ce","monde","la","conservera","en","vie","éternelle.","26Si","quelqu'un","me","sert,","qu'il","me","suive,","et","où","je","suis,","là","aussi","sera"],
@@ -4890,6 +5030,20 @@
     "length": 1
   },
   {
+    "position": 12730,
+    "before": ["de","devenir","des","fils","de","lumière.","\"","Ainsi","parla","Jésus,","et","s'en","allant","il","se","cacha","loin","d’eux.","Conclusion",":","croire","en","la","parole.","37Bien","qu'il","eût","fait","tant","de"],
+    "after": ["devant","eux,","ils","ne","croyaient","pas","en","lui,","37Bien","qu'il","eût","fait","tant","de","signes","devant","eux,","ils","ne","croyaient","pas","en","lui,","38afin","que","s'accomplît","la","parole","dite","par"],
+    "element": "Signes",
+    "length": 1
+  },
+  {
+    "position": 12745,
+    "before": ["cacha","loin","d’eux.","Conclusion",":","croire","en","la","parole.","37Bien","qu'il","eût","fait","tant","de","signes","devant","eux,","ils","ne","croyaient","pas","en","lui,","37Bien","qu'il","eût","fait","tant","de"],
+    "after": ["devant","eux,","ils","ne","croyaient","pas","en","lui,","38afin","que","s'accomplît","la","parole","dite","par","Isaïe","le","prophète",":","Seigneur,","qui","a","cru","à","notre","parole","?","et","le","bras"],
+    "element": "Signes",
+    "length": 1
+  },
+  {
     "position": 12758,
     "before": ["tant","de","signes","devant","eux,","ils","ne","croyaient","pas","en","lui,","37Bien","qu'il","eût","fait","tant","de","signes","devant","eux,","ils","ne","croyaient","pas","en","lui,","38afin","que","s'accomplît","la"],
     "after": ["dite","par","Isaïe","le","prophète",":","Seigneur,","qui","a","cru","à","notre","parole","?","et","le","bras","du","Seigneur,","à","qui","a-t-il","été","révélé","?","39Aussi","bien","ne","pouvaient-ils","croire,"],
@@ -4901,13 +5055,6 @@
     "before": ["devant","eux,","ils","ne","croyaient","pas","en","lui,","37Bien","qu'il","eût","fait","tant","de","signes","devant","eux,","ils","ne","croyaient","pas","en","lui,","38afin","que","s'accomplît","la","parole","dite","par"],
     "after": ["le","prophète",":","Seigneur,","qui","a","cru","à","notre","parole","?","et","le","bras","du","Seigneur,","à","qui","a-t-il","été","révélé","?","39Aussi","bien","ne","pouvaient-ils","croire,","car","Isaïe","a"],
     "element": "Isaïe",
-    "length": 1
-  },
-  {
-    "position": 12763,
-    "before": ["ils","ne","croyaient","pas","en","lui,","37Bien","qu'il","eût","fait","tant","de","signes","devant","eux,","ils","ne","croyaient","pas","en","lui,","38afin","que","s'accomplît","la","parole","dite","par","Isaïe","le"],
-    "after": [":","Seigneur,","qui","a","cru","à","notre","parole","?","et","le","bras","du","Seigneur,","à","qui","a-t-il","été","révélé","?","39Aussi","bien","ne","pouvaient-ils","croire,","car","Isaïe","a","dit","encore"],
-    "element": "Prophète",
     "length": 1
   },
   {
@@ -5079,6 +5226,20 @@
     "length": 1
   },
   {
+    "position": 13505,
+    "before": ["envoyé.","17Sachant","cela,","heureux","êtes-vous,","si","vous","le","faites.","18Ce","n'est","pas","de","vous","tous","que","je","parle",";","je","connais","ceux","que","j'ai","choisis",";","mais","il","faut","que"],
+    "after": ["s'accomplisse",":","Celui","qui","mange","mon","pain","a","levé","contre","moi","son","talon.","19Je","vous","le","dis,","dès","à","présent,","avant","que","la","chose","n'arrive,","pour","qu'une","fois","celle-ci","arrivée,"],
+    "element": "Écriture",
+    "length": 1
+  },
+  {
+    "position": 13512,
+    "before": ["le","faites.","18Ce","n'est","pas","de","vous","tous","que","je","parle",";","je","connais","ceux","que","j'ai","choisis",";","mais","il","faut","que","l'Écriture","s'accomplisse",":","Celui","qui","mange","mon"],
+    "after": ["a","levé","contre","moi","son","talon.","19Je","vous","le","dis,","dès","à","présent,","avant","que","la","chose","n'arrive,","pour","qu'une","fois","celle-ci","arrivée,","vous","croyiez","que","Je","Suis.","20En","vérité,"],
+    "element": "Pain",
+    "length": 1
+  },
+  {
     "position": 13575,
     "before": ["je","vous","le","dis,","qui","accueille","celui","que","j'aurai","envoyé","m'accueille",";","et","qui","m'accueille,","accueille","celui","qui","m'a","envoyé.","\"","L’annonce","de","la","trahison","de","Judas.","21Ayant","dit","cela,"],
     "after": ["fut","troublé","en","son","esprit","et","il","attesta",":","\"","En","vérité,","en","vérité,","je","vous","le","dis,","l'un","de","vous","me","livrera.","\"","22Les","disciples","se","regardaient","les","uns"],
@@ -5107,24 +5268,10 @@
     "length": 1
   },
   {
-    "position": 13632,
-    "before": ["se","regardaient","les","uns","les","autres,","ne","sachant","de","qui","il","parlait.","23Un","de","ses","disciples,","celui","que","Jésus","aimait,","se","trouvait","à","table","tout","contre","Jésus.","24Simon-Pierre","lui","fait"],
-    "after": ["et","lui","dit",":","\"","Demande","quel","est","celui","dont","il","parle.","\"","25Celui-ci,","se","penchant","alors","vers","la","poitrine","de","Jésus,","lui","dit",":","\"","Seigneur,","qui","est-ce","?"],
-    "element": "Signe",
-    "length": 1
-  },
-  {
     "position": 13693,
     "before": ["\"","26Jésus","répond",":","\"","C'est","celui","à","qui","je","donnerai","la","bouchée","que","je","vais","tremper.","\"","Trempant","alors","la","bouchée,","il","la","prend","et","la","donne","à","Judas,"],
     "after": ["de","Simon","Iscariote.","27Après","la","bouchée,","alors","Satan","entra","en","lui.","Jésus","lui","dit","donc",":","\"","Ce","que","tu","fais,","fais-le","vite.","\"","28Mais","cela,","aucun","parmi","les","convives"],
     "element": "Fils",
-    "length": 1
-  },
-  {
-    "position": 13701,
-    "before": ["qui","je","donnerai","la","bouchée","que","je","vais","tremper.","\"","Trempant","alors","la","bouchée,","il","la","prend","et","la","donne","à","Judas,","fils","de","Simon","Iscariote.","27Après","la","bouchée,","alors"],
-    "after": ["entra","en","lui.","Jésus","lui","dit","donc",":","\"","Ce","que","tu","fais,","fais-le","vite.","\"","28Mais","cela,","aucun","parmi","les","convives","ne","comprit","pourquoi","il","le","lui","disait.","29Comme"],
-    "element": "Satan",
     "length": 1
   },
   {
@@ -5506,6 +5653,27 @@
     "length": 1
   },
   {
+    "position": 14751,
+    "before": ["Père","m'a","commandé.","Levez-vous","!","Partons","d'ici","!","La","vigne","véritable.","15","1Moi","je","suis","la","vigne","véritable","et","mon","Père","est","le","vigneron.","2Tout","sarment","en","moi","qui","ne"],
+    "after": ["pas","de","fruit,","il","l'enlève,","et","tout","sarment","qui","porte","du","fruit,","il","l'émonde,","pour","qu'il","porte","encore","plus","de","fruit.","3Déjà","vous","êtes","purs","grâce","à","la","parole","que"],
+    "element": "Porte",
+    "length": 1
+  },
+  {
+    "position": 14761,
+    "before": ["véritable.","15","1Moi","je","suis","la","vigne","véritable","et","mon","Père","est","le","vigneron.","2Tout","sarment","en","moi","qui","ne","porte","pas","de","fruit,","il","l'enlève,","et","tout","sarment","qui"],
+    "after": ["du","fruit,","il","l'émonde,","pour","qu'il","porte","encore","plus","de","fruit.","3Déjà","vous","êtes","purs","grâce","à","la","parole","que","je","vous","ai","fait","entendre.","4Demeurez","en","moi,","comme","moi"],
+    "element": "Porte",
+    "length": 1
+  },
+  {
+    "position": 14768,
+    "before": ["véritable","et","mon","Père","est","le","vigneron.","2Tout","sarment","en","moi","qui","ne","porte","pas","de","fruit,","il","l'enlève,","et","tout","sarment","qui","porte","du","fruit,","il","l'émonde,","pour","qu'il"],
+    "after": ["encore","plus","de","fruit.","3Déjà","vous","êtes","purs","grâce","à","la","parole","que","je","vous","ai","fait","entendre.","4Demeurez","en","moi,","comme","moi","en","vous.","De","même","que","le","sarment"],
+    "element": "Porte",
+    "length": 1
+  },
+  {
     "position": 14780,
     "before": ["ne","porte","pas","de","fruit,","il","l'enlève,","et","tout","sarment","qui","porte","du","fruit,","il","l'émonde,","pour","qu'il","porte","encore","plus","de","fruit.","3Déjà","vous","êtes","purs","grâce","à","la"],
     "after": ["que","je","vous","ai","fait","entendre.","4Demeurez","en","moi,","comme","moi","en","vous.","De","même","que","le","sarment","ne","peut","de","lui-même","porter","du","fruit","s'il","ne","demeure","pas","sur"],
@@ -5524,6 +5692,13 @@
     "before": ["sarment","ne","peut","de","lui-même","porter","du","fruit","s'il","ne","demeure","pas","sur","la","vigne,","ainsi","vous","non","plus,","si","vous","ne","demeurez","pas","en","moi.","5Moi","je","suis","la"],
     "after": [";","vous,","les","sarments.","Celui","qui","demeure","en","moi,","et","moi","en","lui,","celui-là","porte","beaucoup","de","fruit",";","car","hors","de","moi","vous","ne","pouvez","rien","faire.","6Si","quelqu'un"],
     "element": "Vigne",
+    "length": 1
+  },
+  {
+    "position": 14843,
+    "before": ["ainsi","vous","non","plus,","si","vous","ne","demeurez","pas","en","moi.","5Moi","je","suis","la","vigne",";","vous,","les","sarments.","Celui","qui","demeure","en","moi,","et","moi","en","lui,","celui-là"],
+    "after": ["beaucoup","de","fruit",";","car","hors","de","moi","vous","ne","pouvez","rien","faire.","6Si","quelqu'un","ne","demeure","pas","en","moi,","il","est","jeté","dehors","comme","le","sarment","et","il","se"],
+    "element": "Porte",
     "length": 1
   },
   {
@@ -5723,6 +5898,13 @@
     "length": 1
   },
   {
+    "position": 15478,
+    "before": ["5Mais","maintenant","je","m'en","vais","vers","celui","qui","m'a","envoyé","et","aucun","de","vous","ne","me","demande",":","\"Où","vas-tu","?\"","6Mais","parce","que","je","vous","ai","dit","cela,","la"],
+    "after": ["remplit","vos","cœurs.","7Cependant","je","vous","dis","la","vérité",":","c'est","votre","intérêt","que","je","parte",";","car","si","je","ne","pars","pas,","le","Paraclet","ne","viendra","pas","vers","vous"],
+    "element": "Tristesse",
+    "length": 1
+  },
+  {
     "position": 15487,
     "before": ["envoyé","et","aucun","de","vous","ne","me","demande",":","\"Où","vas-tu","?\"","6Mais","parce","que","je","vous","ai","dit","cela,","la","tristesse","remplit","vos","cœurs.","7Cependant","je","vous","dis","la"],
     "after": [":","c'est","votre","intérêt","que","je","parte",";","car","si","je","ne","pars","pas,","le","Paraclet","ne","viendra","pas","vers","vous",";","mais","si","je","pars,","je","vous","l'enverrai.","8Et"],
@@ -5741,13 +5923,6 @@
     "before": ["si","je","ne","pars","pas,","le","Paraclet","ne","viendra","pas","vers","vous",";","mais","si","je","pars,","je","vous","l'enverrai.","8Et","lui,","une","fois","venu,","il","établira","la","culpabilité","du"],
     "after": ["en","fait","de","péché,","en","fait","de","justice","et","en","fait","de","jugement",":","9de","péché,","parce","qu'ils","ne","croient","pas","en","moi",";","10de","justice,","parce","que","je","vais"],
     "element": "Monde",
-    "length": 1
-  },
-  {
-    "position": 15535,
-    "before": ["viendra","pas","vers","vous",";","mais","si","je","pars,","je","vous","l'enverrai.","8Et","lui,","une","fois","venu,","il","établira","la","culpabilité","du","monde","en","fait","de","péché,","en","fait","de"],
-    "after": ["et","en","fait","de","jugement",":","9de","péché,","parce","qu'ils","ne","croient","pas","en","moi",";","10de","justice,","parce","que","je","vais","vers","le","Père","et","que","vous","ne","me"],
-    "element": "Justice",
     "length": 1
   },
   {
@@ -5804,6 +5979,13 @@
     "before": ["ne","me","verrez","plus","et","puis","un","peu","encore","et","vous","me","verrez.","\"","20En","vérité,","en","vérité,","je","vous","le","dis,","vous","pleurerez","et","vous","vous","lamenterez,","et","le"],
     "after": ["se","réjouira",";","vous","serez","tristes,","mais","votre","tristesse","se","changera","en","joie.","L’EVANGILE","SELON","SAINT","JEAN","21","21La","femme,","sur","le","point","d'accoucher,","s'attriste","parce","que","son","heure","est"],
     "element": "Monde",
+    "length": 1
+  },
+  {
+    "position": 15827,
+    "before": ["et","vous","me","verrez.","\"","20En","vérité,","en","vérité,","je","vous","le","dis,","vous","pleurerez","et","vous","vous","lamenterez,","et","le","monde","se","réjouira",";","vous","serez","tristes,","mais","votre"],
+    "after": ["se","changera","en","joie.","L’EVANGILE","SELON","SAINT","JEAN","21","21La","femme,","sur","le","point","d'accoucher,","s'attriste","parce","que","son","heure","est","venue",";","mais","lorsqu'elle","a","donné","le","jour","à"],
+    "element": "Tristesse",
     "length": 1
   },
   {
@@ -5884,13 +6066,6 @@
     "length": 1
   },
   {
-    "position": 16159,
-    "before": ["vous","ai","dit","ces","choses,","pour","que","vous","ayez","la","paix","en","moi.","Dans","le","monde","vous","aurez","à","souffrir.","Mais","gardez","courage","!","J'ai","vaincu","le","monde.","\"","La"],
-    "after": ["de","Jésus.","17","1Ainsi","parla","Jésus,","et","levant","les","yeux","au","ciel,","il","dit",":","\"","Père,","l'heure","est","venue",":","glorifie","ton","Fils,","afin","que","ton","Fils","te","glorifie"],
-    "element": "Prière",
-    "length": 1
-  },
-  {
     "position": 16187,
     "before": ["\"","La","prière","de","Jésus.","17","1Ainsi","parla","Jésus,","et","levant","les","yeux","au","ciel,","il","dit",":","\"","Père,","l'heure","est","venue",":","glorifie","ton","Fils,","afin","que","ton"],
     "after": ["te","glorifie","2et","que,","selon","le","pouvoir","que","tu","lui","as","donné","sur","toute","chair,","il","donne","la","vie","éternelle","à","tous","ceux","que","tu","lui","as","donnés","!","3Or,"],
@@ -5909,13 +6084,6 @@
     "before": ["glorifie","2et","que,","selon","le","pouvoir","que","tu","lui","as","donné","sur","toute","chair,","il","donne","la","vie","éternelle","à","tous","ceux","que","tu","lui","as","donnés","!","3Or,","la"],
     "after": ["éternelle,","c'est","qu'ils","te","connaissent,","toi,","le","seul","véritable","Dieu,","et","celui","que","tu","as","envoyé,","Jésus-Christ.","4Je","t'ai","glorifié","sur","la","terre,","en","menant","à","bonne","fin","l'œuvre","que"],
     "element": "Vie",
-    "length": 1
-  },
-  {
-    "position": 16248,
-    "before": ["la","vie","éternelle,","c'est","qu'ils","te","connaissent,","toi,","le","seul","véritable","Dieu,","et","celui","que","tu","as","envoyé,","Jésus-Christ.","4Je","t'ai","glorifié","sur","la","terre,","en","menant","à","bonne","fin"],
-    "after": ["que","tu","m'as","donné","de","faire.","5Et","maintenant,","Père,","glorifie-moi","auprès","de","toi","de","la","gloire","que","j'avais","auprès","de","toi,","avant","que","fût","le","monde.","6J'ai","manifesté","ton","nom"],
-    "element": "Œuvre",
     "length": 1
   },
   {
@@ -5951,6 +6119,13 @@
     "before": ["pour","qu'ils","soient","un","comme","nous.","12Quand","j'étais","avec","eux,","je","les","gardais","dans","ton","nom","que","tu","m'as","donné.","J'ai","veillé","et","aucun","d'eux","ne","s'est","perdu,","sauf","le"],
     "after": ["de","perdition,","afin","que","l'Écriture","fût","accomplie.","13Mais","maintenant","je","viens","vers","toi","et","je","parle","ainsi","dans","le","monde,","afin","qu'ils","aient","en","eux-mêmes","ma","joie","complète.","14Je","leur"],
     "element": "Fils",
+    "length": 1
+  },
+  {
+    "position": 16475,
+    "before": ["nous.","12Quand","j'étais","avec","eux,","je","les","gardais","dans","ton","nom","que","tu","m'as","donné.","J'ai","veillé","et","aucun","d'eux","ne","s'est","perdu,","sauf","le","fils","de","perdition,","afin","que"],
+    "after": ["fût","accomplie.","13Mais","maintenant","je","viens","vers","toi","et","je","parle","ainsi","dans","le","monde,","afin","qu'ils","aient","en","eux-mêmes","ma","joie","complète.","14Je","leur","ai","donné","ta","parole","et"],
+    "element": "Écriture",
     "length": 1
   },
   {
@@ -6034,8 +6209,8 @@
     "position": 16789,
     "before": ["26Je","leur","ai","fait","connaître","ton","nom","et","je","le","leur","ferai","connaître,","pour","que","l'amour","dont","tu","m'as","aimé","soit","en","eux","et","moi","en","eux.","\"","2.","LA"],
     "after": ["L’arrestation","de","Jésus.","18","1Ayant","dit","cela,","Jésus","s'en","alla","avec","ses","disciples","de","l'autre","côté","du","torrent","du","Cédron.","Il","y","avait","là","un","jardin","dans","lequel","il","entra,"],
-    "element": "Arrestation",
-    "length": 2
+    "element": "Passion",
+    "length": 1
   },
   {
     "position": 16797,
@@ -6052,13 +6227,6 @@
     "length": 1
   },
   {
-    "position": 16815,
-    "before": ["eux.","\"","2.","LA","PASSION","L’arrestation","de","Jésus.","18","1Ayant","dit","cela,","Jésus","s'en","alla","avec","ses","disciples","de","l'autre","côté","du","torrent","du","Cédron.","Il","y","avait","là","un"],
-    "after": ["dans","lequel","il","entra,","ainsi","que","ses","disciples.","2Or","Judas,","qui","le","livrait,","connaissait","aussi","ce","lieu,","parce","que","bien","des","fois","Jésus","et","ses","disciples","s'y","étaient","réunis.","3Judas"],
-    "element": "Jardin",
-    "length": 1
-  },
-  {
     "position": 16838,
     "before": ["du","Cédron.","Il","y","avait","là","un","jardin","dans","lequel","il","entra,","ainsi","que","ses","disciples.","2Or","Judas,","qui","le","livrait,","connaissait","aussi","ce","lieu,","parce","que","bien","des","fois"],
     "after": ["et","ses","disciples","s'y","étaient","réunis.","3Judas","donc,","menant","la","cohorte","et","des","gardes","détachés","par","les","grands","prêtres","et","les","Pharisiens,","vient","là","avec","des","lanternes,","des","torches","et"],
@@ -6070,13 +6238,6 @@
     "before": ["y","avait","là","un","jardin","dans","lequel","il","entra,","ainsi","que","ses","disciples.","2Or","Judas,","qui","le","livrait,","connaissait","aussi","ce","lieu,","parce","que","bien","des","fois","Jésus","et","ses"],
     "after": ["s'y","étaient","réunis.","3Judas","donc,","menant","la","cohorte","et","des","gardes","détachés","par","les","grands","prêtres","et","les","Pharisiens,","vient","là","avec","des","lanternes,","des","torches","et","des","armes.","4Alors"],
     "element": "Disciples",
-    "length": 1
-  },
-  {
-    "position": 16849,
-    "before": ["entra,","ainsi","que","ses","disciples.","2Or","Judas,","qui","le","livrait,","connaissait","aussi","ce","lieu,","parce","que","bien","des","fois","Jésus","et","ses","disciples","s'y","étaient","réunis.","3Judas","donc,","menant","la"],
-    "after": ["et","des","gardes","détachés","par","les","grands","prêtres","et","les","Pharisiens,","vient","là","avec","des","lanternes,","des","torches","et","des","armes.","4Alors","Jésus,","sachant","tout","ce","qui","allait","lui","advenir,"],
-    "element": "Cohorte",
     "length": 1
   },
   {
@@ -6129,13 +6290,6 @@
     "length": 1
   },
   {
-    "position": 17032,
-    "before": ["qui","portait","un","glaive,","le","tira,","frappa","le","serviteur","du","grand","prêtre","et","lui","trancha","l'oreille","droite.","Ce","serviteur","avait","nom","Malchus.","11Jésus","dit","à","Pierre",":","\"","Rentre","le"],
-    "after": ["dans","le","fourreau.","La","coupe","que","m'a","donnée","le","Père,","ne","la","boirai-je","pas","?","\"","Jésus","devant","Anne","et","Caïphe.","Reniement","de","Pierre.","12Alors","la","cohorte,","le","tribun","et"],
-    "element": "Glaive",
-    "length": 1
-  },
-  {
     "position": 17049,
     "before": ["Ce","serviteur","avait","nom","Malchus.","11Jésus","dit","à","Pierre",":","\"","Rentre","le","glaive","dans","le","fourreau.","La","coupe","que","m'a","donnée","le","Père,","ne","la","boirai-je","pas","?","\""],
     "after": ["devant","Anne","et","Caïphe.","Reniement","de","Pierre.","12Alors","la","cohorte,","le","tribun","et","les","gardes","des","Juifs","saisirent","Jésus","et","le","lièrent.","13Ils","le","menèrent","d'abord","chez","Anne",";","c'était"],
@@ -6147,13 +6301,6 @@
     "before": ["avait","nom","Malchus.","11Jésus","dit","à","Pierre",":","\"","Rentre","le","glaive","dans","le","fourreau.","La","coupe","que","m'a","donnée","le","Père,","ne","la","boirai-je","pas","?","\"","Jésus","devant"],
     "after": ["et","Caïphe.","Reniement","de","Pierre.","12Alors","la","cohorte,","le","tribun","et","les","gardes","des","Juifs","saisirent","Jésus","et","le","lièrent.","13Ils","le","menèrent","d'abord","chez","Anne",";","c'était","en","effet"],
     "element": "Anne",
-    "length": 1
-  },
-  {
-    "position": 17054,
-    "before": ["11Jésus","dit","à","Pierre",":","\"","Rentre","le","glaive","dans","le","fourreau.","La","coupe","que","m'a","donnée","le","Père,","ne","la","boirai-je","pas","?","\"","Jésus","devant","Anne","et","Caïphe."],
-    "after": ["de","Pierre.","12Alors","la","cohorte,","le","tribun","et","les","gardes","des","Juifs","saisirent","Jésus","et","le","lièrent.","13Ils","le","menèrent","d'abord","chez","Anne",";","c'était","en","effet","le","beau-père","de"],
-    "element": "Reniement",
     "length": 1
   },
   {
@@ -6202,7 +6349,14 @@
     "position": 17120,
     "before": ["cette","année-là.","14Or","Caïphe","était","celui","qui","avait","donné","ce","conseil","aux","Juifs",":","\"","Il","y","a","intérêt","à","ce","qu'un","seul","homme","meure","pour","le","peuple.","\"","15Or"],
     "after": ["suivait","Jésus,","ainsi","qu'un","autre","disciple.","Ce","disciple","était","connu","du","grand","prêtre","et","entra","avec","Jésus","dans","la","cour","du","grand","prêtre,","16tandis","que","Pierre","se","tenait","près","de"],
-    "element": "Simon-Pierre",
+    "element": "Simon_Pierre",
+    "length": 1
+  },
+  {
+    "position": 17128,
+    "before": ["donné","ce","conseil","aux","Juifs",":","\"","Il","y","a","intérêt","à","ce","qu'un","seul","homme","meure","pour","le","peuple.","\"","15Or","Simon-Pierre","suivait","Jésus,","ainsi","qu'un","autre","disciple.","Ce"],
+    "after": ["était","connu","du","grand","prêtre","et","entra","avec","Jésus","dans","la","cour","du","grand","prêtre,","16tandis","que","Pierre","se","tenait","près","de","la","porte,","dehors.","L'autre","disciple,","celui","qui","était"],
+    "element": "Disciple",
     "length": 1
   },
   {
@@ -6322,13 +6476,6 @@
     "before": ["aussi,","de","ses","disciples","?","\"","Lui","le","nia","et","dit",":","\"","Je","n'en","suis","pas.","\"","26Un","des","serviteurs","du","grand","prêtre,","un","parent","de","celui","à","qui"],
     "after": ["avait","tranché","l'oreille,","dit",":","\"","Ne","t'ai-je","pas","vu","dans","le","jardin","avec","lui","?","\"","27De","nouveau","Pierre","nia,","et","aussitôt","un","coq","chanta.","Jésus","devant","Pilate.","28Alors"],
     "element": "Pierre",
-    "length": 1
-  },
-  {
-    "position": 17439,
-    "before": ["Je","n'en","suis","pas.","\"","26Un","des","serviteurs","du","grand","prêtre,","un","parent","de","celui","à","qui","Pierre","avait","tranché","l'oreille,","dit",":","\"","Ne","t'ai-je","pas","vu","dans","le"],
-    "after": ["avec","lui","?","\"","27De","nouveau","Pierre","nia,","et","aussitôt","un","coq","chanta.","Jésus","devant","Pilate.","28Alors","ils","mènent","Jésus","de","chez","Caïphe","au","prétoire.","C'était","le","matin.","Eux-mêmes","n'entrèrent"],
-    "element": "Jardin",
     "length": 1
   },
   {
@@ -6472,20 +6619,6 @@
     "length": 1
   },
   {
-    "position": 17802,
-    "before": ["que","je","vous","relâche","quelqu'un","à","la","Pâque.","Voulez-vous","que","je","vous","relâche","le","roi","des","Juifs","?","\"","40Alors","ils","vociférèrent","de","nouveau,","disant",":","\"","Pas","lui,","mais"],
-    "after": ["!","\"","Or","Barabbas","était","un","brigand.","19","1Pilate","prit","alors","Jésus","et","le","fit","flageller.","2Les","soldats,","tressant","une","couronne","avec","des","épines,","la","lui","posèrent","sur","la","tête,"],
-    "element": "Barabbas",
-    "length": 1
-  },
-  {
-    "position": 17806,
-    "before": ["quelqu'un","à","la","Pâque.","Voulez-vous","que","je","vous","relâche","le","roi","des","Juifs","?","\"","40Alors","ils","vociférèrent","de","nouveau,","disant",":","\"","Pas","lui,","mais","Barabbas","!","\"","Or"],
-    "after": ["était","un","brigand.","19","1Pilate","prit","alors","Jésus","et","le","fit","flageller.","2Les","soldats,","tressant","une","couronne","avec","des","épines,","la","lui","posèrent","sur","la","tête,","et","ils","le","revêtirent"],
-    "element": "Barabbas",
-    "length": 1
-  },
-  {
     "position": 17814,
     "before": ["relâche","le","roi","des","Juifs","?","\"","40Alors","ils","vociférèrent","de","nouveau,","disant",":","\"","Pas","lui,","mais","Barabbas","!","\"","Or","Barabbas","était","un","brigand.","19","1Pilate","prit","alors"],
     "after": ["et","le","fit","flageller.","2Les","soldats,","tressant","une","couronne","avec","des","épines,","la","lui","posèrent","sur","la","tête,","et","ils","le","revêtirent","d'un","manteau","de","pourpre",";","3et","ils","s'avançaient"],
@@ -6612,6 +6745,13 @@
     "length": 1
   },
   {
+    "position": 18144,
+    "before": ["roi,","s'oppose","à","César.","\"","13Pilate,","entendant","ces","paroles,","amena","Jésus","dehors","et","le","fit","asseoir","au","tribunal,","en","un","lieu","dit","le","Dallage,","en","hébreu","Gabbatha.","14Or","c'était","la"],
+    "after": ["de","la","Pâque",";","c'était","vers","la","sixième","heure.","Il","dit","aux","Juifs",":","\"","Voici","votre","roi.","\"","15Eux","vociférèrent",":","\"","A","mort","!","A","mort","!","Crucifie-le"],
+    "element": "Préparation",
+    "length": 1
+  },
+  {
     "position": 18147,
     "before": ["César.","\"","13Pilate,","entendant","ces","paroles,","amena","Jésus","dehors","et","le","fit","asseoir","au","tribunal,","en","un","lieu","dit","le","Dallage,","en","hébreu","Gabbatha.","14Or","c'était","la","Préparation","de","la"],
     "after": [";","c'était","vers","la","sixième","heure.","Il","dit","aux","Juifs",":","\"","Voici","votre","roi.","\"","15Eux","vociférèrent",":","\"","A","mort","!","A","mort","!","Crucifie-le","!","\"","Pilate"],
@@ -6724,6 +6864,13 @@
     "length": 1
   },
   {
+    "position": 18423,
+    "before": ["du","haut",";","24ils","se","dirent","donc","entre","L’EVANGILE","SELON","SAINT","JEAN","24","eux",":","\"","Ne","la","déchirons","pas,","mais","tirons","au","sort","qui","l'aura","\"",";","afin","que"],
+    "after": ["fût","accomplie",":","Ils","se","sont","partagé","mes","habits,","et","mon","vêtement,","ils","l'ont","tiré","au","sort.","Voilà","ce","que","firent","les","soldats.","Jésus","et","sa","mère.","25Or","près","de"],
+    "element": "Écriture",
+    "length": 1
+  },
+  {
     "position": 18447,
     "before": ["qui","l'aura","\"",";","afin","que","l'Écriture","fût","accomplie",":","Ils","se","sont","partagé","mes","habits,","et","mon","vêtement,","ils","l'ont","tiré","au","sort.","Voilà","ce","que","firent","les","soldats."],
     "after": ["et","sa","mère.","25Or","près","de","la","croix","de","Jésus","se","tenaient","sa","mère","et","la","sœur","de","sa","mère,","Marie,","femme","de","Clopas,","et","Marie","de","Magdala.","26Jésus","donc"],
@@ -6749,6 +6896,34 @@
     "before": ["que","firent","les","soldats.","Jésus","et","sa","mère.","25Or","près","de","la","croix","de","Jésus","se","tenaient","sa","mère","et","la","sœur","de","sa","mère,","Marie,","femme","de","Clopas,","et"],
     "after": ["de","Magdala.","26Jésus","donc","voyant","sa","mère","et,","se","tenant","près","d'elle,","le","disciple","qu'il","aimait,","dit","à","sa","mère",":","\"","Femme,","voici","ton","fils.","\"","27Puis","il","dit"],
     "element": "Marie",
+    "length": 1
+  },
+  {
+    "position": 18487,
+    "before": ["Jésus","se","tenaient","sa","mère","et","la","sœur","de","sa","mère,","Marie,","femme","de","Clopas,","et","Marie","de","Magdala.","26Jésus","donc","voyant","sa","mère","et,","se","tenant","près","d'elle,","le"],
+    "after": ["qu'il","aimait,","dit","à","sa","mère",":","\"","Femme,","voici","ton","fils.","\"","27Puis","il","dit","au","disciple",":","\"","Voici","ta","mère.","\"","Dès","cette","heure-là,","le","disciple","l'accueillit"],
+    "element": "Disciple",
+    "length": 1
+  },
+  {
+    "position": 18505,
+    "before": ["Magdala.","26Jésus","donc","voyant","sa","mère","et,","se","tenant","près","d'elle,","le","disciple","qu'il","aimait,","dit","à","sa","mère",":","\"","Femme,","voici","ton","fils.","\"","27Puis","il","dit","au"],
+    "after": [":","\"","Voici","ta","mère.","\"","Dès","cette","heure-là,","le","disciple","l'accueillit","chez","lui.","La","mort","de","Jésus.","28Après","quoi,","sachant","que","désormais","tout","était","achevé","pour","que","l'Écriture","fût"],
+    "element": "Disciple",
+    "length": 1
+  },
+  {
+    "position": 18516,
+    "before": ["le","disciple","qu'il","aimait,","dit","à","sa","mère",":","\"","Femme,","voici","ton","fils.","\"","27Puis","il","dit","au","disciple",":","\"","Voici","ta","mère.","\"","Dès","cette","heure-là,","le"],
+    "after": ["l'accueillit","chez","lui.","La","mort","de","Jésus.","28Après","quoi,","sachant","que","désormais","tout","était","achevé","pour","que","l'Écriture","fût","parfaitement","accomplie,","Jésus","dit",":","\"","J'ai","soif.","\"","29Un","vase"],
+    "element": "Disciple",
+    "length": 1
+  },
+  {
+    "position": 18534,
+    "before": ["au","disciple",":","\"","Voici","ta","mère.","\"","Dès","cette","heure-là,","le","disciple","l'accueillit","chez","lui.","La","mort","de","Jésus.","28Après","quoi,","sachant","que","désormais","tout","était","achevé","pour","que"],
+    "after": ["fût","parfaitement","accomplie,","Jésus","dit",":","\"","J'ai","soif.","\"","29Un","vase","était","là,","rempli","de","vinaigre.","On","mit","autour","d'une","branche","d'hysope","une","éponge","imbibée","de","vinaigre","et","on"],
+    "element": "Écriture",
     "length": 1
   },
   {
@@ -6801,6 +6976,13 @@
     "length": 1
   },
   {
+    "position": 18684,
+    "before": ["quand","ils","virent","qu'il","était","déjà","mort,","ils","ne","lui","brisèrent","pas","les","jambes,","34mais","l'un","des","soldats,","de","sa","lance,","lui","perça","le","côté","et","il","sortit","aussitôt","du"],
+    "after": ["et","de","l'eau.","35Celui","qui","a","vu","rend","témoignage","-","son","témoignage","est","véritable,","et","celui-là","sait","qu'il","dit","vrai","-","pour","que","vous","aussi","vous","croyiez.","36Car","cela","est"],
+    "element": "Sang",
+    "length": 1
+  },
+  {
     "position": 18693,
     "before": ["lui","brisèrent","pas","les","jambes,","34mais","l'un","des","soldats,","de","sa","lance,","lui","perça","le","côté","et","il","sortit","aussitôt","du","sang","et","de","l'eau.","35Celui","qui","a","vu","rend"],
     "after": ["-","son","témoignage","est","véritable,","et","celui-là","sait","qu'il","dit","vrai","-","pour","que","vous","aussi","vous","croyiez.","36Car","cela","est","arrivé","afin","que","l'Écriture","fût","accomplie",":","Pas","un"],
@@ -6815,10 +6997,31 @@
     "length": 1
   },
   {
+    "position": 18718,
+    "before": ["35Celui","qui","a","vu","rend","témoignage","-","son","témoignage","est","véritable,","et","celui-là","sait","qu'il","dit","vrai","-","pour","que","vous","aussi","vous","croyiez.","36Car","cela","est","arrivé","afin","que"],
+    "after": ["fût","accomplie",":","Pas","un","os","ne","lui","sera","brisé.","37Et","une","autre","Écriture","dit","encore",":","Ils","regarderont","celui","qu'ils","ont","transpercé.","L’ensevelissement.","38Après","ces","événements,","Joseph","d'Arimathie,","qui"],
+    "element": "Écriture",
+    "length": 1
+  },
+  {
+    "position": 18732,
+    "before": ["qu'il","dit","vrai","-","pour","que","vous","aussi","vous","croyiez.","36Car","cela","est","arrivé","afin","que","l'Écriture","fût","accomplie",":","Pas","un","os","ne","lui","sera","brisé.","37Et","une","autre"],
+    "after": ["dit","encore",":","Ils","regarderont","celui","qu'ils","ont","transpercé.","L’ensevelissement.","38Après","ces","événements,","Joseph","d'Arimathie,","qui","était","disciple","de","Jésus,","mais","en","secret","par","peur","des","Juifs,","demanda","à","Pilate"],
+    "element": "Écriture",
+    "length": 1
+  },
+  {
     "position": 18746,
     "before": ["afin","que","l'Écriture","fût","accomplie",":","Pas","un","os","ne","lui","sera","brisé.","37Et","une","autre","Écriture","dit","encore",":","Ils","regarderont","celui","qu'ils","ont","transpercé.","L’ensevelissement.","38Après","ces","événements,"],
     "after": ["d'Arimathie,","qui","était","disciple","de","Jésus,","mais","en","secret","par","peur","des","Juifs,","demanda","à","Pilate","de","pouvoir","enlever","le","corps","de","Jésus.","Pilate","le","permit.","Ils","vinrent","donc","et"],
     "element": "Joseph",
+    "length": 1
+  },
+  {
+    "position": 18750,
+    "before": ["accomplie",":","Pas","un","os","ne","lui","sera","brisé.","37Et","une","autre","Écriture","dit","encore",":","Ils","regarderont","celui","qu'ils","ont","transpercé.","L’ensevelissement.","38Après","ces","événements,","Joseph","d'Arimathie,","qui","était"],
+    "after": ["de","Jésus,","mais","en","secret","par","peur","des","Juifs,","demanda","à","Pilate","de","pouvoir","enlever","le","corps","de","Jésus.","Pilate","le","permit.","Ils","vinrent","donc","et","enlevèrent","son","corps.","39Nicodème"],
+    "element": "Disciple",
     "length": 1
   },
   {
@@ -6850,17 +7053,17 @@
     "length": 1
   },
   {
-    "position": 18834,
-    "before": ["40Ils","prirent","donc","le","corps","de","Jésus","et","le","lièrent","de","linges,","avec","les","aromates,","selon","le","mode","de","sépulture","en","usage","chez","les","Juifs.","41Or","il","y","avait","un"],
-    "after": ["au","lieu","où","il","avait","été","crucifié,","et,","dans","ce","jardin,","un","tombeau","neuf,","dans","lequel","personne","n'avait","encore","été","mis.","42A","cause","de","la","Préparation","des","Juifs,","comme","le"],
-    "element": "Jardin",
-    "length": 1
-  },
-  {
     "position": 18847,
     "before": ["les","aromates,","selon","le","mode","de","sépulture","en","usage","chez","les","Juifs.","41Or","il","y","avait","un","jardin","au","lieu","où","il","avait","été","crucifié,","et,","dans","ce","jardin,","un"],
     "after": ["neuf,","dans","lequel","personne","n'avait","encore","été","mis.","42A","cause","de","la","Préparation","des","Juifs,","comme","le","tombeau","était","proche,","c'est","là","qu'ils","déposèrent","Jésus.","3.","LE","JOUR","DE","LA"],
     "element": "Tombeau",
+    "length": 1
+  },
+  {
+    "position": 18860,
+    "before": ["il","y","avait","un","jardin","au","lieu","où","il","avait","été","crucifié,","et,","dans","ce","jardin,","un","tombeau","neuf,","dans","lequel","personne","n'avait","encore","été","mis.","42A","cause","de","la"],
+    "after": ["des","Juifs,","comme","le","tombeau","était","proche,","c'est","là","qu'ils","déposèrent","Jésus.","3.","LE","JOUR","DE","LA","RÉSURRECTION","Le","tombeau","vide.","20","1Le","premier","jour","de","la","semaine,","Marie","de"],
+    "element": "Préparation",
     "length": 1
   },
   {
@@ -6917,13 +7120,6 @@
     "before": ["le","premier","au","tombeau.","5Se","penchant,","il","aperçoit","les","linges,","gisant","à","terre",";","pourtant","il","n'entra","pas.","6Alors","arrive","aussi","Simon-Pierre,","qui","le","suivait",";","il","entra","dans","le"],
     "after": [";","et","il","voit","les","linges,","gisant","à","terre,","7ainsi","que","le","suaire","qui","avait","recouvert","sa","tête",";","non","pas","avec","les","linges,","mais","roulé","à","part","dans","un"],
     "element": "Tombeau",
-    "length": 1
-  },
-  {
-    "position": 19024,
-    "before": [";","pourtant","il","n'entra","pas.","6Alors","arrive","aussi","Simon-Pierre,","qui","le","suivait",";","il","entra","dans","le","tombeau",";","et","il","voit","les","linges,","gisant","à","terre,","7ainsi","que","le"],
-    "after": ["qui","avait","recouvert","sa","tête",";","non","pas","avec","les","linges,","mais","roulé","à","part","dans","un","endroit.","8Alors","entra","aussi","l'autre","disciple,","arrivé","le","premier","au","tombeau.","Il","vit"],
-    "element": "Suaire",
     "length": 1
   },
   {
@@ -7088,6 +7284,13 @@
     "length": 1
   },
   {
+    "position": 19563,
+    "before": ["Thomas","avec","eux.","Jésus","vient,","les","portes","étant","closes,","et","il","se","tint","au","milieu","et","dit",":","\"","Paix","à","vous.","\"","27Puis","il","dit","à","Thomas",":","\""],
+    "after": ["ton","doigt","ici",":","voici","mes","mains",";","avance","ta","main","et","mets-la","dans","mon","côté,","et","ne","deviens","pas","incrédule,","mais","croyant.","\"","28Thomas","lui","répondit",":","\"","Mon"],
+    "element": "Porte",
+    "length": 1
+  },
+  {
     "position": 19597,
     "before": [":","voici","mes","mains",";","avance","ta","main","et","mets-la","dans","mon","côté,","et","ne","deviens","pas","incrédule,","mais","croyant.","\"","28Thomas","lui","répondit",":","\"","Mon","Seigneur","et","mon"],
     "after": ["!","\"","29Jésus","lui","dit",":","\"","Parce","que","tu","me","vois,","tu","crois.","Heureux","ceux","qui","n'ont","pas","vu","et","qui","ont","cru.","\"","4.","PREMIÈRE","CONCLUSION","30Jésus","a"],
@@ -7186,10 +7389,24 @@
     "length": 1
   },
   {
+    "position": 19796,
+    "before": ["matin","déjà","venu,","Jésus","se","tint","sur","le","rivage",";","pourtant","les","disciples","ne","savaient","pas","que","c'était","Jésus.","5Jésus","leur","dit",":","\"","Les","enfants,","vous","n'avez","pas","du"],
+    "after": ["?","\"","Ils","lui","répondirent",":","\"","Non","!","\"","6Il","leur","dit",":","\"","Jetez","le","filet","à","droite","du","bateau","et","vous","trouverez.","\"","Ils","le","jetèrent","donc"],
+    "element": "Poisson",
+    "length": 1
+  },
+  {
     "position": 19814,
     "before": ["Jésus.","5Jésus","leur","dit",":","\"","Les","enfants,","vous","n'avez","pas","du","poisson","?","\"","Ils","lui","répondirent",":","\"","Non","!","\"","6Il","leur","dit",":","\"","Jetez","le"],
     "after": ["à","droite","du","bateau","et","vous","trouverez.","\"","Ils","le","jetèrent","donc","et","ils","n'avaient","plus","la","force","de","le","tirer,","tant","il","était","plein","de","poissons.","7Le","disciple","que"],
     "element": "Filet",
+    "length": 1
+  },
+  {
+    "position": 19843,
+    "before": ["le","filet","à","droite","du","bateau","et","vous","trouverez.","\"","Ils","le","jetèrent","donc","et","ils","n'avaient","plus","la","force","de","le","tirer,","tant","il","était","plein","de","poissons.","7Le"],
+    "after": ["que","Jésus","aimait","dit","alors","à","Pierre",":","\"","C'est","le","Seigneur","!","\"","A","ces","mots",":","\"","C'est","le","Seigneur","!","\"","Simon-Pierre","mit","son","vêtement","-","car"],
+    "element": "Disciple",
     "length": 1
   },
   {
@@ -7210,7 +7427,7 @@
     "position": 19868,
     "before": ["était","plein","de","poissons.","7Le","disciple","que","Jésus","aimait","dit","alors","à","Pierre",":","\"","C'est","le","Seigneur","!","\"","A","ces","mots",":","\"","C'est","le","Seigneur","!","\""],
     "after": ["mit","son","vêtement","-","car","il","était","nu","-","et","il","se","jeta","à","l'eau.","8Les","autres","disciples,","qui","n'étaient","pas","loin","de","la","terre,","mais","à","L’EVANGILE","SELON","SAINT"],
-    "element": "Simon_Pierre",
+    "element": "Simon-Pierre",
     "length": 1
   },
   {
@@ -7228,10 +7445,17 @@
     "length": 1
   },
   {
+    "position": 19929,
+    "before": ["JEAN","26","environ","deux","cents","coudées,","vinrent","avec","la","barque,","traînant","le","filet","de","poissons.","9Une","fois","descendus","à","terre,","ils","aperçoivent,","disposé","là,","un","feu","de","braise,","avec","du"],
+    "after": ["dessus,","et","du","pain.","10Jésus","leur","dit",":","\"","Apportez","de","ces","poissons","que","vous","venez","de","prendre.","\"","11Alors","Simon-Pierre","monta","dans","le","bateau","et","tira","à","terre","le"],
+    "element": "Poisson",
+    "length": 1
+  },
+  {
     "position": 19950,
     "before": ["aperçoivent,","disposé","là,","un","feu","de","braise,","avec","du","poisson","dessus,","et","du","pain.","10Jésus","leur","dit",":","\"","Apportez","de","ces","poissons","que","vous","venez","de","prendre.","\"","11Alors"],
     "after": ["monta","dans","le","bateau","et","tira","à","terre","le","filet,","plein","de","gros","poissons",":","cent","cinquante","trois",";","et","quoiqu'il","y","en","eût","tant,","le","filet","ne","se","déchira"],
-    "element": "Simon_Pierre",
+    "element": "Simon-Pierre",
     "length": 1
   },
   {
@@ -7246,6 +7470,13 @@
     "before": ["de","gros","poissons",":","cent","cinquante","trois",";","et","quoiqu'il","y","en","eût","tant,","le","filet","ne","se","déchira","pas.","12Jésus","leur","dit",":","\"","Venez","déjeuner.","\"","Aucun","des"],
     "after": ["n'osait","lui","demander",":","\"","Qui","es-tu","?","\",","sachant","que","c'était","le","Seigneur.","13Jésus","vient,","il","prend","le","pain","et","il","le","leur","donne",";","et","de","même","le"],
     "element": "Disciples",
+    "length": 1
+  },
+  {
+    "position": 20012,
+    "before": ["12Jésus","leur","dit",":","\"","Venez","déjeuner.","\"","Aucun","des","disciples","n'osait","lui","demander",":","\"","Qui","es-tu","?","\",","sachant","que","c'était","le","Seigneur.","13Jésus","vient,","il","prend","le"],
+    "after": ["et","il","le","leur","donne",";","et","de","même","le","poisson.","14Ce","fut","là","la","troisième","fois","que","Jésus","se","manifesta","aux","disciples,","une","fois","ressuscité","d'entre","les","morts.","15Quand"],
+    "element": "Pain",
     "length": 1
   },
   {
@@ -7266,7 +7497,7 @@
     "position": 20049,
     "before": ["et","de","même","le","poisson.","14Ce","fut","là","la","troisième","fois","que","Jésus","se","manifesta","aux","disciples,","une","fois","ressuscité","d'entre","les","morts.","15Quand","ils","eurent","déjeuné,","Jésus","dit","à"],
     "after": [":","\"","Simon,","fils","de","Jean,","m'aimes-tu","plus","que","ceux-ci","?","\"","Il","lui","répondit",":","\"","Oui,","Seigneur,","tu","sais","que","je","t'aime.","\"","Jésus","lui","dit",":","\""],
-    "element": "Simon-Pierre",
+    "element": "Simon_Pierre",
     "length": 1
   },
   {
@@ -7333,6 +7564,13 @@
     "length": 1
   },
   {
+    "position": 20261,
+    "before": ["ainsi,","le","genre","de","mort","par","lequel","Pierre","devait","glorifier","Dieu.","Ayant","dit","cela,","il","lui","dit",":","\"","Suis-moi.","\"","20Se","retournant,","Pierre","aperçoit,","marchant","à","leur","suite,","le"],
+    "after": ["que","Jésus","aimait,","celui-là","même","qui,","durant","le","repas,","s'était","penché","sur","sa","poitrine","et","avait","dit",":","\"","Seigneur,","qui","est-ce","qui","te","livre","?","\"","21Le","voyant","donc,"],
+    "element": "Disciple",
+    "length": 1
+  },
+  {
     "position": 20263,
     "before": ["genre","de","mort","par","lequel","Pierre","devait","glorifier","Dieu.","Ayant","dit","cela,","il","lui","dit",":","\"","Suis-moi.","\"","20Se","retournant,","Pierre","aperçoit,","marchant","à","leur","suite,","le","disciple","que"],
     "after": ["aimait,","celui-là","même","qui,","durant","le","repas,","s'était","penché","sur","sa","poitrine","et","avait","dit",":","\"","Seigneur,","qui","est-ce","qui","te","livre","?","\"","21Le","voyant","donc,","Pierre","dit"],
@@ -7354,6 +7592,13 @@
     "length": 1
   },
   {
+    "position": 20334,
+    "before": ["lui","dit",":","\"","Si","je","veux","qu'il","demeure","jusqu'à","ce","que","je","vienne,","que","t'importe","?","Toi,","suis-moi.","\"","23Le","bruit","se","répandit","alors","chez","les","frères","que","ce"],
+    "after": ["ne","mourrait","pas.","Or","Jésus","n'avait","pas","dit","à","Pierre",":","\"","Il","ne","mourra","pas","\",","mais",":","\"","Si","je","veux","qu'il","demeure","jusqu'à","ce","que","je","vienne."],
+    "element": "Disciple",
+    "length": 1
+  },
+  {
     "position": 20339,
     "before": ["je","veux","qu'il","demeure","jusqu'à","ce","que","je","vienne,","que","t'importe","?","Toi,","suis-moi.","\"","23Le","bruit","se","répandit","alors","chez","les","frères","que","ce","disciple","ne","mourrait","pas.","Or"],
     "after": ["n'avait","pas","dit","à","Pierre",":","\"","Il","ne","mourra","pas","\",","mais",":","\"","Si","je","veux","qu'il","demeure","jusqu'à","ce","que","je","vienne.","\"","Conclusion.","24C'est","ce","disciple"],
@@ -7365,6 +7610,13 @@
     "before": ["ce","que","je","vienne,","que","t'importe","?","Toi,","suis-moi.","\"","23Le","bruit","se","répandit","alors","chez","les","frères","que","ce","disciple","ne","mourrait","pas.","Or","Jésus","n'avait","pas","dit","à"],
     "after": [":","\"","Il","ne","mourra","pas","\",","mais",":","\"","Si","je","veux","qu'il","demeure","jusqu'à","ce","que","je","vienne.","\"","Conclusion.","24C'est","ce","disciple","qui","témoigne","de","ces","faits"],
     "element": "Pierre",
+    "length": 1
+  },
+  {
+    "position": 20369,
+    "before": ["Jésus","n'avait","pas","dit","à","Pierre",":","\"","Il","ne","mourra","pas","\",","mais",":","\"","Si","je","veux","qu'il","demeure","jusqu'à","ce","que","je","vienne.","\"","Conclusion.","24C'est","ce"],
+    "after": ["qui","témoigne","de","ces","faits","et","qui","les","a","écrits,","et","nous","savons","que","son","témoignage","est","véridique.","25Il","y","a","encore","bien","d'autres","choses","qu'a","faites","Jésus.","Si","on"],
+    "element": "Disciple",
     "length": 1
   },
   {

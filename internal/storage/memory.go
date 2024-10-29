@@ -1,7 +1,9 @@
 package storage
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
 	"path/filepath"
 	"regexp"
 	"sort"
@@ -119,17 +121,24 @@ func (ms *MemoryStorage) GetElement(elementName string) (*models.OntologyElement
 	return nil, fmt.Errorf("element not found")
 }
 
-// GetElementRelations récupère toutes les relations d'un élément spécifique
 func (ms *MemoryStorage) GetElementRelations(elementName string) ([]*models.Relation, error) {
 	ms.mutex.RLock()
 	defer ms.mutex.RUnlock()
 
-	var relations []*models.Relation
+	// Utiliser la même normalisation que partout ailleurs
+	normalizedName := normalizeElementName(elementName)
+	log.Info(fmt.Sprintf("Searching relations for normalized element name: %s", normalizedName))
 
+	var relations []*models.Relation
 	for _, ontology := range ms.ontologies {
 		for _, relation := range ontology.Relations {
-			if relation.Source == elementName || relation.Target == elementName {
+			// Utiliser la même normalisation pour la source et la cible
+			if normalizeElementName(relation.Source) == normalizedName ||
+				normalizeElementName(relation.Target) == normalizedName {
+				// Garder la relation originale (non normalisée) pour l'affichage
 				relations = append(relations, relation)
+				log.Info(fmt.Sprintf("Found relation: %s -> %s -> %s",
+					relation.Source, relation.Type, relation.Target))
 			}
 		}
 	}
@@ -141,12 +150,19 @@ func (ms *MemoryStorage) GetElementRelations(elementName string) ([]*models.Rela
 	return relations, nil
 }
 
-func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) error {
-	log.Info(fmt.Sprintf("Loading ontology from file: %s", ontologyFile))
+// LoadOntologyFromFile loads an ontology from files including metadata
+func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile, metadataFile string) error {
+	log.Info(fmt.Sprintf("Loading ontology from file: %s with metadata: %s", ontologyFile, metadataFile))
+
+	// Charger les métadonnées
+	metadata, err := loadSourceMetadata(metadataFile)
+	if err != nil {
+		log.Error(fmt.Sprintf("Error loading metadata: %v", err))
+		return fmt.Errorf("error loading metadata: %w", err)
+	}
 
 	var elements []*models.OntologyElement
 	var relations []*models.Relation
-	var err error
 
 	// Charger l'ontologie principale
 	switch {
@@ -208,21 +224,16 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 			if len(elem.Description) > len(existingElem.Description) {
 				existingElem.Description = elem.Description
 			}
-			// Fusionner et dédupliquer les types
 			combinedTypes := existingElem.Type + "/" + elem.Type
 			existingElem.Type = deduplicateTypes(combinedTypes)
 		} else {
-			// Dédupliquer les types pour les nouveaux éléments aussi
 			elem.Type = deduplicateTypes(elem.Type)
 			normalizedElements[normalizedName] = elem
-			// Conserver le nom original
 			elem.OriginalName = elem.Name
-			// Utiliser le nom normalisé comme nouveau nom
 			elem.Name = normalizedName
 		}
 	}
 
-	// Convertir la map en slice
 	elements = make([]*models.OntologyElement, 0, len(normalizedElements))
 	for _, elem := range normalizedElements {
 		elements = append(elements, elem)
@@ -246,7 +257,6 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 		normalizedElemName := normalizeElementName(elem.Name)
 		for _, ctx := range contexts {
 			if elementInContext(normalizedElemName, ctx) {
-				// Vérifier si au moins une position de l'élément est dans la plage du contexte
 				for _, pos := range elem.Positions {
 					if pos >= ctx.StartOffset && pos <= ctx.EndOffset {
 						if _, exists := contextMap[ctx.Position]; !exists {
@@ -259,7 +269,6 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 				}
 			}
 		}
-		// Convertir la map en slice pour l'élément
 		elem.Contexts = make([]models.JSONContext, 0, len(contextMap))
 		for _, ctx := range contextMap {
 			elem.Contexts = append(elem.Contexts, ctx)
@@ -267,31 +276,21 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 		log.Info(fmt.Sprintf("Element %s has %d unique contexts after association", elem.Name, len(elem.Contexts)))
 	}
 
-	log.Info(fmt.Sprintf("Associated a total of %d unique contexts to elements", totalAssociations))
-
-	// Créer une nouvelle ontologie avec les éléments et relations parsés
+	// Créer une nouvelle ontologie avec les métadonnées
 	ontology := &models.Ontology{
 		ID:         fmt.Sprintf("onto_%d", time.Now().UnixNano()),
-		Name:       filepath.Base(ontologyFile),
+		Name:       metadata.SourceFile,
 		Filename:   ontologyFile,
 		Format:     filepath.Ext(ontologyFile)[1:],
 		Size:       0,
-		SHA256:     "",
+		SHA256:     metadata.SHA256Hash,
 		ImportedAt: time.Now(),
 		Elements:   elements,
 		Relations:  relations,
+		Source:     metadata, // Ajout des métadonnées source
 	}
 
 	log.Info(fmt.Sprintf("Created new ontology with ID: %s", ontology.ID))
-	log.Info(fmt.Sprintf("Number of elements in ontology: %d", len(ontology.Elements)))
-	log.Info(fmt.Sprintf("Number of relations in ontology: %d", len(ontology.Relations)))
-
-	// Vérification finale des contextes
-	for _, elem := range ontology.Elements {
-		log.Info(fmt.Sprintf("Element %s has %d unique contexts after ontology creation", elem.Name, len(elem.Contexts)))
-	}
-
-	// Ajouter l'ontologie au stockage
 	err = ms.AddOntology(ontology)
 	if err != nil {
 		log.Error(fmt.Sprintf("Error adding ontology to storage: %v", err))
@@ -300,6 +299,21 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile string) 
 
 	log.Info("Ontology successfully loaded and added to storage")
 	return nil
+}
+
+// loadSourceMetadata charge le fichier de métadonnées
+func loadSourceMetadata(filename string) (*models.SourceMetadata, error) {
+	data, err := os.ReadFile(filename)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read metadata file: %w", err)
+	}
+
+	var metadata models.SourceMetadata
+	if err := json.Unmarshal(data, &metadata); err != nil {
+		return nil, fmt.Errorf("failed to parse metadata JSON: %w", err)
+	}
+
+	return &metadata, nil
 }
 
 // Fonction helper pour normaliser les noms d'éléments

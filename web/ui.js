@@ -64,18 +64,34 @@ function setupModalListeners() {
     });
 }
 
-export async function updateOntologySelect() {
+async function updateOntologySelect() {
     try {
         const ontologies = await loadOntologies();
-        ontologySelect.innerHTML = '<option value="">Toutes les ontologies</option>';
+        const select = document.getElementById('ontology-select');
+        select.innerHTML = '<option value="">Tous les fichiers</option>';
+        
+        // Grouper les ontologies par fichier source
+        const fileGroups = new Map();
         ontologies.forEach(ontology => {
-            const option = document.createElement('option');
-            option.value = ontology.id;
-            option.textContent = ontology.name;
-            ontologySelect.appendChild(option);
+            if (ontology.Source) {
+                const sourceFile = ontology.Source.source_file;
+                if (!fileGroups.has(sourceFile)) {
+                    fileGroups.set(sourceFile, []);
+                }
+                fileGroups.get(sourceFile).push(ontology);
+            }
         });
+
+        // Créer les options
+        fileGroups.forEach((ontologies, sourceFile) => {
+            const option = document.createElement('option');
+            option.value = sourceFile;
+            option.textContent = sourceFile;
+            select.appendChild(option);
+        });
+
     } catch (error) {
-        console.error('Erreur lors de la mise à jour des ontologies:', error);
-        showErrorMessage('Erreur lors de la mise à jour de la liste des ontologies.');
+        console.error('Erreur lors de la mise à jour de la liste des fichiers:', error);
+        showErrorMessage('Erreur lors de la mise à jour de la liste des fichiers.');
     }
 }

@@ -2,6 +2,8 @@ package storage
 
 import (
 	"fmt"
+	"os"
+	"path/filepath"
 	"testing"
 	"time"
 
@@ -162,6 +164,57 @@ func TestConcurrency(t *testing.T) {
 		ontology, _ := ms.GetOntology(fmt.Sprintf("test%d", i))
 		if ontology.Name != fmt.Sprintf("Updated Test Ontology %d", i) {
 			t.Errorf("Ontology %d was not updated correctly", i)
+		}
+	}
+}
+func TestLoadOntologyWithMetadata(t *testing.T) {
+	ms := NewMemoryStorage()
+
+	// Créer un fichier de métadonnées temporaire
+	metadataContent := `{
+        "source_file": "test.txt",
+        "directory": "/test/path",
+        "file_date": "2024-10-29T08:54:33.959Z",
+        "sha256_hash": "test-hash",
+        "ontology_file": "test.tsv",
+        "context_file": "test_context.json",
+        "processing_date": "2024-10-29T08:54:33.959Z"
+    }`
+
+	metadataFile := filepath.Join(t.TempDir(), "metadata.json")
+	if err := os.WriteFile(metadataFile, []byte(metadataContent), 0644); err != nil {
+		t.Fatalf("Failed to create test metadata file: %v", err)
+	}
+
+	// Créer un fichier TSV minimal pour le test
+	tsvContent := "Element1\tType1\tDescription1\t1,2,3"
+	tsvFile := filepath.Join(t.TempDir(), "test.tsv")
+	if err := os.WriteFile(tsvFile, []byte(tsvContent), 0644); err != nil {
+		t.Fatalf("Failed to create test TSV file: %v", err)
+	}
+
+	// Test du chargement
+	err := ms.LoadOntologyFromFile(tsvFile, "", metadataFile)
+	if err != nil {
+		t.Errorf("Failed to load ontology with metadata: %v", err)
+	}
+
+	// Vérifier que les ontologies sont chargées avec les métadonnées
+	ontologies := ms.ListOntologies()
+	if len(ontologies) != 1 {
+		t.Errorf("Expected 1 ontology, got %d", len(ontologies))
+	}
+
+	// Vérifier les métadonnées
+	ontology := ontologies[0]
+	if ontology.Source == nil {
+		t.Error("Expected source metadata to be present")
+	} else {
+		if ontology.Source.SourceFile != "test.txt" {
+			t.Errorf("Expected source file 'test.txt', got '%s'", ontology.Source.SourceFile)
+		}
+		if ontology.Source.SHA256Hash != "test-hash" {
+			t.Errorf("Expected SHA256 hash 'test-hash', got '%s'", ontology.Source.SHA256Hash)
 		}
 	}
 }

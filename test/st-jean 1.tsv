@@ -1,1363 +1,1340 @@
-Jésus	Personne	Pâque Jésus se rend à J	100,423,686,840,977,1004,1119,1234,1265,1496,1777,2247,2256,2562,2568,2592,2672,2912,3471,3572,3650,3713,3737,3776,4024,4039,4073,4082,4799,4860,4980,5103,5144,5173,5246,5285,5946,6132,6190,6360,6369,6608,6993,7221,7415,7534,7662,7685,7703,7709,7745,7898,8065,8186,8355,8866,9100,9167,9415,9976,10679,10685,10795,10809,10841,11005,11058,11102,11120,11365,11506,11583,11744,11780,11856,11917,11925,11961,12126,12140,12219,12308,13073,13264,13575,13620,13705,13739,13778,13910,16797,16838,16895,16920,16950,17049,17068,17137,17248,17330,17453,17459,17584,17688,17814,18003,18011,18124,18273,18292,18447,18457,18538,18575,18790,18810,18924,19177,19346,19536,19658,19688,19769,19845,20031,20046,20075,20113,20173,20263,20295,20339
-Disciples	Groupe	Jésus Les disciples accompagnent Jésus	103,854,1452,1574,1668,2260,2313,2580,2599,2682,3201,3229,5011,5107,5119,5260,5291,6106,6127,6244,6411,8887,9545,10874,10884,10977,11043,12209,13076,13195,13601,13887,15129,15700,16044,16802,16841,17195,17251,17399,19080,19306,19376,19463,19526,19634,19694,19725,19778,19992
-Judas_Iscariote	Personne	Jésus Judas est désigné comme celui qui trahira Jésus	533,534,535,536,537,538
-Simon-Pierre	Personne	Jésus Simon-Pierre affirme sa croyance en Jésus	17120,17381,19868,19950,20049
-Dieu	Entité_Divine	Entité divine suprême dans le christianisme	91,146,205,429,1203,1793,1808,2092,2120,2493,2501,2552,2745,4130,4679,4725,5415,5831,6662,8433,8442,8573,8578,9460,9575,9618,10576,10827,10834,11148,11498,11768,13067,13157,13791,13798,13804,19295,19597
-Satan	Entité_Spirituelle	Force maléfique	13701
-Pharisiens	Groupe	Groupe religieux juif de l'époque de Jésus	1761,2572,7365,7389,7519,7749,9183,9221,11627,11640,11889,12285,12866
-Lazare	Personne	Béthanie Lazare réside dans le village de Béthanie	10784,10964,11011,11060,11939,12251
-Marthe	Personne	Lazare Marthe est la sœur de Lazare	10843,11086,11099,11283,11937
-Marie	Personne	Lazare Marie est la sœur de Lazare	10757,11089,11111,11295,11610,18473,18889,19088,19234
-Béthanie	Lieu	Village où vivaient Lazare, Marie et Marthe	675
-Jérusalem	Lieu	Ville sainte, lieu de plusieurs événements importants	484,1699,2980,3007,3517,6363,12143
-Temple	Lieu	Centre du culte juif à Jérusalem	1504,4044,6611,10337,11869,17279
-Pâque	Événement	Fête juive importante	31,45,80,87,1484,1490,4782,11826,11833,13063,18147
-Foule	acclame	Jésus La foule suit et écoute les enseignements de Jésus	4033,4815,4856,5226,5282,6728,7028,7393,11537,12075,12132,12242,12267,12515,12606
-Père	Entité_Divine	Dieu le Père dans la Trinité chrétienne	353,1567,2516,2797,3050,3707,4099,4176,4189,4217,4238,4276,4353,4557,4576,4580,4687,5517,5607,5741,5776,5810,7881,7895,7909,8150,8329,8423,8492,8536,8745,10140,10204,10394,10470,10501,10591,10655,12457,13014,13049,13144,14109,14121,14142,14182,14199,14203,14224,14237,14240,14304,14334,14427,14458,14511,14549,14572,14659,14714,14721,14741,14913,14926,14957,15107,15403,15560,15653,15974,16000,16024,16124,16430,19289,19400
-Fils_de_l'homme	Personne	Titre utilisé par Jésus pour se désigner	5966,6146,9701,12641,13784
-Esprit	Entité_Divine	Promis par Jésus, donne la vie	761,797,806,1912,2512,3052,3074,6157,6174,7201,11369,13580,14568,15338,15600,19422
-Pain_de_vie	Concept	Métaphore utilisée par Jésus pour se décrire	47,4784
-Lumière_du_monde	Concept	Rôle que Jésus s'attribue	1036
-Scribes	Groupe	Experts de la loi juive	7516
-Juifs	Groupe	Abraham Les Juifs se réclament d'Abraham	480,1492,1592,1627,2724,3774,3951,4070,4080,4112,5702,5920,6385,6542,7088,7975,8193,8593,8672,8818,9293,9403,9408,9441,10257,10344,10476,10513,10893,11081,11291,11361,11395,11595,11604,11788,11835,12077,13838,17066,17102,17283,17536,17594,17788,17854,17959,18095,18157,18279,18285,18316
-Moïse	Personne	Donneur de la Loi mentionné dans les discussions	413,1043,2065,5502,6770,7551,9566,9579
-David	Personne	Messie Lignée attendue du Messie	7286
-Nicodème	Personne	Jésus Nicodème a un entretien nocturne avec Jésus	259
-Judas	Personne	Disciple qui a trahi Jésus	11979,13131,13732
-Aveugle_né	Personne	Homme né aveugle et guéri par Jésus
-Abraham	Personne	Patriarche, père des Juifs	8229,8304,8391,8685,8833
-Siloé	Lieu	Piscine à Jérusalem	9002,9118
+Jésus	Personne	Identité_Messianique Jésus se déclare être le Messie	100,423,686,840,977,1004,1119,1234,1265,1496,1777,2247,2256,2562,2568,2592,2672,2912,3471,3572,3650,3713,3737,3776,4024,4039,4073,4082,4799,4860,4980,5103,5144,5173,5246,5285,5946,6132,6190,6360,6369,6608,6993,7221,7415,7534,7662,7685,7703,7709,7745,7898,8065,8186,8355,8866,9100,9167,9415,9976,10679,10685,10795,10809,10841,11005,11058,11102,11120,11365,11506,11583,11744,11780,11856,11917,11925,11961,12126,12140,12219,12308,13073,13264,13575,13620,13705,13739,13778,13910,16797,16838,16895,16920,16950,17049,17068,17137,17248,17330,17453,17459,17584,17688,17814,18003,18011,18124,18273,18292,18447,18457,18538,18575,18790,18810,18924,19177,19346,19536,19658,19688,19769,19845,20031,20046,20075,20113,20173,20263,20295,20339
+Aveugle_né	Personne	Homme guéri par Jésus, signe de sa divinité
+Pharisiens	Groupe	Groupe religieux en opposition à Jésus	1761,2572,7365,7389,7519,7749,9183,9221,11627,11640,11889,12285,12866
+Juifs	Groupe	Jesus_Christ Les autorités religieuses remettent en question l'autorité de Jésus	480,1492,1592,1627,2724,3774,3951,4070,4080,4112,5702,5920,6385,6542,7088,7975,8193,8593,8672,8818,9293,9403,9408,9441,10257,10344,10476,10513,10893,11081,11291,11361,11395,11595,11604,11788,11835,12077,13838,17066,17102,17283,17536,17594,17788,17854,17959,18095,18157,18279,18285,18316
+Disciples	Groupe	Jésus Les disciples sont les suiveurs de Jésus	103,854,1452,1574,1668,2260,2313,2580,2599,2682,3201,3229,5011,5107,5119,5260,5291,6106,6127,6244,6411,8887,9545,10874,10884,10977,11043,12209,13076,13195,13601,13887,15129,15700,16044,16802,16841,17195,17251,17399,19080,19306,19376,19463,19526,19634,19694,19725,19778,19992
+Parents_aveugle	Groupe	Juifs Les parents de l'aveugle craignent les Juifs
+Moïse	Personne	Figure prophétique de référence pour les Juifs	413,1043,2065,5502,6770,7551,9566,9579
+Fils_de_l'homme	Personne	Titre que Jésus s'attribue	5966,6146,9701,12641,13784
+Abraham	Personne	Figure patriarcale de référence pour les Juifs	8229,8304,8391,8685,8833
+Dieu	Entité_divine	Jésus Dieu envoie Jésus dans le monde	91,146,205,429,1203,1793,1808,2092,2120,2493,2501,2552,2745,4130,4679,4725,5415,5831,6662,8433,8442,8573,8578,9460,9575,9618,10576,10827,10834,11148,11498,11768,13067,13157,13791,13798,13804,19295,19597
+Siloé	Lieu	Piscine mentionnée dans la guérison de l'aveugle	9002,9118
+Temple	Lieu	Lieu de culte à Jérusalem	1504,4044,6611,10337,11869,17279
 Synagogue	Lieu	Lieu de culte et d'enseignement juif	5220,6097,17275
-Jean	Personne	Disciple que Jésus aimait	3,132,680,752,828,870,944,990,1690,2315,2327,2560,2586,3469,4261,4498,4551,5094,5999,6813,7477,8270,9202,10148,10702,10718,10728,10907,11814,12512,13346,14187,15065,15835,16721,17548,18404,19077,19899
-Écritures	Texte_Sacré	Textes sacrés du judaïsme	192
-Galilée	Lieu	Région où Jésus a exercé son ministère	1010,1444,4809,6372,7269,7458
-Tibériade	Lieu	Ville près de la mer de Galilée	5266,19684
-Capharnaüm	Lieu	Ville où Jésus a vécu et enseigné	5300
-Samarie	Lieu	Région entre la Judée et la Galilée	2624,2666
-Sychar	Lieu	Ville de Samarie
-Puits_de_Jacob	Lieu	Puits où Jésus rencontre la Samaritaine
-Samaritains	croient_en	Groupe ethnique et religieux distinct des Juifs	3370,3407
-Jean_Baptiste	Personne	Jourdain Jean baptise les gens dans le Jourdain
-Élie	Personne	Prophète mentionné dans le texte	524
-Isaïe	Personne	Prophète cité par Jean-Baptiste	12761,12790
-Jourdain	Lieu	Fleuve où Jean baptisait	1122
-Israël	Lieu	Pays mentionné dans le texte	742,12175
-Esprit_Saint	Entité_Spirituelle	Troisième personne de la Trinité chrétienne	738
-André	Personne	Disciple de Jésus, frère de Simon-Pierre	1029,12359,12361
-Philippe	Personne	Disciple de Jésus	1014,1080,1126,4863,12363,14167
+Jean_Baptiste	Personne	Personnes Jean baptise dans le Jourdain
 Nathanaël	Personne	Disciple de Jésus
-Bethsaïde	Lieu	Ville d'origine de certains disciples	12337
+Philippe	Personne	Disciple de Jésus	1014,1080,1126,4863,12363,14167
+Cana	Lieu	Ville de Galilée où Jésus a fait des miracles	1227,1442,3534,3546,19713
+Capharnaüm	Lieu	Ville où Jésus a exercé son ministère	5300
+Jérusalem	Lieu	Ville où se déroulent plusieurs événements	484,1699,2980,3007,3517,6363,12143
+Pâque	Évènement	Fête juive mentionnée dans le texte	31,45,80,87,1484,1490,4782,11826,11833,13063,18147
+Noces_de_Cana	Évènement	Mariage où Jésus accomplit son premier miracle	521
+Purification_du_Temple	Évènement	Jésus chasse les marchands du Temple	1940
+Verbe	Concept	Jésus_Christ Le Verbe est présenté comme Jésus Christ	140,143,149,242,332
+Père	Entité_Divine	Jesus_Christ Dieu le Père est présenté comme ayant envoyé Jésus	353,1567,2516,2797,3050,3707,4099,4176,4189,4217,4238,4276,4353,4557,4576,4580,4687,5517,5607,5741,5776,5810,7881,7895,7909,8150,8329,8423,8492,8536,8745,10140,10204,10394,10470,10501,10591,10655,12457,13014,13049,13144,14109,14121,14142,14182,14199,14203,14224,14237,14240,14304,14334,14427,14458,14511,14549,14572,14659,14714,14721,14741,14913,14926,14957,15107,15403,15560,15653,15974,16000,16024,16124,16430,19289,19400
+Simon_Pierre	Personne	Disciple de Jésus, appelé Céphas par Jésus	17120,17381,19868,19950,20049
+Anne	Personne	Jésus Anne interroge Jésus	17051,17077
+Caïphe	Personne	Jésus Prophétie involontaire sur la mort de Jésus	17093,17462
+Malchus	Personne	Serviteur du grand prêtre dont l'oreille fut coupée	150
+Pilate	Personne	Jésus Pilate a condamné Jésus à la crucifixion	17574,17865,17908,17935,17984,18088,18177,18319,18622,18762,18770
+Judas	Personne	Jésus Judas est annoncé comme le traître	11979,13131,13732
+Paraclet	Entité_Divine	Disciples L'Esprit Saint enseignera toutes choses aux disciples	15503
+Esprit_Saint	Entité_Divine	Troisième personne de la Trinité	84
+Esprit_de_vérité	Entité_Divine	Autre nom pour l'Esprit Saint	875
+Prince_du_monde	Entité_Spirituelle	Figure représentant le mal dans le monde
+Élie	Personne	Prophète mentionné dans le texte	524
+Isaïe	Personne	Prophète de l'Ancien Testament	12761,12790
+Béthanie	Lieu	Village de Lazare, Marie et Marthe	675
+Jourdain	Lieu	Fleuve où Jésus se retire	1122
+Israël	Lieu	Nation mentionnée dans le contexte de la manifestation de Jésus	742,12175
+André	Personne	Disciple de Jésus	1029,12359,12361
+Simon-Pierre	Personne	Jésus Simon-Pierre affirme sa foi en Jésus	17120,17381,19868,19950,20049
 Nazareth	Lieu	Ville d'origine de Jésus	2883
-Joseph	Personne	Fils de Jacob	18746
-Jesus	Personne	Pain Jésus nourrit miraculeusement une foule
-Loi	Concept	Ensemble des prescriptions religieuses juives	409,6708,6718,6803,7422,7860,10555,12617,15320,17967,17971
-Sabbat	Concept	Jour de repos hebdomadaire juif	6828,9237,18610,18614
-Judée	Lieu	Région au sud de la Galilée	2264,2604,3576,3744
-Bethléem	Lieu	Lieu de naissance présumé du Messie
-Mont_des_Oliviers	Lieu	Lieu où Jésus se retire
-Messie	doit_naître_à	Sauveur attendu par les Juifs	965,3092
-Evangile_selon_Saint_Jean	Document	Heure_de_Jésus Moment culminant du récit	4
-Prologue	Section	Verbe Concept central du prologue	8
-Mystère_de_Jésus	Concept	Nouvelle_Économie Nouvelle alliance instaurée par Jésus
-Nouvelle_Économie	Concept	Semaine_inaugurale Début du ministère de Jésus	22,460
-Semaine_inaugurale	Événement	Première semaine du ministère de Jésus	26,464
-Fête_des_Tentes	Événement	Fête juive pendant laquelle Jésus enseigne	55,6350
-Fête_de_la_Dédicace	Événement	Fête juive mentionnée dans le texte	328
-Ministère_public	Concept	Période d'enseignement et de prédication de Jésus	73,11819
-Heure_de_Jésus	Concept	Résurrection Retour à la vie de Jésus
-Passion	Événement	Souffrances de Jésus avant sa crucifixion	109,16789
-Résurrection	Événement	Retour à la vie de Jésus après sa mort	118,4417,4428,10742,18878
-Verbe	Concept	Jésus Le Verbe divin s'incarne en Jésus	140,143,149,242,332
-Jésus_Christ	Personne	Grâce_et_Vérité Nouvelle révélation divine	2273
-Grands_prêtres	Groupe	Autorités religieuses juives	7334,11636,11885,12101,16856,17629,17921,18188,18313
-Caïphe	Personne	Temple Fonction religieuse	17093,17462
-Romains	Groupe	Peuple de l'Empire romain	11668
-Judas_l'Iscariote	Personne	Jésus Acte de trahison futur	2102
-Jean_le_Baptiste	Personne	Précurseur de Jésus
-Éphraïm	Lieu	Ville où Jésus s'est retiré	1065
-Paraclet	Entité_Divine	L'Esprit Saint, envoyé par le Père	15503
-Monde	Concept	Réalité terrestre opposée au royaume de Dieu	264,270,2097,2128,2137,2181,4949,6470,8019,8099,9767,10598,10937,12302,12430,12568,12575,13099,14354,14401,14494,14613,14696,14709,15135,15154,15179,15527,15577,15818,16035,16144,16286,16417,16507,16639,16680,16741,20411
-Vérité	Concept	Personnes La vérité enseignée par Jésus est libératrice	419,2228,3077,8214,8217,8516,14101,15487,15608,16559,17722,17735
-Vie_éternelle	Concept	Promesse de vie sans fin pour les croyants	2533,4302,5991,10429,16206
-Gloire	Concept	Manifestion de la grandeur divine	348,1449,4711,4721,6677,6684,8640,8739,9458,10825,11496,12842,12883,12889,14910,16264,16650
-Amour	Concept	Sentiment central dans l'enseignement de Jésus	4677,13893,15002,16774
-Commandements	Concept	Enseignements et instructions de Jésus	14328,14440,14954
-Vigne	Métaphore	Image utilisée par Jésus pour se décrire	14730,14737,14828
-Sarments	Métaphore	Image utilisée pour décrire les disciples	1451
-Prince_du_monde	Entité_Spirituelle	Figure représentant le pouvoir du mal sur terre
-Christ	Titre	Équivalent grec de Messie	3185,6886,7258,7272,7299,12620
-Fils_de_Dieu	Titre	Titre attribué à Jésus	10832
-Bon_Pasteur	Titre	Titre que Jésus s'attribue	10067,10071,10126
-Thomas	Personne	Résurrection Incrédulité initiale de Thomas	19533,19560
-Pilate	Personne	Crucifixion Décision de Pilate concernant Jésus	17574,17865,17908,17935,17984,18088,18177,18319,18622,18762,18770
-Soldats	Groupe	Crucifixion Rôle des soldats dans la mort de Jésus	18362,18633
-Golgotha	Lieu	Lieu de la crucifixion de Jésus	18235
-Croix	Objet	Instrument de supplice sur lequel Jésus fut crucifié	18296,18455,18607
-César	Personne	Empereur romain	18109,18198
-Anne	Personne	Caïphe Lien familial	17051,17077
-Malchus	Personne	Serviteur du grand prêtre dont l'oreille a été coupée	150
-Royaume	Concept	Royaume de Dieu	1838,1895,17644,17652,17672
-Barabbas	Personne	Prisonnier libéré à la place de Jésus	17802,17806
-Esprit_de_Vérité	Entité_Divine	Autre nom du Saint-Esprit	2077
-Brebis	Entité	Jésus Les brebis suivent Jésus car elles connaissent sa voix	1510,1532,9892,9898,9929,10012,10100,10132,10135,10165,10413
-Portier	Personne	Ouvre la porte aux brebis	9887
-Voleur	Personne	Vient pour voler et faire périr les brebis	9870,10040,12023
-Brigand	Personne	Vient pour voler et faire périr les brebis	9873
-Bon_pasteur	Rôle	Brebis Le bon pasteur est prêt à sacrifier sa vie pour ses brebis	10067,10071,10126
-Mercenaire	Personne	Brebis Le mercenaire fuit face au danger, laissant les brebis	10114
-Loup	Entité	Brebis Le loup représente une menace pour les brebis	10105
+Galilée	Lieu	Région où Jésus a exercé son ministère	1010,1444,4809,6372,7269,7458
+Bethsaïde	Lieu	Ville d'origine d'André et Pierre	12337
+Judas_Iscariote	Personne	Apôtre ayant trahi Jésus	2128
+Lazare	Personne	Marthe Lazare est le frère de Marthe	10784,10964,11011,11060,11939,12251
+Marthe	Personne	Sœur de Lazare et Marie	10843,11086,11099,11283,11937
+Marie	Personne	Marthe Marie est la sœur de Marthe	10757,11089,11111,11295,11610,18473,18889,19088,19234
+Grands_prêtres	Groupe	Jésus Les autorités cherchent à faire mourir Jésus	7334,11636,11885,12101,16856,17629,17921,18188,18313
+Marie_de_Magdala	Personne	Disciple de Jésus, première à le voir ressuscité	18889
+Joseph_d'Arimathie	Personne	Jésus Joseph a demandé le corps de Jésus pour l'enterrer	53
+Nicodème	Personne	Jésus Nicodème cherche à comprendre l'enseignement de Jésus	2477
+Anges	Être_Spirituel	Marie_de_Magdala Des anges se manifestent à Marie au tombeau	1201
+Golgotha	Lieu	Lieu de crucifixion de Jésus	18235
+Croix	Objet	Instrument de crucifixion de Jésus	18296,18455,18607
+Tombeau	Lieu	Endroit où Lazare était enterré	11063,11317,12254,18847,18865,18880,18938,19011,19111
+Résurrection	Événement	Retour à la vie après la mort	118,4417,4428,10742,18878
+Crucifixion	Événement	Golgotha Jésus a été crucifié au lieu dit Golgotha
+Ensevelissement	Événement	Mise au tombeau du corps de Jésus	8
+Apparition	Événement	Mer_de_Tibériade Jésus est apparu aux disciples près de la mer de Tibériade	19086,19678
+Préparation	Événement	Jour précédant le sabbat	18144,18860
+Sabbat	Événement	Jour de repos hebdomadaire	6828,9237,18610,18614
+Écriture	Texte	Résurrection Les textes sacrés annoncent la résurrection	1679,7188,10581,13505,16475,18423,18534,18718,18732
+Jesus	Personne	Judée Lieu de danger
 Aveugle-né	Personne	Homme guéri par Jésus
-Grecs	Groupe	Non-Juifs mentionnés dans le texte	7113,7117
+Esprit	Entité_Divine	Croyants L'Esprit permet une renaissance spirituelle	761,797,806,1912,2512,3052,3074,6157,6174,7201,11369,13580,14568,15338,15600,19422
+Mont_des_Oliviers	Lieu	Endroit où Jésus se retire	2928
+Judée	Lieu	Région mentionnée dans le texte	2264,2604,3576,3744
+Bethléem	Lieu	Lieu de naissance de Jésus selon la tradition
+Grand_prêtre	Personne	Jésus Les grands prêtres demandent la crucifixion de Jésus	11686,11737,17012,17088,17132,17245,17341
+Disciple	Personne	Jésus Les disciples suivent Jésus	9560,17128,18487,18505,18516,18750,19843,20261,20334,20369
+Soldat_romain	Personne	Jésus Les soldats romains exécutent la crucifixion
+Juif	Groupe	Jésus Les Juifs s'opposent à Jésus et demandent sa crucifixion	2318
+Prétoire	Lieu	Résidence officielle du gouverneur romain	17580,17999
+César	Personne	Empereur romain	18109,18198
+Royaume	Concept	Royaume spirituel de Jésus	1838,1895,17644,17652,17672
+Vérité	Concept	Notion centrale dans l'enseignement de Jésus	419,2228,3077,8214,8217,8516,14101,15487,15608,16559,17722,17735
+Monde	Concept	Disciples Le monde est décrit comme haïssant les disciples de Jésus	264,270,2097,2128,2137,2181,4949,6470,8019,8099,9767,10598,10937,12302,12430,12568,12575,13099,14354,14401,14494,14613,14696,14709,15135,15154,15179,15527,15577,15818,16035,16144,16286,16417,16507,16639,16680,16741,20411
+Pain_de_vie	Concept	Métaphore utilisée par Jésus pour se décrire	47,4784
 Douze	Groupe	Les douze apôtres choisis par Jésus	5032,6261,6317,10916
-Manne	Objet	Nourriture miraculeuse dans l'Exode	5463,5867
-Saint_de_Dieu	Titre	Titre attribué à Jésus par Simon-Pierre	2781
-Royaume_de_Dieu	Concept_Spirituel	Concept central de l'enseignement de Jésus	819
-Cana	Lieu	Village où Jésus a accompli son premier miracle	1227,1442,3534,3546,19713
-Eau_vive	Concept	Métaphore utilisée par Jésus pour décrire l'Esprit	1051,2789
-Multiplication_des_pains	Événement	Miracle réalisé par Jésus
-Marche_sur_l'eau	Événement	Miracle réalisé par Jésus
-Circoncision	Rite	Pratique rituelle juive	6764
-Signe	Concept	Acte miraculeux réalisé par Jésus	1602,3532,5053,5443,10722,13632
-Œuvre	Concept	Actions accomplies par Jésus ou Dieu	3265,4102,4141,5423,5455,6751,10524,16248
-Doctrine	Concept	Enseignement de Jésus	6638,6659
-Marie_de_Magdala	Personne	Tombeau_vide Constat initial de la résurrection	18889
-Joseph_d'Arimathie	Personne	Disciple secret de Jésus qui s'occupa de son corps	53
-Anges	Être_spirituel	Êtres spirituels vus au tombeau	1201
-Mer_de_Tibériade	Lieu	Lac où Jésus apparut aux disciples après sa résurrection	2167
-Tombeau	Lieu	Endroit où le corps de Jésus fut déposé	11063,11317,12254,18847,18865,18880,18938,19011,19111
-Crucifixion	Événement	Exécution de Jésus sur la croix
-Apparition	Événement	Manifestation de Jésus ressuscité	19086,19678
-Baptême	Rituel	Rite d'initiation pratiqué par Jean et Jésus
-Témoignage	Concept	Attestation de la vérité ou de faits observés	217,237,366,447,467,475,754,1738,2251,2490,4470,4474,4490,4503,4512,4549,4573,7743,7758,7763,7778,7782,7863,17714,18693,18696,20385
-Vie_Éternelle	Concept	Existence spirituelle sans fin auprès de Dieu	2533,4302,5991,10429,16206
-Lumière	Concept	Ténèbres Contraste symbolique entre vérité	181,186,245,2176,2206,7704,7721,7736,8964,10934,10949,12657
-Ténèbres	Concept	Symbole d'ignorance et d'éloignement de Dieu	190,193,2189,12672,12682
-Agneau_de_Dieu	Titre	Désignation sacrificielle de Jésus	89,13065
-Disciple_bien-aimé	Personne	Jésus Le disciple bien-aimé croit après avoir vu le tombeau vide
-Marie_mère_de_Jésus	Personne	Jésus Marie est au pied de la croix
-Samaritaine	Personne	Femme de Samarie qui rencontre Jésus au puits	2698,2720
-Jean-Baptiste	Personne	Jésus Jean-Baptiste annonce la venue de Jésus
-Eau_Vive	Concept_Spirituel	Métaphore pour l'enseignement spirituel de Jésus	2789
-Prophète	Titre	Personne inspirée par Dieu pour transmettre un message	541,628,3492,5067,7249,12763
-Sauveur_du_monde	Titre	Titre attribué à Jésus par les Samaritains	3084
-Vigneron	Entité	Métaphore pour Dieu le Père
-Vie	Entité	Vie éternelle offerte par Jésus	49,178,2089,2117,2533,2546,2860,3313,4231,4302,4358,4370,4632,4653,4786,5378,5545,5691,5851,5915,5978,5991,6286,10058,10075,10158,10429,12419,12427,12434,13038,13950,13961,15008,16206,16219,19673
-Chemin	Entité	Jésus comme voie vers Dieu	595,14088
-Paix	Entité	État de tranquillité intérieure donné par Jésus	14595,14599,16139,19359,19394,19552
-Joie	Entité	Sentiment de bonheur promis aux disciples	2422,14971,14978,15868,15948,16497,19380
-Péché	Entité	Personnes Le péché est décrit comme rendant esclave	702,7612,8264,8557,9672,9822,9832,15257,15267,15294
-Justice	Entité	Concept lié au jugement divin	15535
-Jugement	Entité	Acte de discernement divin	2173,4249,4381,4447,7831,12565,15540
-Pierre	Personne	Disciple de Jésus	7618,11449,11458,17027,17146,17187,17234,17426,17446,18907,19850,20138,20238,20254,20292,20344
-Fils	Entité_divine	Jésus en tant que Fils de Dieu dans la Trinité	355,432,988,1059,1146,1209,2061,2078,2102,2125,2165,2519,2530,2541,2637,2813,3538,3565,3641,3720,4163,4183,4229,4247,4257,4272,4342,4366,4385,5385,5684,5734,5966,6146,6331,8127,8283,8291,9323,9350,9701,10611,10832,11223,12382,12634,12641,12703,13133,13693,13784,16187,16470,17979,19663,19717,20053,20095,20132
+Fête_des_Tentes	Evénement	Fête juive mentionnée dans le texte	55,6350
+Thomas	Personne	Disciple de Jésus, aussi appelé Didyme	19533,19560
+Jean	Personne	Jésus Jean-Baptiste atteste la mission de Jésus	3,132,680,752,828,870,944,990,1690,2315,2327,2560,2586,3469,4261,4498,4551,5094,5999,6813,7477,8270,9202,10148,10702,10718,10728,10907,11814,12512,13346,14187,15065,15835,16721,17548,18404,19077,19899
+Soldats	Groupe	Jésus Exécution de la sentence	18362,18633
+Pêche_miraculeuse	Événement	Capture abondante de poissons sur l'ordre de Jésus
+Mer_de_Tibériade	Lieu	Lac où Jésus est apparu après sa résurrection	2167
+Filet	Objet	Outil de pêche des disciples	19814,19911,19977
+Pain	Objet	Nourriture partagée par Jésus ressuscité	47,4784,4901,5358,5480,5508,5523,5533,5569,5720,5856,5873,5891,5899,5906,6063,6085,13512,20012
+Poisson	Objet	Nourriture partagée par Jésus ressuscité	19796,19929
+Royaume_de_Dieu	Concept_spirituel	Royaume spirituel annoncé par Jésus	819
+Baptême	Rituel	Rite d'initiation pratiqué par Jean-Baptiste et Jésus
+Vie_éternelle	Concept_spirituel	Promesse faite par Jésus à ses fidèles	2533,4302,5991,10429,16206
+Samaritains	Groupe	Habitants de la Samarie	3370,3407
+Eau_vive	Concept_spirituel	Métaphore utilisée par Jésus pour décrire l'Esprit	1051,2789
+Lumière	Concept_spirituel	Métaphore pour la vérité et la révélation divine	181,186,245,2176,2206,7704,7721,7736,8964,10934,10949,12657
+Ténèbres	Concept_spirituel	Métaphore pour l'ignorance et le péché	190,193,2189,12672,12682
+Joie	Concept	Sentiment promis aux disciples	2422,14971,14978,15868,15948,16497,19380
+Tristesse	Concept	Joie La tristesse des disciples se changera en joie	15478,15827
+Gloire	Concept	Manifestatiion de la grandeur divine	348,1449,4711,4721,6677,6684,8640,8739,9458,10825,11496,12842,12883,12889,14910,16264,16650
+Vigne	Métaphore	Symbole représentant Jésus et ses disciples	14730,14737,14828
+Amour	Concept	Thème central de l'enseignement de Jésus	4677,13893,15002,16774
+Commandements	Concept	Enseignements et ordres de Jésus	14328,14440,14954
+Romains	Groupe	Autorité occupante en Judée	11668
+Judas_l'Iscariote	Personne	Jésus Trahison de Jésus par Judas	2102
+Foule	acclame	Jésus La foule assiste aux enseignements de Jésus	4033,4815,4856,5226,5282,6728,7028,7393,11537,12075,12132,12242,12267,12515,12606
+Jugement	Concept	Jugement divin	2173,4249,4381,4447,7831,12565,15540
+Œuvres	Concept	Actions accomplies par Jésus ou ses disciples	2195,2218,2239,4206,4554,4566,5413,6415,6488,8367,8400,8927,8939,10386,10507,10621,14250,14269,15284
+Témoignage	Concept	Preuve de la divinité de Jésus	217,237,366,447,467,475,754,1738,2251,2490,4470,4474,4490,4503,4512,4549,4573,7743,7758,7763,7778,7782,7863,17714,18693,18696,20385
+Écritures	Texte	Textes sacrés du judaïsme et du christianisme	192
+Tibériade	Lieu	Ville près de la mer de Galilée	5266,19684
+Bethesda	Lieu	Piscine à Jérusalem où Jésus a guéri un infirme	3795
+Péché	Concept	État d'éloignement de Dieu selon l'enseignement de Jésus	702,7612,8264,8557,9672,9822,9832,15257,15267,15294
+Liberté	Concept	État d'affranchissement du péché selon Jésus
+Diable	Entité	Figure du mal dans la tradition chrétienne	13125
+Parole	Concept	Père Origine divine de l'enseignement de Jésus	1595,1683,3381,3648,4148,4292,6114,7122,7713,8315,10574,12758,12771,12989,14539,14780,15184,15316,16504,16562,16981,17562
+Lumière_du_monde	Titre	Titre que Jésus s'attribue	1036
+Chair	Concept	Corps de Jésus donné symboliquement aux croyants	335,1904,5912,5940,5964,5984,6007,6021,6161,7816
+Sang	Concept	Sang de Jésus donné symboliquement aux croyants	5988,6014,6025,18684
+Esprit_de_Vérité	Entité_divine	Autre nom pour le Paraclet ou l'Esprit Saint	2077
+Pierre	Personne	Apôtre de Jésus, aussi appelé Simon-Pierre	7618,11449,11458,17027,17146,17187,17234,17426,17446,18907,19850,20138,20238,20254,20292,20344
 Maison_du_Père	Lieu_spirituel	Demeure céleste promise par Jésus
-Œuvres	Action	Actes accomplis par Jésus ou ses disciples	2195,2218,2239,4206,4554,4566,5413,6415,6488,8367,8400,8927,8939,10386,10507,10621,14250,14269,15284
-Prière	Action	Acte de communication avec Dieu	16159
-Foi	Concept_spirituel	Croyance et confiance en Jésus	247
-Fruit	Métaphore	Résultat de la vie en Christ	3310,14805,14846,14919,15093,15097
-Parole	Concept	Enseignement de Jésus et révélation divine	1595,1683,3381,3648,4148,4292,6114,7122,7713,8315,10574,12758,12771,12989,14539,14780,15184,15316,16504,16562,16981,17562
-Simon_Pierre	Personne	Jésus Relation de disciple à maître	17120,17381,19868,19950,20049
-Mauvais	Entité_Spirituelle	Figure du mal, Satan
-Cohorte	Groupe	Unité militaire romaine	16849
-Glaive	Objet	Épée utilisée par Simon-Pierre	17032
-Prétoire	Lieu	Lieu du jugement de Jésus par Pilate	17580,17999
-Jardin	Lieu	Lieu de l'arrestation de Jésus	16815,17439,18834
-Arrestation	Événement	Capture de Jésus par les autorités	16790
-Reniement	Événement	Refus de Pierre de reconnaître Jésus	17054
-Salomon	Personne	Roi d'Israël, constructeur du premier Temple
-Saint_Esprit	Entité_divine	Trinité Concept théologique
-Grand_prêtre	Rôle	Chef religieux des Juifs	11686,11737,17012,17088,17132,17245,17341
+Chemin	Concept_spirituel	Une des qualités que Jésus s'attribue	595,14088
+Vie	Concept_spirituel	Une des qualités que Jésus s'attribue	49,178,2089,2117,2533,2546,2860,3313,4231,4302,4358,4370,4632,4653,4786,5378,5545,5691,5851,5915,5978,5991,6286,10058,10075,10158,10429,12419,12427,12434,13038,13950,13961,15008,16206,16219,19673
+Foi	Concept_spirituel	Croyance en Jésus et ses enseignements	247
+Fruit	Métaphore	Résultat de la vie spirituelle des disciples	3310,14805,14846,14919,15093,15097
+Samarie	Lieu	Région entre la Judée et la Galilée	2624,2666
+Signes	Concept	Miracles accomplis par Jésus	1436,1715,1803,3607,4822,7017,9252,12730,12745
+Fils	Personne	Jésus en tant que Fils de Dieu	355,432,988,1059,1146,1209,2061,2078,2102,2125,2165,2519,2530,2541,2637,2813,3538,3565,3641,3720,4163,4183,4229,4247,4257,4272,4342,4366,4385,5385,5684,5734,5966,6146,6331,8127,8283,8291,9323,9350,9701,10611,10832,11223,12382,12634,12641,12703,13133,13693,13784,16187,16470,17979,19663,19717,20053,20095,20132
+Fils_de_Dieu	Titre	Titre donné à Jésus	10832
+Christ	Titre	Équivalent grec de Messie	3185,6886,7258,7272,7299,12620
+Agneau_de_Dieu	Titre	Titre donné à Jésus par Jean-Baptiste	89,13065
+Pain_de_Vie	Concept_Spirituel	Métaphore utilisée par Jésus pour se décrire	47,4784
+Vie_Éternelle	Concept_Spirituel	Promesse faite à ceux qui croient en Jésus	2533,4302,5991,10429,16206
+Evangile_selon_Saint_Jean	Document	Mystère_de_Jésus L'Evangile explore le mystère de Jésus	4
+Prologue	Section	Introduction de l'Evangile selon Saint Jean	8
+Mystère_de_Jésus	Concept	Thème central de l'Evangile de Jean
+Nouvelle_économie	Concept	Mystère_de_Jésus La nouvelle économie est liée au mystère de Jésus	22,460
+Semaine_inaugurale	Evénement	Nouvelle_économie La semaine inaugurale marque le début de la nouvelle économie	26,464
+Fête_de_la_Dédicace	Evénement	Evangile_selon_Saint_Jean La Fête de la Dédicace est mentionnée dans l'Evangile	328
+Ministère_public	Concept	Heure_de_Jésus Le ministère public de Jésus précède son "heure"	73,11819
+Heure_de_Jésus	Concept	Résurrection L'heure de Jésus comprend sa Résurrection
+Passion	Evénement	Souffrances et mort de Jésus	109,16789
+Jésus_Christ	Personnage	Nouvelle_économie Jésus Christ instaure la nouvelle économie	2273
+Éphraïm	Lieu	Ville où Jésus s'est retiré
+Sarments	Métaphore	Symbole représentant les disciples de Jésus	1451
+Paix	Concept	Don de Jésus à ses disciples	14595,14599,16139,19359,19394,19552
+Samaritaine	Personne	Femme rencontrée par Jésus au puits de Jacob	2698,2720
 Jacob	Personne	Patriarche biblique	2632
-Ensevelissement	Événement	Mise au tombeau du corps de Jésus
-Procès	Événement	Jugement de Jésus devant Pilate
-Bethesda	Lieu	Piscine à Jérusalem	3795
-Linges	Objet	Tissus ayant enveloppé le corps de Jésus
-Suaire	Objet	Linge ayant recouvert la tête de Jésus	19024
-Filet	Objet	Outil de pêche utilisé par les disciples	19814,19911,19977
-Diable	Entité_Spirituelle	Père du mensonge et de l'homicide	13125
-Samaritain	Groupe	Groupe ethnique mentionné dans les discussions	8607
-Chair_du_Fils_de_l'homme	Concept	Nourriture spirituelle offerte par Jésus
-Sang_du_Fils_de_l'homme	Concept	Boisson spirituelle offerte par Jésus
+Joseph	Personne	Fils de Jacob	18746
+Messie	Titre	Sauveur attendu par les Juifs	965,3092
+Puits_de_Jacob	Lieu	Puits où Jésus rencontre la Samaritaine
+Sychar	Lieu	Ville de Samarie
+Vigneron	Symbole	Symbole représentant Dieu le Père
+Scribes	Groupe	Experts de la loi juive	7516
+David	Personne	Roi biblique mentionné en lien avec le Messie	7286
+Loi	Concept	Ensemble des prescriptions religieuses juives	409,6708,6718,6803,7422,7860,10555,12617,15320,17967,17971
+Manne	Concept	Nourriture miraculeuse dans le désert	5463,5867
 Miracle	Événement	Acte surnaturel attribué à Jésus
-Jésus	Personne	Personnage	central de l'Évangile, Fils de Dieu
-Disciples	Groupe	Followers	de Jésus
-Judas_Iscariote	Personne	Disciple	qui trahit Jésus
-Simon-Pierre	Personne	Disciple	de Jésus
-Dieu	Entité_Divine	Père	de Jésus
-Satan	Entité_Spirituelle	Force	maléfique
-Pharisiens	Groupe	Groupe	religieux opposé à Jésus
-Lazare	Personne	Homme	ressuscité par Jésus
-Marthe	Personne	Sœur	de Lazare
-Marie	Personne	Sœur	de Lazare
-Béthanie	Lieu	Village	où vivaient Lazare, Marthe et Marie
-Jérusalem	Lieu	Ville	où Jésus entre triomphalement
-Temple	Lieu	Lieu	saint à Jérusalem
-Pâque	Événement	Fête	juive importante
-Jésus	enseigne	Disciples	Jésus donne des enseignements à ses disciples
-Jésus	prédit	Trahison	Jésus annonce sa trahison par l'un des disciples
-Judas_Iscariote	trahit	Jésus	Judas livre Jésus aux autorités
-Jésus	lave_pieds	Disciples	Jésus lave les pieds de ses disciples en signe d'humilité
-Jésus	ressuscite	Lazare	Jésus ramène Lazare à la vie
-Foule	acclame	Jésus	La foule acclame Jésus lors de son entrée à Jérusalem
-Pharisiens	complotent_contre	Jésus	Les Pharisiens cherchent à faire mourir Jésus
-Marie	oint	Jésus	Marie verse du parfum sur les pieds de Jésus
-Jésus	entre	Jérusalem	Jésus fait une entrée triomphale à Jérusalem
-Jésus	annonce	Mort	Jésus prédit sa propre mort
-Jésus	annonce	Résurrection	Jésus annonce sa résurrection
-Dieu	glorifie	Jésus	Dieu glorifie Jésus par des signes
-Jésus	promet	Vie_éternelle	Jésus promet la vie éternelle à ceux qui croient en lui
-Jésus	Personne	Figure	centrale du christianisme
-Dieu	Entité_Divine	Être	suprême dans le christianisme
-Père	Entité_Divine	Aspect	de Dieu dans la Trinité chrétienne
-Fils_de_l'homme	Personne	Titre	utilisé par Jésus pour se désigner
-Esprit	Entité_Divine	Aspect	de Dieu dans la Trinité chrétienne
-Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
-Lumière_du_monde	Concept	Métaphore	utilisée par Jésus pour se décrire
-Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
-Scribes	Groupe	Experts	de la loi juive
-Juifs	Groupe	Peuple	d'Israël
-Disciples	Groupe	Suiveurs	de Jésus
-Moïse	Personne	Figure	importante du judaïsme
-David	Personne	Roi	d'Israël et ancêtre de Jésus
-Nicodème	Personne	Pharisien	sympathisant avec Jésus
-Simon-Pierre	Personne	Disciple	de Jésus
-Judas	Personne	Disciple	qui trahit Jésus
-Jésus	est_fils_de	Dieu	Relation divine entre Jésus et Dieu
-Jésus	enseigne	Disciples	Jésus transmet ses enseignements à ses disciples
-Jésus	s'oppose_à	Pharisiens	Conflit entre Jésus et les autorités religieuses
-Jésus	se_décrit_comme	Pain_de_vie	Métaphore utilisée par Jésus
-Jésus	se_décrit_comme	Lumière_du_monde	Métaphore utilisée par Jésus
-Jésus	pardonne	Pécheurs	Jésus offre le pardon aux pécheurs
-Dieu	envoie	Jésus	Mission divine de Jésus
-Père	envoie	Fils_de_l'homme	Relation entre les aspects de la Trinité
-Disciples	suivent	Jésus	Relation entre Jésus et ses disciples
-Pharisiens	s'opposent_à	Jésus	Conflit entre les Pharisiens et Jésus
-Jésus	descend_de	David	Lignée messianique de Jésus
-Moïse	donne	Loi	Moïse transmet la Loi divine
-Jésus	accomplit	Loi	Jésus interprète et accomplit la Loi
-Esprit	vivifie	Croyants	L'Esprit donne la vie spirituelle
-Jésus	promet	Esprit	Jésus annonce la venue de l'Esprit
-Jésus	ressuscite	Croyants	Promesse de résurrection pour les croyants
-Jésus	Personne	Figure	centrale du récit, présenté comme le Christ et le Fils de l'homme
-Pharisiens	Groupe	Groupe	religieux juif en opposition à Jésus
+Gloire_de_Dieu	Concept	Manifestation de la puissance divine	10825,11496
+Bon_Pasteur	Métaphore	Rôle que Jésus s'attribue pour guider et protéger ses disciples	10067,10071,10126
+Brebis	Métaphore	Jesus_Christ Les disciples fidèles suivent l'enseignement de Jésus	1510,1532,9892,9898,9929,10012,10100,10132,10135,10165,10413
+Porte	Métaphore	Jésus se décrit comme la porte des brebis	9854,9880,9993,12412,14751,14761,14768,14843,19563
+Porte_des_brebis	Métaphore	Métaphore utilisée par Jésus pour décrire son rôle de médiation	578
+Croyants	Reçoivent	Vie_éternelle Promesse faite aux croyants
+Jesus_Christ	Personne	Vie_éternelle Jésus promet la vie éternelle à ses fidèles
+Voleur	Personne	Figure négative qui menace les brebis	9870,10040,12023
+Mercenaire	Personne	Figure qui abandonne les brebis face au danger	10114
+Loup	Entité	Menace pour les brebis, représente les dangers spirituels	10105
+Jésus	Personne	Fils	de Dieu, personnage central de l'Évangile
 Aveugle_né	Personne	Homme	né aveugle et guéri par Jésus
-Dieu	Entité_divine	Divinité	suprême mentionnée dans le récit
-Moïse	Personne	Figure	biblique de référence pour les Juifs
-Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
-Abraham	Personne	Figure	patriarcale juive mentionnée dans le récit
-Siloé	Lieu	Piscine	où l'aveugle-né se lave sur ordre de Jésus
-Temple	Lieu	Lieu	sacré où Jésus enseigne
-Synagogue	Lieu	Lieu	de culte juif mentionné dans le récit
-Père	Entité_divine	Désignation	de Dieu par Jésus comme son père
-Jésus	Guérit	Aveugle_né	Jésus guérit un homme né aveugle
-Pharisiens	S'opposent_à	Jésus	Les Pharisiens s'opposent aux actions et enseignements de Jésus
-Jésus	Se_déclare	Lumière_du_monde	Jésus affirme être la lumière du monde
-Jésus	Enseigne	Peuple	Jésus enseigne le peuple dans le Temple
-Jésus	Affirme_relation_avec	Père	Jésus affirme une relation spéciale avec Dieu qu'il appelle Père
-Pharisiens	Interrogent	Aveugle_né	Les Pharisiens interrogent l'homme guéri de sa cécité
-Jésus	Affirme_préexistence	Abraham	Jésus affirme avoir existé avant Abraham
-Jésus	Promet	Eau_vive	Jésus promet l'eau vive (symbole de l'Esprit) à ceux qui croient en lui
-Foule	Divise_opinion_sur	Jésus	La foule est divisée dans son opinion sur l'identité de Jésus
-Jésus	Pardonne	Femme_adultère	Jésus pardonne à une femme accusée d'adultère
-Jésus	Personne	Figure	centrale de l'Évangile
-Dieu	Entité_Divine	Père	céleste mentionné dans le texte
-Disciples	Groupe	Personnes	suivant Jésus
-Juifs	Groupe	Peuple	mentionné dans le texte
-Pharisiens	Groupe	Groupe	religieux juif mentionné
-Jean	Personne	Figure	mentionnée, probablement Jean-Baptiste
-Moïse	Personne	Figure	biblique mentionnée
-Écritures	Texte_Sacré	Textes	sacrés mentionnés
-Pâque	Événement	Fête	juive mentionnée
-Galilée	Lieu	Région	mentionnée
-Tibériade	Lieu	Lieu	mentionné, probablement la mer
-Capharnaüm	Lieu	Ville	mentionnée
-Temple	Lieu	Lieu	de culte mentionné
-Samarie	Lieu	Région	mentionnée
-Sychar	Lieu	Ville	de Samarie mentionnée
-Puits_de_Jacob	Lieu	Lieu	spécifique mentionné
+Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
+Juifs	Groupe	Peuple	juif mentionné dans le texte
+Disciples	Groupe	Disciples	de Jésus
+Parents_aveugle	Groupe	Parents	de l'homme né aveugle
+Moïse	Personne	Prophète	mentionné comme référence par les Juifs
+Fils_de_l'homme	Personne	Titre	utilisé par Jésus pour se désigner
+Abraham	Personne	Patriarche	juif mentionné dans le texte
+Dieu	Entité_divine	Dieu	le Père, mentionné comme source d'autorité
+Siloé	Lieu	Piscine	où l'aveugle-né s'est lavé
+Temple	Lieu	Lieu	saint où Jésus enseignait
+Synagogue	Lieu	Lieu	de culte juif mentionné dans le texte
+Jésus	guérit	Aveugle_né	Jésus guérit l'homme né aveugle
 Jésus	enseigne	Disciples	Jésus instruit ses disciples
-Jésus	guérit	Malades	Jésus opère des guérisons
-Jésus	multiplie	Pains	Miracle de la multiplication des pains
-Jésus	marche_sur	Mer	Miracle de la marche sur l'eau
-Jésus	confronte	Juifs	Discussions et débats avec les Juifs
-Jésus	affirme_autorité_de	Dieu	Jésus se présente comme envoyé de Dieu
+Pharisiens	s'opposent_à	Jésus	Les Pharisiens s'opposent aux actions de Jésus
+Juifs	questionnent	Aveugle_né	Les Juifs interrogent l'homme guéri
+Parents_aveugle	craignent	Juifs	Les parents de l'aveugle craignent les Juifs
+Jésus	se_déclare	Fils_de_l'homme	Jésus s'identifie comme le Fils de l'homme
+Jésus	affirme_préexistence	Abraham	Jésus affirme avoir existé avant Abraham
+Jésus	se_déclare	Lumière_du_monde	Jésus se présente comme la lumière du monde
+Dieu	envoie	Jésus	Dieu est présenté comme ayant envoyé Jésus
+Jésus	promet	Esprit_Saint	Jésus annonce la venue de l'Esprit Saint
+Jésus	pardonne	Femme_adultère	Jésus pardonne à la femme adultère
+Juifs	cherchent_à_arrêter	Jésus	Les Juifs tentent d'arrêter Jésus
+Jésus	Personne	Fils	de Dieu, personnage central de l'Évangile
+Jean_Baptiste	Personne	Prophète	annonçant la venue de Jésus
+Nathanaël	Personne	Disciple	de Jésus
+Philippe	Personne	Disciple	de Jésus
+Cana	Lieu	Village	en Galilée où Jésus accomplit son premier miracle
+Capharnaüm	Lieu	Ville	où Jésus s'installe avec sa famille et ses disciples
+Jérusalem	Lieu	Ville	où se trouve le Temple
+Temple	Lieu	Lieu	saint à Jérusalem
+Pâque	Évènement	Fête	juive importante
+Noces_de_Cana	Évènement	Mariage	où Jésus accomplit son premier miracle
+Purification_du_Temple	Évènement	Jésus	chasse les marchands du Temple
+Disciples	Groupe	Suiveurs	de Jésus
+Juifs	Groupe	Peuple	d'Israël
+Pharisiens	Groupe	Groupe	religieux juif
+Verbe	Concept	Aspect	divin de Jésus préexistant à sa naissance humaine
+Jésus	est_fils_de	Dieu	Relation divine entre Jésus et Dieu
+Jésus	est_appelé	Fils_de_l'homme	Titre que Jésus s'attribue
+Jésus	accomplit	Miracle	Jésus réalise des actes surnaturels
+Jésus	enseigne	Disciples	Jésus instruit ses suiveurs
+Jean_Baptiste	annonce	Jésus	Jean prépare la venue de Jésus
 Disciples	suivent	Jésus	Les disciples accompagnent Jésus
-Juifs	s'opposent_à	Jésus	Conflit entre Jésus et les autorités juives
-Écritures	témoignent_de	Jésus	Jésus affirme que les Écritures parlent de lui
-Moïse	a_écrit_sur	Jésus	Jésus affirme que Moïse a écrit à son sujet
-Jésus	parle_à	Samaritaine	Dialogue avec la femme au puits
-Jésus	révèle_identité_à	Samaritaine	Jésus se présente comme le Messie
-Samaritains	croient_en	Jésus	Des Samaritains reconnaissent Jésus comme sauveur
-Jean	baptise	Gens	Jean pratique le baptême
-Jean	témoigne_de	Jésus	Jean reconnaît la supériorité de Jésus
+Jésus	purifie	Temple	Jésus chasse les marchands du Temple
+Verbe	s'incarne_en	Jésus	Le Verbe divin prend forme humaine en Jésus
+Jésus	participe	Noces_de_Cana	Jésus assiste au mariage à Cana
+Jésus	transforme	Eau_en_vin	Premier miracle de Jésus aux noces de Cana
+Jésus	monte_à	Jérusalem	Jésus se rend à Jérusalem pour la Pâque
+Jésus	prédit	Résurrection	Jésus annonce qu'il ressuscitera après 3 jours
+Jésus	Personne	Fils	de Dieu, figure centrale du christianisme
+Dieu	Entité_Divine	Père	céleste dans la tradition chrétienne
+Père	Entité_Divine	Autre	nom pour Dieu dans le contexte chrétien
+Disciples	Groupe	Followers	of Jesus
+Simon_Pierre	Personne	Disciple	de Jésus, aussi appelé Pierre
+Anne	Personne	Beau-père	de Caïphe, ancien grand prêtre
+Caïphe	Personne	Grand	prêtre au moment de l'arrestation de Jésus
+Malchus	Personne	Serviteur	du grand prêtre dont l'oreille fut coupée
+Pilate	Personne	Gouverneur	romain qui a jugé Jésus
+Judas	Personne	Disciple	qui a trahi Jésus
+Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
+Paraclet	Entité_Divine	Esprit	Saint promis par Jésus
+Esprit_Saint	Entité_Divine	Troisième	personne de la Trinité chrétienne
+Esprit_de_vérité	Entité_Divine	Autre	nom pour l'Esprit Saint
+Prince_du_monde	Entité_Spirituelle	Figure	représentant le mal ou Satan
+Jésus	est_fils_de	Dieu	Relation filiale divine
+Jésus	a_disciple	Disciples	Relation maître-disciples
+Jésus	est_trahi_par	Judas	Trahison de Jésus
+Jésus	est_arrêté_par	Cohorte	Arrestation de Jésus
+Jésus	est_jugé_par	Pilate	Jugement de Jésus
+Jésus	promet	Paraclet	Promesse de l'envoi de l'Esprit Saint
+Jésus	enseigne	Disciples	Enseignement des disciples
+Simon_Pierre	renie	Jésus	Reniement de Jésus par Pierre
+Anne	interroge	Jésus	Interrogatoire de Jésus
+Caïphe	interroge	Jésus	Interrogatoire de Jésus
+Dieu	envoie	Jésus	Mission divine de Jésus
+Père	envoie	Esprit_Saint	Envoi de l'Esprit Saint
+Disciples	sont_persécutés_pour	Jésus	Persécution des disciples
+Jésus	est_la_vigne	Disciples	Métaphore de la vigne et des sarments
+Jésus	commande_d'aimer	Disciples	Commandement d'amour mutuel
 Jean_Baptiste	Personne	Prophète	qui baptise et témoigne de Jésus
-Jésus	Personne	Fils	de Dieu, le Christ, l'Agneau de Dieu
+Jésus	Personne	Figure	centrale de l'Évangile, appelé Christ et Agneau de Dieu
 Élie	Personne	Prophète	mentionné dans le texte
 Isaïe	Personne	Prophète	cité par Jean-Baptiste
 Pharisiens	Groupe	Groupe	religieux juif mentionné dans le texte
-Béthanie	Lieu	Lieu	où Jean baptisait, au-delà du Jourdain
+Béthanie	Lieu	Endroit	où Jean baptisait, au-delà du Jourdain
 Jourdain	Lieu	Fleuve	mentionné dans le texte
-Israël	Lieu	Pays	mentionné dans le texte
-Esprit_Saint	Entité_Spirituelle	Esprit	divin mentionné dans le texte
-André	Personne	Un	des premiers disciples de Jésus, frère de Simon-Pierre
-Simon-Pierre	Personne	Un	des premiers disciples de Jésus, appelé Céphas par Jésus
-Philippe	Personne	Disciple	de Jésus originaire de Bethsaïde
-Nathanaël	Personne	Disciple	de Jésus rencontré par Philippe
-Moïse	Personne	Prophète	mentionné dans le texte
+Israël	Lieu	Nation	mentionnée dans le contexte de la manifestation de Jésus
+Esprit_Saint	Entité_Spirituelle	Esprit	descendu sur Jésus lors de son baptême
+André	Personne	Disciple	de Jean-Baptiste qui suit Jésus
+Simon-Pierre	Personne	Frère	d'André, appelé Céphas par Jésus
+Philippe	Personne	Disciple	appelé par Jésus
+Nathanaël	Personne	Personne	rencontrée par Philippe
+Moïse	Personne	Figure	biblique mentionnée comme ayant écrit sur Jésus
+Nazareth	Lieu	Ville	d'origine de Jésus
 Galilée	Lieu	Région	où Jésus se rend
 Bethsaïde	Lieu	Ville	d'origine d'André et Pierre
-Nazareth	Lieu	Ville	d'origine de Jésus
-Joseph	Personne	Père	de Jésus selon la tradition
-Jean_Baptiste	Baptise	Jésus	Jean baptise Jésus dans l'eau
-Jean_Baptiste	Témoigne_De	Jésus	Jean témoigne que Jésus est l'Agneau de Dieu
-Jésus	Est_Appelé	Agneau_de_Dieu	Jean-Baptiste désigne Jésus comme l'Agneau de Dieu
-Jésus	Baptise_Dans	Esprit_Saint	Jean-Baptiste affirme que Jésus baptisera dans l'Esprit Saint
-André	Est_Frère_De	Simon-Pierre	André est mentionné comme le frère de Simon-Pierre
-Jésus	Renomme	Simon-Pierre	Jésus donne le nom de Céphas (Pierre) à Simon
-Philippe	Originaire_De	Bethsaïde	Philippe est décrit comme originaire de Bethsaïde
+Verbe	Concept_Théologique	Concept	divin présenté dans le prologue
+Dieu	Entité_Divine	Être	suprême mentionné dans le texte
+Jean_Baptiste	Témoigne_De	Jésus	Jean-Baptiste affirme que Jésus est l'Agneau de Dieu
+Jean_Baptiste	Baptise_Dans	Eau	Jean-Baptiste baptise avec de l'eau
+Jésus	Baptise_Dans	Esprit_Saint	Jésus est dit baptiser dans l'Esprit Saint
+Esprit_Saint	Descend_Sur	Jésus	L'Esprit Saint descend sur Jésus comme une colombe
+André	Suit	Jésus	André devient disciple de Jésus
+Simon-Pierre	Frère_De	André	Simon-Pierre est le frère d'André
+Jésus	Renomme	Simon-Pierre	Jésus donne le nom de Céphas à Simon-Pierre
+Philippe	Originaire_De	Bethsaïde	Philippe vient de Bethsaïde
+André	Originaire_De	Bethsaïde	André vient de Bethsaïde
+Simon-Pierre	Originaire_De	Bethsaïde	Simon-Pierre vient de Bethsaïde
 Jésus	Fils_De	Joseph	Jésus est présenté comme le fils de Joseph
-Jésus	Originaire_De	Nazareth	Jésus est décrit comme venant de Nazareth
-Jesus	Personne	Figure	centrale du texte, se présente comme le Fils de Dieu
-Dieu	Entité_divine	Père	de Jésus, divinité suprême
-Abraham	Personne	Figure	biblique, ancêtre des Juifs
-Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
-Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
-Juifs	Groupe	Peuple	auquel Jésus s'adresse
-Disciples	Groupe	Suiveurs	de Jésus
-Temple	Lieu	Lieu	saint à Jérusalem
-Siloé	Lieu	Piscine	mentionnée dans le récit
-Moïse	Personne	Figure	biblique, donneur de la Loi
-Loi	Concept	Ensemble	de règles religieuses juives
-Sabbat	Concept	Jour	de repos hebdomadaire juif
-Esprit	Entité_divine	Entité	divine promise par Jésus
-Galilée	Lieu	Région	d'où vient Jésus
-Judée	Lieu	Région	où Jésus rencontre de l'opposition
-Bethléem	Lieu	Lieu	de naissance présumé du Messie
-David	Personne	Roi	biblique, ancêtre du Messie
-Nicodème	Personne	Pharisien	sympathisant avec Jésus
-Mont_des_Oliviers	Lieu	Lieu	où Jésus se retire
-Jesus	est_fils_de	Dieu	Jésus se présente comme le Fils de Dieu
-Jesus	enseigne	Disciples	Jésus instruit ses suiveurs
-Jesus	s'oppose_à	Pharisiens	Conflit entre Jésus et les autorités religieuses
-Jesus	guérit	Aveugle-né	Miracle de guérison rapporté
-Jesus	se_compare_à	Abraham	Jésus affirme sa préexistence
-Jesus	prêche_dans	Temple	Lieu d'enseignement de Jésus
-Jesus	promet	Esprit	Jésus annonce la venue de l'Esprit
-Pharisiens	interprètent	Loi	Groupe appliquant strictement la Loi
-Juifs	descendent_de	Abraham	Revendication de filiation
-Jesus	vient_de	Galilée	Origine géographique de Jésus
-Jesus	est_contesté_en	Judée	Opposition rencontrée par Jésus
-Messie	doit_naître_à	Bethléem	Croyance sur l'origine du Messie
-David	est_ancêtre_de	Messie	Lignée attendue du Messie
-Jesus	se_retire_au	Mont_des_Oliviers	Lieu de retraite de Jésus
-Evangile_selon_Saint_Jean	Document	Texte	biblique du Nouveau Testament attribué à l'apôtre Jean
-Prologue	Section	Introduction	de l'Evangile selon Saint Jean
-Mystère_de_Jésus	Concept	Thème	central de l'Evangile selon Saint Jean
-Nouvelle_Économie	Concept	Nouvelle	alliance instaurée par Jésus
-Semaine_inaugurale	Événement	Première	semaine du ministère de Jésus
-Pâque	Événement	Fête	juive commémorant la sortie d'Égypte
-Fête_des_Tentes	Événement	Fête	juive célébrée en automne
-Fête_de_la_Dédicace	Événement	Fête	juive commémorant la purification du Temple
-Ministère_public	Concept	Période	d'enseignement et de prédication de Jésus
-Heure_de_Jésus	Concept	Moment	culminant de la mission de Jésus
-Passion	Événement	Souffrances	et mort de Jésus
-Résurrection	Événement	Retour	à la vie de Jésus après sa mort
-Verbe	Concept	Identifié	comme étant Dieu et créateur dans le prologue
-Jean_Baptiste	Personne	Précurseur	de Jésus
-Jésus_Christ	Personne	Figure	centrale de l'Evangile
-Moïse	Personne	Prophète	ayant donné la Loi aux Israélites
-Evangile_selon_Saint_Jean	contient	Prologue	Introduction du texte
-Evangile_selon_Saint_Jean	décrit	Mystère_de_Jésus	Thème central du texte
-Mystère_de_Jésus	inclut	Nouvelle_Économie	Nouvelle alliance instaurée par Jésus
-Nouvelle_Économie	commence_par	Semaine_inaugurale	Début du ministère de Jésus
-Evangile_selon_Saint_Jean	mentionne	Pâque	Fête importante dans le récit
-Evangile_selon_Saint_Jean	mentionne	Fête_des_Tentes	Fête mentionnée dans le récit
-Evangile_selon_Saint_Jean	mentionne	Fête_de_la_Dédicace	Fête mentionnée dans le récit
-Evangile_selon_Saint_Jean	décrit	Ministère_public	Période d'activité de Jésus
-Evangile_selon_Saint_Jean	décrit	Heure_de_Jésus	Moment culminant du récit
-Heure_de_Jésus	inclut	Passion	Souffrances et mort de Jésus
-Heure_de_Jésus	inclut	Résurrection	Retour à la vie de Jésus
-Prologue	présente	Verbe	Concept central du prologue
-Jean_Baptiste	témoigne_de	Jésus_Christ	Rôle de précurseur
-Jésus_Christ	apporte	Grâce_et_Vérité	Nouvelle révélation divine
-Moïse	apporte	Loi	Ancienne alliance
-Jésus	Personne	Figure	centrale du christianisme, fils de Dieu selon la tradition chrétienne
-Pharisiens	Groupe	Groupe	religieux juif de l'époque de Jésus
-Grands_prêtres	Groupe	Autorités	religieuses juives
-Caïphe	Personne	Grand	prêtre juif de l'époque de Jésus
-Romains	Groupe	Peuple	de l'Empire romain
-Juifs	Groupe	Peuple	juif
-Lazare	Personne	Ami	de Jésus ressuscité par lui
-Marthe	Personne	Sœur	de Lazare et Marie
-Marie	Personne	Sœur	de Lazare et Marthe
-Judas_l'Iscariote	Personne	Disciple	de Jésus qui l'a trahi
-Béthanie	Lieu	Village	près de Jérusalem
-Jérusalem	Lieu	Ville	sainte du judaïsme
-Jourdain	Lieu	Fleuve	où Jean baptisait
-Jean_le_Baptiste	Personne	Précurseur	de Jésus
-Temple	Lieu	Centre	religieux du judaïsme à Jérusalem
-Éphraïm	Lieu	Ville	où Jésus s'est retiré
-Jésus	enseigne_à	Pharisiens	Jésus transmet ses enseignements aux Pharisiens
-Grands_prêtres	s'opposent_à	Jésus	Les grands prêtres cherchent à arrêter Jésus
-Caïphe	prophétise_sur	Jésus	Caïphe prédit la mort de Jésus pour le peuple
-Jésus	ressuscite	Lazare	Jésus ramène Lazare à la vie
-Marie	oint	Jésus	Marie verse du parfum sur les pieds de Jésus
-Judas_l'Iscariote	trahit	Jésus	Judas livre Jésus aux autorités
-Jésus	se_retire_à	Éphraïm	Jésus se cache à Éphraïm pour éviter d'être arrêté
-Jésus	entre_à	Jérusalem	Entrée triomphale de Jésus à Jérusalem
-Jésus	enseigne_dans	Temple	Jésus prêche dans le Temple de Jérusalem
-Jésus	se_déclare	Fils_de_Dieu	Jésus affirme sa nature divine
-Pharisiens	cherchent_à_arrêter	Jésus	Les Pharisiens veulent capturer Jésus
-Jésus	guérit	Aveugle-né	Jésus rend la vue à un homme aveugle de naissance
-Jésus	se_compare_à	Bon_pasteur	Jésus utilise la métaphore du berger pour se décrire
-Jésus	Personne	Fils	de Dieu, personnage central de l'Évangile
-Père	Entité_Divine	Dieu	le Père, première personne de la Trinité
-Paraclet	Entité_Divine	Esprit	Saint, envoyé par le Père au nom de Jésus
-Disciples	Groupe	Suivants	de Jésus
-Monde	Concept	Le	système terrestre opposé à Dieu
-Vérité	Concept	Réalité	divine révélée par Jésus
-Vie_éternelle	Concept	Existence	éternelle auprès de Dieu
-Gloire	Concept	Manifestion	de la grandeur divine
-Amour	Concept	Sentiment	central dans l'enseignement de Jésus
-Commandements	Concept	Préceptes	donnés par Jésus à ses disciples
-Vigne	Métaphore	Image	utilisée par Jésus pour décrire sa relation avec ses disciples
-Sarments	Métaphore	Image	des disciples reliés à Jésus
-Prince_du_monde	Entité_Spirituelle	Figure	opposée à Dieu, Satan
-Jésus	Enseigne	Disciples	Jésus transmet ses enseignements à ses disciples
-Jésus	Promet	Paraclet	Jésus annonce la venue de l'Esprit Saint
-Père	Envoie	Jésus	Dieu le Père envoie Jésus dans le monde
-Jésus	Retourne_vers	Père	Jésus annonce son retour auprès de Dieu
-Disciples	Demeurent_en	Jésus	Les disciples sont appelés à rester unis à Jésus
-Jésus	Glorifie	Père	Jésus manifeste la gloire de Dieu
-Père	Glorifie	Jésus	Dieu glorifie Jésus
-Jésus	Donne	Vie_éternelle	Jésus accorde la vie éternelle aux croyants
-Disciples	Haïs_par	Monde	Les disciples sont rejetés par le monde
-Jésus	Est	Chemin	Jésus se présente comme le chemin vers Dieu
-Jésus	Est	Vérité	Jésus incarne la vérité divine
-Jésus	Est	Vie	Jésus est source de vie
-Disciples	Portent	Fruit	Les disciples sont appelés à produire de bonnes œuvres
-Jésus	Lave_pieds	Disciples	Jésus donne l'exemple du service humble
-Judas	Trahit	Jésus	Judas livre Jésus à ses ennemis
-Jésus	Personne	Fils	de Dieu, protagoniste principal des récits
-Lazare	Personne	Frère	de Marthe et Marie, ressuscité par Jésus
-Marthe	Personne	Sœur	de Lazare et Marie
-Marie	Personne	Sœur	de Lazare et Marthe
-Béthanie	Lieu	Village	où habitaient Lazare, Marthe et Marie
-Jérusalem	Lieu	Ville	principale des événements
-Juifs	Groupe	Peuple	juif, souvent en opposition avec Jésus
-Dieu	Entité_Divine	Père	de Jésus
-Christ	Titre	Titre	donné à Jésus, signifiant "Messie"
-Fils_de_Dieu	Titre	Titre	divin de Jésus
-Père	Titre	Titre	donné à Dieu par Jésus
-Bon_Pasteur	Titre	Titre	que Jésus s'attribue
-Pharisiens	Groupe	Groupe	religieux juif souvent en conflit avec Jésus
-Thomas	Personne	Disciple	de Jésus, aussi appelé Didyme
-Jean	Personne	Jean-Baptiste,	précurseur de Jésus
-Abraham	Personne	Patriarche	biblique mentionné par Jésus
-Jésus	ressuscite	Lazare	Jésus ramène Lazare à la vie après sa mort
-Jésus	aime	Lazare	Jésus a de l'affection pour Lazare
-Jésus	aime	Marthe	Jésus a de l'affection pour Marthe
-Jésus	aime	Marie	Jésus a de l'affection pour Marie
-Marthe	croit_en	Jésus	Marthe exprime sa foi en Jésus
-Marie	croit_en	Jésus	Marie exprime sa foi en Jésus
-Jésus	se_déclare	Résurrection	Jésus s'identifie comme la résurrection
-Jésus	se_déclare	Bon_Pasteur	Jésus se présente comme le bon berger
-Jésus	guérit	Aveugle-né	Jésus redonne la vue à un homme aveugle de naissance
-Juifs	s'opposent_à	Jésus	Les Juifs sont souvent en conflit avec Jésus
-Jésus	affirme_unité_avec	Dieu	Jésus déclare son unité avec Dieu le Père
-Jésus	préexiste_à	Abraham	Jésus affirme son existence avant Abraham
-Disciples	suivent	Jésus	Les disciples accompagnent et apprennent de Jésus
-Jésus	enseigne	Disciples	Jésus instruit ses disciples
-Jésus	entre_en_conflit_avec	Pharisiens	Jésus a des désaccords fréquents avec les Pharisiens
-Jésus	se_déclare	Fils_de_Dieu	Jésus affirme être le Fils de Dieu
-Jésus	Personne	Fils	de Dieu et figure centrale du récit
-Père	Entité_Divine	Dieu	le Père, qui a envoyé Jésus
-Disciples	Groupe	Followers	de Jésus
-Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
-Grands_prêtres	Groupe	Autorités	religieuses juives
-Lazare	Personne	Homme	ressuscité par Jésus
-Marie	Personne	Sœur	de Lazare et Marthe
-Marthe	Personne	Sœur	de Lazare et Marie
-Simon-Pierre	Personne	Disciple	de Jésus
-Judas_Iscariote	Personne	Disciple	qui a trahi Jésus
-Caïphe	Personne	Grand	prêtre qui a prophétisé sur Jésus
-Béthanie	Lieu	Village	où vivaient Lazare et ses sœurs
-Jérusalem	Lieu	Ville	où Jésus est entré triomphalement
-Temple	Lieu	Lieu	saint à Jérusalem
-Jésus	enseigne	Disciples	Jésus instruit ses disciples
-Jésus	guérit	Malades	Jésus accomplit des miracles de guérison
-Jésus	ressuscite	Lazare	Jésus ramène Lazare à la vie
-Pharisiens	s'opposent_à	Jésus	Les Pharisiens cherchent à arrêter Jésus
-Grands_prêtres	complotent_contre	Jésus	Les autorités religieuses planifient la mort de Jésus
-Jésus	prédit	Sa_mort	Jésus annonce sa mort prochaine
-Jésus	lave_les_pieds	Disciples	Geste d'humilité de Jésus envers ses disciples
-Marie	oint	Jésus	Marie verse du parfum sur les pieds de Jésus
-Foule	acclame	Jésus	Entrée triomphale de Jésus à Jérusalem
-Jésus	est_un_avec	Père	Jésus affirme son unité avec Dieu le Père
-Disciples	croient_en	Jésus	Les disciples ont foi en Jésus comme Messie
-Jésus	est_glorifié_par	Sa_mort	La mort de Jésus est présentée comme sa glorification
-Jésus	envoie	Disciples	Jésus donne une mission à ses disciples
-Père	envoie	Jésus	Dieu le Père a envoyé Jésus dans le monde
-Jésus	Personne	Personnage	central du récit, fils de Dieu selon la croyance chrétienne
-Pilate	Personne	Gouverneur	romain de Judée qui a jugé Jésus
-Grands_prêtres	Groupe	Autorités	religieuses juives opposées à Jésus
-Soldats	Groupe	Exécuteurs	de la crucifixion de Jésus
-Disciples	Groupe	Suiveurs	de Jésus
-Marie	Personne	Mère	de Jésus
-Jean	Personne	Disciple	bien-aimé de Jésus
-Golgotha	Lieu	Site	de la crucifixion de Jésus
-Croix	Objet	Instrument	de supplice sur lequel Jésus a été crucifié
-César	Personne	Empereur	romain mentionné comme seul roi reconnu par les Juifs
-Anne	Personne	Beau-père	de Caïphe, ancien grand prêtre
-Caïphe	Personne	Grand	prêtre en fonction lors du jugement de Jésus
-Simon-Pierre	Personne	Disciple	de Jésus qui l'a renié
-Malchus	Personne	Serviteur	du grand prêtre dont l'oreille a été coupée
-Judas	Personne	Disciple	qui a trahi Jésus
-Jésus	est_condamné_par	Pilate	Pilate condamne Jésus à la crucifixion
-Jésus	est_crucifié_par	Soldats	Les soldats romains exécutent la crucifixion
-Jésus	est_accompagné_de	Disciples	Les disciples suivent Jésus jusqu'à son arrestation
-Marie	est_mère_de	Jésus	Relation filiale entre Marie et Jésus
-Jean	est_disciple_de	Jésus	Jean est décrit comme le disciple que Jésus aimait
-Jésus	est_crucifié_à	Golgotha	Lieu de la crucifixion de Jésus
-Jésus	meurt_sur	Croix	Instrument de supplice utilisé pour la crucifixion
-Grands_prêtres	s'opposent_à	Jésus	Les autorités religieuses juives s'opposent à Jésus
-Anne	interroge	Jésus	Anne interroge Jésus après son arrestation
-Caïphe	juge	Jésus	Caïphe participe au jugement de Jésus en tant que grand prêtre
-Simon-Pierre	renie	Jésus	Simon-Pierre renie Jésus trois fois
-Judas	trahit	Jésus	Judas livre Jésus aux autorités
-Jésus	Personne	Personnage	principal, Fils de Dieu
-Pilate	Personne	Gouverneur	romain
-Juifs	Groupe	Peuple	juif
-Grands_prêtres	Groupe	Autorités	religieuses juives
-Disciples	Groupe	Disciples	de Jésus
-Père	Entité_divine	Dieu	le Père
-Monde	Concept	Le	monde terrestre
-Royaume	Concept	Royaume	de Dieu
-Vérité	Concept	Concept	abstrait de vérité
-Barabbas	Personne	Prisonnier	relâché à la place de Jésus
-Soldats	Groupe	Soldats	romains
-Anne	Personne	Ancien	grand prêtre
-Caïphe	Personne	Grand	prêtre en fonction
-Simon-Pierre	Personne	Disciple	de Jésus
-Judas	Personne	Disciple	qui a trahi Jésus
-Paraclet	Entité_divine	Esprit	Saint promis par Jésus
-César	Personne	Empereur	romain
-Jésus	est_interrogé_par	Pilate	Pilate interroge Jésus sur sa royauté
-Jésus	affirme_que	Royaume	Le royaume de Jésus n'est pas de ce monde
-Pilate	cherche_à_libérer	Jésus	Pilate tente de libérer Jésus
-Juifs	demandent_crucifixion_de	Jésus	Les Juifs réclament la crucifixion de Jésus
-Soldats	maltraitent	Jésus	Les soldats maltraitent Jésus
-Jésus	est_livré_par	Grands_prêtres	Les grands prêtres livrent Jésus à Pilate
-Jésus	prie_pour	Disciples	Jésus prie pour ses disciples
-Jésus	envoie	Disciples	Jésus envoie ses disciples dans le monde
-Jésus	promet	Paraclet	Jésus promet l'envoi du Paraclet
-Disciples	suivent	Jésus	Les disciples suivent Jésus
-Simon-Pierre	renie	Jésus	Simon-Pierre renie Jésus trois fois
-Judas	trahit	Jésus	Judas trahit Jésus
-Jésus	est_interrogé_par	Anne	Anne interroge Jésus
-Jésus	est_interrogé_par	Caïphe	Caïphe interroge Jésus
-Jésus	prédit	Persécution	Jésus prédit la persécution de ses disciples
-Jésus	annonce	Retour	Jésus annonce son retour
-Père	envoie	Jésus	Dieu le Père envoie Jésus
-Jésus	retourne_vers	Père	Jésus retourne vers le Père
-Juifs	accusent	Jésus	Les Juifs accusent Jésus devant Pilate
-Pilate	condamne	Jésus	Pilate condamne finalement Jésus
-Jésus	Personne	Figure	centrale de l'Évangile, Fils de Dieu
-Père	Entité_Divine	Dieu	le Père, figure divine suprême
-Disciples	Groupe	Suivants	de Jésus
-Monde	Concept	Le	monde terrestre, opposé au divin
-Paraclet	Entité_Divine	L'Esprit	Saint, envoyé par le Père
-Esprit_de_Vérité	Entité_Divine	Synonyme	du Paraclet
-Judas	Personne	Disciple	qui a trahi Jésus
-Vigne	Métaphore	Représentation	symbolique de Jésus
-Sarments	Métaphore	Représentation	symbolique des disciples
-Jésus	Envoyé_Par	Père	Jésus est envoyé dans le monde par le Père
-Jésus	Prie_Pour	Disciples	Jésus prie le Père pour ses disciples
-Jésus	Enseigne	Disciples	Jésus transmet ses enseignements aux disciples
-Père	Envoie	Paraclet	Le Père envoie le Paraclet aux disciples
-Disciples	Sont_Dans	Monde	Les disciples vivent dans le monde
-Disciples	Ne_Sont_Pas_De	Monde	Les disciples n'appartiennent pas au monde
-Jésus	Demeure_En	Disciples	Jésus demeure spirituellement dans ses disciples
-Disciples	Demeurent_En	Jésus	Les disciples demeurent spirituellement en Jésus
-Jésus	Est	Vigne	Jésus se compare à une vigne
-Disciples	Sont	Sarments	Les disciples sont comparés aux sarments de la vigne
-Père	Est	Vigneron	Dieu le Père est comparé à un vigneron
-Jésus	Donne	Commandements	Jésus donne des commandements à ses disciples
-Disciples	Gardent	Commandements	Les disciples doivent garder les commandements de Jésus
-Monde	Hait	Disciples	Le monde est hostile aux disciples
-Jésus	Promet	Paraclet	Jésus promet l'envoi du Paraclet aux disciples
-Paraclet	Enseigne	Disciples	Le Paraclet enseignera toutes choses aux disciples
-Jésus	Est_Un_Avec	Père	Jésus affirme son unité avec le Père
-Disciples	Doivent_S'Aimer	Disciples	Jésus commande aux disciples de s'aimer les uns les autres
-Jésus	Personne	Figure	centrale du christianisme, fils de Dieu selon la tradition chrétienne
-Disciples	Groupe	Disciples	de Jésus qui le suivaient et apprenaient de lui
-Foule	Groupe	Groupe	de personnes suivant ou écoutant Jésus
-Juifs	Groupe	Peuple	juif ou autorités religieuses juives mentionnées dans le texte
-Père	Entité_Divine	Dieu	le Père, première personne de la Trinité chrétienne
-Fils_de_l'homme	Titre	Titre	que Jésus s'attribue, faisant référence à sa nature humaine et divine
-Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire comme source de vie spirituelle
-Vie_éternelle	Concept	Concept	de vie sans fin promise par Jésus à ses disciples
-Capharnaüm	Lieu	Ville	où Jésus a enseigné et accompli des miracles
-Tibériade	Lieu	Ville	près de la mer de Galilée
-Galilée	Lieu	Région	où Jésus a vécu et enseigné
-Temple	Lieu	Temple	de Jérusalem, lieu de culte central du judaïsme
-Moïse	Personne	Figure	importante de l'Ancien Testament, mentionnée par Jésus
-Pâque	Événement	Fête	juive commémorant la sortie d'Égypte
-Sabbat	Concept	Jour	de repos hebdomadaire dans la tradition juive
-Jésus	enseigne	Disciples	Jésus instruit ses disciples
-Jésus	nourrit	Foule	Jésus multiplie les pains et les poissons pour nourrir la foule
-Jésus	marche_sur	Mer	Jésus marche miraculeusement sur l'eau
-Jésus	guérit	Malades	Jésus accomplit des miracles de guérison
-Jésus	est_fils_de	Père	Jésus se présente comme le Fils de Dieu
-Jésus	donne	Vie_éternelle	Jésus promet la vie éternelle à ceux qui croient en lui
-Jésus	est	Pain_de_vie	Jésus se décrit métaphoriquement comme le pain de vie
-Juifs	s'opposent_à	Jésus	Les autorités juives s'opposent aux enseignements et actions de Jésus
-Disciples	suivent	Jésus	Les disciples accompagnent et apprennent de Jésus
-Foule	cherche	Jésus	La foule cherche Jésus pour ses enseignements et miracles
-Jésus	accomplit	Signes	Jésus réalise des miracles appelés signes
-Jésus	interprète	Écritures	Jésus explique les Écritures à ses auditeurs
-Jésus	transgresse	Sabbat	Jésus est accusé de ne pas respecter le sabbat
-Père	envoie	Jésus	Dieu le Père envoie Jésus dans le monde
-Jésus	juge	Humanité	Jésus a reçu le pouvoir de juger l'humanité
-Jésus	Personne	Figure	centrale du texte, se présente comme le bon pasteur et la porte des brebis
-Brebis	Entité	Représente	les fidèles ou disciples de Jésus
-Portier	Personne	Ouvre	la porte aux brebis
-Voleur	Personne	Vient	pour voler et faire périr les brebis
-Brigand	Personne	Vient	pour voler et faire périr les brebis
-Bon_pasteur	Rôle	Rôle	que Jésus s'attribue, donne sa vie pour ses brebis
-Mercenaire	Personne	S'enfuit	face au danger, ne se soucie pas des brebis
-Loup	Entité	Menace	pour les brebis
-Père	Entité	Fait	référence à Dieu, le père de Jésus
-Juifs	Groupe	Groupe	en opposition avec Jésus dans le texte
-Pharisiens	Groupe	Groupe	religieux en conflit avec Jésus
-Aveugle-né	Personne	Homme	guéri par Jésus
-Abraham	Personne	Figure	ancestrale importante pour les Juifs
-Moïse	Personne	Figure	importante pour les Juifs, associé à la Loi
-Fils_de_l'homme	Rôle	Titre	que Jésus s'attribue
-Lumière_du_monde	Concept	Rôle	que Jésus s'attribue
-Jésus	est_le	Bon_pasteur	Jésus se présente comme le bon pasteur qui prend soin des brebis
-Jésus	est_la	Porte_des_brebis	Jésus se décrit comme la porte par laquelle les brebis entrent et sortent
-Jésus	connaît	Brebis	Jésus affirme connaître ses brebis
-Brebis	suivent	Jésus	Les brebis suivent Jésus car elles connaissent sa voix
-Bon_pasteur	donne_sa_vie_pour	Brebis	Le bon pasteur est prêt à sacrifier sa vie pour ses brebis
-Mercenaire	abandonne	Brebis	Le mercenaire fuit face au danger, laissant les brebis
-Loup	menace	Brebis	Le loup représente une menace pour les brebis
-Jésus	est_envoyé_par	Père	Jésus affirme être envoyé par le Père
-Juifs	s'opposent_à	Jésus	Les Juifs sont en conflit avec Jésus dans le texte
-Pharisiens	questionnent	Jésus	Les Pharisiens interrogent et remettent en question Jésus
-Jésus	guérit	Aveugle-né	Jésus guérit un homme né aveugle
-Jésus	se_compare_à	Abraham	Jésus affirme son existence avant Abraham
-Jésus	est_le	Fils_de_l'homme	Jésus s'identifie comme le Fils de l'homme
-Jésus	est_la	Lumière_du_monde	Jésus se décrit comme la lumière du monde
-Jésus	Personne	Personnage	central du texte, Fils de Dieu
-Dieu	Entité_divine	Père	de Jésus
-Disciples	Groupe	Suiveurs	de Jésus
-Pharisiens	Groupe	Opposants	à Jésus
-Lazare	Personne	Homme	ressuscité par Jésus
-Marie	Personne	Sœur	de Lazare
-Marthe	Personne	Sœur	de Lazare
-Béthanie	Lieu	Village	de Lazare, Marie et Marthe
-Jérusalem	Lieu	Ville	où se déroulent plusieurs événements
-Temple	Lieu	Lieu	saint à Jérusalem
-Fête_de_la_Dédicace	Événement	Fête	juive mentionnée dans le texte
-Pâque	Événement	Fête	juive approchante
-Caïphe	Personne	Grand	prêtre mentionné dans le texte
-Grecs	Groupe	Personnes	cherchant à voir Jésus
-Philippe	Personne	Disciple	de Jésus
-André	Personne	Disciple	de Jésus
-Judas_l'Iscariote	Personne	Disciple	qui trahira Jésus
-Jésus	est_fils_de	Dieu	Relation filiale divine
-Disciples	suivent	Jésus	Relation de disciples à maître
-Pharisiens	s'opposent_à	Jésus	Relation d'opposition
-Jésus	ressuscite	Lazare	Miracle de résurrection
-Marie	est_sœur_de	Lazare	Relation familiale
-Marthe	est_sœur_de	Lazare	Relation familiale
-Lazare	habite_à	Béthanie	Lieu de résidence
-Jésus	enseigne_dans	Temple	Lieu d'enseignement
-Jésus	participe_à	Fête_de_la_Dédicace	Participation à un événement religieux
-Caïphe	est_grand_prêtre	Temple	Fonction religieuse
-Grecs	cherchent_à_voir	Jésus	Désir de rencontre
-Philippe	est_disciple_de	Jésus	Relation de disciple
-André	est_disciple_de	Jésus	Relation de disciple
-Judas_l'Iscariote	trahira	Jésus	Acte de trahison futur
-Jésus	annonce	Glorification	Prédiction de sa glorification
-Jésus	prédit	Mort	Annonce de sa propre mort
-Jésus	se_présente_comme	Bon_Pasteur	Métaphore utilisée par Jésus
-Jésus	se_présente_comme	Porte_des_brebis	Métaphore utilisée par Jésus
-Jésus	entre_à	Jérusalem	Entrée messianique
-Foule	acclame	Jésus	Accueil triomphal à Jérusalem
-Jésus	Personne	Fils	de Dieu, protagoniste principal des évangiles
-Père	Entité_divine	Dieu	le Père, figure divine suprême
-Pain_de_vie	Concept_spirituel	Métaphore	utilisée par Jésus pour se décrire
-Vie_éternelle	Concept_spirituel	Promesse	divine pour ceux qui croient en Jésus
-Disciples	Groupe	Suiveurs	de Jésus
-Douze	Groupe	Les	douze apôtres choisis par Jésus
-Juifs	Groupe	Peuple	juif, souvent en opposition avec Jésus
-Synagogue	Lieu	Lieu	de culte et d'enseignement juif
-Capharnaüm	Lieu	Ville	où Jésus a enseigné
-Moïse	Personne	Figure	biblique importante de l'Ancien Testament
-Manne	Objet	Nourriture	miraculeuse donnée par Dieu dans le désert
-Écritures	Texte_sacré	Textes	sacrés juifs
-Simon-Pierre	Personne	Un	des douze apôtres de Jésus
-Judas	Personne	Disciple	qui trahira Jésus
-Fils_de_l'homme	Titre	Titre	que Jésus utilise pour se désigner
-Saint_de_Dieu	Titre	Titre	attribué à Jésus par Simon-Pierre
-Jésus	Est_fils_de	Père	Relation filiale divine
-Jésus	Est	Pain_de_vie	Métaphore utilisée par Jésus pour se décrire
-Jésus	Promet	Vie_éternelle	Promesse faite à ceux qui croient en lui
-Jésus	Enseigne	Disciples	Relation d'enseignement
-Jésus	Choisit	Douze	Sélection des apôtres
-Juifs	S'opposent_à	Jésus	Conflit religieux
-Jésus	Enseigne_dans	Synagogue	Lieu d'enseignement de Jésus
-Jésus	Enseigne_à	Capharnaüm	Ville où Jésus a enseigné
-Moïse	Donne	Manne	Nourriture miraculeuse dans le désert
-Disciples	Suivent	Jésus	Relation de disciple à maître
-Simon-Pierre	Reconnaît	Jésus	Comme le Saint de Dieu
-Judas	Trahit	Jésus	Trahison prédite
-Jésus	Utilise_titre	Fils_de_l'homme	Auto-désignation de Jésus
-Jésus	Interprète	Écritures	Explication des textes sacrés
-Jésus	Personne	Figure	centrale du christianisme, fils de Dieu selon la tradition chrétienne
-Jean_Baptiste	Personne	Prophète	qui a baptisé Jésus et annoncé sa venue
-Nicodème	Personne	Pharisien	et notable juif qui a rencontré Jésus
+Verbe	Est	Dieu	Le prologue affirme que le Verbe était Dieu
+Verbe	Devient	Chair	Le Verbe s'incarne selon le prologue
+Jésus	Personne	Figure	centrale du christianisme, fils de Dieu
 Dieu	Entité_Divine	Être	suprême dans le christianisme
-Royaume_de_Dieu	Concept_Spirituel	Concept	central de l'enseignement de Jésus
-Esprit_Saint	Entité_Divine	Troisième	personne de la Trinité chrétienne
-Fils_de_l'homme	Titre	Titre	que Jésus s'attribue souvent
-Moïse	Personne	Figure	biblique importante, chef des Israélites
-Pharisiens	Groupe	Groupe	religieux juif de l'époque de Jésus
-Disciples	Groupe	Suiveurs	de Jésus
-Nathanaël	Personne	Un	des premiers disciples de Jésus
-Philippe	Personne	Un	des premiers disciples de Jésus
-André	Personne	Un	des premiers disciples de Jésus, frère de Simon-Pierre
-Simon-Pierre	Personne	Un	des premiers et principaux disciples de Jésus
-Cana	Lieu	Village	en Galilée où Jésus a accompli son premier miracle
-Jérusalem	Lieu	Ville	sainte où se déroulent plusieurs événements importants
-Temple	Lieu	Centre	religieux juif à Jérusalem
-Jourdain	Lieu	Fleuve	où Jean baptisait
-Béthanie	Lieu	Lieu	où Jean baptisait, au-delà du Jourdain
-Nazareth	Lieu	Ville	d'origine de Jésus
-Capharnaüm	Lieu	Ville	où Jésus a séjourné
-Galilée	Région	Région	où Jésus a exercé une grande partie de son ministère
-Judée	Région	Région	où Jésus a exercé une partie de son ministère
-Jésus	Enseigne	Royaume_de_Dieu	Jésus enseigne le concept du Royaume de Dieu
-Jean_Baptiste	Baptise	Jésus	Jean baptise Jésus dans le Jourdain
-Nicodème	Rencontre	Jésus	Nicodème vient rencontrer Jésus de nuit
-Jésus	Accomplit	Miracle	Jésus accomplit des miracles, dont le premier à Cana
-Disciples	Suivent	Jésus	Les disciples suivent et croient en Jésus
-Jésus	Purifie	Temple	Jésus chasse les marchands du Temple
-Jésus	Prêche	Peuple	Jésus prêche et enseigne le peuple
-Jésus	Annonce	Résurrection	Jésus annonce sa résurrection de manière symbolique
-Dieu	Envoie	Jésus	Dieu envoie Jésus pour sauver le monde
-Jésus	Baptise	Esprit_Saint	Jésus baptise dans l'Esprit Saint
-Jésus	S'identifie_comme	Fils_de_l'homme	Jésus utilise le titre de Fils de l'homme pour lui-même
-Pharisiens	Questionnent	Jésus	Les Pharisiens interrogent et remettent en question Jésus
-Jésus	Voyage_entre	Galilée	Jésus se déplace entre la Galilée et la Judée
-Jésus	Voyage_entre	Judée	Jésus se déplace entre la Galilée et la Judée
-Jésus	Personne	Fils	de Dieu et personnage central du texte
-Père	Personne	Dieu	le Père, qui a envoyé Jésus
-Esprit	Concept	L'Esprit	Saint mentionné dans le texte
-Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
-Eau_vive	Concept	Métaphore	utilisée par Jésus pour décrire l'Esprit
-Juifs	Groupe	Peuple	juif mentionné dans le texte
-Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
 Disciples	Groupe	Followers	de Jésus
-Foule	Groupe	Gens	qui suivent et écoutent Jésus
+Judas_Iscariote	Personne	Disciple	qui a trahi Jésus
+Simon-Pierre	Personne	Un	des principaux disciples de Jésus
+Lazare	Personne	Homme	ressuscité par Jésus
+Marthe	Personne	Sœur	de Lazare
+Marie	Personne	Sœur	de Lazare
+Pharisiens	Groupe	Secte	juive opposée à Jésus
+Grands_prêtres	Groupe	Autorités	religieuses juives
+Caïphe	Personne	Grand	prêtre ayant prophétisé sur Jésus
+Béthanie	Lieu	Village	où vivaient Lazare et ses sœurs
+Jérusalem	Lieu	Ville	sainte où Jésus est entré
+Temple	Lieu	Centre	religieux juif à Jérusalem
+Pâque	Événement	Fête	juive importante
+Jésus	enseigne	Disciples	Jésus instruit ses disciples
+Jésus	lave_pieds	Disciples	Acte d'humilité de Jésus envers ses disciples
+Judas_Iscariote	trahit	Jésus	Judas livre Jésus aux autorités
+Jésus	ressuscite	Lazare	Jésus ramène Lazare à la vie
+Jésus	entre	Jérusalem	Entrée triomphale de Jésus à Jérusalem
+Pharisiens	s'opposent	Jésus	Les Pharisiens cherchent à arrêter Jésus
+Grands_prêtres	complotent	Jésus	Les grands prêtres planifient d'arrêter Jésus
+Caïphe	prophétise	Jésus	Caïphe prédit la mort de Jésus pour la nation
+Marie	oint	Jésus	Marie verse du parfum sur les pieds de Jésus
+Jésus	annonce	Mort	Jésus prédit sa propre mort
+Jésus	enseigne	Amour	Jésus donne le commandement d'amour mutuel
+Dieu	glorifie	Jésus	Dieu honore Jésus par une voix du ciel
+Jésus	est_fils	Dieu	Relation filiale entre Jésus et Dieu
+Jésus	Personne	Personnage	principal des évangiles, fils de Dieu
+Marie_de_Magdala	Personne	Disciple	de Jésus
+Simon-Pierre	Personne	Disciple	de Jésus
+Disciples	Groupe	Suiveurs	de Jésus
+Pilate	Personne	Gouverneur	romain de Judée
+Joseph_d'Arimathie	Personne	Disciple	secret de Jésus
+Nicodème	Personne	Pharisien	sympathisant de Jésus
+Juifs	Groupe	Peuple	d'Israël
+Anges	Être_Spirituel	Messagers	divins
+Golgotha	Lieu	Lieu	de crucifixion de Jésus
+Croix	Objet	Instrument	de crucifixion
+Tombeau	Lieu	Lieu	de sépulture de Jésus
+Résurrection	Événement	Retour	à la vie de Jésus
+Crucifixion	Événement	Mise	à mort de Jésus sur la croix
+Ensevelissement	Événement	Mise	au tombeau du corps de Jésus
+Apparition	Événement	Manifestation	de Jésus ressuscité
+Préparation	Événement	Jour	précédant le sabbat
+Sabbat	Événement	Jour	de repos hebdomadaire juif
+Écriture	Texte	Textes	sacrés juifs et chrétiens
+Jésus	subit	Crucifixion	Jésus est mis à mort sur la croix
+Jésus	est_enseveli_dans	Tombeau	Le corps de Jésus est déposé dans un tombeau
+Jésus	accomplit	Résurrection	Jésus revient à la vie le troisième jour
+Marie_de_Magdala	découvre	Tombeau_vide	Marie trouve le tombeau de Jésus vide
+Jésus	apparaît_à	Marie_de_Magdala	Jésus ressuscité se montre à Marie
+Disciples	découvrent	Tombeau_vide	Les disciples constatent que le tombeau est vide
+Pilate	autorise	Ensevelissement	Pilate permet que le corps de Jésus soit enseveli
+Joseph_d'Arimathie	demande	Corps_de_Jésus	Joseph demande le corps de Jésus à Pilate
+Nicodème	apporte	Aromates	Nicodème apporte des aromates pour l'ensevelissement
+Jésus	est_crucifié_à	Golgotha	Jésus est crucifié au lieu dit du Crâne
+Écriture	prédit	Résurrection	Les textes sacrés annoncent la résurrection
+Anges	apparaissent_à	Marie_de_Magdala	Des anges se manifestent à Marie au tombeau
+Jésus	est_roi_des	Juifs	Titre donné à Jésus lors de sa crucifixion
+Jesus	Personne	Fils	de Dieu, enseignant et guérisseur
+Dieu	Entité_Divine	Père	de Jésus, créateur
+Abraham	Personne	Patriarche	biblique
+Pharisiens	Groupe	Secte	juive opposée à Jésus
+Juifs	Groupe	Peuple	d'Israël
+Disciples	Groupe	Suivants	de Jésus
+Aveugle-né	Personne	Homme	guéri par Jésus
+Siloé	Lieu	Piscine	où l'aveugle-né s'est lavé
+Temple	Lieu	Lieu	saint à Jérusalem
+Moïse	Personne	Législateur	biblique
+Esprit	Entité_Divine	Esprit	Saint promis par Jésus
+Nicodème	Personne	Pharisien	sympathisant avec Jésus
+Mont_des_Oliviers	Lieu	Montagne	près de Jérusalem
+Galilée	Lieu	Région	au nord d'Israël
+Judée	Lieu	Région	au sud d'Israël
+Bethléem	Lieu	Ville	de naissance de David
+Jesus	est_fils_de	Dieu	Relation filiale divine
+Jesus	enseigne	Disciples	Transmission de doctrine
+Jesus	guérit	Aveugle-né	Miracle de guérison
+Jesus	s'oppose_à	Pharisiens	Conflit doctrinal et moral
+Jesus	se_déclare	Lumière_du_monde	Affirmation de nature divine
+Jesus	promet	Esprit	Promesse de l'Esprit Saint
+Jesus	se_compare_à	Abraham	Affirmation de préexistence
+Pharisiens	s'opposent_à	Jesus	Rejet de son enseignement
+Juifs	cherchent_à_tuer	Jesus	Menace contre sa vie
+Aveugle-né	est_guéri_par	Jesus	Miracle de guérison
+Disciples	suivent	Jesus	Relation maître-disciple
+Jesus	enseigne_dans	Temple	Lieu d'enseignement public
+Jesus	interprète	Loi_de_Moïse	Nouvelle compréhension de la Loi
+Jesus	annonce	Départ	Prédiction de sa mort et résurrection
+Jesus	promet	Eau_vive	Métaphore pour l'Esprit Saint
+Nicodème	sympathise_avec	Jesus	Soutien discret
+Jesus	va_à	Mont_des_Oliviers	Lieu de retraite
+Jesus	parcourt	Galilée	Lieu de ministère
+Jesus	évite	Judée	Lieu de danger
+Jésus	Personne	Figure	centrale du christianisme
+Pilate	Personne	Gouverneur	romain de Judée
+Grand_prêtre	Personne	Chef	religieux juif
+Disciple	Personne	Suiveur	de Jésus
+Soldat_romain	Personne	Membre	de l'armée romaine
+Juif	Groupe	Peuple	du judaïsme
+Croix	Objet	Instrument	de crucifixion
+Golgotha	Lieu	Site	de la crucifixion de Jésus
+Prétoire	Lieu	Résidence	officielle du gouverneur romain
+Jérusalem	Lieu	Ville	sainte
+César	Personne	Empereur	romain
+Jésus	est_condamné_par	Pilate	Pilate condamne Jésus à la crucifixion
+Jésus	est_crucifié_à	Golgotha	Jésus est crucifié au lieu dit Golgotha
+Pilate	gouverne	Judée	Pilate est le gouverneur romain de Judée
+Grand_prêtre	demande_crucifixion_de	Jésus	Les grands prêtres demandent la crucifixion de Jésus
+Soldat_romain	crucifie	Jésus	Les soldats romains exécutent la crucifixion
+Jésus	porte	Croix	Jésus porte sa croix jusqu'au lieu de crucifixion
+Pilate	écrit_inscription_sur	Croix	Pilate fait inscrire "Jésus le Nazôréen, roi des Juifs" sur la croix
+Disciple	suit	Jésus	Les disciples suivent Jésus
+Jésus	enseigne_à	Disciple	Jésus enseigne sa doctrine à ses disciples
+Jésus	est_interrogé_par	Grand_prêtre	Le grand prêtre interroge Jésus sur sa doctrine
+Jésus	comparaît_devant	Pilate	Jésus est jugé par Pilate au prétoire
+Juif	s'oppose_à	Jésus	Les Juifs s'opposent à Jésus et demandent sa crucifixion
+César	règne_sur	Empire_romain	César est l'empereur régnant sur l'Empire romain
+Jésus	meurt_sur	Croix	Jésus meurt crucifié sur la croix
+Jérusalem	est_lieu_de	Crucifixion	La crucifixion a lieu près de Jérusalem
+Jésus	Personne	Figure	centrale du texte, se présente comme le Fils de Dieu
+Pilate	Personne	Gouverneur	romain qui juge Jésus
+Juifs	Groupe	Peuple	juif mentionné dans le texte
+Grands_prêtres	Groupe	Autorités	religieuses juives
+Disciples	Groupe	Suiveurs	de Jésus
+Simon-Pierre	Personne	Disciple	de Jésus
+Anne	Personne	Ancien	grand prêtre juif
+Caïphe	Personne	Grand	prêtre en fonction
+Judas	Personne	Disciple	qui trahit Jésus
+Père	Entité_divine	Dieu,	père de Jésus
+Paraclet	Entité_divine	Esprit	de vérité promis par Jésus
+Royaume	Concept	Royaume	spirituel de Jésus
+Vérité	Concept	Concept	central dans l'enseignement de Jésus
+Monde	Concept	Le	monde terrestre par opposition au royaume de Jésus
+Jésus	est_roi_de	Juifs	Jésus est présenté comme le roi des Juifs
+Jésus	est_jugé_par	Pilate	Pilate juge Jésus
+Grands_prêtres	accusent	Jésus	Les grands prêtres accusent Jésus
+Disciples	suivent	Jésus	Les disciples sont les suiveurs de Jésus
+Jésus	prie_pour	Disciples	Jésus prie pour ses disciples
+Jésus	est_fils_de	Père	Jésus se présente comme le Fils de Dieu
+Jésus	promet	Paraclet	Jésus promet l'envoi du Paraclet
+Jésus	règne_sur	Royaume	Jésus règne sur un royaume spirituel
+Jésus	enseigne	Vérité	Jésus enseigne la vérité
+Disciples	ne_sont_pas_du	Monde	Les disciples n'appartiennent pas au monde terrestre
+Judas	trahit	Jésus	Judas trahit Jésus
+Simon-Pierre	renie	Jésus	Simon-Pierre renie Jésus
+Anne	interroge	Jésus	Anne interroge Jésus
+Caïphe	juge	Jésus	Caïphe juge Jésus
+Pilate	condamne	Jésus	Pilate condamne Jésus à mort
+Jésus	Personne	Personnage	central du texte, fils de Dieu
+Dieu	Entité_Divine	Père	de Jésus, divinité suprême
+Père	Entité_Divine	Autre	nom utilisé pour désigner Dieu
+Fils_de_l'homme	Personne	Titre	utilisé par Jésus pour se désigner
+Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
+Juifs	Groupe	Groupe	religieux et ethnique mentionné dans le texte
+Disciples	Groupe	Suiveurs	de Jésus
+Douze	Groupe	Groupe	des douze disciples principaux de Jésus
+Moïse	Personne	Figure	biblique mentionnée dans le texte
+Simon-Pierre	Personne	Un	des disciples de Jésus
+Judas	Personne	Disciple	qui trahira Jésus
 Galilée	Lieu	Région	mentionnée dans le texte
 Judée	Lieu	Région	mentionnée dans le texte
 Jérusalem	Lieu	Ville	mentionnée dans le texte
 Temple	Lieu	Lieu	saint à Jérusalem
 Capharnaüm	Lieu	Ville	mentionnée dans le texte
-Fête_des_Tentes	Événement	Fête	juive mentionnée dans le texte
-Pâque	Événement	Fête	juive mentionnée dans le texte
-Multiplication_des_pains	Événement	Miracle	réalisé par Jésus
-Marche_sur_l'eau	Événement	Miracle	réalisé par Jésus
-Jésus	est_envoyé_par	Père	Jésus affirme être envoyé par le Père
-Jésus	enseigne	Disciples	Jésus instruit ses disciples
-Jésus	confronte	Juifs	Jésus a des discussions et confrontations avec les Juifs
-Jésus	réalise	Multiplication_des_pains	Jésus accomplit ce miracle
-Jésus	réalise	Marche_sur_l'eau	Jésus accomplit ce miracle
-Jésus	se_décrit_comme	Pain_de_vie	Jésus utilise cette métaphore pour se décrire
-Jésus	promet	Eau_vive	Jésus promet l'Esprit Saint sous cette métaphore
-Disciples	suivent	Jésus	Les disciples sont les followers de Jésus
-Foule	écoute	Jésus	La foule suit et écoute les enseignements de Jésus
-Pharisiens	s'opposent_à	Jésus	Les Pharisiens sont en conflit avec Jésus
-Jésus	se_déplace_entre	Galilée	Jésus voyage dans cette région
-Jésus	se_déplace_entre	Judée	Jésus voyage dans cette région
-Jésus	enseigne_dans	Temple	Jésus donne des enseignements dans le Temple
-Fête_des_Tentes	se_déroule_à	Jérusalem	Cette fête a lieu à Jérusalem
-Pâque	précède	Multiplication_des_pains	La Pâque est mentionnée avant ce miracle
-Jesus	Personne	Figure	centrale du christianisme
-Dieu	Entité_Divine	Être	suprême dans le monothéisme
-Père	Entité_Divine	Dieu	le Père dans la conception chrétienne
-Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
-Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
-Vie_éternelle	Concept	Promesse	de vie sans fin dans la foi chrétienne
-Juifs	Groupe	Groupe	religieux et ethnique
-Disciples	Groupe	Suiveurs	de Jésus
-Moïse	Personne	Figure	biblique, législateur du peuple juif
-Galilée	Lieu	Région	où Jésus a exercé son ministère
-Judée	Lieu	Région	au sud de la Galilée
-Jérusalem	Lieu	Ville	sainte pour les juifs et les chrétiens
-Temple	Lieu	Centre	du culte juif à Jérusalem
-Capharnaüm	Lieu	Ville	où Jésus a enseigné
-Fête_des_Tentes	Événement	Fête	juive
-Sabbat	Concept	Jour	de repos hebdomadaire dans le judaïsme
-Loi	Concept	Ensemble	des prescriptions religieuses juives
-Circoncision	Rite	Pratique	rituelle juive
-Manne	Concept	Nourriture	miraculeuse dans l'Exode
-Écritures	Texte	Textes	sacrés du judaïsme
-Signe	Concept	Acte	miraculeux réalisé par Jésus
-Œuvre	Concept	Actions	accomplies par Jésus ou Dieu
-Doctrine	Concept	Enseignement	de Jésus
-Jésus	Personne	Personnage	central de l'Évangile selon Saint Jean
-Gloire	Concept	Honneur	dû à Dieu ou au Christ
-Simon-Pierre	Personne	Disciple	de Jésus, aussi appelé Pierre
-Jesus	est_fils_de	Dieu	Relation filiale entre Jésus et Dieu
-Thomas	Personne	Disciple	de Jésus, surnommé Didyme
-Jesus	enseigne	Disciples	Jésus transmet son enseignement à ses disciples
-Marie_de_Magdala	Personne	Disciple	de Jésus, première à le voir ressuscité
-Jesus	accomplit	Signe	Jésus réalise des actes miraculeux
-Jesus	proclame	Doctrine	Jésus annonce son enseignement
-Disciples	Groupe	Groupe	de personnes suivant Jésus
-Jesus	promet	Vie_éternelle	Jésus offre la vie éternelle à ceux qui croient
-Jesus	se_déclare	Pain_de_vie	Jésus s'identifie comme le pain de vie
-Pilate	Personne	Gouverneur	romain ayant jugé Jésus
-Juifs	Groupe	Peuple	auquel appartenait Jésus
-Père	envoie	Jesus	Dieu le Père envoie Jésus dans le monde
-Grands_prêtres	Groupe	Autorités	religieuses juives
-Soldats	Groupe	Exécuteurs	de la crucifixion
-Juifs	s'opposent_à	Jesus	Les Juifs entrent en conflit avec Jésus
-Joseph_d'Arimathie	Personne	Disciple	secret de Jésus qui s'occupa de son corps
-Nicodème	Personne	Pharisien	venu voir Jésus de nuit
-Disciples	suivent	Jesus	Les disciples accompagnent Jésus
-Moïse	donne	Loi	Moïse transmet la Loi au peuple juif
-Anges	Être_spirituel	Êtres	célestes vus au tombeau
-Golgotha	Lieu	Lieu	de la crucifixion de Jésus
-Jesus	interprète	Loi	Jésus donne une nouvelle interprétation de la Loi
-Jesus	transcende	Sabbat	Jésus affirme son autorité sur le Sabbat
-Mer_de_Tibériade	Lieu	Lieu	d'une apparition de Jésus ressuscité
-Tombeau	Lieu	Lieu	où fut déposé le corps de Jésus
-Croix	Objet	Instrument	de supplice sur lequel Jésus fut crucifié
-Jesus	accomplit	Écritures	Jésus réalise les prophéties des Écritures
-Résurrection	Événement	Retour	à la vie de Jésus après sa mort
-Crucifixion	Événement	Exécution	de Jésus sur la croix
-Dieu	donne	Pain_de_vie	Dieu offre le vrai pain de vie en Jésus
-Apparition	Événement	Manifestation	de Jésus ressuscité
-Jesus	marche_sur	Mer	Jésus réalise le miracle de marcher sur l'eau
-Jesus	multiplie	Pain	Jésus nourrit miraculeusement une foule
-Jésus	est_disciple_de	Dieu	Jésus se présente comme envoyé par le Père
-Simon-Pierre	est_disciple_de	Jésus	Simon-Pierre suit et obéit à Jésus
-Thomas	est_disciple_de	Jésus	Thomas est l'un des douze disciples
-Marie_de_Magdala	est_disciple_de	Jésus	Marie de Magdala suit Jésus
-Jésus	est_crucifié_sur	Croix	Jésus meurt crucifié sur une croix
-Jésus	est_enterré_dans	Tombeau	Le corps de Jésus est déposé dans un tombeau
-Jésus	ressuscite_de	Tombeau	Jésus revient à la vie et sort du tombeau
-Jésus	apparaît_à	Disciples	Jésus se montre vivant à ses disciples après sa résurrection
-Jésus	apparaît_à	Marie_de_Magdala	Jésus se montre d'abord à Marie de Magdala
-Pilate	condamne	Jésus	Pilate prononce la sentence de mort contre Jésus
-Soldats	exécutent	Jésus	Les soldats romains crucifient Jésus
-Joseph_d'Arimathie	ensevelit	Jésus	Joseph d'Arimathie s'occupe du corps de Jésus
-Nicodème	aide_à_ensevelir	Jésus	Nicodème apporte des aromates pour l'ensevelissement
-Disciples	pêchent_dans	Mer_de_Tibériade	Les disciples pêchent dans la mer de Tibériade
-Jésus	apparaît_près_de	Mer_de_Tibériade	Jésus se montre aux disciples près de la mer
-Jésus	questionne	Simon-Pierre	Jésus interroge Pierre sur son amour
-Jean_Baptiste	Personne	Prophète	qui baptisait et témoignait de Jésus
-Jésus	Personne	Fils	de Dieu, le Christ
-Dieu	Entité_Divine	Créateur,	Père céleste
-Esprit_Saint	Entité_Divine	Troisième	personne de la Trinité
-Royaume_de_Dieu	Concept	Domaine	spirituel de Dieu
-Baptême	Rituel	Acte	symbolique de purification et de renaissance spirituelle
-Témoignage	Concept	Attestation	de la vérité ou de faits observés
-Vie_Éternelle	Concept	Existence	spirituelle sans fin auprès de Dieu
-Lumière	Concept	Symbole	de vérité, connaissance et révélation divine
-Ténèbres	Concept	Symbole	d'ignorance et d'éloignement de Dieu
-Verbe	Concept	Parole	créatrice de Dieu, incarnée en Jésus
-Fils_de_l'homme	Titre	Désignation	messianique utilisée par Jésus
-Fils_de_Dieu	Titre	Désignation	divine de Jésus
-Christ	Titre	Messie,	l'Oint de Dieu
-Agneau_de_Dieu	Titre	Désignation	sacrificielle de Jésus
-Pharisiens	Groupe	Secte	juive stricte dans l'observance de la Loi
-Disciples	Groupe	Suiveurs	de Jésus
-Samaritains	Groupe	Peuple	de Samarie, considéré comme impur par les Juifs
-Nicodème	Personne	Notable	juif, pharisien, qui vint consulter Jésus
-Nathanaël	Personne	Disciple	de Jésus
-Philippe	Personne	Disciple	de Jésus
-André	Personne	Disciple	de Jésus, frère de Simon-Pierre
-Simon-Pierre	Personne	Disciple	de Jésus, appelé Céphas (Pierre)
-Marie	Personne	Mère	de Jésus
-Jean_Baptiste	Baptise	Jésus	Jean baptise Jésus dans le Jourdain
-Jean_Baptiste	Témoigne_de	Jésus	Jean rend témoignage que Jésus est le Fils de Dieu
-Jésus	Enseigne	Disciples	Jésus instruit ses disciples
-Jésus	Offre	Vie_Éternelle	Jésus promet la vie éternelle à ceux qui croient en lui
-Jésus	Incarne	Verbe	Jésus est la Parole de Dieu faite chair
-Jésus	Baptise_avec	Esprit_Saint	Jésus baptise avec l'Esprit Saint
-Dieu	Envoie	Jésus	Dieu envoie son Fils dans le monde
-Esprit_Saint	Descend_sur	Jésus	L'Esprit Saint descend sur Jésus comme une colombe
-Disciples	Suivent	Jésus	Les disciples accompagnent et apprennent de Jésus
-Nicodème	Consulte	Jésus	Nicodème vient de nuit pour questionner Jésus
-Jésus	Enseigne	Nicodème	Jésus explique la nouvelle naissance à Nicodème
-Jésus	Purifie	Temple	Jésus chasse les marchands du Temple
-Jésus	Transforme	Eau	Jésus change l'eau en vin aux noces de Cana
-Jésus	Révèle	Royaume_de_Dieu	Jésus enseigne sur le Royaume de Dieu
-Lumière	S'oppose_à	Ténèbres	Contraste symbolique entre vérité
-Jésus	Personne	Personnage	central du récit
-Joseph_d'Arimathie	Personne	Disciple	secret de Jésus
-Pilate	Personne	Autorité	romaine qui autorise l'enlèvement du corps de Jésus
-Nicodème	Personne	Disciple	qui apporte des aromates pour l'ensevelissement
-Marie_de_Magdala	Personne	Disciple	qui découvre le tombeau vide
-Simon-Pierre	Personne	Disciple	de Jésus
-Disciple_bien-aimé	Personne	Disciple	anonyme particulièrement proche de Jésus
-Anges	Entité_spirituelle	Êtres	spirituels vus au tombeau
-Grands_prêtres	Groupe	Autorités	religieuses juives
-Soldats	Groupe	Exécuteurs	de la crucifixion
-Marie_mère_de_Jésus	Personne	Mère	de Jésus présente à la crucifixion
-Barabbas	Personne	Prisonnier	libéré à la place de Jésus
-Anne	Personne	Beau-père	de Caïphe, interroge Jésus
-Caïphe	Personne	Grand	prêtre qui juge Jésus
-Malchus	Personne	Serviteur	du grand prêtre dont l'oreille est coupée
-Jésus	est_crucifié_à	Golgotha	Lieu de la crucifixion de Jésus
-Jésus	est_enseveli_dans	Tombeau_neuf	Lieu de sépulture de Jésus
-Joseph_d'Arimathie	demande_le_corps_de	Jésus	Joseph demande l'autorisation d'enlever le corps de Jésus
-Nicodème	apporte_aromates_pour	Jésus	Nicodème apporte des aromates pour l'ensevelissement
-Marie_de_Magdala	découvre_tombeau_vide_de	Jésus	Marie de Magdala trouve le tombeau de Jésus vide
-Simon-Pierre	entre_dans	Tombeau_neuf	Simon-Pierre entre dans le tombeau vide
-Disciple_bien-aimé	croit_en_la_résurrection_de	Jésus	Le disciple bien-aimé croit après avoir vu le tombeau vide
-Jésus	apparaît_à	Marie_de_Magdala	Jésus apparaît à Marie de Magdala après sa résurrection
-Pilate	condamne	Jésus	Pilate prononce la condamnation de Jésus
-Soldats	crucifient	Jésus	Les soldats exécutent la crucifixion
-Marie_mère_de_Jésus	est_présente_à_la_crucifixion_de	Jésus	Marie est au pied de la croix
-Jésus	confie_sa_mère_à	Disciple_bien-aimé	Jésus demande au disciple bien-aimé de prendre soin de sa mère
-Pilate	libère	Barabbas	Pilate libère Barabbas à la demande de la foule
-Anne	interroge	Jésus	Anne interroge Jésus après son arrestation
-Caïphe	juge	Jésus	Caïphe préside le jugement de Jésus
-Simon-Pierre	renie	Jésus	Simon-Pierre renie Jésus trois fois
-Jésus	Personne	Figure	centrale du texte, considéré comme le Christ et le Fils de Dieu
-Samaritaine	Personne	Femme	de Samarie qui rencontre Jésus au puits
-Jean-Baptiste	Personne	Prophète	qui baptise et annonce la venue de Jésus
-Disciples	Groupe	Suivants	de Jésus
-Samaritains	Groupe	Habitants	de Samarie
-Juifs	Groupe	Peuple	d'Israël
-Pharisiens	Groupe	Secte	religieuse juive
-Nicodème	Personne	Pharisien	qui rencontre Jésus de nuit
-Père	Entité_Divine	Dieu	le Père dans la conception chrétienne
-Esprit	Entité_Divine	Esprit	Saint dans la conception chrétienne
-Royaume_de_Dieu	Concept_Spirituel	Royaume	spirituel annoncé par Jésus
-Eau_Vive	Concept_Spirituel	Métaphore	pour l'enseignement spirituel de Jésus
-Messie	Titre	Titre	désignant le sauveur attendu
-Christ	Titre	Équivalent	grec de Messie
-Prophète	Titre	Personne	inspirée par Dieu pour transmettre un message
-Fils_de_l'homme	Titre	Titre	que Jésus s'attribue
-Fils_de_Dieu	Titre	Titre	attribué à Jésus
-Sauveur_du_monde	Titre	Titre	attribué à Jésus par les Samaritains
-Sychar	Lieu	Ville	de Samarie
-Puits_de_Jacob	Lieu	Puits	où Jésus rencontre la Samaritaine
-Galilée	Lieu	Région	où Jésus se rend
-Samarie	Lieu	Région	entre la Judée et la Galilée
-Jérusalem	Lieu	Ville	sainte pour les Juifs
-Cana	Lieu	Ville	où Jésus accomplit son premier miracle
-Temple	Lieu	Lieu	de culte à Jérusalem
-Capharnaüm	Lieu	Ville	où Jésus s'installe
-Jourdain	Lieu	Fleuve	où Jean baptise
-Béthanie	Lieu	Lieu	où Jean baptise
-Jésus	Enseigne	Samaritaine	Jésus enseigne à la Samaritaine sur l'eau vive et l'adoration
-Jésus	Révèle_Identité	Samaritaine	Jésus se révèle comme le Messie à la Samaritaine
-Jésus	Convertit	Samaritains	Les Samaritains croient en Jésus après l'avoir entendu
-Jésus	Enseigne	Nicodème	Jésus enseigne à Nicodème sur la nouvelle naissance
-Jésus	Accomplit	Miracle	Jésus change l'eau en vin à Cana
-Jean-Baptiste	Témoigne	Jésus	Jean-Baptiste témoigne que Jésus est l'Agneau de Dieu
-Disciples	Suivent	Jésus	Les disciples suivent et accompagnent Jésus
-Jésus	Purifie	Temple	Jésus chasse les marchands du Temple
-Jésus	Annonce	Royaume_de_Dieu	Jésus enseigne sur le Royaume de Dieu
-Jésus	Entité	Figure	centrale du texte, Fils de Dieu
-Père	Entité	Dieu	le Père, celui qui a envoyé Jésus
-Paraclet	Entité	Esprit	Saint promis par Jésus
-Disciples	Entité	Suiveurs	de Jésus
-Monde	Entité	Le	monde terrestre, opposé au royaume de Dieu
-Prince_du_monde	Entité	Figure	antagoniste, probablement Satan
-Vigne	Entité	Métaphore	utilisée par Jésus pour décrire sa relation avec ses disciples
-Vigneron	Entité	Métaphore	pour Dieu le Père
-Sarments	Entité	Métaphore	pour les disciples
-Commandements	Entité	Enseignements	et instructions de Jésus
-Amour	Entité	Concept	central dans l'enseignement de Jésus
-Vérité	Entité	Concept	associé à Jésus et à l'Esprit Saint
-Vie	Entité	Concept	associé à Jésus
-Chemin	Entité	Concept	associé à Jésus
-Paix	Entité	Don	de Jésus à ses disciples
-Joie	Entité	État	d'esprit promis par Jésus à ses disciples
-Péché	Entité	Concept	de transgression spirituelle
-Justice	Entité	Concept	lié au jugement divin
-Jugement	Entité	Acte	de discernement divin
-Gloire	Entité	Honneur	et reconnaissance divine
-Jésus	est_fils_de	Père	Relation filiale divine
-Jésus	envoie	Paraclet	Promesse de l'envoi de l'Esprit Saint
-Jésus	enseigne	Disciples	Transmission de connaissances et instructions
-Disciples	suivent	Jésus	Relation de disciple à maître
-Jésus	s'oppose_à	Monde	Contraste entre les valeurs divines et mondaines
-Jésus	est	Vigne	Métaphore de la relation spirituelle
-Père	est	Vigneron	Métaphore du rôle divin
-Disciples	sont	Sarments	Métaphore de la dépendance spirituelle
-Jésus	donne	Commandements	Transmission d'instructions morales et spirituelles
-Jésus	incarne	Amour	Représentation vivante de l'amour divin
-Jésus	est	Vérité	Incarnation de la vérité divine
-Jésus	est	Vie	Source de vie spirituelle
-Jésus	est	Chemin	Voie vers le salut
-Jésus	donne	Paix	Don spirituel aux disciples
-Jésus	promet	Joie	Promesse d'un état spirituel positif
-Paraclet	enseigne	Vérité	Rôle d'instruction spirituelle
-Paraclet	témoigne_de	Jésus	Confirmation de la mission de Jésus
-Jésus	juge	Péché	Rôle de discernement moral
-Jésus	révèle	Justice	Manifestation de la justice divine
-Jésus	annonce	Jugement	Prédiction d'un jugement futur
-Père	glorifie	Jésus	Reconnaissance divine de Jésus
-Jésus	glorifie	Père	Honneur rendu à Dieu le Père
+Fête_des_Tentes	Evénement	Fête	juive mentionnée dans le texte
+Pâque	Evénement	Fête	juive mentionnée dans le texte
+Jésus	est_fils_de	Dieu	Relation filiale divine
+Jésus	enseigne	Disciples	Jésus instruit ses suiveurs
+Jésus	est_persécuté_par	Juifs	Conflit entre Jésus et les autorités juives
+Jésus	se_décrit_comme	Pain_de_vie	Métaphore utilisée par Jésus
+Jésus	réalise	Miracles	Actes surnaturels attribués à Jésus
+Disciples	suivent	Jésus	Relation de disciples à maître
+Dieu	envoie	Jésus	Mission divine de Jésus
+Jésus	prêche_dans	Temple	Lieu d'enseignement de Jésus
+Jésus	est_appelé	Fils_de_l'homme	Titre utilisé par Jésus
+Moïse	a_donné	Loi	Référence à la loi mosaïque
+Jésus	participe_à	Fête_des_Tentes	Présence de Jésus lors de la fête
+Jésus	multiplie	Pains	Miracle de la multiplication des pains
+Jésus	marche_sur	Mer	Miracle de Jésus marchant sur l'eau
+Simon-Pierre	est_disciple_de	Jésus	Relation de disciple à maître
+Judas	trahit	Jésus	Action future de trahison
+Jésus	ressuscite	Morts	Pouvoir de résurrection attribué à Jésus
+Jésus	juge	Humanité	Rôle de juge attribué à Jésus
 Jésus	Personne	Figure	centrale de l'Évangile
+Simon-Pierre	Personne	Disciple	de Jésus
+Thomas	Personne	Disciple	de Jésus, appelé Didyme
+Jean	Personne	Disciple	que Jésus aimait
+Marie_de_Magdala	Personne	Disciple	de Jésus
+Disciples	Groupe	Followers	de Jésus
+Pilate	Personne	Gouverneur	romain
+Joseph_d'Arimathie	Personne	Disciple	secret de Jésus
+Nicodème	Personne	Pharisien,	disciple secret de Jésus
+Grands_prêtres	Groupe	Autorités	religieuses juives
+Soldats	Groupe	Exécuteurs	de la crucifixion
+César	Personne	Empereur	romain
+Crucifixion	Événement	Exécution	de Jésus sur la croix
+Résurrection	Événement	Retour	à la vie de Jésus après sa mort
+Apparition	Événement	Manifestation	de Jésus ressuscité
+Pêche_miraculeuse	Événement	Capture	abondante de poissons sur l'ordre de Jésus
+Golgotha	Lieu	Site	de la crucifixion
+Tombeau	Lieu	Sépulture	de Jésus
+Mer_de_Tibériade	Lieu	Lieu	d'apparition de Jésus ressuscité
+Croix	Objet	Instrument	de crucifixion
+Filet	Objet	Outil	de pêche des disciples
+Pain	Objet	Nourriture	partagée par Jésus ressuscité
+Poisson	Objet	Nourriture	partagée par Jésus ressuscité
+Jésus	est_crucifié_à	Golgotha	Lieu de la crucifixion de Jésus
+Jésus	est_enseveli_dans	Tombeau	Lieu de sépulture de Jésus
+Jésus	apparaît_à	Disciples	Manifestations post-résurrection
+Jésus	confie_mission_à	Simon-Pierre	"Pais mes brebis"
+Simon-Pierre	pêche_à	Mer_de_Tibériade	Lieu de la pêche miraculeuse
+Marie_de_Magdala	découvre	Tombeau_vide	Premier témoin de la résurrection
+Disciples	reconnaissent	Jésus_ressuscité	Identification de Jésus après sa résurrection
+Pilate	condamne	Jésus	Décision de crucifier Jésus
+Joseph_d'Arimathie	demande	Corps_de_Jésus	Pour l'ensevelissement
+Nicodème	apporte	Aromates	Pour l'ensevelissement de Jésus
+Soldats	crucifient	Jésus	Exécution de la sentence
+Jésus	prédit	Mort_de_Pierre	Prophétie sur le destin de Pierre
+Jean_Baptiste	Personne	Prophète	qui baptisait et annonçait la venue du Christ
+Jésus	Personne	Fils	de Dieu, le Christ
+Dieu	Entité_divine	Créateur,	Père de Jésus
+Esprit_Saint	Entité_divine	Troisième	personne de la Trinité
+Royaume_de_Dieu	Concept_spirituel	Règne	de Dieu annoncé par Jésus
+Baptême	Rituel	Acte	de purification et d'initiation spirituelle
+Vie_éternelle	Concept_spirituel	Vie	sans fin promise aux croyants
+Pharisiens	Groupe	Secte	juive stricte sur l'observance de la loi
+Samaritains	Groupe	Peuple	méprisé par les Juifs
+Disciples	Groupe	Suiveurs	de Jésus
+Nicodème	Personne	Notable	juif, pharisien qui s'entretient avec Jésus
+Moïse	Personne	Prophète	de l'Ancien Testament
+Fils_de_l'homme	Titre	Titre	que Jésus s'attribue
+Eau_vive	Concept_spirituel	Métaphore	pour la vie spirituelle donnée par Jésus
+Lumière	Concept_spirituel	Métaphore	pour la vérité et la révélation divine
+Ténèbres	Concept_spirituel	Métaphore	pour l'ignorance et le péché
+Verbe	Titre	Nom	donné à Jésus dans le prologue de Jean
+Jean_Baptiste	annonce	Jésus	Jean témoigne de la venue de Jésus
+Jésus	baptise_avec	Esprit_Saint	Jésus baptise avec l'Esprit Saint
+Jésus	promet	Vie_éternelle	Jésus promet la vie éternelle aux croyants
+Dieu	envoie	Jésus	Dieu envoie son Fils dans le monde
+Jésus	enseigne_sur	Royaume_de_Dieu	Jésus enseigne sur le Royaume de Dieu
+Jésus	offre	Eau_vive	Jésus offre l'eau vive, symbole de vie spirituelle
+Jésus	est	Lumière	Jésus est présenté comme la lumière du monde
+Verbe	est_incarné_en	Jésus	Le Verbe s'est fait chair en Jésus
+Jésus	s'oppose_aux	Pharisiens	Tensions entre Jésus et les pharisiens
+Jésus	interagit_avec	Samaritains	Jésus interagit avec les Samaritains malgré les tensions
+Nicodème	s'entretient_avec	Jésus	Nicodème vient s'entretenir avec Jésus de nuit
+Moïse	préfigure	Jésus	Moïse est présenté comme annonçant Jésus
+Disciples	suivent	Jésus	Les disciples suivent et apprennent de Jésus
+Jésus	Personne	Figure	centrale du christianisme, fils de Dieu selon la tradition chrétienne
+Père	Entité_Divine	Dieu	le Père dans la tradition chrétienne
+Disciples	Groupe	Suiveurs	et élèves de Jésus
+Paraclet	Entité_Spirituelle	Esprit	Saint promis par Jésus
+Monde	Concept	Le	monde terrestre par opposition au divin
+Joie	Concept	Sentiment	promis aux disciples
+Tristesse	Concept	État	temporaire des disciples avant la joie
+Vérité	Concept	Ce	que Jésus et l'Esprit de vérité révèlent
+Gloire	Concept	Manifestation	de la grandeur divine
+Vie_éternelle	Concept	Promesse	faite aux croyants
+Vigne	Métaphore	Image	utilisée par Jésus pour décrire sa relation avec les disciples
+Amour	Concept	Sentiment	central dans l'enseignement de Jésus
+Commandements	Concept	Instructions	données par Jésus à ses disciples
+Prince_du_monde	Entité_Spirituelle	Figure	antagoniste, possiblement Satan
+Esprit_de_vérité	Entité_Spirituelle	Autre	nom du Paraclet
+Jésus	Enseigne	Disciples	Jésus instruit ses disciples
+Jésus	Promet	Paraclet	Jésus annonce la venue du Paraclet
+Jésus	Annonce	Tristesse	Jésus prévient ses disciples de leur tristesse à venir
+Tristesse	Se_transforme_en	Joie	La tristesse des disciples se changera en joie
+Jésus	Demande	Amour	Jésus commande à ses disciples de s'aimer les uns les autres
+Disciples	Doivent_demeurer_en	Jésus	Jésus exhorte ses disciples à rester unis à lui
+Jésus	Est	Vigne	Jésus se présente comme la vraie vigne
+Disciples	Sont	Sarments	Les disciples sont comparés aux sarments de la vigne
+Père	Est	Vigneron	Dieu le Père est présenté comme le vigneron
+Jésus	Glorifie	Père	Jésus glorifie Dieu le Père par ses actions
+Père	Glorifie	Jésus	Dieu le Père glorifie Jésus
+Jésus	Promet	Vie_éternelle	Jésus promet la vie éternelle à ceux qui croient
+Jésus	Révèle	Vérité	Jésus se présente comme celui qui révèle la vérité
+Paraclet	Révèle	Vérité	Le Paraclet est décrit comme révélant la vérité
+Jésus	Vaincre	Monde	Jésus affirme avoir vaincu le monde
+Disciples	Perséculés_par	Monde	Jésus prévient que le monde persécutera ses disciples
+Jésus	Envoie	Disciples	Jésus envoie ses disciples dans le monde
+Jésus	Personne	Figure	centrale du christianisme, fils de Dieu
+Pharisiens	Groupe	Groupe	religieux juif de l'époque de Jésus
+Grands_prêtres	Groupe	Autorités	religieuses juives
+Caïphe	Personne	Grand	prêtre de l'époque
+Romains	Groupe	Empire	dominant la Judée à l'époque
+Lazare	Personne	Ami	de Jésus ressuscité par lui
+Marthe	Personne	Sœur	de Lazare et Marie
+Marie	Personne	Sœur	de Lazare et Marthe
+Judas_l'Iscariote	Personne	Disciple	de Jésus qui le trahira
+Béthanie	Lieu	Village	près de Jérusalem
+Jérusalem	Lieu	Ville	sainte du judaïsme
+Temple	Lieu	Centre	du culte juif à Jérusalem
+Pâque	Evénement	Fête	juive importante
+Jourdain	Lieu	Fleuve	où Jean baptisait
+Jésus	réalise_miracle	Résurrection_de_Lazare	Jésus ressuscite Lazare d'entre les morts
+Jésus	enseigne	Disciples	Jésus transmet ses enseignements à ses disciples
+Pharisiens	s'opposent_à	Jésus	Les Pharisiens cherchent à arrêter Jésus
+Grands_prêtres	complotent_contre	Jésus	Les grands prêtres décident de faire mourir Jésus
+Caïphe	prophétise	Mort_de_Jésus	Caïphe prédit que Jésus mourra pour la nation
+Marie	oint	Jésus	Marie oint les pieds de Jésus avec du parfum
+Judas_l'Iscariote	critique	Onction_de_Béthanie	Judas critique l'utilisation du parfum coûteux
+Jésus	entre_triomphalement	Jérusalem	Entrée messianique de Jésus à Jérusalem
+Foule	acclame	Jésus	La foule acclame Jésus lors de son entrée à Jérusalem
+Jésus	se_proclame	Bon_Pasteur	Jésus utilise l'image du bon pasteur pour se décrire
+Jésus	affirme_unité	Dieu	Jésus affirme son unité avec Dieu le Père
+Juifs	tentent_lapider	Jésus	Certains Juifs tentent de lapider Jésus pour blasphème
+Jésus	guérit	Aveugle-né	Jésus guérit un homme aveugle de naissance
+Jésus	Personne	Fils	de Dieu, personnage central du texte
+Disciples	Groupe	Suiveurs	de Jésus
+Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
+Père	Personne	Dieu	le Père, celui qui a envoyé Jésus
+Fils_de_l'homme	Concept	Titre	que Jésus utilise pour se désigner
+Vie_éternelle	Concept	Promesse	faite par Jésus à ceux qui croient en lui
+Résurrection	Concept	Pouvoir	de Jésus de ressusciter les morts
+Jugement	Concept	Pouvoir	donné à Jésus par le Père
+Œuvres	Concept	Actions	miraculeuses accomplies par Jésus
+Témoignage	Concept	Preuve	de la divinité de Jésus
+Écritures	Texte	Textes	sacrés faisant référence à Jésus
+Jean	Personne	Figure	mentionnée comme témoin de Jésus
+Moïse	Personne	Figure	biblique mentionnée en relation avec Jésus
+Capharnaüm	Lieu	Ville	où Jésus a enseigné
+Tibériade	Lieu	Ville	mentionnée dans le texte
+Galilée	Lieu	Région	où Jésus a accompli des miracles
+Jérusalem	Lieu	Ville	où Jésus est monté pour une fête
+Bethesda	Lieu	Piscine	où Jésus a guéri un infirme
+Samaritains	Groupe	Peuple	qui a cru en Jésus
+Jésus	enseigne	Disciples	Jésus instruit ses disciples
+Jésus	promet	Vie_éternelle	Jésus promet la vie éternelle à ceux qui croient en lui
+Jésus	se_décrit_comme	Pain_de_vie	Jésus utilise cette métaphore pour se décrire
+Père	envoie	Jésus	Le Père a envoyé Jésus dans le monde
+Père	donne_pouvoir	Jésus	Le Père donne à Jésus le pouvoir de juger et de ressusciter
+Jésus	accomplit	Œuvres	Jésus réalise des actions miraculeuses
+Jésus	reçoit	Témoignage	Jésus reçoit un témoignage de sa divinité
+Écritures	témoignent_de	Jésus	Les textes sacrés parlent de Jésus
+Jean	témoigne_de	Jésus	Jean rend témoignage à Jésus
+Jésus	guérit	Infirme	Jésus guérit un infirme à Bethesda
+Jésus	enseigne_à	Capharnaüm	Jésus donne un discours dans la synagogue de Capharnaüm
+Jésus	marche_sur	Mer	Jésus marche sur l'eau de la mer de Galilée
+Jésus	multiplie	Pain	Jésus multiplie les pains pour nourrir la foule
+Samaritains	croient_en	Jésus	Les Samaritains reconnaissent Jésus comme sauveur du monde
+Jésus	Personne	Fils	de Dieu, personnage central du christianisme
+Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
+Père	Personne	Dieu	le Père dans la tradition chrétienne
+Juifs	Groupe	Peuple	juif mentionné dans les textes
+Abraham	Personne	Patriarche	biblique, ancêtre du peuple juif
+Disciples	Groupe	Suiveurs	et élèves de Jésus
+Vérité	Concept	Concept	central dans l'enseignement de Jésus
+Péché	Concept	Notion	de transgression morale ou religieuse
+Liberté	Concept	État	d'affranchissement du péché selon Jésus
+Diable	Entité	Figure	du mal dans la tradition chrétienne
+Parole	Concept	Enseignement	et message de Jésus
+Vie_éternelle	Concept	Promesse	faite aux croyants
+Lumière_du_monde	Titre	Titre	que Jésus s'attribue
+Esprit	Entité	Esprit	Saint promis par Jésus
+Pain_de_vie	Métaphore	Image	utilisée par Jésus pour se décrire
+Chair	Concept	Corps	de Jésus donné symboliquement aux croyants
+Sang	Concept	Sang	de Jésus donné symboliquement aux croyants
+Jésus	est_fils_de	Père	Relation filiale divine
+Jésus	enseigne	Disciples	Transmission de l'enseignement
+Jésus	révèle	Vérité	Jésus comme source de vérité
+Jésus	libère_de	Péché	Rôle salvateur de Jésus
+Jésus	promet	Vie_éternelle	Promesse aux croyants
+Jésus	est	Lumière_du_monde	Métaphore d'illumination spirituelle
+Jésus	est	Pain_de_vie	Métaphore de nourriture spirituelle
+Jésus	donne	Chair	Don symbolique de son corps
+Jésus	donne	Sang	Don symbolique de son sang
+Disciples	suivent	Jésus	Relation de disciples à maître
+Juifs	descendent_de	Abraham	Lien généalogique revendiqué
+Péché	asservit	Personne	Conséquence du péché selon Jésus
+Vérité	libère	Personne	Effet libérateur de la vérité
+Parole	vient_de	Père	Origine divine de l'enseignement de Jésus
+Esprit	est_promis_par	Jésus	Promesse de l'envoi de l'Esprit
+Jésus	Personne	Fils	de Dieu, figure centrale du christianisme
+Père	Entité_divine	Dieu	le Père dans la Trinité chrétienne
+Esprit_de_Vérité	Entité_divine	L'Esprit	Saint dans la Trinité chrétienne
 Pierre	Personne	Disciple	de Jésus
 Thomas	Personne	Disciple	de Jésus
 Philippe	Personne	Disciple	de Jésus
-Judas_Iscariote	Personne	Disciple	qui trahit Jésus
-Père	Entité_divine	Dieu	le Père
-Fils	Entité_divine	Jésus	comme Fils de Dieu
-Esprit_de_Vérité	Entité_divine	Autre	nom du Saint-Esprit
-Paraclet	Entité_divine	Autre	nom du Saint-Esprit
+Judas_Iscariote	Personne	Disciple	qui a trahi Jésus
+Paraclet	Entité_divine	Autre	nom de l'Esprit Saint
 Maison_du_Père	Lieu_spirituel	Demeure	céleste promise par Jésus
-Chemin	Concept_spirituel	Jésus	comme voie vers le Père
+Chemin	Concept_spirituel	Jésus	comme voie vers Dieu
 Vérité	Concept_spirituel	Jésus	comme vérité divine
 Vie	Concept_spirituel	Jésus	comme source de vie éternelle
-Commandements	Concept_moral	Enseignements	et règles de vie donnés par Jésus
-Œuvres	Action	Actes	accomplis par Jésus ou ses disciples
-Prière	Action	Acte	de communication avec Dieu
-Foi	Concept_spirituel	Croyance	et confiance en Jésus et ses enseignements
-Amour	Concept_moral	Sentiment	central dans l'enseignement de Jésus
-Monde	Concept	Ensemble	de ceux qui ne croient pas en Jésus
+Commandements	Concept_religieux	Instructions	données par Jésus à ses disciples
+Amour	Concept_spirituel	Vertu	centrale enseignée par Jésus
+Monde	Concept_spirituel	Le	monde temporel opposé au royaume spirituel
+Gloire	Concept_spirituel	Manifestation	de la puissance divine
+Foi	Concept_spirituel	Croyance	en Jésus et ses enseignements
+Œuvres	Concept_spirituel	Actions	accomplies par Jésus ou ses disciples
+Jésus	est_fils_de	Père	Relation filiale divine
+Jésus	enseigne	Commandements	Instructions données aux disciples
+Jésus	est	Chemin	Jésus comme voie vers Dieu
+Jésus	est	Vérité	Jésus comme vérité divine
+Jésus	est	Vie	Jésus comme source de vie éternelle
+Jésus	promet	Paraclet	Promesse de l'envoi de l'Esprit Saint
+Père	envoie	Jésus	Mission divine de Jésus
+Père	envoie	Esprit_de_Vérité	Envoi de l'Esprit Saint
+Disciples	suivent	Jésus	Relation de disciples à maître
+Disciples	doivent_garder	Commandements	Obéissance aux enseignements de Jésus
+Disciples	doivent_manifester	Amour	Amour mutuel comme signe distinctif
+Jésus	promet	Maison_du_Père	Promesse d'une demeure céleste
+Foi	conduit_à	Œuvres	La foi se manifeste par des actions
+Monde	s'oppose_à	Jésus	Opposition entre le monde et les enseignements de Jésus
+Judas_Iscariote	trahit	Jésus	Trahison de Jésus par Judas
+Jésus	Personne	Figure	centrale du christianisme, Fils de Dieu
+Père	Entité_Divine	Dieu	le Père dans la conception chrétienne
+Disciples	Groupe	Suivants	de Jésus
+Monde	Concept	Le	monde terrestre par opposition au divin
+Paraclet	Entité_Divine	L'Esprit	Saint, le Consolateur promis par Jésus
+Vérité	Concept	Concept	central dans l'enseignement de Jésus
+Gloire	Concept	Manifestatiion	de la grandeur divine
+Vie_éternelle	Concept	Vie	après la mort promise aux croyants
+Amour	Concept	Principe	central de l'enseignement de Jésus
+Commandements	Concept	Instructions	divines à suivre
+Vigne	Métaphore	Image	utilisée par Jésus pour illustrer son enseignement
+Fruit	Métaphore	Résultat	de la vie spirituelle
+Judas	Personne	Disciple	qui a trahi Jésus
+Esprit_de_Vérité	Entité_Divine	Autre	nom pour le Paraclet ou l'Esprit Saint
+Jésus	est_fils_de	Père	Relation filiale divine
+Jésus	enseigne	Disciples	Transmission de l'enseignement divin
+Jésus	envoie	Paraclet	Promesse d'envoyer l'Esprit Saint
+Jésus	est_haï_par	Monde	Opposition entre Jésus et le monde
+Père	envoie	Jésus	Mission divine de Jésus
+Disciples	sont_dans	Monde	Situation des disciples dans le monde
+Disciples	ne_sont_pas_du	Monde	Nature spirituelle des disciples
+Jésus	promet	Vie_éternelle	Promesse de vie éternelle aux croyants
+Jésus	commande	Amour	Commandement principal de Jésus
+Disciples	doivent_garder	Commandements	Obéissance demandée aux disciples
+Jésus	est	Vigne	Métaphore utilisée par Jésus
+Disciples	sont	Sarments	Métaphore pour les disciples
+Disciples	doivent_porter	Fruit	Attente envers les disciples
+Jésus	glorfie	Père	Action de Jésus envers le Père
+Père	glorifie	Jésus	Action du Père envers Jésus
+Jésus	est_trahi_par	Judas	Trahison de Jésus
+Paraclet	est	Esprit_de_Vérité	Identification du Paraclet
+Jésus	est	Chemin	Affirmation de Jésus sur son identité
+Jésus	est	Vérité	Affirmation de Jésus sur son identité
+Jésus	est	Vie	Affirmation de Jésus sur son identité
+Jésus	Personne	Personnage	central des évangiles, fils de Dieu
+Jean_Baptiste	Personne	Prophète	qui baptisait et annonçait la venue du Messie
 Disciples	Groupe	Suiveurs	de Jésus
 Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
-Juifs	Groupe	Peuple	auquel Jésus s'adresse principalement
-Grecs	Groupe	Non-Juifs	mentionnés dans le texte
-Jésus	enseigne	Disciples	Jésus transmet ses enseignements à ses disciples
-Jésus	promet	Maison_du_Père	Jésus promet une place dans la maison du Père
-Jésus	s'identifie_à	Chemin	Jésus se présente comme le chemin vers le Père
-Jésus	s'identifie_à	Vérité	Jésus se présente comme la vérité divine
-Jésus	s'identifie_à	Vie	Jésus se présente comme la source de vie éternelle
-Jésus	révèle	Père	Jésus révèle le Père à ses disciples
-Père	envoie	Jésus	Le Père envoie Jésus dans le monde
-Jésus	promet	Esprit_de_Vérité	Jésus promet l'envoi de l'Esprit de Vérité
-Disciples	reçoivent	Esprit_de_Vérité	Les disciples reçoivent l'Esprit de Vérité
-Jésus	donne	Commandements	Jésus donne des commandements à ses disciples
-Disciples	gardent	Commandements	Les disciples sont appelés à garder les commandements
-Jésus	accomplit	Œuvres	Jésus accomplit des œuvres divines
-Disciples	accomplissent	Œuvres	Les disciples sont appelés à accomplir des œuvres
-Jésus	prie	Père	Jésus prie le Père
-Disciples	prient	Jésus	Les disciples prient au nom de Jésus
-Foi	mène_à	Vie	La foi en Jésus mène à la vie éternelle
-Amour	caractérise	Disciples	L'amour caractérise les disciples de Jésus
-Monde	s'oppose_à	Jésus	Le monde s'oppose à Jésus et ses enseignements
-Jésus	Personne	Figure	centrale de l'Évangile, appelé aussi Christ et Fils de Dieu
-Jean_Baptiste	Personne	Prophète	qui baptise et annonce la venue de Jésus
-Disciples	Groupe	Suiveurs	de Jésus
+Juifs	Groupe	Peuple	d'Israël
+Samaritains	Groupe	Peuple	de Samarie
+Nicodème	Personne	Notable	juif qui s'entretient avec Jésus
+Galilée	Lieu	Région	où Jésus a exercé son ministère
+Jérusalem	Lieu	Ville	sainte où se trouve le Temple
+Samarie	Lieu	Région	entre la Judée et la Galilée
+Cana	Lieu	Ville	de Galilée où Jésus accomplit son premier miracle
+Capharnaüm	Lieu	Ville	où Jésus réside en Galilée
+Temple	Lieu	Centre	du culte juif à Jérusalem
+Royaume_de_Dieu	Concept	Notion	centrale de l'enseignement de Jésus
+Baptême	Rituel	Acte	symbolique de purification et d'initiation
+Esprit	Concept	Entité	divine associée à Dieu et Jésus
+Vie_éternelle	Concept	Don	promis par Jésus aux croyants
+Signes	Concept	Miracles	accomplis par Jésus
+Père	Personne	Dieu	le Père, première personne de la Trinité
+Fils	Personne	Jésus,	deuxième personne de la Trinité
+Jésus	enseigne	Disciples	Jésus forme et instruit ses disciples
+Jésus	accomplit	Signes	Jésus réalise des miracles comme signes de sa divinité
+Jésus	promet	Vie_éternelle	Jésus offre la vie éternelle à ceux qui croient en lui
+Jean_Baptiste	baptise	Disciples	Jean baptise des gens dans le Jourdain
+Jésus	s'oppose	Pharisiens	Jésus entre en conflit avec les autorités religieuses
+Jésus	visite	Jérusalem	Jésus se rend à Jérusalem pour les fêtes
+Jésus	purifie	Temple	Jésus chasse les marchands du Temple
+Nicodème	s'entretient_avec	Jésus	Nicodème a une conversation nocturne avec Jésus
+Jésus	traverse	Samarie	Jésus passe par la Samarie en allant en Galilée
+Jésus	révèle	Royaume_de_Dieu	Jésus enseigne sur le Royaume de Dieu
+Esprit	régénère	Croyants	L'Esprit fait naître d'en haut les croyants
+Père	envoie	Fils	Dieu le Père envoie son Fils dans le monde
+Jésus	accomplit	Écritures	Les actions de Jésus accomplissent les prophéties
+Disciples	croient_en	Jésus	Les disciples mettent leur foi en Jésus
+Jean_Baptiste	Personne	Prophète	qui baptisait et annonçait la venue du Messie
+Jésus	Personne	Fils	de Dieu, le Christ
+Nicodème	Personne	Notable	juif, pharisien
 Nathanaël	Personne	Disciple	de Jésus
 Philippe	Personne	Disciple	de Jésus
-Simon-Pierre	Personne	Disciple	de Jésus, appelé aussi Céphas
+Simon_Pierre	Personne	Disciple	de Jésus, appelé Céphas par Jésus
 André	Personne	Disciple	de Jésus, frère de Simon-Pierre
-Pharisiens	Groupe	Groupe	religieux juif
-Juifs	Groupe	Peuple	d'Israël
-Dieu	Entité_divine	Divinité	suprême
-Verbe	Concept	Concept	divin incarné en Jésus
-Esprit_Saint	Entité_divine	Aspect	de Dieu mentionné dans le baptême de Jésus
-Cana	Lieu	Ville	où Jésus accomplit son premier miracle
-Galilée	Lieu	Région	où se déroulent plusieurs événements
-Jérusalem	Lieu	Ville	sainte où se trouve le Temple
-Temple	Lieu	Lieu	de culte juif à Jérusalem
-Capharnaüm	Lieu	Ville	visitée par Jésus et ses disciples
-Béthanie	Lieu	Endroit	où Jean baptisait
+Moïse	Personne	Prophète	de l'Ancien Testament
+Dieu	Entité_Divine	Dieu	le Père
+Esprit_Saint	Entité_Divine	Troisième	personne de la Trinité
+Verbe	Entité_Divine	Le	Logos, Jésus préexistant
+Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
+Fils_de_Dieu	Titre	Titre	désignant Jésus comme Fils unique de Dieu
+Christ	Titre	Titre	désignant Jésus comme le Messie
+Agneau_de_Dieu	Titre	Titre	donné à Jésus par Jean-Baptiste
+Royaume_de_Dieu	Concept	Règne	spirituel de Dieu
+Baptême	Rite	Rite	d'initiation pratiqué par Jean-Baptiste et Jésus
+Pâque	Fête	Fête	juive commémorant la sortie d'Égypte
+Temple	Lieu	Lieu	de culte à Jérusalem
+Cana	Lieu	Village	en Galilée où Jésus accomplit son premier miracle
+Capharnaüm	Lieu	Ville	en Galilée où Jésus séjourna
+Béthanie	Lieu	Lieu	au-delà du Jourdain où Jean baptisait
+Galilée	Région	Région	au nord d'Israël
+Judée	Région	Région	au sud d'Israël
+Jérusalem	Ville	Capitale	religieuse d'Israël
+Jean_Baptiste	annonce	Jésus	Jean-Baptiste témoigne de la venue de Jésus
+Jésus	enseigne	Nicodème	Jésus enseigne à Nicodème sur la nouvelle naissance
+Jésus	appelle	Disciples	Jésus appelle ses premiers disciples
+Jésus	accomplit	Miracle	Jésus change l'eau en vin à Cana
+Jésus	purifie	Temple	Jésus chasse les marchands du Temple
+Dieu	envoie	Jésus	Dieu envoie son Fils unique dans le monde
+Esprit_Saint	descend_sur	Jésus	L'Esprit Saint descend sur Jésus lors de son baptême
+Jésus	baptise_avec	Esprit_Saint	Jésus baptise avec l'Esprit Saint
+Jésus	est	Verbe_incarné	Jésus est le Verbe fait chair
+Jésus	révèle	Dieu	Jésus fait connaître Dieu le Père
+Jésus	promet	Vie_éternelle	Jésus promet la vie éternelle à ceux qui croient en lui
+Jésus	Personne	Fils	de Dieu, protagoniste principal des événements
+Père	Entité_Divine	Dieu	le Père, celui qui a envoyé Jésus
+Pain_de_Vie	Concept_Spirituel	Métaphore	utilisée par Jésus pour se décrire
+Vie_Éternelle	Concept_Spirituel	Promesse	faite à ceux qui croient en Jésus
+Résurrection	Événement_Spirituel	Promesse	de Jésus de ressusciter les croyants
+Disciples	Groupe	Suivants	de Jésus
+Juifs	Groupe	Personnes	s'opposant à Jésus dans le récit
+Douze	Groupe	Les	douze apôtres choisis par Jésus
+Simon-Pierre	Personne	Un	des disciples de Jésus
+Judas	Personne	Disciple	qui trahira Jésus
+Capharnaüm	Lieu	Ville	où Jésus enseigne
+Synagogue	Lieu	Endroit	où Jésus enseigne
+Galilée	Lieu	Région	où se déroulent certains événements
+Tibériade	Lieu	Ville	mentionnée dans le récit
+Jérusalem	Lieu	Ville	où Jésus se rend pour la fête
+Moïse	Personne	Figure	biblique mentionnée par Jésus
+Jésus	Envoyé_Par	Père	Jésus affirme être envoyé par le Père
+Jésus	Promet	Vie_Éternelle	Jésus promet la vie éternelle à ceux qui croient en lui
+Jésus	Promet	Résurrection	Jésus promet de ressusciter les croyants
+Jésus	Enseigne_À	Disciples	Jésus enseigne ses disciples
+Jésus	Enseigne_Dans	Synagogue	Jésus enseigne dans la synagogue
+Jésus	S'oppose_À	Juifs	Jésus entre en conflit avec les Juifs
+Jésus	Se_Décrit_Comme	Pain_de_Vie	Jésus utilise la métaphore du pain de vie
+Simon-Pierre	Fait_Partie_De	Douze	Simon-Pierre est l'un des douze apôtres
+Judas	Fait_Partie_De	Douze	Judas est l'un des douze apôtres
+Jésus	Se_Rend_À	Jérusalem	Jésus se rend à Jérusalem pour la fête
+Jésus	Enseigne_À	Capharnaüm	Jésus enseigne à Capharnaüm
+Disciples	Suivent	Jésus	Les disciples suivent Jésus
+Père	Donne_Autorité_À	Jésus	Le Père donne autorité à Jésus pour juger et donner la vie
+Evangile_selon_Saint_Jean	Document	Texte	biblique du Nouveau Testament
+Prologue	Section	Introduction	de l'Evangile selon Saint Jean
+Mystère_de_Jésus	Concept	Thème	central de l'Evangile de Jean
+Nouvelle_économie	Concept	Nouvelle	alliance annoncée par Jésus
+Semaine_inaugurale	Evénement	Première	semaine du ministère de Jésus
+Pâque	Evénement	Fête	juive importante dans le récit
+Fête_des_Tentes	Evénement	Fête	juive mentionnée dans l'Evangile
+Fête_de_la_Dédicace	Evénement	Fête	juive mentionnée dans l'Evangile
+Ministère_public	Concept	Période	d'enseignement public de Jésus
+Heure_de_Jésus	Concept	Moment	crucial de la mission de Jésus
+Passion	Evénement	Souffrances	et mort de Jésus
+Résurrection	Evénement	Retour	à la vie de Jésus après sa mort
+Verbe	Concept	Terme	désignant Jésus dans le prologue
+Jean	Personnage	Témoin	et précurseur de Jésus
+Jésus_Christ	Personnage	Figure	centrale de l'Evangile
+Dieu	Entité	Divinité	suprême dans le texte
+Moïse	Personnage	Figure	biblique mentionnée
+Evangile_selon_Saint_Jean	contient	Prologue	Le prologue introduit l'Evangile
+Evangile_selon_Saint_Jean	décrit	Mystère_de_Jésus	L'Evangile explore le mystère de Jésus
+Nouvelle_économie	fait_partie_de	Mystère_de_Jésus	La nouvelle économie est liée au mystère de Jésus
+Semaine_inaugurale	inaugure	Nouvelle_économie	La semaine inaugurale marque le début de la nouvelle économie
+Pâque	est_mentionnée_dans	Evangile_selon_Saint_Jean	La Pâque est un événement important dans l'Evangile
+Fête_des_Tentes	est_mentionnée_dans	Evangile_selon_Saint_Jean	La Fête des Tentes est évoquée dans l'Evangile
+Fête_de_la_Dédicace	est_mentionnée_dans	Evangile_selon_Saint_Jean	La Fête de la Dédicace est mentionnée dans l'Evangile
+Ministère_public	précède	Heure_de_Jésus	Le ministère public de Jésus précède son "heure"
+Heure_de_Jésus	inclut	Passion	L'heure de Jésus comprend sa Passion
+Heure_de_Jésus	inclut	Résurrection	L'heure de Jésus comprend sa Résurrection
+Verbe	est_identifié_à	Jésus_Christ	Le Verbe est présenté comme Jésus Christ
+Jean	témoigne_de	Jésus_Christ	Jean rend témoignage à Jésus
+Jésus_Christ	apporte	Nouvelle_économie	Jésus Christ instaure la nouvelle économie
+Moïse	est_associé_à	Loi	Moïse est présenté comme donneur de la Loi
+Jésus	Personne	Fils	de Dieu, figure centrale du christianisme
+Dieu	Entité_divine	Être	suprême dans le christianisme
+Père	Entité_divine	Dieu	le Père, première personne de la Trinité
+Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
+Fils_de_Dieu	Titre	Titre	divin de Jésus
+Isaïe	Personne	Prophète	de l'Ancien Testament
+Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
+Judas_Iscariote	Personne	Disciple	qui a trahi Jésus
+Simon-Pierre	Personne	Apôtre	de Jésus
+Lazare	Personne	Ami	de Jésus ressuscité par lui
+Marthe	Personne	Sœur	de Lazare et Marie
+Marie	Personne	Sœur	de Lazare et Marthe
+Béthanie	Lieu	Village	où vivaient Lazare, Marthe et Marie
+Jérusalem	Lieu	Ville	sainte, lieu de la Passion de Jésus
+Temple	Lieu	Centre	religieux juif à Jérusalem
+Pâque	Événement	Fête	juive, contexte de la mort de Jésus
+Romains	Groupe	Autorité	occupante en Judée
+Caïphe	Personne	Grand	prêtre juif
+Éphraïm	Lieu	Ville	où Jésus s'est retiré
+Jésus	est_fils_de	Dieu	Relation divine entre Jésus et Dieu le Père
+Jésus	enseigne	Disciples	Jésus instruit ses disciples
+Jésus	s'oppose_à	Pharisiens	Conflit entre Jésus et les autorités religieuses
+Jésus	ressuscite	Lazare	Miracle de la résurrection de Lazare
+Jésus	prédit	Mort	Jésus annonce sa propre mort
+Jésus	entre_à	Jérusalem	Entrée messianique de Jésus à Jérusalem
+Judas_Iscariote	trahit	Jésus	Judas livre Jésus aux autorités
+Simon-Pierre	est_disciple_de	Jésus	Pierre est un apôtre proche de Jésus
+Lazare	habite_à	Béthanie	Lieu de résidence de Lazare
+Marthe	est_sœur_de	Lazare	Relation familiale
+Marie	est_sœur_de	Lazare	Relation familiale
+Jésus	se_retire_à	Éphraïm	Lieu de retraite de Jésus
+Caïphe	est	Grand_prêtre	Fonction religieuse de Caïphe
+Pharisiens	complotent_contre	Jésus	Les Pharisiens cherchent à arrêter Jésus
+Jésus	célèbre	Pâque	Contexte de la dernière Cène
+Jésus	lave_les_pieds	Disciples	Acte d'humilité de Jésus envers ses disciples
+Jésus	prophétise	Glorification	Jésus annonce sa glorification par sa mort
+Jésus	Personne	Fils	de Dieu, figure centrale du christianisme
+Dieu	Entité_Divine	Être	suprême dans le christianisme
+Fils_de_l'homme	Titre	Titre	que Jésus s'attribue
+Père	Titre	Titre	donné à Dieu par Jésus
+Disciples	Groupe	Suiveurs	proches de Jésus
+Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
+Grands_prêtres	Groupe	Autorités	religieuses juives
+Lazare	Personne	Ami	de Jésus ressuscité par lui
+Marthe	Personne	Sœur	de Lazare et Marie
+Marie	Personne	Sœur	de Lazare et Marthe
+Philippe	Personne	Disciple	de Jésus
+André	Personne	Disciple	de Jésus
+Caïphe	Personne	Grand	prêtre ayant prophétisé sur Jésus
+Judas_l'Iscariote	Personne	Disciple	qui trahira Jésus
+Béthanie	Lieu	Village	où vivaient Lazare et ses sœurs
+Jérusalem	Lieu	Ville	principale des événements
+Temple	Lieu	Centre	religieux à Jérusalem
 Jourdain	Lieu	Fleuve	où Jean baptisait
-Nazareth	Lieu	Ville	d'origine de Jésus
-Bethsaïde	Lieu	Ville	d'origine de certains disciples
-Jésus	est_fils_de	Dieu	Jésus est présenté comme le Fils de Dieu
-Jean_Baptiste	témoigne_de	Jésus	Jean annonce la venue de Jésus et témoigne de sa nature divine
-Disciples	suivent	Jésus	Les disciples sont les suiveurs de Jésus
-Jésus	accomplir_miracle	Cana	Jésus change l'eau en vin à Cana
-Jésus	purifier	Temple	Jésus chasse les marchands du Temple
-Jésus	prêcher	Galilée	Jésus enseigne en Galilée
-Jésus	prêcher	Jérusalem	Jésus enseigne à Jérusalem
-Jean_Baptiste	baptiser	Jourdain	Jean baptise les gens dans le Jourdain
-Verbe	s'incarner_en	Jésus	Le Verbe divin s'incarne en Jésus
-Esprit_Saint	descendre_sur	Jésus	L'Esprit Saint descend sur Jésus lors de son baptême
-Jésus	appeler	Disciples	Jésus appelle ses premiers disciples à le suivre
-Pharisiens	questionner	Jean_Baptiste	Les Pharisiens interrogent Jean sur son identité
-Jésus	visiter	Capharnaüm	Jésus se rend à Capharnaüm avec sa famille et ses disciples
-Jésus	participer	Cana	Jésus assiste à des noces à Cana
-Jésus	prophétiser	Temple	Jésus annonce la destruction et la reconstruction du Temple
-Jésus	Personne	Figure	centrale du christianisme, Fils de Dieu incarné
-Père	Personne	Dieu	le Père, première personne de la Trinité
-Esprit_Saint	Entité_spirituelle	Troisième	personne de la Trinité
-Paraclet	Entité_spirituelle	Avocat,	consolateur, autre nom de l'Esprit Saint
-Disciples	Groupe	Suiveurs	de Jésus
+Jésus	Fils_de	Dieu	Relation divine entre Jésus et Dieu
+Jésus	Enseigne	Disciples	Jésus instruit ses disciples
+Jésus	S'oppose_à	Pharisiens	Conflit entre Jésus et les autorités religieuses
+Jésus	Ressuscite	Lazare	Miracle de la résurrection de Lazare
+Disciples	Suivent	Jésus	Les disciples sont les fidèles de Jésus
+Grands_prêtres	Complotent_contre	Jésus	Les autorités cherchent à faire mourir Jésus
+Marthe	Sœur_de	Lazare	Relation familiale
+Marie	Sœur_de	Lazare	Relation familiale
+Jésus	Aime	Lazare	Relation d'amitié
+Jésus	Annonce	Glorification	Jésus prédit sa mort et sa glorification
+Jésus	Entre_à	Jérusalem	Entrée triomphale de Jésus à Jérusalem
+Jésus	Se_déclare	Bon_pasteur	Métaphore utilisée par Jésus pour se décrire
+Jésus	Promet	Vie_éternelle	Promesse faite aux croyants
+Caïphe	Prophétise_sur	Jésus	Prophétie involontaire sur la mort de Jésus
+Judas_l'Iscariote	Trahit	Jésus	Trahison de Jésus par Judas
+Jésus	Personne	Fils	de Dieu, personnage central du texte
+Père	Personne	Dieu	le Père, figure divine
+Esprit_Saint	Entité_spirituelle	Esprit	de Dieu, aussi appelé Paraclet
+Prince_du_monde	Entité_spirituelle	Figure	antagoniste à Jésus
+Disciples	Groupe	Suivants	de Jésus
 Monde	Concept	Le	monde terrestre, opposé au royaume de Dieu
-Prince_du_monde	Entité_spirituelle	Figure	s'opposant à Jésus, probablement Satan
 Vigne	Métaphore	Image	utilisée par Jésus pour se décrire
 Sarments	Métaphore	Image	utilisée pour décrire les disciples
-Commandements	Concept	Enseignements	et instructions de Jésus
+Fruit	Métaphore	Résultat	de la vie spirituelle des disciples
+Commandements	Concept	Enseignements	et ordres de Jésus
 Amour	Concept	Thème	central de l'enseignement de Jésus
-Fruit	Métaphore	Résultat	de la vie en Christ
-Vie	Concept	Vie	éternelle offerte par Jésus
-Vérité	Concept	Enseignement	véritable de Jésus
-Chemin	Métaphore	Jésus	comme voie vers Dieu
-Parole	Concept	Enseignement	de Jésus et révélation divine
-Gloire	Concept	Manifestion	de la grandeur divine
-Foi	Concept	Croyance	et confiance en Jésus
-Paix	Concept	Paix	intérieure donnée par Jésus
-Joie	Concept	Bonheur	spirituel en Christ
-Jésus	Enseigne	Disciples	Jésus transmet ses enseignements à ses disciples
-Père	Envoie	Esprit_Saint	Le Père envoie l'Esprit Saint aux croyants
-Jésus	Promet	Paix	Jésus promet la paix à ses disciples
-Jésus	Est	Vigne	Jésus se décrit comme la vraie vigne
-Disciples	Sont	Sarments	Les disciples sont décrits comme les sarments
-Jésus	Donne	Commandements	Jésus donne des commandements à ses disciples
-Disciples	Doivent_demeurer_en	Jésus	Les disciples doivent rester attachés à Jésus
-Jésus	Offre	Vie	Jésus offre la vie éternelle
-Jésus	Est	Chemin	Jésus se présente comme le chemin vers Dieu
-Jésus	Est	Vérité	Jésus se présente comme la vérité
-Jésus	Est	Vie	Jésus se présente comme la vie
-Disciples	Doivent_s'aimer	Disciples	Les disciples doivent s'aimer les uns les autres
-Monde	Hait	Disciples	Le monde s'oppose aux disciples de Jésus
-Jésus	Glorifie	Père	Jésus glorifie le Père par ses actions
-Père	Glorifie	Jésus	Le Père glorifie Jésus
-Disciples	Doivent_porter	Fruit	Les disciples doivent produire du fruit spirituel
-Jésus	Donne	Parole	Jésus transmet la parole de Dieu
-Disciples	Doivent_croire_en	Jésus	Les disciples doivent avoir foi en Jésus
-Jésus	Promet	Joie	Jésus pro
-Jésus	Personne	Figure	centrale du christianisme, fils de Dieu
-Simon_Pierre	Personne	Disciple	de Jésus, aussi appelé Pierre
-Anne	Personne	Beau-père	de Caïphe, ancien grand prêtre
-Caïphe	Personne	Grand	prêtre au moment de l'arrestation de Jésus
-Pilate	Personne	Gouverneur	romain de Judée
-Judas	Personne	Disciple	qui a trahi Jésus
-Malchus	Personne	Serviteur	du grand prêtre dont l'oreille a été coupée
-Père	Entité_Divine	Dieu	le Père dans la trinité chrétienne
-Paraclet	Entité_Divine	L'Esprit	Saint, envoyé par le Père
-Mauvais	Entité_Spirituelle	Figure	du mal, Satan
-Prince_du_monde	Entité_Spirituelle	Figure	représentant le pouvoir du mal sur terre
-Disciples	Groupe	Suivants	proches de Jésus
-Pharisiens	Groupe	Secte	juive opposée à Jésus
-Juifs	Groupe	Peuple	d'Israël à l'époque de Jésus
-Cohorte	Groupe	Unité	militaire romaine
-Glaive	Objet	Épée	utilisée par Simon-Pierre
-Prétoire	Lieu	Résidence	officielle du gouverneur romain
-Jardin	Lieu	Lieu	de l'arrestation de Jésus
-Synagogue	Lieu	Lieu	de culte et d'enseignement juif
-Temple	Lieu	Lieu	saint à Jérusalem
-Monde	Concept	Réalité	terrestre opposée au royaume de Dieu
-Arrestation	Événement	Capture	de Jésus par les autorités
-Passion	Événement	Souffrances	de Jésus avant sa crucifixion
-Reniement	Événement	Refus	de Pierre de reconnaître Jésus
-Vérité	Concept	Ce	qui est réel et authentique selon Jésus
-Vie_éternelle	Concept	Existence	éternelle promise par Jésus
-Joie	Concept	Sentiment	de bonheur promis aux disciples
-Paix	Concept	État	de tranquillité intérieure donné par Jésus
-Amour	Concept	Sentiment	central dans l'enseignement de Jésus
+Paix	Concept	Don	de Jésus à ses disciples
+Vérité	Concept	Une	des qualités que Jésus s'attribue
+Vie	Concept	Une	des qualités que Jésus s'attribue
+Chemin	Concept	Une	des qualités que Jésus s'attribue
 Jésus	est_fils_de	Père	Relation filiale divine
-Jésus	enseigne	Disciples	Transmission de la doctrine
-Jésus	est_trahi_par	Judas	Trahison menant à l'arrestation
-Simon_Pierre	est_disciple_de	Jésus	Relation de disciple à maître
-Anne	est_beau_père_de	Caïphe	Lien familial
-Caïphe	est_grand_prêtre	Temple	Fonction religieuse
-Pilate	interroge	Jésus	Procès de Jésus
-Père	envoie	Paraclet	Mission de l'Esprit Saint
-Jésus	promet	Vie_éternelle	Promesse aux croyants
-Disciples	restent_dans	Monde	Mission des disciples sur terre
-Jésus	donne	Paix	Don spirituel aux disciples
-Jésus	commande	Amour	Précepte principal enseigné
+Jésus	enseigne	Disciples	Transmission de connaissances et commandements
+Père	envoie	Esprit_Saint	Mission divine de l'Esprit Saint
+Esprit_Saint	enseigne	Disciples	Rôle d'enseignement de l'Esprit Saint
+Jésus	donne	Paix	Jésus offre la paix à ses disciples
+Jésus	est	Vigne	Métaphore utilisée par Jésus pour se décrire
+Disciples	sont	Sarments	Métaphore pour décrire la relation avec Jésus
+Disciples	portent	Fruit	Résultat attendu de la vie spirituelle des disciples
+Jésus	donne	Commandements	Jésus transmet ses enseignements
+Disciples	gardent	Commandements	Obéissance attendue des disciples
+Jésus	aime	Disciples	Relation d'amour de Jésus envers ses disciples
+Disciples	aiment	Disciples	Amour mutuel commandé par Jésus
+Jésus	est	Chemin	Jésus se décrit comme le chemin vers Dieu
+Jésus	est	Vérité	Jésus se décrit comme la vérité incarnée
+Jésus	est	Vie	Jésus se décrit comme la source de vie
+Monde	hait	Disciples	Opposition du monde envers les disciples
+Jésus	choisit	Disciples	Sélection des disciples par Jésus
+Jésus	demeure_en	Disciples	Relation spirituelle intime
+Disciples	demeurent_en	Jésus	Relation spirituelle réciproque
 Jésus	Personne	Figure	centrale du christianisme, fils de Dieu
-Père	Entité_Divine	Dieu	le Père dans la trinité chrétienne
-Juifs	Groupe_Religieux	Adeptes	du judaïsme
-Lazare	Personne	Ami	de Jésus ressuscité d'entre les morts
-Marie	Personne	Sœur	de Lazare et Marthe
-Marthe	Personne	Sœur	de Lazare et Marie
-Béthanie	Lieu	Village	où vivaient Lazare, Marie et Marthe
-Thomas	Personne	Disciple	de Jésus, aussi appelé Didyme
-Jean	Personne	Jean-Baptiste,	précurseur de Jésus
-Jourdain	Lieu	Fleuve	où Jean baptisait
-Pharisiens	Groupe_Religieux	Secte	juive opposée à Jésus
-Abraham	Personne	Patriarche	biblique, ancêtre des Juifs
-Moïse	Personne	Prophète	ayant reçu la Loi de Dieu
-Siloé	Lieu	Piscine	à Jérusalem
-Temple	Lieu	Temple	de Jérusalem
-Salomon	Personne	Roi	d'Israël, constructeur du premier Temple
-Jésus	est_fils_de	Père	Jésus se déclare Fils de Dieu
-Jésus	réalise	Miracles	Jésus accomplit des actes surnaturels
-Jésus	résiste_à	Juifs	Les Juifs s'opposent à Jésus et cherchent à le lapider
-Jésus	résuscite	Lazare	Jésus ramène Lazare d'entre les morts
-Jésus	aime	Marthe	Jésus a de l'affection pour Marthe
-Jésus	aime	Marie	Jésus a de l'affection pour Marie
-Jésus	aime	Lazare	Jésus a de l'affection pour Lazare
-Jésus	se_déclare	Bon_Pasteur	Jésus se présente comme le berger des fidèles
-Jésus	se_déclare	Porte_des_Brebis	Jésus se présente comme l'accès au salut
-Jésus	guérit	Aveugle-né	Jésus rend la vue à un homme aveugle de naissance
-Jésus	se_compare_à	Abraham	Jésus affirme sa préexistence par rapport à Abraham
-Jésus	enseigne	Disciples	Jésus instruit ses disciples
-Juifs	s'opposent_à	Jésus	Les Juifs contestent les déclarations de Jésus
-Pharisiens	interrogent	Aveugle-né	Les Pharisiens questionnent l'homme guéri par Jésus
-Jean	baptise	Fidèles	Jean baptise dans le Jourdain
-Thomas	est_disciple_de	Jésus	Thomas fait partie des disciples de Jésus
-Lazare	vit_à	Béthanie	Lazare réside dans le village de Béthanie
-Marie	oint	Jésus	Marie applique du parfum sur Jésus
-Marthe	est_sœur_de	Lazare	Marthe est la sœur de Lazare
-Marie	est_sœur_de	Lazare	Marie est la sœur de Lazare
-Jésus	Personne	Personnage	central de l'Évangile, considéré comme le Christ et le Fils de Dieu
-Marie_de_Magdala	Personne	Disciple	de Jésus, première à le voir ressuscité
-Jésus	Personne	Fils	de Dieu et personnage principal des évangiles
-Dieu	Entité_divine	Dieu	le Père, créateur
-Disciples	Groupe	Suiveurs	proches de Jésus
-Thomas	Personne	Un	des douze apôtres, surnommé Didyme
-Saint_Esprit	Entité_divine	Troisième	personne de la Trinité
-Simon-Pierre	Personne	Un	des principaux apôtres de Jésus
-Fils_de_l'homme	Titre	Titre	que Jésus s'attribue
-Royaume_de_Dieu	Concept_spirituel	Royaume	spirituel de Dieu
-Jean	Personne	Disciple	que Jésus aimait
-Pilate	Personne	Gouverneur	romain qui a jugé Jésus
-Juifs	Groupe_religieux	Adeptes	du judaïsme
-Pharisiens	Groupe_religieux	Secte	juive stricte
-Juifs	Groupe	Peuple	auquel appartenait Jésus et ses disciples
-Samaritains	Groupe_ethnique	Peuple	de Samarie
-Grand_prêtre	Rôle	Chef	religieux des Juifs
-Jean-Baptiste	Personne	Prophète	annonçant la venue de Jésus
-Soldats	Groupe	Exécuteurs	de la crucifixion
-Nicodème	Personne	Pharisien	venu consulter Jésus
-César	Personne	Empereur	romain
-Disciples	Groupe	Suiveurs	de Jésus
-Joseph_d'Arimathie	Personne	Disciple	secret de Jésus qui s'occupa de son corps
-Moïse	Personne	Figure	biblique de l'Ancien Testament
-Nicodème	Personne	Pharisien	sympathisant de Jésus
+Jean_Baptiste	Personne	Prophète	qui baptise et annonce la venue de Jésus
+Samaritaine	Personne	Femme	rencontrée par Jésus au puits de Jacob
+Disciples	Groupe	Suivants	de Jésus
+Samaritains	Groupe	Habitants	de la Samarie
+Pharisiens	Groupe	Groupe	religieux juif
+Nicodème	Personne	Pharisien	venu consulter Jésus de nuit
+Moïse	Personne	Figure	biblique ayant conduit l'Exode
 Jacob	Personne	Patriarche	biblique
 Joseph	Personne	Fils	de Jacob
-Barabbas	Personne	Prisonnier	libéré à la place de Jésus
-Résurrection	Événement	Retour	à la vie de Jésus après sa mort
-Capharnaüm	Lieu	Ville	de Galilée
-Crucifixion	Événement	Exécution	de Jésus sur la croix
-Cana	Lieu	Village	de Galilée
-Apparition	Événement	Manifestation	de Jésus ressuscité
-Ensevelissement	Événement	Mise	au tombeau du corps de Jésus
-Samarie	Lieu	Région	entre la Judée et la Galilée
-Procès	Événement	Jugement	de Jésus devant Pilate
-Sychar	Lieu	Ville	de Samarie
-Tombeau	Lieu	Endroit	où le corps de Jésus fut déposé
-Jérusalem	Lieu	Ville	sainte
-Golgotha	Lieu	Lieu	de la crucifixion de Jésus
-Temple	Lieu	Lieu	de culte à Jérusalem
-Bethesda	Lieu	Piscine	à Jérusalem
-Prétoire	Lieu	Lieu	du jugement de Jésus par Pilate
-Sabbat	Concept_religieux	Jour	de repos hebdomadaire juif
-Mer_de_Tibériade	Lieu	Lac	où Jésus apparut aux disciples après sa résurrection
-Pâque	Fête_religieuse	Fête	juive commémorant l'Exode
-Croix	Objet	Instrument	de supplice sur lequel Jésus fut crucifié
-Linges	Objet	Tissus	ayant enveloppé le corps de Jésus
-Messie	Titre	Sauveur	attendu par les Juifs
-Suaire	Objet	Linge	ayant recouvert la tête de Jésus
-Filet	Objet	Outil	de pêche utilisé par les disciples
+Marie	Personne	Mère	de Jésus
+Philippe	Personne	Disciple	de Jésus
+Nathanaël	Personne	Disciple	de Jésus
+André	Personne	Disciple	de Jésus
+Simon-Pierre	Personne	Disciple	de Jésus
+Dieu	Entité_divine	Divinité	suprême du christianisme
+Esprit_Saint	Entité_divine	Troisième	personne de la Trinité chrétienne
+Royaume_de_Dieu	Concept	Royaume	spirituel annoncé par Jésus
+Messie	Titre	Sauveur	attendu dans la tradition juive
 Christ	Titre	Équivalent	grec de Messie
-Esprit_Saint	Entité_spirituelle	Esprit	donné par Jésus aux disciples
-Baptême	Rite_religieux	Rite	d'immersion dans l'eau
-Jésus	est_crucifié_à	Golgotha	Lieu de la mort de Jésus
-Vie_éternelle	Concept_spirituel	Vie	sans fin après la mort
-Jésus	apparaît_à	Marie_de_Magdala	Première apparition après la résurrection
-Jésus	est_fils_de	Dieu	Relation filiale divine
-Jésus	enseigne	Disciples	Transmission de l'enseignement
-Jésus	apparaît_aux	Disciples	Apparitions post-résurrection
-Jésus	accomplit	Miracles	Actions surnaturelles
-Jésus	est_enseveli_par	Joseph_d'Arimathie	Mise au tombeau du corps de Jésus
-Jésus	annonce	Royaume_de_Dieu	Prédication centrale
-Jésus	est_jugé_par	Pilate	Procès de Jésus
-Disciples	pêchent_dans	Mer_de_Tibériade	Lieu de l'apparition post-résurrection
-Thomas	doute_de	Résurrection	Incrédulité initiale de Thomas
-Jésus	est_appelé	Fils_de_l'homme	Titre d'auto-désignation
-Jésus	transmet	Esprit_Saint	Don de l'Esprit aux disciples
-Soldats	exécutent	Crucifixion	Rôle des soldats dans la mort de Jésus
-Pilate	ordonne	Crucifixion	Décision de Pilate concernant Jésus
-Jésus	est_baptisé_par	Jean-Baptiste	Rite d'initiation
-Jésus	prédit	Résurrection	Annonce de son retour à la vie
-Jésus	converse_avec	Nicodème	Entretien nocturne
-Marie_de_Magdala	découvre	Tombeau_vide	Constat initial de la résurrection
-Jésus	guérit	Malades	Action miraculeuse
-Jésus	pardonne	Péchés	Action spirituelle
-Jésus	prêche_à	Juifs	Enseignement au peuple d'Israël
-Jésus	prêche_à	Samaritains	Enseignement hors d'Israël
-Dieu	envoie	Jésus	Mission divine
-Saint_Esprit	fait_partie_de	Trinité	Concept théologique
-Jean-Baptiste	annonce	Jésus	Rôle de précurseur
-Disciples	suivent	Jésus	Relation maître-disciples
-Juifs	s'opposent_à	Jésus	Conflit religieux
-Pharisiens	questionnent	Jésus	Confrontation théologique
-Jésus	Personne	Fils	de l'homme, envoyé par le Père
-Père	Entité_Divine	Celui	qui a envoyé Jésus
 Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
-Vérité	Concept	Ce	que Jésus enseigne et qui libère
-Péché	Concept	Ce	qui rend esclave selon Jésus
-Abraham	Personne	Patriarche,	père des Juifs
-Juifs	Groupe	Ceux	à qui Jésus s'adresse souvent
-Disciples	Groupe	Ceux	qui suivent et croient en Jésus
-Diable	Entité_Spirituelle	Père	du mensonge et de l'homicide
-Samaritain	Groupe	Groupe	ethnique mentionné dans les discussions
-Pharisiens	Groupe	Groupe	religieux en conflit avec Jésus
-Moïse	Personne	Donneur	de la Loi mentionné dans les discussions
-Esprit	Entité_Spirituelle	Promis	par Jésus, donne la vie
-Nicodème	Personne	Pharisien	qui défend Jésus
-Fête_des_Tentes	Événement	Fête	juive pendant laquelle Jésus enseigne
-Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
-Chair_du_Fils_de_l'homme	Concept	Nourriture	spirituelle offerte par Jésus
-Sang_du_Fils_de_l'homme	Concept	Boisson	spirituelle offerte par Jésus
-Simon-Pierre	Personne	Disciple	qui confesse sa foi en Jésus
-Judas_Iscariote	Personne	Disciple	qui trahira Jésus
-Jésus	Enseigne	Vérité	Jésus révèle la vérité qui libère
-Jésus	Envoyé_Par	Père	Jésus affirme être envoyé par le Père
-Jésus	Offre	Vie_éternelle	Jésus promet la vie éternelle à ceux qui croient
-Juifs	Descendants_De	Abraham	Les Juifs se réclament d'Abraham
-Disciples	Suivent	Jésus	Les disciples sont ceux qui suivent Jésus
-Jésus	Confronte	Pharisiens	Jésus a des discussions conflictuelles avec les Pharisiens
-Jésus	Utilise	Métaphores	Jésus utilise des images comme le pain de vie pour s'expliquer
-Jésus	Promet	Esprit	Jésus annonce la venue de l'Esprit
-Simon-Pierre	Confesse_Foi_En	Jésus	Simon-Pierre affirme sa croyance en Jésus
-Judas_Iscariote	Trahit	Jésus	Judas est désigné comme celui qui trahira Jésus
-Jésus	Participe	Fête_des_Tentes	Jésus enseigne pendant cette fête juive
-Jésus	S'identifie_Comme	Pain_de_vie	Jésus se présente comme le pain descendu du ciel
-Vérité	Libère	Personnes	La vérité enseignée par Jésus est libératrice
-Péché	Asservit	Personnes	Le péché est décrit comme rendant esclave
-Jésus	Opposé_à	Diable	Jésus se présente comme opposé au diable
-Jésus	Personne	Personnage	central des évangiles, considéré comme le Messie
-Dieu	Entité_Divine	Entité	divine suprême dans le christianisme
-Père	Entité_Divine	Dieu	le Père dans la Trinité chrétienne
-Fils	Entité_Divine	Jésus	en tant que Fils de Dieu dans la Trinité
-Esprit_Saint	Entité_Divine	Troisième	personne de la Trinité chrétienne
-Royaume_de_Dieu	Concept_Spirituel	Concept	central de l'enseignement de Jésus
-Vie_éternelle	Concept_Spirituel	Promesse	de vie sans fin pour les croyants
-Disciples	Groupe	Followers	proches de Jésus
-Pharisiens	Groupe	Groupe	religieux juif de l'époque de Jésus
-Samaritains	Groupe	Groupe	ethnique et religieux distinct des Juifs
-Jean-Baptiste	Personne	Prophète	précurseur de Jésus
-Nicodème	Personne	Notable	juif ayant rencontré Jésus
-Galilée	Lieu	Région	où Jésus a exercé son ministère
-Jérusalem	Lieu	Ville	sainte, lieu de plusieurs événements importants
-Temple	Lieu	Centre	du culte juif à Jérusalem
-Cana	Lieu	Village	où Jésus a accompli son premier miracle
+Fils_de_Dieu	Titre	Titre	désignant la nature divine de Jésus
+Agneau_de_Dieu	Titre	Titre	donné à Jésus par Jean-Baptiste
+Eau_vive	Concept	Métaphore	spirituelle utilisée par Jésus
+Puits_de_Jacob	Lieu	Puits	où Jésus rencontre la Samaritaine
+Sychar	Lieu	Ville	de Samarie
+Jérusalem	Lieu	Ville	sainte du judaïsme
+Galilée	Lieu	Région	au nord d'Israël
+Judée	Lieu	Région	au sud d'Israël
 Samarie	Lieu	Région	entre la Judée et la Galilée
-Capharnaüm	Lieu	Ville	où Jésus a vécu et enseigné
-Pâque	Événement	Fête	juive importante
-Baptême	Rituel	Rite	d'initiation pratiqué par Jean et Jésus
+Cana	Lieu	Ville	de Galilée où Jésus accomplit son premier miracle
+Temple	Lieu	Lieu	de culte à Jérusalem
+Jourdain	Lieu	Fleuve	où Jean baptisait
+Jésus	Enseigne	Disciples	Jésus instruit ses disciples
+Jésus	Rencontre	Samaritaine	Jésus dialogue avec la femme samaritaine au puits
+Jésus	Accomplit	Miracles	Jésus réalise des signes prodigieux
+Jean_Baptiste	Baptise	Personnes	Jean baptise dans le Jourdain
+Jésus	Annonce	Royaume_de_Dieu	Jésus prêche l'avènement du Royaume de Dieu
+Jésus	Utilise	Paraboles	Jésus emploie des histoires pour enseigner
+Disciples	Suivent	Jésus	Les disciples accompagnent Jésus dans son ministère
+Jésus	Guérit	Malades	Jésus soigne les personnes souffrantes
+Jésus	Pardonne	Péchés	Jésus offre le pardon des péchés
+Jésus	Personne	Figure	centrale du christianisme, fils de Dieu
+Dieu	Entité_divine	Divinité	suprême dans le christianisme
+Père	Entité_divine	Dieu	le Père, première personne de la Trinité
+Paraclet	Entité_divine	Esprit	Saint, troisième personne de la Trinité
+Esprit_Saint	Entité_divine	Troisième	personne de la Trinité
+Esprit_de_vérité	Entité_divine	Autre	nom pour l'Esprit Saint
+Disciples	Groupe	Suivants	de Jésus
+Monde	Concept	Le	monde terrestre, opposé au royaume de Dieu
+Prince_du_monde	Entité_spirituelle	Figure	représentant le mal dans le monde
+Vigne	Symbole	Symbole	représentant Jésus et ses disciples
+Sarments	Symbole	Symbole	représentant les disciples de Jésus
+Vigneron	Symbole	Symbole	représentant Dieu le Père
+Judas_Iscariote	Personne	Disciple	qui a trahi Jésus
+Simon-Pierre	Personne	Un	des principaux disciples de Jésus
+Thomas	Personne	Disciple	de Jésus
+Philippe	Personne	Disciple	de Jésus
+Jésus	est_fils_de	Dieu	Relation filiale entre Jésus et Dieu
+Jésus	envoie	Paraclet	Jésus promet d'envoyer le Paraclet aux disciples
+Paraclet	vient_de	Père	L'Esprit Saint procède du Père
+Disciples	suivent	Jésus	Les disciples sont les suivants de Jésus
+Jésus	est	Vigne	Jésus se décrit comme la vraie vigne
+Disciples	sont	Sarments	Les disciples sont décrits comme les sarments de la vigne
+Dieu	est	Vigneron	Dieu est décrit comme le vigneron qui prend soin de la vigne
+Jésus	lave_les_pieds	Disciples	Jésus lave les pieds de ses disciples comme acte d'humilité
+Jésus	annonce_trahison_de	Judas_Iscariote	Jésus prédit que Judas le trahira
+Jésus	donne_commandement	Disciples	Jésus donne un nouveau commandement d'amour aux disciples
+Jésus	est_dans	Père	Jésus affirme son unité avec le Père
+Père	est_dans	Jésus	Le Père est décrit comme étant en Jésus
+Jésus	est	Chemin	Jésus se décrit comme le chemin vers le Père
+Jésus	est	Vérité	Jésus se décrit comme la vérité
+Jésus	est	Vie	Jésus se décrit comme la vie
+Paraclet	enseigne	Disciples	L'Esprit Saint enseignera toutes choses aux disciples
+Monde	hait	Disciples	Le monde est décrit comme haïssant les disciples de Jésus
+Jésus	promet_retour	Disciples	Jésus promet de revenir vers ses disciples
+Jésus	Personne	Figure	centrale du christianisme, fils de Dieu
+Marie_de_Magdala	Personne	Disciple	de Jésus, première à le voir ressuscité
+Disciples	Groupe	Suiveurs	proches de Jésus
+Thomas	Personne	L'un	des douze apôtres, surnommé Didyme
+Pierre	Personne	Apôtre	de Jésus, aussi appelé Simon-Pierre
+Jean	Personne	Disciple	que Jésus aimait
+Pilate	Personne	Gouverneur	romain qui a condamné Jésus
+Joseph_d'Arimathie	Personne	Disciple	secret de Jésus qui a réclamé son corps
+Nicodème	Personne	Pharisien	sympathisant de Jésus
+Golgotha	Lieu	Lieu	de crucifixion de Jésus
+Mer_de_Tibériade	Lieu	Lac	où Jésus est apparu après sa résurrection
+Croix	Objet	Instrument	de crucifixion de Jésus
+Tombeau	Lieu	Endroit	où le corps de Jésus a été déposé
+Résurrection	Événement	Retour	à la vie de Jésus après sa mort
+Crucifixion	Événement	Exécution	de Jésus sur la croix
+Apparition	Événement	Manifestations	de Jésus après sa résurrection
+Jésus	a_pour_disciple	Marie_de_Magdala	Marie de Magdala était une disciple de Jésus
+Jésus	a_pour_disciple	Pierre	Pierre était un disciple proche de Jésus
+Jésus	a_pour_disciple	Thomas	Thomas était l'un des douze apôtres de Jésus
+Jésus	a_pour_disciple	Jean	Jean était le disciple que Jésus aimait
+Jésus	subit	Crucifixion	Jésus a été crucifié sur ordre de Pilate
+Jésus	est_enterré_dans	Tombeau	Le corps de Jésus a été déposé dans un tombeau
+Jésus	ressuscite_lors_de	Résurrection	Jésus est revenu à la vie lors de la résurrection
+Jésus	apparaît_à	Disciples	Jésus est apparu à ses disciples après sa résurrection
+Jésus	apparaît_à	Marie_de_Magdala	Jésus est apparu en premier à Marie de Magdala
+Jésus	apparaît_à	Thomas	Jésus est apparu à Thomas qui doutait
+Pilate	condamne	Jésus	Pilate a condamné Jésus à la crucifixion
+Joseph_d'Arimathie	réclame_le_corps_de	Jésus	Joseph a demandé le corps de Jésus pour l'enterrer
+Nicodème	aide_à_enterrer	Jésus	Nicodème a aidé à préparer le corps de Jésus pour l'enterrement
+Crucifixion	a_lieu_à	Golgotha	Jésus a été crucifié au lieu dit Golgotha
+Apparition	a_lieu_à	Mer_de_Tibériade	Jésus est apparu aux disciples près de la mer de Tibériade
+Jésus	Entité	Figure	centrale du christianisme
+Dieu	Entité	Être	suprême dans le christianisme
+Père	Entité	Dieu	le Père dans la Trinité chrétienne
+Fils	Entité	Jésus	en tant que Fils de Dieu
+Esprit	Entité	Esprit	Saint dans la Trinité chrétienne
+Moïse	Entité	Prophète	de l'Ancien Testament
+Écritures	Entité	Textes	sacrés du judaïsme et du christianisme
+Pâque	Entité	Fête	religieuse juive
+Galilée	Entité	Région	géographique
+Tibériade	Entité	Ville	près de la mer de Galilée
+Philippe	Entité	Disciple	de Jésus
+André	Entité	Disciple	de Jésus
+Simon-Pierre	Entité	Disciple	de Jésus
+Capharnaüm	Entité	Ville	de Galilée
+Jean	Entité	Jean-Baptiste,	prophète précurseur de Jésus
+Juifs	Entité	Peuple	juif
+Samaritains	Entité	Groupe	ethnoreligieux de Samarie
+Pharisiens	Entité	Groupe	religieux juif
+Sychar	Entité	Ville	de Samarie
+Jacob	Entité	Patriarche	biblique
+Joseph	Entité	Fils	de Jacob
+Messie	Entité	Figure	attendue dans la tradition juive
+Christ	Entité	Titre	donné à Jésus
+Jésus	est_fils_de	Dieu	Relation filiale divine
+Jésus	enseigne	Disciples	Enseignement spirituel
+Jésus	accomplit	Miracles	Actions surnaturelles attribuées à Jésus
+Jésus	interprète	Écritures	Explication des textes sacrés
+Dieu	envoie	Jésus	Mission divine de Jésus
+Père	aime	Fils	Relation d'amour divin
+Jésus	donne	Vie_éternelle	Don spirituel promis aux croyants
+Moïse	écrit_sur	Jésus	Prophéties concernant Jésus
+Jésus	multiplie	Pains_et_poissons	Miracle de la multiplication des pains
+Jésus	marche_sur	Mer	Miracle de la marche sur l'eau
+Jésus	guérit	Malades	Miracles de guérison
+Jean	baptise	Gens	Rite de purification
+Jésus	parle_à	Femme_samaritaine	Dialogue interreligieux
+Jésus	révèle	Identité_messianique	Affirmation d'être le Messie
+Jésus	offre	Eau_vive	Métaphore pour la vie spirituelle
+Dieu	est	Esprit	Nature spirituelle de Dieu
+Jésus	fait	Volonté_du_Père	Obéissance à la mission divine
+Disciples	moissonnent	Champs_spirituels	Métaphore de l'évangélisation
+Samaritains	croient_en	Jésus	Conversion des non-Juifs
+Jésus	est	Sauveur_du_monde	Titre universel attribué à Jésus
+Jésus	Personne	Figure	centrale du christianisme
+Pharisiens	Groupe	Groupe	religieux juif
+Scribes	Groupe	Experts	de la loi juive
+Moïse	Personne	Figure	biblique ayant reçu la Loi
+Dieu	Entité_Divine	Divinité	suprême dans le monothéisme
+Père	Entité_Divine	Dieu	le Père dans la conception chrétienne
+Esprit	Entité_Divine	Esprit	Saint dans la conception chrétienne
+Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
+Christ	Titre	Titre	messianique attribué à Jésus
+Juifs	Groupe	Peuple	juif
+Disciples	Groupe	Suiveurs	de Jésus
+Galilée	Lieu	Région	où Jésus a exercé son ministère
+Judée	Lieu	Région	au sud de la Galilée
+Jérusalem	Lieu	Ville	sainte du judaïsme
+Temple	Lieu	Centre	religieux du judaïsme à Jérusalem
+Mont_des_Oliviers	Lieu	Montagne	près de Jérusalem
+Capharnaüm	Lieu	Ville	de Galilée où Jésus a enseigné
+Bethléem	Lieu	Lieu	de naissance de Jésus selon la tradition
+Simon-Pierre	Personne	Un	des douze apôtres de Jésus
+Nicodème	Personne	Pharisien	ayant rencontré Jésus
+Judas_Iscariote	Personne	Apôtre	ayant trahi Jésus
+David	Personne	Roi	d'Israël, ancêtre de Jésus
+Loi	Concept	Ensemble	des prescriptions religieuses juives
+Fête_des_Tentes	Événement	Fête	juive
+Manne	Concept	Nourriture	miraculeuse dans le désert
+Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
+Eau_vive	Concept	Métaphore	pour l'enseignement spirituel de Jésus
+Lumière_du_monde	Concept	Métaphore	utilisée par Jésus pour se décrire
+Jésus	enseigne	Disciples	Jésus transmet son enseignement à ses disciples
+Jésus	confronte	Pharisiens	Jésus entre souvent en conflit avec les Pharisiens
+Jésus	accomplit	Signes	Jésus réalise des actes miraculeux appelés signes
+Jésus	se_décrit_comme	Pain_de_vie	Jésus utilise cette métaphore pour se décrire
+Jésus	se_décrit_comme	Lumière_du_monde	Jésus utilise cette métaphore pour se décrire
+Jésus	promet	Eau_vive	Jésus promet une eau vive spirituelle
+Jésus	interprète	Loi	Jésus donne sa propre interprétation de la Loi
+Jésus	est_envoyé_par	Père	Jésus affirme être envoyé par Dieu le Père
+Disciples	suivent	Jésus	Les disciples sont les suiveurs de Jésus
+Pharisiens	s'opposent_à	Jésus	Les Pharisiens s'opposent souvent à Jésus
+Jésus	enseigne_dans	Temple	Jésus enseigne dans le Temple de Jérusalem
+Jésus	monte_à	Jérusalem	Jésus se rend à Jérusalem pour les fêtes
+Jésus	participe_à	Fête_des_Tentes	Jésus participe à la fête juive des Tentes
+Jésus	Personne	Figure	centrale de l'Évangile
+Dieu	Entité_Divine	Être	suprême dans la tradition judéo-chrétienne
+Père	Entité_Divine	Aspect	de Dieu présenté comme le père de Jésus
+Esprit	Entité_Divine	Aspect	divin mentionné par Jésus
+Fils_de_l'homme	Titre	Titre	utilisé par Jésus pour se désigner
+Christ	Titre	Titre	messianique attribué à Jésus
+Juifs	Groupe	Peuple	auquel Jésus s'adresse principalement
+Pharisiens	Groupe	Groupe	religieux juif opposé à Jésus
+Disciples	Groupe	Personnes	qui suivent Jésus
+Foule	Groupe	Personnes	assistant aux enseignements de Jésus
+Moïse	Personne	Figure	biblique mentionnée par Jésus
+David	Personne	Roi	biblique mentionné en lien avec le Messie
+Nicodème	Personne	Pharisien	mentionné dans le texte
+Simon-Pierre	Personne	Disciple	de Jésus
+Judas	Personne	Disciple	de Jésus qui le trahira
+Pain_de_vie	Concept	Métaphore	utilisée par Jésus pour se décrire
+Eau_vive	Concept	Métaphore	utilisée par Jésus pour décrire l'Esprit
+Vie_éternelle	Concept	Promesse	faite par Jésus à ceux qui croient en lui
+Résurrection	Concept	Promesse	de Jésus de ressusciter les croyants
+Fête_des_Tentes	Événement	Fête	juive mentionnée dans le texte
+Pâque	Événement	Fête	juive mentionnée dans le texte
+Temple	Lieu	Lieu	où Jésus enseigne à Jérusalem
+Galilée	Lieu	Région	où Jésus exerce son ministère
+Judée	Lieu	Région	mentionnée dans le texte
+Jérusalem	Lieu	Ville	où se déroulent plusieurs événements
+Capharnaüm	Lieu	Ville	mentionnée dans le texte
+Mont_des_Oliviers	Lieu	Endroit	où Jésus se retire
+Jésus	est_fils_de	Dieu	Relation filiale divine affirmée par Jésus
+Jésus	enseigne	Disciples	Jésus instruit ses disciples
+Jésus	confronte	Pharisiens	Jésus s'oppose aux Pharisiens
+Jésus	prêche_à	Foule	Jésus s'adresse à la foule
+Jésus	utilise	Pain_de_vie	Jésus se décrit comme le pain de vie
+Jésus	promet	Vie_éternelle	Jésus offre la vie éternelle aux croyants
+Jésus	annonce	Résurrection	Jésus promet de ressusciter les croyants
+Dieu	envoie	Jésus	Dieu est présenté comme ayant envoyé Jésus
+Esprit	est_promis_par	Jésus	Jésus promet l'envoi de l'Esprit
+Disciples	suivent	Jésus	Les disciples sont les suiveurs de Jésus
+Pharisiens	s'opposent_à	Jésus	Les Pharisiens sont en conflit avec Jésus
+Foule	écoute	Jésus	La foule assiste aux enseignements de Jésus
+Simon-Pierre	confesse_foi_en	Jésus	Simon-Pierre affirme sa foi en Jésus
+Judas	trahira	Jésus	Judas est annoncé comme le traître
+Jésus	Personne	Fils	de Dieu, figure centrale du christianisme
+Lazare	Personne	Frère	de Marthe et Marie, ressuscité par Jésus
+Marthe	Personne	Sœur	de Lazare et Marie
+Marie	Personne	Sœur	de Lazare et Marthe
+Béthanie	Lieu	Village	près de Jérusalem
+Jérusalem	Lieu	Ville	importante dans le récit biblique
+Juifs	Groupe	Peuple	mentionné dans le récit
+Dieu	Entité_Divine	Père	de Jésus selon le récit
+Christ	Titre	Autre	nom pour Jésus, signifiant "Oint" ou "Messie"
+Fils_de_Dieu	Titre	Titre	attribué à Jésus
+Père	Titre	Terme	utilisé par Jésus pour désigner Dieu
+Résurrection	Concept	Retour	à la vie après la mort
+Vie_éternelle	Concept	Vie	sans fin promise par Jésus
+Foi	Concept	Croyance	en Jésus et ses enseignements
 Miracle	Événement	Acte	surnaturel attribué à Jésus
-Jésus	Enseigne	Disciples	Jésus transmet son message à ses disciples
-Jésus	Accomplit	Miracle	Jésus réalise des actes surnaturels
-Jésus	Est_Fils_De	Dieu	Relation filiale divine de Jésus
-Jésus	Baptise	Disciples	Jésus pratique le baptême avec ses disciples
-Jésus	Prêche	Royaume_de_Dieu	Jésus annonce le Royaume de Dieu
-Jésus	Offre	Vie_éternelle	Jésus promet la vie éternelle aux croyants
-Jésus	Confronte	Pharisiens	Jésus s'oppose aux Pharisiens
-Jésus	Interagit_Avec	Samaritains	Jésus a des échanges avec les Samaritains
-Jean-Baptiste	Témoigne_De	Jésus	Jean-Baptiste annonce la venue de Jésus
-Nicodème	Rencontre	Jésus	Nicodème a un entretien nocturne avec Jésus
-Disciples	Suivent	Jésus	Les disciples accompagnent Jésus
-Jésus	Se_Déplace_Vers	Galilée	Jésus se rend en Galilée
-Jésus	Visite	Jérusalem	Jésus se rend à Jérusalem
-Jésus	Purifie	Temple	Jésus chasse les marchands du Temple
-Jésus	Réalise	Miracle	Jésus change l'eau en vin à Cana
-Jésus	Traverse	Samarie	Jésus passe par la Samarie
-Jésus	Réside_À	Capharnaüm	Jésus vit et enseigne à Capharnaüm
-Jésus	Participe_À	Pâque	Jésus se rend à J
+Tombeau	Lieu	Endroit	où Lazare était enterré
+Gloire_de_Dieu	Concept	Manifestation	de la puissance divine
+Bon_Pasteur	Métaphore	Image	utilisée par Jésus pour se décrire
+Brebis	Métaphore	Représentation	des fidèles de Jésus
+Porte	Métaphore	Jésus	se décrit comme la porte des brebis
+Aveugle-né	Personne	Homme	guéri par Jésus
+Pharisiens	Groupe	Groupe	religieux juif souvent en conflit avec Jésus
+Synagogue	Lieu	Lieu	de culte et d'enseignement juif
+Moïse	Personne	Figure	importante du judaïsme
+Abraham	Personne	Patriarche	biblique
+Siloé	Lieu	Piscine	où l'aveugle-né s'est lavé
+Jésus	Ressuscite	Lazare	Jésus ramène Lazare à la vie
+Jésus	Est_Frère_De	Marthe	Relation spirituelle déclarée par Jésus
+Jésus	Est_Frère_De	Marie	Relation spirituelle déclarée par Jésus
+Lazare	A_Pour_Sœur	Marthe	Relation familiale
+Lazare	A_Pour_Sœur	Marie	Relation familiale
+Marthe	Croit_En	Jésus	Marthe exprime sa foi en Jésus
+Marie	Croit_En	Jésus	Marie exprime sa foi en Jésus
+Jésus	Promet	Vie_éternelle	Jésus offre la vie éternelle à ses fidèles
+Jésus	Se_Décrit_Comme	Résurrection	Jésus s'identifie à la résurrection
+Jésus	Se_Décrit_Comme	Bon_Pasteur	Jésus utilise cette métaphore pour se décrire
+Jésus	Se_Décrit_Comme	Porte	Jésus se présente comme la porte des brebis
+Jésus	Guérit	Aveugle-né	Jésus rend la vue à un homme né aveugle
+Juifs	S'opposent_À	Jésus	Conflit entre certains Juifs et Jésus
+Pharisiens	Questionnent	Jésus	Les Pharisiens interrogent et défient Jésus
+Jésus	Affirme_Être_Un_Avec	Dieu	Jésus déclare son unité avec
+Jésus	Personne	Fils	de Dieu, principale figure du texte
+Père	Entité_Divine	Dieu	le Père, mentionné comme étant uni à Jésus
+Juifs	Groupe	Groupe	religieux en opposition avec Jésus
+Lazare	Personne	Ami	de Jésus, frère de Marie et Marthe
+Marie	Personne	Sœur	de Lazare et Marthe
+Marthe	Personne	Sœur	de Lazare et Marie
+Jean	Personne	Mentionné	comme ayant baptisé
+Thomas	Personne	Disciple	de Jésus, aussi appelé Didyme
+Abraham	Personne	Figure	patriarcale de la tradition juive
+Moïse	Personne	Figure	prophétique de la tradition juive
+Pharisiens	Groupe	Groupe	religieux juif en conflit avec Jésus
+Fils_de_l'homme	Titre	Titre	que Jésus s'attribue
+Christ	Titre	Titre	messianique attribué à Jésus
+Bon_Pasteur	Métaphore	Image	que Jésus utilise pour se décrire
+Porte_des_brebis	Métaphore	Image	que Jésus utilise pour se décrire
+Temple	Lieu	Lieu	de culte à Jérusalem
+Béthanie	Lieu	Village	de Lazare, Marie et Marthe
+Jourdain	Lieu	Fleuve	où Jésus se retire
+Siloé	Lieu	Piscine	mentionnée dans la guérison de l'aveugle
+Jérusalem	Lieu	Ville	où se déroulent plusieurs événements
+Jésus	Est_Un	Fils_de_Dieu	Jésus s'identifie comme le Fils de Dieu
+Jésus	Est_Un	Christ	Jésus est reconnu comme le Christ
+Jésus	Est_Un	Bon_Pasteur	Jésus se décrit comme le bon pasteur
+Jésus	Est_Une	Porte_des_brebis	Jésus se décrit comme la porte des brebis
+Jésus	Est_Un	Fils_de_l'homme	Jésus s'identifie comme le Fils de l'homme
+Jésus	Uni_A	Père	Jésus affirme son unité avec le Père
+Jésus	Aime	Lazare	Jésus est décrit comme aimant Lazare
+Jésus	Aime	Marthe	Jésus est décrit comme aimant Marthe
+Jésus	Aime	Marie	Jésus est décrit comme aimant Marie
+Jésus	Ressuscite	Lazare	Jésus ressuscite Lazare d'entre les morts
+Jésus	Guérit	Aveugle-né	Jésus guérit un homme aveugle de naissance
+Juifs	S'opposent_A	Jésus	Les Juifs s'opposent à Jésus et cherchent à le lapider
+Pharisiens	S'opposent_A	Jésus	Les Pharisiens s'opposent à Jésus
+Lazare	Frère_De	Marie	Lazare est le frère de Marie
+Lazare	Frère_De	Marthe	Lazare est le frère de Marthe
+Marie	Sœur_De	Marthe	Marie est la sœur de Marthe
+Jean	Baptise	Personnes	Jean est mentionné comme baptisant
+Jésus	Personne	Figure	centrale de l'Évangile, Fils de Dieu
+Dieu	Entité_Divine	Dieu	le Père, créateur
+Fils_de_Dieu	Titre	Titre	donné à Jésus
+Juifs	Groupe	Peuple	juif
+Temple	Lieu	Lieu	de culte à Jérusalem
+Sabbat	Concept	Jour	de repos hebdomadaire
+Père	Titre	Titre	donné à Dieu par Jésus
+Vie_éternelle	Concept	Vie	sans fin promise aux croyants
+Jugement	Concept	Jugement	divin
+Résurrection	Concept	Retour	à la vie après la mort
+Jean	Personne	Jean-Baptiste,	précurseur de Jésus
+Esprit	Entité_Divine	L'Esprit	Saint
+Galilée	Lieu	Région	où Jésus a exercé son ministère
+Cana	Lieu	Ville	de Galilée où Jésus a fait des miracles
+Capharnaüm	Lieu	Ville	où Jésus a exercé son ministère
+Bethesda	Lieu	Piscine	à Jérusalem où Jésus a guéri un infirme
+Samarie	Lieu	Région	entre la Judée et la Galilée
+Samaritains	Groupe	Habitants	de la Samarie
+Messie	Titre	Sauveur	attendu par les Juifs
+Christ	Titre	Équivalent	grec de Messie
+Pharisiens	Groupe	Groupe	religieux juif
+Nicodème	Personne	Pharisien	venu s'entretenir avec Jésus
+Jésus	Est_Fils_De	Dieu	Relation filiale divine
+Jésus	Accomplit	Miracles	Jésus réalise des actes miraculeux
+Jésus	Enseigne	Doctrine	Jésus transmet des enseignements spirituels
+Jésus	Guérit	Malades	Jésus guérit des personnes malades
+Jésus	Ressuscite	Morts	Jésus ramène des morts à la vie
+Jésus	Baptise	Disciples	Jésus baptise ses disciples
+Jésus	Est_Persécuté_Par	Juifs	Jésus est en conflit avec certains Juifs
+Dieu	Envoie	Jésus	Dieu envoie Jésus dans le monde
+Père	Aime	Fils	Relation d'amour entre Dieu le Père et Jésus
+Jean	Témoigne_De	Jésus	Jean-Baptiste atteste la mission de Jésus
+Croyants	Reçoivent	Vie_éternelle	Promesse faite aux croyants
+Jésus	Juge	Humanité	Jésus a autorité pour juger
+Esprit	Donne_Naissance	Croyants	L'Esprit permet une renaissance spirituelle
+Jésus	Parle_Avec	Samaritaine	Jésus s'entretient avec une femme samaritaine
+Jésus	Révèle	Identité_Messianique	Jésus se déclare être le Messie
+Nicodème	Interroge	Jésus	Nicodème cherche à comprendre l'enseignement de Jésus
+Jesus_Christ	Personne	Figure	centrale de l'Évangile, se décrit comme le bon pasteur et la porte des brebis
+Brebis	Entité	Disciples	et fidèles de Jésus
+Bon_Pasteur	Rôle	Rôle	que Jésus s'attribue pour guider et protéger ses disciples
+Porte_des_brebis	Concept	Métaphore	utilisée par Jésus pour décrire son rôle de médiation
+Voleur	Personne	Figure	négative qui menace les brebis
+Mercenaire	Personne	Figure	qui abandonne les brebis face au danger
+Loup	Entité	Menace	pour les brebis, représente les dangers spirituels
+Père	Entité	Dieu	le Père, figure divine supérieure
+Juifs	Groupe	Groupe	religieux en conflit avec Jésus
+Pharisiens	Groupe	Groupe	religieux en opposition à Jésus
+Abraham	Personne	Figure	patriarcale de référence pour les Juifs
+Moïse	Personne	Figure	prophétique de référence pour les Juifs
+Aveugle_né	Personne	Homme	guéri par Jésus, signe de sa divinité
+Lumière_du_monde	Concept	Titre	que Jésus s'attribue
+Vérité	Concept	Notion	centrale dans l'enseignement de Jésus
+Péché	Concept	État	d'éloignement de Dieu selon l'enseignement de Jésus
+Vie_éternelle	Concept	Promesse	faite par Jésus à ses fidèles
+Jesus_Christ	guide	Brebis	Jésus mène et protège ses disciples
+Jesus_Christ	est	Bon_Pasteur	Jésus se présente comme le berger idéal
+Jesus_Christ	est	Porte_des_brebis	Jésus se décrit comme le moyen d'accès au salut
+Jesus_Christ	s'oppose_à	Voleur	Jésus contraste son rôle avec celui des faux guides
+Jesus_Christ	s'oppose_à	Mercenaire	Jésus critique ceux qui abandonnent leurs responsabilités
+Jesus_Christ	protège_contre	Loup	Jésus défend ses disciples contre les menaces spirituelles
+Jesus_Christ	connaît	Père	Jésus affirme une relation intime avec Dieu
+Jesus_Christ	est_en_conflit_avec	Juifs	Jésus est en désaccord avec les autorités religieuses
+Jesus_Christ	est_en_conflit_avec	Pharisiens	Jésus s'oppose aux interprétations strictes de la loi
+Jesus_Christ	est_supérieur_à	Abraham	Jésus affirme sa préexistence et sa divinité
+Jesus_Christ	est_supérieur_à	Moïse	Jésus se présente comme un nouveau législateur
+Jesus_Christ	guérit	Aveugle_né	Jésus démontre son pouvoir divin par des miracles
+Jesus_Christ	est	Lumière_du_monde	Jésus se présente comme guide spirituel universel
+Jesus_Christ	enseigne	Vérité	Jésus affirme apporter la vérité divine
+Jesus_Christ	libère_du	Péché	Jésus offre le pardon et la libération spirituelle
+Jesus_Christ	donne	Vie_éternelle	Jésus promet la vie éternelle à ses fidèles
+Brebis	suivent	Jesus_Christ	Les disciples fidèles suivent l'enseignement de Jésus
+Père	envoie	Jesus_Christ	Dieu le Père est présenté comme ayant envoyé Jésus
+Juifs	contestent	Jesus_Christ	Les autorités religieuses remettent en question l'autorité de Jésus
