@@ -1,9 +1,0 @@
-{
-  "source_file": "medium.txt",
-  "directory": "C:\\PROJETS\\ontology-server\\test",
-  "file_date": "2024-10-27T14:44:04.1435888+01:00",
-  "sha256_hash": "a8247c5c375d4359c25280ae330348453d956579a62b2ce6c9348828a3f53eca",
-  "ontology_file": "medium.tsv",
-  "context_file": "medium_context.json",
-  "processing_date": "2024-10-29T19:15:31.2813126+01:00"
-}
