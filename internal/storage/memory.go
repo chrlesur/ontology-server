@@ -262,7 +262,7 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile, metadat
 						if _, exists := contextMap[ctx.Position]; !exists {
 							contextMap[ctx.Position] = ctx
 							totalAssociations++
-							log.Info(fmt.Sprintf("Associated new context (position %d) to element %s", ctx.Position, elem.Name))
+							log.Debug(fmt.Sprintf("Associated new context (position %d) to element %s", ctx.Position, elem.Name))
 						}
 						break
 					}

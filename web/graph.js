@@ -81,7 +81,10 @@ export function createRelationsGraph(element, relations) {
                 const nodeText = this.querySelector('tspan')?.textContent || this.textContent;
                 console.log("Nœud cliqué, texte:", nodeText);
                 if (nodeText) {
-                    performSearch(nodeText.split('\n')[0]); // Prendre seulement la première ligne
+                    // Extraire uniquement le nom de l'élément (première partie avant un espace ou un caractère spécial)
+                    const elementName = nodeText.split(/\s/)[0].trim();
+                    console.log("Recherche pour l'élément:", elementName);
+                    performSearch(elementName);
                 }
             });
         });
