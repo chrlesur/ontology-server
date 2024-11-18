@@ -10,6 +10,7 @@ import { showErrorMessage } from './main.js';
 import { performSearch } from './search.js'; // Ajout de l'import manquant
 
 export function displayResults(results) {
+    console.log("Received results:", results);
     const resultsList = document.getElementById('results-list');
     resultsList.innerHTML = '';
 
@@ -22,26 +23,50 @@ export function displayResults(results) {
         const resultItem = document.createElement('div');
         resultItem.className = 'result-item';
         
+        // Extraire les informations spécifiques au fichier
+        const metadata = result.SourceMetadata;
+        let fileID = result.FileID;  // Ceci devrait être le FileID spécifique à ce résultat
+        let fileInfo = null;
+
+        console.log("Processing result:", result);
+
+        if (metadata && metadata.files) {
+            if (fileID && metadata.files[fileID]) {
+                fileInfo = metadata.files[fileID];
+            } else {
+                console.warn("FileID not found in metadata, using first available file");
+                const fileIds = Object.keys(metadata.files);
+                if (fileIds.length > 0) {
+                    fileID = fileIds[0];
+                    fileInfo = metadata.files[fileID];
+                }
+            }
+        }
+
+        console.log("Using FileID:", fileID, "FileInfo:", fileInfo);
+
+        // Stocker les informations dans dataset
+        resultItem.dataset.fileId = fileID || '';
+        resultItem.dataset.sourceFile = fileInfo ? fileInfo.source_file : '';
+        resultItem.dataset.directory = fileInfo ? fileInfo.directory : '';
+        resultItem.dataset.fileDate = fileInfo ? fileInfo.file_date : '';
+        resultItem.dataset.sha256Hash = fileInfo ? fileInfo.sha256_hash : '';
+        resultItem.dataset.ontologyFile = metadata ? metadata.ontology_file : '';
+        resultItem.dataset.processingDate = metadata ? metadata.processing_date : '';
+        
         resultItem.innerHTML = `
             <div class="result-item-content">
                 <h3>${escapeHtml(result.ElementName)}</h3>
                 <p>${escapeHtml(result.Description || '')}</p>
             </div>
             <div class="result-item-meta">
-                <div class="file-name">${escapeHtml(result.sourceFile)}</div>
+                <div class="file-name">${escapeHtml(fileInfo ? fileInfo.source_file : 'Fichier inconnu')} (${fileID || 'ID inconnu'})</div>
             </div>
         `;
 
-        // Ajoutez un gestionnaire d'événements pour ouvrir le fichier
-        const fileNameElement = resultItem.querySelector('.file-name');
-        fileNameElement.style.cursor = 'pointer';
-        fileNameElement.addEventListener('click', () => openSourceFile(result.sourceMetadata));
-        
-        // Gestion du tooltip
+        // Gestion de la fenêtre flottante (tooltip)
         resultItem.addEventListener('mouseenter', (e) => {
-            if (result.Source) {
-                showMetadataTooltip(e, result.Source);
-            }
+            showMetadataTooltip(e.currentTarget);
         });
 
         resultItem.addEventListener('mousemove', (e) => {
@@ -52,6 +77,7 @@ export function displayResults(results) {
             hideMetadataTooltip();
         });
 
+        // Gestion de la sélection de l'élément
         resultItem.addEventListener('click', () => {
             document.querySelectorAll('.result-item').forEach(item => 
                 item.classList.remove('selected'));
@@ -63,6 +89,34 @@ export function displayResults(results) {
     });
 }
 
+function escapeHtml(unsafe) {
+    if (!unsafe) return '';
+    return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+function openSourceFile(metadata, fileID) {
+    if (!metadata || !fileID) {
+        console.error('Métadonnées ou FileID manquants pour ouvrir le fichier');
+        return;
+    }
+
+    const fileInfo = metadata.files[fileID];
+    if (!fileInfo) {
+        console.error('Informations du fichier non trouvées');
+        return;
+    }
+
+    // Construisez l'URL pour ouvrir le fichier en visualisation
+    const viewerUrl = `/api/view-source?path=${encodeURIComponent(fileInfo.directory + '/' + fileInfo.source_file)}`;
+    
+    // Ouvrez le fichier dans un nouvel onglet ou une nouvelle fenêtre
+    window.open(viewerUrl, '_blank');
+}
 
 async function showElementDetails(elementName) {
     const loadingSpinner = document.getElementById('loading-spinner');
@@ -81,8 +135,6 @@ async function showElementDetails(elementName) {
                     <h3>${escapeHtml(element.Name)}</h3>
                     <p><strong>Type:</strong> ${escapeHtml(element.Type || '')}</p>
                     <p><strong>Description:</strong> ${escapeHtml(element.Description || '')}</p>
-                    ${element.Positions && element.Positions.length > 0 ? 
-                        `<p><strong>Positions:</strong> ${element.Positions.join(', ')}</p>` : ''}
                 </div>
             `;
         }
@@ -130,13 +182,16 @@ function displayElementContexts(element) {
         const highlightedAfter = highlightElement(ctx.after?.join(' ') || '', element.Name);
 
         contextDiv.innerHTML = `
-            <div class="context-content">
-                <span class="before">${highlightedBefore}</span>
-                <mark class="element">${escapeHtml(ctx.element)}</mark>
-                <span class="after">${highlightedAfter}</span>
-            </div>
-            <div class="context-position">Position: ${ctx.position}</div>
-        `;
+        <div class="context-content">
+            <span class="before">${highlightElement(ctx.before?.join(' ') || '', element.Name)}</span>
+            <mark class="element">${escapeHtml(ctx.element)}</mark>
+            <span class="after">${highlightElement(ctx.after?.join(' ') || '', element.Name)}</span>
+        </div>
+        <div class="context-meta">
+            <span class="file-id">FileID: ${ctx.file_id} - </span>
+            <span class="file-position">Position: ${ctx.file_position}</span>
+        </div>
+    `;
         // Ajouter les gestionnaires d'événements pour les éléments marqués
         contextDiv.querySelectorAll('mark').forEach(mark => {
             mark.style.cursor = 'pointer';
@@ -177,41 +232,47 @@ function displayRelationsList(relations) {
     listContainer.appendChild(ul);
 }
 
-function escapeHtml(unsafe) {
-    if (!unsafe) return '';
-    return unsafe
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-}
-
 // Fonction pour afficher le tooltip
-function showMetadataTooltip(event, metadata) {
+function showMetadataTooltip(element) {
     const tooltip = document.getElementById('metadata-tooltip');
-    if (!tooltip) return;
+    if (!tooltip) {
+        console.error("Tooltip element not found in the DOM");
+        return;
+    }
+    if (!element) {
+        console.error("Source element is undefined");
+        return;
+    }
 
-    const formattedDate = new Date(metadata.file_date).toLocaleString();
-    const formattedProcessingDate = new Date(metadata.processing_date).toLocaleString();
+    console.log("Element dataset:", element.dataset);
+
+    const fileID = element.dataset.fileId;
+    const sourceFile = element.dataset.sourceFile;
+    const directory = element.dataset.directory;
+    const fileDate = element.dataset.fileDate;
+    const sha256Hash = element.dataset.sha256Hash;
+    const ontologyFile = element.dataset.ontologyFile;
+    const processingDate = element.dataset.processingDate;
+
+    console.log("Showing tooltip for file:", fileID, sourceFile);
+
+    const formattedDate = fileDate ? new Date(fileDate).toLocaleString() : 'Date non disponible';
+    const formattedProcessingDate = processingDate ? new Date(processingDate).toLocaleString() : 'Date non disponible';
 
     tooltip.innerHTML = `
         <div class="tooltip-content">
             <h4>Informations du document</h4>
-            <p><strong>Fichier source :</strong> ${escapeHtml(metadata.source_file)}</p>
-            <p><strong>Répertoire :</strong> ${escapeHtml(metadata.directory)}</p>
-            <p><strong>Date du fichier :</strong> ${formattedDate}</p>
+            <p><strong>Fichier ontologie :</strong> ${escapeHtml(ontologyFile || 'Non spécifié')}</p>
             <p><strong>Date de traitement :</strong> ${formattedProcessingDate}</p>
-            <p><strong>SHA256 :</strong> <span class="hash">${metadata.sha256_hash}</span></p>
-            <p><strong>Fichier ontologie :</strong> ${escapeHtml(metadata.ontology_file)}</p>
-            ${metadata.context_file ? 
-                `<p><strong>Fichier contexte :</strong> ${escapeHtml(metadata.context_file)}</p>` : 
-                ''}
+            <p><strong>File ID :</strong> ${escapeHtml(fileID || 'Non spécifié')}</p>
+            <p><strong>Fichier source :</strong> ${escapeHtml(sourceFile || 'Non spécifié')}</p>
+            <p><strong>Répertoire :</strong> ${escapeHtml(directory || 'Non spécifié')}</p>
+            <p><strong>Date du fichier :</strong> ${formattedDate}</p>
+            <p><strong>SHA256 :</strong> <span class="hash">${sha256Hash || 'Non disponible'}</span></p>
         </div>
     `;
 
     tooltip.style.display = 'block';
-    updateTooltipPosition(event);
 }
 
 // Fonction pour mettre à jour la position du tooltip
@@ -227,12 +288,10 @@ function updateTooltipPosition(event) {
     let left = event.clientX + margin;
     let top = event.clientY + margin;
 
-    // Ajustement horizontal
     if (left + tooltipRect.width > windowWidth) {
         left = windowWidth - tooltipRect.width - margin;
     }
 
-    // Ajustement vertical
     if (top + tooltipRect.height > windowHeight) {
         top = windowHeight - tooltipRect.height - margin;
     }
@@ -256,16 +315,3 @@ function highlightElement(text, elementName) {
 
 // Export des fonctions nécessaires
 export { showElementDetails };
-
-function openSourceFile(metadata) {
-    if (!metadata) {
-        console.error('Métadonnées manquantes pour ouvrir le fichier');
-        return;
-    }
-
-    // Construisez l'URL pour ouvrir le fichier en visualisation
-    const viewerUrl = `/api/view-source?path=${encodeURIComponent(metadata.directory + '/' + metadata.source_file)}`;
-    
-    // Ouvrez le fichier dans un nouvel onglet ou une nouvelle fenêtre
-    window.open(viewerUrl, '_blank');
-}

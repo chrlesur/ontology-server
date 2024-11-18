@@ -149,6 +149,7 @@ func (h *Handler) ListOntologies(c *gin.Context) {
 // SearchOntologies effectue une recherche dans les ontologies
 func (h *Handler) SearchOntologies(c *gin.Context) {
 	query := c.Query("q")
+	fileID := c.Query("file_id") // Ajoutez cette ligne
 	ontologyID := c.Query("ontology_id")
 	elementType := c.Query("type")
 	contextSize := 5 // Valeur par défaut, vous pouvez la rendre configurable si nécessaire
@@ -158,9 +159,9 @@ func (h *Handler) SearchOntologies(c *gin.Context) {
 		return
 	}
 
-	h.Logger.Info(fmt.Sprintf("Searching ontologies with query: %s", query))
+	h.Logger.Info(fmt.Sprintf("Searching ontologies with query: %s, fileID: %s", query, fileID))
 
-	results, err := h.Search.Search(query, ontologyID, elementType, contextSize)
+	results, err := h.Search.Search(query, ontologyID, elementType, contextSize, fileID)
 	if err != nil {
 		h.Logger.Error(fmt.Sprintf("Error during search: %v", err))
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "An error occurred during the search"})
@@ -170,15 +171,52 @@ func (h *Handler) SearchOntologies(c *gin.Context) {
 	// Log des résultats côté serveur
 	h.Logger.Info(fmt.Sprintf("Search results: %+v", results))
 
-	// Assurez-vous que chaque résultat inclut les contextes
+	// Enrichir les résultats avec les métadonnées
+	enrichedResults := make([]gin.H, len(results))
 	for i, result := range results {
 		element, err := h.Storage.GetElement(result.ElementName)
 		if err == nil && element != nil {
-			results[i].Contexts = element.Contexts
+			ontology, _ := h.Storage.GetOntology(result.OntologyID)
+			var sourceFile string
+			var resultFileID string
+			var sourceMetadata *models.SourceMetadata
+			if ontology != nil && ontology.Source != nil {
+				sourceMetadata = ontology.Source
+				// Utiliser le fileID de la requête s'il est fourni, sinon chercher dans les contextes
+				if fileID != "" {
+					if fileInfo, exists := sourceMetadata.Files[fileID]; exists {
+						resultFileID = fileID
+						sourceFile = fileInfo.SourceFile
+					}
+				} else {
+					// Logique existante pour trouver le FileID
+					for _, context := range element.Contexts {
+						if fileInfo, exists := sourceMetadata.Files[context.FileID]; exists {
+							resultFileID = context.FileID
+							sourceFile = fileInfo.SourceFile
+							break
+						}
+					}
+				}
+				h.Logger.Info(fmt.Sprintf("File info for %s: ID=%s, SourceFile=%s", result.ElementName, resultFileID, sourceFile))
+			}
+			enrichedResults[i] = gin.H{
+				"ElementName": result.ElementName,
+				"ElementType": result.ElementType,
+				"Description": result.Description,
+				"OntologyID":  result.OntologyID,
+				"Contexts":    element.Contexts,
+				"FileID":      resultFileID,
+				"SourceFile":  sourceFile,
+				"SourceMetadata": gin.H{
+					"ontology_file":   sourceMetadata.OntologyFile,
+					"processing_date": sourceMetadata.ProcessingDate,
+					"files":           sourceMetadata.Files,
+				},
+			}
 		}
 	}
-
-	c.JSON(http.StatusOK, results)
+	c.JSON(http.StatusOK, enrichedResults)
 }
 
 // ElementDetailsHandler récupère les détails d'un élément spécifique
@@ -389,4 +427,22 @@ func (h *Handler) ViewSourceFile(c *gin.Context) {
 	c.Header("Content-Type", contentType)
 	c.Header("Content-Disposition", "inline; filename="+filepath.Base(filePath))
 	c.File(filePath)
+}
+
+// GetOntologyFiles récupère la liste des fichiers de toutes les ontologies
+func (h *Handler) GetOntologyFiles(c *gin.Context) {
+	h.Logger.Info("Getting list of ontology files")
+
+	ontologies := h.Storage.ListOntologies()
+	fileList := make(map[string]string)
+
+	for _, onto := range ontologies {
+		if onto.Source != nil {
+			for fileID, fileInfo := range onto.Source.Files {
+				fileList[fileID] = fileInfo.SourceFile
+			}
+		}
+	}
+
+	c.JSON(http.StatusOK, fileList)
 }

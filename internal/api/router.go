@@ -17,6 +17,8 @@ func SetupRoutes(router *gin.RouterGroup, storage *storage.MemoryStorage, logger
 	router.PUT("/ontologies/:id", handler.UpdateOntology)
 	router.DELETE("/ontologies/:id", handler.DeleteOntology)
 	router.POST("/ontologies/load", handler.LoadOntology)
+	router.GET("/ontologies/files", handler.GetOntologyFiles)
+	router.GET("/ontologies/:id/metadata", handler.GetOntologyMetadata)
 
 	router.GET("/search", handler.SearchOntologies)
 

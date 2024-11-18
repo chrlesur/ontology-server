@@ -279,15 +279,13 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile, metadat
 	// Créer une nouvelle ontologie avec les métadonnées
 	ontology := &models.Ontology{
 		ID:         fmt.Sprintf("onto_%d", time.Now().UnixNano()),
-		Name:       metadata.SourceFile,
+		Name:       metadata.OntologyFile, // Utilisons OntologyFile au lieu de SourceFile
 		Filename:   ontologyFile,
 		Format:     filepath.Ext(ontologyFile)[1:],
-		Size:       0,
-		SHA256:     metadata.SHA256Hash,
-		ImportedAt: time.Now(),
+		ImportedAt: metadata.ProcessingDate,
 		Elements:   elements,
 		Relations:  relations,
-		Source:     metadata, // Ajout des métadonnées source
+		Source:     metadata,
 	}
 
 	log.Info(fmt.Sprintf("Created new ontology with ID: %s", ontology.ID))
@@ -295,6 +293,13 @@ func (ms *MemoryStorage) LoadOntologyFromFile(ontologyFile, contextFile, metadat
 	if err != nil {
 		log.Error(fmt.Sprintf("Error adding ontology to storage: %v", err))
 		return fmt.Errorf("error adding ontology to storage: %w", err)
+	}
+
+	for _, fileInfo := range metadata.Files {
+		if fileInfo.SourceFile == filepath.Base(ontologyFile) {
+			ontology.SHA256 = fileInfo.SHA256Hash
+			break
+		}
 	}
 
 	log.Info("Ontology successfully loaded and added to storage")

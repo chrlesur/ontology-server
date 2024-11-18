@@ -9,11 +9,24 @@ export async function loadOntologies() {
             throw new Error('Error loading ontologies');
         }
         const ontologies = await response.json();
-        return ontologies.map(ontology => ({
-            ...ontology,
-            hasMetadata: !!ontology.Source,
-            sourceFile: ontology.Source?.source_file || 'Unknown'
+        console.log("Raw ontologies data:", ontologies);
+        
+        // Récupérer les métadonnées pour chaque ontologie
+        const ontologiesWithMetadata = await Promise.all(ontologies.map(async (ontology) => {
+            try {
+                const metadataResponse = await fetch(`${API_BASE_URL}/ontologies/${ontology.id}/metadata`);
+                if (metadataResponse.ok) {
+                    const metadata = await metadataResponse.json();
+                    return { ...ontology, Source: metadata };
+                }
+            } catch (error) {
+                console.error(`Error fetching metadata for ontology ${ontology.id}:`, error);
+            }
+            return ontology;
         }));
+        
+        console.log("Ontologies with metadata:", ontologiesWithMetadata);
+        return ontologiesWithMetadata;
     } catch (error) {
         console.error('Error loading ontologies:', error);
         throw error;
@@ -27,13 +40,23 @@ export async function loadElementTypes() {
 }
 
 // Rechercher dans les ontologies
-export async function searchOntologies(query, ontologyId, elementType) {
+export async function searchOntologies(query, fileId, elementType) {
+    if (!query) {
+        throw new Error('Un terme de recherche est requis');
+    }
+
     let url = `${API_BASE_URL}/search?q=${encodeURIComponent(query)}`;
-    if (ontologyId) url += `&ontology_id=${encodeURIComponent(ontologyId)}`;
+    if (fileId) url += `&file_id=${encodeURIComponent(fileId)}`;
     if (elementType) url += `&element_type=${encodeURIComponent(elementType)}`;
 
+    console.log("Search URL:", url);
+
     const response = await fetch(url);
-    if (!response.ok) throw new Error('Erreur lors de la recherche');
+    if (!response.ok) {
+        const errorText = await response.text();
+        console.error("Search API error:", errorText);
+        throw new Error('Erreur lors de la recherche: ' + errorText);
+    }
     
     const data = await response.json();
     console.log('Résultats bruts de la recherche:', data);

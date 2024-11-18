@@ -24,13 +24,17 @@ type Relation struct {
 
 // SourceMetadata représente les métadonnées du fichier source
 type SourceMetadata struct {
-	SourceFile     string    `json:"source_file"`
-	Directory      string    `json:"directory"`
-	FileDate       time.Time `json:"file_date"`
-	SHA256Hash     string    `json:"sha256_hash"`
-	OntologyFile   string    `json:"ontology_file"`
-	ContextFile    string    `json:"context_file"`
-	ProcessingDate time.Time `json:"processing_date"`
+	OntologyFile   string              `json:"ontology_file"`
+	ProcessingDate time.Time           `json:"processing_date"`
+	Files          map[string]FileInfo `json:"files"`
+}
+
+type FileInfo struct {
+	ID         string    `json:"id"`
+	SourceFile string    `json:"source_file"`
+	Directory  string    `json:"directory"`
+	FileDate   time.Time `json:"file_date"`
+	SHA256Hash string    `json:"sha256_hash"`
 }
 
 // Ontology représente une ontologie complète

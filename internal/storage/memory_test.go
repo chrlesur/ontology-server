@@ -170,15 +170,19 @@ func TestConcurrency(t *testing.T) {
 func TestLoadOntologyWithMetadata(t *testing.T) {
 	ms := NewMemoryStorage()
 
-	// Créer un fichier de métadonnées temporaire
+	// Créer un fichier de métadonnées temporaire avec la nouvelle structure
 	metadataContent := `{
-        "source_file": "test.txt",
-        "directory": "/test/path",
-        "file_date": "2024-10-29T08:54:33.959Z",
-        "sha256_hash": "test-hash",
         "ontology_file": "test.tsv",
-        "context_file": "test_context.json",
-        "processing_date": "2024-10-29T08:54:33.959Z"
+        "processing_date": "2024-10-29T08:54:33.959Z",
+        "files": {
+            "file1": {
+                "id": "file1",
+                "source_file": "test.txt",
+                "directory": "/test/path",
+                "file_date": "2024-10-29T08:54:33.959Z",
+                "sha256_hash": "test-hash"
+            }
+        }
     }`
 
 	metadataFile := filepath.Join(t.TempDir(), "metadata.json")
@@ -210,11 +214,22 @@ func TestLoadOntologyWithMetadata(t *testing.T) {
 	if ontology.Source == nil {
 		t.Error("Expected source metadata to be present")
 	} else {
-		if ontology.Source.SourceFile != "test.txt" {
-			t.Errorf("Expected source file 'test.txt', got '%s'", ontology.Source.SourceFile)
+		if ontology.Source.OntologyFile != "test.tsv" {
+			t.Errorf("Expected ontology file 'test.tsv', got '%s'", ontology.Source.OntologyFile)
 		}
-		if ontology.Source.SHA256Hash != "test-hash" {
-			t.Errorf("Expected SHA256 hash 'test-hash', got '%s'", ontology.Source.SHA256Hash)
+		if len(ontology.Source.Files) != 1 {
+			t.Errorf("Expected 1 file in metadata, got %d", len(ontology.Source.Files))
+		}
+		fileInfo, exists := ontology.Source.Files["file1"]
+		if !exists {
+			t.Error("Expected file info for 'file1' to exist")
+		} else {
+			if fileInfo.SourceFile != "test.txt" {
+				t.Errorf("Expected source file 'test.txt', got '%s'", fileInfo.SourceFile)
+			}
+			if fileInfo.SHA256Hash != "test-hash" {
+				t.Errorf("Expected SHA256 hash 'test-hash', got '%s'", fileInfo.SHA256Hash)
+			}
 		}
 	}
 }

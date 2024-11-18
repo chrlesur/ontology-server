@@ -41,8 +41,8 @@ type SearchResult struct {
 }
 
 // Search effectue une recherche dans les ontologies
-func (se *SearchEngine) Search(query string, ontologyID string, elementType string, contextSize int) ([]SearchResult, error) {
-	se.Logger.Info("Starting search with query: " + query)
+func (se *SearchEngine) Search(query string, ontologyID string, elementType string, contextSize int, fileID string) ([]SearchResult, error) {
+	se.Logger.Info(fmt.Sprintf("Starting search with query: %s, ontologyID: %s, elementType: %s, fileID: %s", query, ontologyID, elementType, fileID))
 	query = strings.ToLower(query)
 	var results []SearchResult
 	var wg sync.WaitGroup
@@ -61,11 +61,25 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 			defer wg.Done()
 			se.Logger.Info(fmt.Sprintf("Searching in ontology: %s (Elements: %d)", onto.ID, len(onto.Elements)))
 			for _, element := range onto.Elements {
-				se.Logger.Info(fmt.Sprintf("Examining element: %s (Type: %s, Contexts: %d)",
-					element.Name, element.Type, len(element.Contexts)))
+				se.Logger.Info(fmt.Sprintf("Examining element: %s (Type: %s, Contexts: %d)", element.Name, element.Type, len(element.Contexts)))
 
 				if elementType != "" && element.Type != elementType {
 					continue
+				}
+
+				// Vérification du fileID
+				if fileID != "" {
+					matchesFileID := false
+					for _, context := range element.Contexts {
+						if context.FileID == fileID {
+							matchesFileID = true
+							break
+						}
+					}
+					if !matchesFileID {
+						se.Logger.Info(fmt.Sprintf("Element %s skipped: does not match fileID %s", element.Name, fileID))
+						continue
+					}
 				}
 
 				relevance := calculateRelevance(query, element)
@@ -86,8 +100,7 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 						Contexts:    element.Contexts,
 						Source:      onto.Source,
 					}
-					se.Logger.Info(fmt.Sprintf("Found relevant result: %s (Relevance: %.2f, Contexts: %d)",
-						result.ElementName, result.Relevance, len(result.Contexts)))
+					se.Logger.Info(fmt.Sprintf("Found relevant result: %s (Relevance: %.2f)", result.ElementName, result.Relevance))
 					resultChan <- result
 				}
 			}
@@ -106,9 +119,6 @@ func (se *SearchEngine) Search(query string, ontologyID string, elementType stri
 	sortSearchResults(results)
 
 	se.Logger.Info(fmt.Sprintf("Search completed. Found %d results.", len(results)))
-	for _, result := range results {
-		se.Logger.Info(fmt.Sprintf("Result: %s (Contexts: %d)", result.ElementName, len(result.Contexts)))
-	}
 	return results, nil
 }
 

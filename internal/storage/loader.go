@@ -29,33 +29,32 @@ func NewOntologyLoader(storage *MemoryStorage, logger *logger.Logger) *OntologyL
 
 // LoadFiles charge une ontologie avec ses métadonnées et contextes
 func (l *OntologyLoader) LoadFiles(ontologyFile, contextFile, metadataFile string) error {
-	// 1. Charger les métadonnées
+	// Charger les métadonnées
 	metadata, err := l.loadMetadata(metadataFile)
 	if err != nil {
 		return fmt.Errorf("failed to load metadata: %w", err)
 	}
 
-	// 2. Charger l'ontologie
+	// Charger l'ontologie
 	elements, relations, err := l.loadOntologyFile(ontologyFile)
 	if err != nil {
 		return fmt.Errorf("failed to load ontology file: %w", err)
 	}
 
-	// 3. Charger les contextes si présents
+	// Charger les contextes si présents
 	if contextFile != "" {
-		if err := l.enrichWithContexts(elements, contextFile); err != nil {
+		if err := l.enrichWithContexts(elements, contextFile, metadata.Files); err != nil {
 			return fmt.Errorf("failed to load contexts: %w", err)
 		}
 	}
 
-	// 4. Créer et stocker l'ontologie
+	// Créer et stocker l'ontologie
 	ontology := &models.Ontology{
 		ID:         fmt.Sprintf("onto_%d", time.Now().UnixNano()),
-		Name:       metadata.SourceFile,
+		Name:       metadata.OntologyFile,
 		Filename:   ontologyFile,
 		Format:     filepath.Ext(ontologyFile)[1:],
-		SHA256:     metadata.SHA256Hash,
-		ImportedAt: time.Now(),
+		ImportedAt: metadata.ProcessingDate,
 		Elements:   elements,
 		Relations:  relations,
 		Source:     metadata,
@@ -65,7 +64,6 @@ func (l *OntologyLoader) LoadFiles(ontologyFile, contextFile, metadataFile strin
 		return fmt.Errorf("failed to add ontology to storage: %w", err)
 	}
 
-	l.logger.Info(fmt.Sprintf("Successfully loaded ontology %s from %s", ontology.ID, metadata.SourceFile))
 	return nil
 }
 
@@ -109,21 +107,23 @@ func (l *OntologyLoader) loadOntologyFile(filename string) ([]*models.OntologyEl
 	}
 }
 
-func (l *OntologyLoader) enrichWithContexts(elements []*models.OntologyElement, contextFile string) error {
+func (l *OntologyLoader) enrichWithContexts(elements []*models.OntologyElement, contextFile string, fileInfos map[string]models.FileInfo) error {
 	contexts, err := parser.ParseJSON(contextFile)
 	if err != nil {
 		return fmt.Errorf("failed to parse context file: %w", err)
 	}
 
-	// Créer une map pour un accès rapide aux éléments
 	elementMap := make(map[string]*models.OntologyElement)
 	for _, elem := range elements {
 		elementMap[elem.Name] = elem
 	}
 
-	// Associer les contextes aux éléments
 	for _, ctx := range contexts {
 		if elem, exists := elementMap[ctx.Element]; exists {
+			// Enrichir le contexte avec les informations du fichier
+			//if fileInfo, ok := fileInfos[ctx.FileID]; ok {
+			//	log.Info(fmt.Sprintf("Associating context for element '%s' with file: %s in directory: %s",ctx.Element, fileInfo.SourceFile, fileInfo.Directory))
+			//}
 			elem.Contexts = append(elem.Contexts, ctx)
 		}
 	}

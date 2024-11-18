@@ -39,28 +39,32 @@ export function initSearch() {
 export async function handleSearch(event) {
     if (event) event.preventDefault();
 
-    // Récupérer les valeurs de recherche
-    const query = searchInput.value.trim();
-    const sourceFile = ontologySelect.value;
-    const elementType = elementTypeSelect.value;
+    const query = document.getElementById('search-input').value.trim();
+    const fileId = document.getElementById('ontology-select').value;
+    const elementType = document.getElementById('element-type-select').value;
 
-    // Afficher le spinner de chargement
+    console.log("Search parameters:", { query, fileId, elementType });
+
+    if (!query) {
+        console.log("Search aborted: query is empty");
+        showErrorMessage('Veuillez entrer un terme de recherche.');
+        return;
+    }
+
     const loadingSpinner = document.getElementById('loading-spinner');
     if (loadingSpinner) loadingSpinner.classList.remove('hidden');
 
     try {
-        const results = await searchOntologies(query, sourceFile, elementType);
-        console.log("Résultats de la recherche:", results);
+        const results = await searchOntologies(query, fileId, elementType);
+        console.log("Search results:", results);
         
         displayResults(results);
 
     } catch (error) {
         console.error('Erreur lors de la recherche:', error);
-        showErrorMessage('Une erreur est survenue lors de la recherche.');
-        // Afficher un résultat vide en cas d'erreur
+        showErrorMessage('Une erreur est survenue lors de la recherche: ' + error.message);
         displayResults([]);
     } finally {
-        // Cacher le spinner
         if (loadingSpinner) loadingSpinner.classList.add('hidden');
     }
 }

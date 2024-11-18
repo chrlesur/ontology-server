@@ -10,13 +10,16 @@ const closeModal = document.querySelector('.close');
 
 // Initialisation de l'interface utilisateur
 export async function initUI() {
+    console.log("Initializing UI");
     await populateOntologySelect();
     await populateElementTypeSelect();
-    await updateOntologySelect();
+    await updateOntologySelect(); 
     setupModalListeners();
 
-    document.addEventListener('ontologyLoaded', updateOntologySelect);
-
+    document.addEventListener('ontologyLoaded', () => {
+        console.log("ontologyLoaded event triggered");
+        updateOntologySelect();
+    });
 }
 
 // Remplir le sélecteur d'ontologies
@@ -63,32 +66,33 @@ function setupModalListeners() {
         }
     });
 }
-
 async function updateOntologySelect() {
     try {
         const ontologies = await loadOntologies();
+        console.log("Ontologies received in updateOntologySelect:", ontologies);
+        
         const select = document.getElementById('ontology-select');
         select.innerHTML = '<option value="">Tous les fichiers</option>';
         
-        // Grouper les ontologies par fichier source
-        const fileGroups = new Map();
         ontologies.forEach(ontology => {
-            if (ontology.Source) {
-                const sourceFile = ontology.Source.source_file;
-                if (!fileGroups.has(sourceFile)) {
-                    fileGroups.set(sourceFile, []);
-                }
-                fileGroups.get(sourceFile).push(ontology);
+            console.log("Processing ontology:", ontology);
+            if (ontology.Source && ontology.Source.files) {
+                Object.entries(ontology.Source.files).forEach(([fileId, fileInfo]) => {
+                    const option = document.createElement('option');
+                    option.value = fileId;
+                    option.textContent = `${ontology.name} - ${fileInfo.source_file}`;
+                    select.appendChild(option);
+                });
+            } else {
+                // Fallback si les informations de fichier ne sont pas disponibles
+                const option = document.createElement('option');
+                option.value = ontology.id;
+                option.textContent = ontology.name;
+                select.appendChild(option);
             }
         });
 
-        // Créer les options
-        fileGroups.forEach((ontologies, sourceFile) => {
-            const option = document.createElement('option');
-            option.value = sourceFile;
-            option.textContent = sourceFile;
-            select.appendChild(option);
-        });
+        console.log("Select options after update:", select.innerHTML);
 
     } catch (error) {
         console.error('Erreur lors de la mise à jour de la liste des fichiers:', error);
