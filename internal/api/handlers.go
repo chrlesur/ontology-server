@@ -23,6 +23,17 @@ type Handler struct {
 	Search  *search.SearchEngine
 }
 
+type UniqueResult struct {
+	ElementName    string
+	ElementType    string
+	Description    string
+	OntologyID     string
+	Contexts       []models.JSONContext
+	FileID         string
+	SourceFile     string
+	SourceMetadata *models.SourceMetadata
+}
+
 // NewHandler crée une nouvelle instance de Handler avec le stockage, le logger et le moteur de recherche fournis
 func NewHandler(storage *storage.MemoryStorage, logger *logger.Logger, search *search.SearchEngine) *Handler {
 	return &Handler{Storage: storage, Logger: logger, Search: search}
@@ -149,7 +160,7 @@ func (h *Handler) ListOntologies(c *gin.Context) {
 // SearchOntologies effectue une recherche dans les ontologies
 func (h *Handler) SearchOntologies(c *gin.Context) {
 	query := c.Query("q")
-	fileID := c.Query("file_id") // Ajoutez cette ligne
+	fileID := c.Query("file_id")
 	ontologyID := c.Query("ontology_id")
 	elementType := c.Query("type")
 	contextSize := 5 // Valeur par défaut, vous pouvez la rendre configurable si nécessaire
@@ -171,9 +182,10 @@ func (h *Handler) SearchOntologies(c *gin.Context) {
 	// Log des résultats côté serveur
 	h.Logger.Info(fmt.Sprintf("Search results: %+v", results))
 
-	// Enrichir les résultats avec les métadonnées
-	enrichedResults := make([]gin.H, len(results))
-	for i, result := range results {
+	// Utiliser une map pour stocker les résultats uniques
+	uniqueResults := make(map[string]*UniqueResult)
+
+	for _, result := range results {
 		element, err := h.Storage.GetElement(result.ElementName)
 		if err == nil && element != nil {
 			ontology, _ := h.Storage.GetOntology(result.OntologyID)
@@ -200,23 +212,61 @@ func (h *Handler) SearchOntologies(c *gin.Context) {
 				}
 				h.Logger.Info(fmt.Sprintf("File info for %s: ID=%s, SourceFile=%s", result.ElementName, resultFileID, sourceFile))
 			}
-			enrichedResults[i] = gin.H{
-				"ElementName": result.ElementName,
-				"ElementType": result.ElementType,
-				"Description": result.Description,
-				"OntologyID":  result.OntologyID,
-				"Contexts":    element.Contexts,
-				"FileID":      resultFileID,
-				"SourceFile":  sourceFile,
-				"SourceMetadata": gin.H{
-					"ontology_file":   sourceMetadata.OntologyFile,
-					"processing_date": sourceMetadata.ProcessingDate,
-					"files":           sourceMetadata.Files,
-				},
+
+			h.Logger.Info(fmt.Sprintf("Search result for %s: Type=%s, Description=%s",
+				result.ElementName, result.ElementType, result.Description))
+			h.Logger.Info(fmt.Sprintf("Stored element %s: Type=%s, Description=%s",
+				element.Name, element.Type, element.Description))
+			// Utiliser la description de l'élément stocké si disponible
+			description := element.Description
+			if description == "" {
+				description = result.Description
 			}
+			// Créer ou mettre à jour le résultat unique
+			key := result.ElementName + "|" + result.OntologyID
+			if _, exists := uniqueResults[key]; !exists {
+				uniqueResults[key] = &UniqueResult{
+					ElementName:    result.ElementName,
+					ElementType:    result.ElementType,
+					Description:    result.Description,
+					OntologyID:     result.OntologyID,
+					Contexts:       element.Contexts,
+					FileID:         resultFileID,
+					SourceFile:     sourceFile,
+					SourceMetadata: sourceMetadata,
+				}
+			}
+
+			h.Logger.Info(fmt.Sprintf("Added/Updated unique result for %s: Type=%s, Description=%s",
+				result.ElementName, uniqueResults[key].ElementType, uniqueResults[key].Description))
 		}
 	}
-	c.JSON(http.StatusOK, enrichedResults)
+
+	// Convertir les résultats uniques en slice pour la réponse JSON
+	finalResults := make([]gin.H, 0, len(uniqueResults))
+	for _, ur := range uniqueResults {
+		resultMap := gin.H{
+			"ElementName": ur.ElementName,
+			"ElementType": ur.ElementType,
+			"Description": ur.Description,
+			"OntologyID":  ur.OntologyID,
+			"Contexts":    ur.Contexts,
+			"FileID":      ur.FileID,
+			"SourceFile":  ur.SourceFile,
+		}
+
+		if ur.SourceMetadata != nil {
+			resultMap["SourceMetadata"] = gin.H{
+				"ontology_file":   ur.SourceMetadata.OntologyFile,
+				"processing_date": ur.SourceMetadata.ProcessingDate,
+				"files":           ur.SourceMetadata.Files,
+			}
+		}
+
+		finalResults = append(finalResults, resultMap)
+	}
+
+	c.JSON(http.StatusOK, finalResults)
 }
 
 // ElementDetailsHandler récupère les détails d'un élément spécifique

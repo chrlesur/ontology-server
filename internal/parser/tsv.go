@@ -9,7 +9,6 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
-	"unicode"
 
 	"github.com/chrlesur/ontology-server/internal/logger"
 	"github.com/chrlesur/ontology-server/internal/models"
@@ -43,7 +42,8 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 	reader.FieldsPerRecord = -1
 
 	var elements []models.OntologyElement
-	relationMap := make(map[string]models.Relation)
+	var relations []models.Relation
+	elementMap := make(map[string]*models.OntologyElement)
 
 	lineNumber := 0
 	for {
@@ -58,65 +58,68 @@ func ParseTSV(filename string) ([]models.OntologyElement, []models.Relation, err
 
 		lineNumber++
 
-		if len(record) < 4 {
+		if len(record) < 3 {
 			log.Warning(fmt.Sprintf("Skipping invalid record on line %d: %v", lineNumber, record))
 			continue
 		}
 
 		name := strings.TrimSpace(record[0])
 		elemType := strings.TrimSpace(record[1])
-		positionsStr := record[len(record)-1]
-		description := strings.Join(record[2:len(record)-1], "\t")
+		thirdField := strings.TrimSpace(record[2])
 
-		positions, err := parsePositions(positionsStr)
-		if err != nil {
-			log.Warning(fmt.Sprintf("Error parsing positions on line %d: %v", lineNumber, err))
-		}
+		if len(record) >= 3 && !strings.Contains(elemType, ":") { // C'est probablement un élément
+			description := thirdField
+			var positions []int
+			if len(record) > 3 {
+				positionsStr := strings.TrimSpace(record[3])
+				if positionsStr != "" {
+					positions, err = parsePositions(positionsStr)
+					if err != nil {
+						log.Warning(fmt.Sprintf("Error parsing positions on line %d: %v", lineNumber, err))
+					}
+				}
+			}
 
-		element := models.OntologyElement{
-			Name:        name,
-			Type:        elemType,
-			Description: strings.TrimSpace(description),
-			Positions:   positions,
-		}
-		elements = append(elements, element)
+			element := models.OntologyElement{
+				Name:        name,
+				Type:        elemType,
+				Description: description,
+				Positions:   positions,
+				Contexts:    []models.JSONContext{},
+			}
+			elements = append(elements, element)
+			elementMap[name] = &element
 
-		// Dédupliquer les relations
-		relationKey := fmt.Sprintf("%s|%s|%s", name, elemType, strings.TrimSpace(record[2]))
-		if _, exists := relationMap[relationKey]; !exists {
-			relationMap[relationKey] = models.Relation{
+			log.Info(fmt.Sprintf("Parsed element on line %d: Name: %s, Type: %s, Description: %s, Positions: %v",
+				lineNumber, element.Name, element.Type, element.Description, element.Positions))
+
+		} else { // C'est une relation
+			target := thirdField
+			description := ""
+			if len(record) > 3 {
+				description = strings.TrimSpace(record[3])
+			}
+
+			relation := models.Relation{
 				Source:      name,
 				Type:        elemType,
-				Target:      strings.TrimSpace(record[2]),
-				Description: strings.TrimSpace(description),
+				Target:      target,
+				Description: description,
 			}
+			relations = append(relations, relation)
+
+			log.Info(fmt.Sprintf("Parsed relation on line %d: Source: %s, Type: %s, Target: %s",
+				lineNumber, relation.Source, relation.Type, relation.Target))
 		}
-
-		log.Info(fmt.Sprintf("Parsed line %d: Element: %s, Type: %s, Description: %s",
-			lineNumber, element.Name, element.Type, element.Description))
 	}
 
-	// Convertir la map de relations en slice
-	relations := make([]models.Relation, 0, len(relationMap))
-	for _, relation := range relationMap {
-		relations = append(relations, relation)
-	}
-
-	log.Info(fmt.Sprintf("Finished parsing TSV file. Found %d elements and %d unique relations.", len(elements), len(relations)))
+	log.Info(fmt.Sprintf("Finished parsing TSV file. Found %d elements and %d relations.", len(elements), len(relations)))
 	return elements, relations, nil
 }
 
 func parsePositions(positionsStr string) ([]int, error) {
 	positionsStr = strings.TrimSpace(positionsStr)
 	if positionsStr == "" {
-		return []int{}, nil
-	}
-
-	// Vérifier si la chaîne contient des caractères non numériques (à l'exception des virgules et des espaces)
-	if strings.IndexFunc(positionsStr, func(r rune) bool {
-		return !unicode.IsDigit(r) && r != ',' && r != ' '
-	}) != -1 {
-		// Si c'est le cas, retourner un slice vide sans erreur
 		return []int{}, nil
 	}
 
@@ -130,7 +133,8 @@ func parsePositions(positionsStr string) ([]int, error) {
 		}
 		position, err := strconv.Atoi(pos)
 		if err != nil {
-			// Ignorer les erreurs de conversion et continuer
+			// Log the error but continue processing other positions
+			log.Warning(fmt.Sprintf("Invalid position value: %s", pos))
 			continue
 		}
 		positions = append(positions, position)

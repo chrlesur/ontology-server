@@ -9,6 +9,6 @@ type JSONContext struct {
 	After        []string `json:"after"`
 	Element      string   `json:"element"`
 	Length       int      `json:"length"`
-	StartOffset  int      `json:"-"`
-	EndOffset    int      `json:"-"`
+	StartOffset  int
+	EndOffset    int
 }
